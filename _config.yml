@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -26,10 +26,7 @@ projects:
     archived: false
     forks: true
     projects:
-     - flutter-netease-music
-     - flutter-tetris
-     - MusicPlayer
-     - overlay_support
+#     - flutter-netease-music
 
 # social_media:
   # behance: your_username
