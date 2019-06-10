@@ -1,0 +1,10 @@
+*.gem
+.bundle
+.sass-cache
+_site/
+Gemfile.lock
+**/.ruby-version
+.idea/blog.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
