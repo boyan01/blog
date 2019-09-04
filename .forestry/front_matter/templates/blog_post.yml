@@ -8,3 +8,5 @@ fields:
 - type: boolean
   name: publish
   label: publish
+pages:
+- _posts/about_media_session.md
