@@ -1,0 +1,10 @@
+---
+label: blog_post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: publish
+  label: publish
