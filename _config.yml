@@ -6,6 +6,8 @@ plugins:
   - jekyll-github-metadata
   - jemoji
 
+repository: boyan01/blog
+
 permalink: /:year/:month/:day/:title/
 
 defaults:
