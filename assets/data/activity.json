@@ -1,0 +1,2433 @@
+{
+  "username": "boyan01",
+  "generatedAt": "2026-10-22T04:00:14.063Z",
+  "start": "2026-07-25",
+  "end": "2026-10-22",
+  "source": "GitHub public commit search",
+  "commits": [
+    {
+      "sha": "afe114e1935472273a062e0b313fbd3e7395cb2d",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-10-21T09:15:58.000Z",
+      "day": "2026-10-21",
+      "title": "Upgrade mixin_markdown_widget to 0.4.0 (#2079)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/afe114e1935472273a062e0b313fbd3e7395cb2d"
+    },
+    {
+      "sha": "1e17301649c75b5844a8156696f5c0fd71c66d9a",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-10-21T09:15:34.000Z",
+      "day": "2026-10-21",
+      "title": "Disable Impeller on Linux (#2080)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/1e17301649c75b5844a8156696f5c0fd71c66d9a"
+    },
+    {
+      "sha": "a3826181e13ea631b5fe9e37508f6ab4afb89f77",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-21T07:12:31.000Z",
+      "day": "2026-10-21",
+      "title": "Make the worktree drawer easier to scan (#10)",
+      "url": "https://github.com/boyan01/intelli-git/commit/a3826181e13ea631b5fe9e37508f6ab4afb89f77"
+    },
+    {
+      "sha": "0ca4b1a3f713dbb8a99e2ab5f1459f41a4522d58",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-21T01:51:14.000Z",
+      "day": "2026-10-21",
+      "title": "mixin_markdown_widget: prepare release 0.4.0",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/0ca4b1a3f713dbb8a99e2ab5f1459f41a4522d58"
+    },
+    {
+      "sha": "ad89e54c102fa8e3f41b08049976fe2a7f67e336",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-21T01:49:12.000Z",
+      "day": "2026-10-21",
+      "title": "mixin_markdown_widget: let MixinSelectionArea settle with MarkdownWidget (#552)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/ad89e54c102fa8e3f41b08049976fe2a7f67e336"
+    },
+    {
+      "sha": "31a0cbc18ed1c52da1c65678cbe4d365a0205201",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-21T01:49:12.000Z",
+      "day": "2026-10-21",
+      "title": "mixin_markdown_widget: rework the right-click context menu (#551)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/31a0cbc18ed1c52da1c65678cbe4d365a0205201"
+    },
+    {
+      "sha": "e19caccb30a80664942b46cc33153f3336b86856",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-21T01:49:11.000Z",
+      "day": "2026-10-21",
+      "title": "mixin_markdown_widget: select whole Chinese words on double click (#550)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/e19caccb30a80664942b46cc33153f3336b86856"
+    },
+    {
+      "sha": "9009859463e3fd5469bf9f807ff390a1a371282b",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-21T01:49:11.000Z",
+      "day": "2026-10-21",
+      "title": "mixin_markdown_widget: resolve selection geometry from text leaves (#544)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/9009859463e3fd5469bf9f807ff390a1a371282b"
+    },
+    {
+      "sha": "4d945ba40f4cf789db24f07f78754d424e01ad27",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-21T01:49:11.000Z",
+      "day": "2026-10-21",
+      "title": "mixin_markdown_widget: fix streaming block identity, highlight flicker, and selection details (#543)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/4d945ba40f4cf789db24f07f78754d424e01ad27"
+    },
+    {
+      "sha": "0058b398710560c72176b032669c7d22b1607902",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-20T13:38:55.000Z",
+      "day": "2026-10-20",
+      "title": "word_segmenter: add pub badges to READMEs",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/0058b398710560c72176b032669c7d22b1607902"
+    },
+    {
+      "sha": "628cb4458448f16de534394fd99f90ff5e0d69d4",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-20T13:32:19.000Z",
+      "day": "2026-10-20",
+      "title": "word_segmenter: enable CI publishing to pub.dev",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/628cb4458448f16de534394fd99f90ff5e0d69d4"
+    },
+    {
+      "sha": "58f7953d7336a69d4269594e30f163fdd37a794e",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-20T13:27:02.000Z",
+      "day": "2026-10-20",
+      "title": "word_segmenter: prepare release 0.1.0",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/58f7953d7336a69d4269594e30f163fdd37a794e"
+    },
+    {
+      "sha": "d9ed57acbfaf107c571b98565c08578f92a06b16",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-20T13:26:32.000Z",
+      "day": "2026-10-20",
+      "title": "ci: run only affected integration targets (#549)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/d9ed57acbfaf107c571b98565c08578f92a06b16"
+    },
+    {
+      "sha": "13071a46adcfe1b4f09760a170f40d00331dd9b9",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-20T13:12:47.000Z",
+      "day": "2026-10-20",
+      "title": "word_segmenter: rename string_tokenizer and segment words on every platform (#548)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/13071a46adcfe1b4f09760a170f40d00331dd9b9"
+    },
+    {
+      "sha": "964c1c3a31d4ec90d57b9ce143466a1889a7d842",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-20T12:55:54.000Z",
+      "day": "2026-10-20",
+      "title": "desktop_drop: prepare release 0.9.2",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/964c1c3a31d4ec90d57b9ce143466a1889a7d842"
+    },
+    {
+      "sha": "69d8642ece06dfe99b57099f8f38858fca40805a",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-10-20T06:42:32.000Z",
+      "day": "2026-10-20",
+      "title": "Bump version to 6.3.2 (#2077)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/69d8642ece06dfe99b57099f8f38858fca40805a"
+    },
+    {
+      "sha": "475652a27aa69731b58bb01eda4ec349105c06b6",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-20T02:22:18.000Z",
+      "day": "2026-10-20",
+      "title": "Release 0.1.9",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/475652a27aa69731b58bb01eda4ec349105c06b6"
+    },
+    {
+      "sha": "a6d4cf9765315cfed06e8804b4393efe02e54836",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-20T02:02:45.000Z",
+      "day": "2026-10-20",
+      "title": "Show available updates on the phone and TV home screens",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/a6d4cf9765315cfed06e8804b4393efe02e54836"
+    },
+    {
+      "sha": "6328e91dca8e0ec7d2f44ef7655de83722b46a32",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-20T01:52:05.000Z",
+      "day": "2026-10-20",
+      "title": "Let controls auto-hide after a crop opened with the mouse",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/6328e91dca8e0ec7d2f44ef7655de83722b46a32"
+    },
+    {
+      "sha": "6ed3ed3e47083c4ceb1ecf3d0145241eaae06d97",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-20T01:33:23.000Z",
+      "day": "2026-10-20",
+      "title": "Skip the Linux autostart tests on Windows",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/6ed3ed3e47083c4ceb1ecf3d0145241eaae06d97"
+    },
+    {
+      "sha": "7938b8a321f882a01d86bebd5cb4115c897f5dc3",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T17:22:37.000Z",
+      "day": "2026-10-20",
+      "title": "Replay parameter sets from a packet whose picture failed to decode",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/7938b8a321f882a01d86bebd5cb4115c897f5dc3"
+    },
+    {
+      "sha": "007300995cb2a98245e7851ed79482f52297945b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T17:04:42.000Z",
+      "day": "2026-10-20",
+      "title": "Remove unused strings and the public applySettings call",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/007300995cb2a98245e7851ed79482f52297945b"
+    },
+    {
+      "sha": "c30459563f7cf6a9e598464f6cca103e91a9d1f4",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T17:01:12.000Z",
+      "day": "2026-10-20",
+      "title": "Say when a sender connects behind Settings or Logs",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/c30459563f7cf6a9e598464f6cca103e91a9d1f4"
+    },
+    {
+      "sha": "13679a5f9740a532f4e1e5c9a1bc9780004b306f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:43:50.000Z",
+      "day": "2026-10-20",
+      "title": "Keep a failing receiver stop inside the worker thread",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/13679a5f9740a532f4e1e5c9a1bc9780004b306f"
+    },
+    {
+      "sha": "c54e4b06ffbdd7ec62f215175d64867f060dd4c1",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:42:11.000Z",
+      "day": "2026-10-20",
+      "title": "Shut down the Apple receiver host on its queue",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/c54e4b06ffbdd7ec62f215175d64867f060dd4c1"
+    },
+    {
+      "sha": "2570106bd9eca56f78063c678d04c2db2a5f6b82",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:39:02.000Z",
+      "day": "2026-10-20",
+      "title": "Release discarded video frames outside the scheduler lock",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/2570106bd9eca56f78063c678d04c2db2a5f6b82"
+    },
+    {
+      "sha": "21d60404724800eaf0828156c4c613ac24c6b7df",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:33:43.000Z",
+      "day": "2026-10-20",
+      "title": "Stop audio output outside the player lock",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/21d60404724800eaf0828156c4c613ac24c6b7df"
+    },
+    {
+      "sha": "1d231d10cf7b88facfc28e8b436a1ff81687a9cd",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:29:26.000Z",
+      "day": "2026-10-20",
+      "title": "Keep C++ exceptions inside the receiver's C entry points",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/1d231d10cf7b88facfc28e8b436a1ff81687a9cd"
+    },
+    {
+      "sha": "ffecd349a5986da2563db1710ec4634c98e67535",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:25:12.000Z",
+      "day": "2026-10-20",
+      "title": "Keep desktop window presentation when the tray fails",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/ffecd349a5986da2563db1710ec4634c98e67535"
+    },
+    {
+      "sha": "9f5259e63c77c4b886ced5617accf7bb33c6e666",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:20:06.000Z",
+      "day": "2026-10-20",
+      "title": "Share one receiver name rule between the UI and the codec",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/9f5259e63c77c4b886ced5617accf7bb33c6e666"
+    },
+    {
+      "sha": "5dd5ff9bc13365dcfddc99f875cce2396e3bad89",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:14:46.000Z",
+      "day": "2026-10-20",
+      "title": "Download the update again when the saved installer is gone",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/5dd5ff9bc13365dcfddc99f875cce2396e3bad89"
+    },
+    {
+      "sha": "8c473da8cafaa8c334e62977a12735a1c596cff7",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:10:34.000Z",
+      "day": "2026-10-20",
+      "title": "Report malformed native events instead of throwing",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/8c473da8cafaa8c334e62977a12735a1c596cff7"
+    },
+    {
+      "sha": "aa5e6629c70f2ac272577af65533c1042ea2d352",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:06:35.000Z",
+      "day": "2026-10-20",
+      "title": "Check pending settings again after a change during a check",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/aa5e6629c70f2ac272577af65533c1042ea2d352"
+    },
+    {
+      "sha": "cc18a50c92ee00fcea8ed6c35070a6c23da7c7cb",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T16:02:42.000Z",
+      "day": "2026-10-20",
+      "title": "Fail a request when its native reply cannot be decoded",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/cc18a50c92ee00fcea8ed6c35070a6c23da7c7cb"
+    },
+    {
+      "sha": "d3937cfda3fa782e1679344d1fcabb36a32ff3f7",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T15:58:53.000Z",
+      "day": "2026-10-19",
+      "title": "Resize the crop selection with Alt and the arrow keys",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/d3937cfda3fa782e1679344d1fcabb36a32ff3f7"
+    },
+    {
+      "sha": "978483875aea61fd513886d054cda37a1d94d8da",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T15:48:16.000Z",
+      "day": "2026-10-19",
+      "title": "Let the mouse show desktop controls by moving",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/978483875aea61fd513886d054cda37a1d94d8da"
+    },
+    {
+      "sha": "16abb3bf1c07b4aa1e484d18793e6b51b54063d9",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T15:30:43.000Z",
+      "day": "2026-10-19",
+      "title": "Use a real monospace font for logs on Apple and Windows",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/16abb3bf1c07b4aa1e484d18793e6b51b54063d9"
+    },
+    {
+      "sha": "2251c8ec18c7d1e9bbf0f736c5e1878fbdbe534b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T15:21:16.000Z",
+      "day": "2026-10-19",
+      "title": "Build the theme color scheme once",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/2251c8ec18c7d1e9bbf0f736c5e1878fbdbe534b"
+    },
+    {
+      "sha": "6cc01864e2cebe6d575a7c2dadf8811b629d0dfc",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T14:53:48.000Z",
+      "day": "2026-10-19",
+      "title": "Show the background reception hint only while receiving",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/6cc01864e2cebe6d575a7c2dadf8811b629d0dfc"
+    },
+    {
+      "sha": "b450577118f38a92ff1e295421dbb0dd1f4f2946",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T14:27:31.000Z",
+      "day": "2026-10-19",
+      "title": "Show the audio page title only on mobile",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/b450577118f38a92ff1e295421dbb0dd1f4f2946"
+    },
+    {
+      "sha": "e1e672640d89fc08053c9d3edd92e49be3df413b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T14:23:06.000Z",
+      "day": "2026-10-19",
+      "title": "Localize the playback statistics overlay",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e1e672640d89fc08053c9d3edd92e49be3df413b"
+    },
+    {
+      "sha": "b365419a3b357aeb2fe1ca546e518ffaf2f0ff40",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T14:11:35.000Z",
+      "day": "2026-10-19",
+      "title": "Save the receiver name when editing finishes",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/b365419a3b357aeb2fe1ca546e518ffaf2f0ff40"
+    },
+    {
+      "sha": "68c44385b9b0b70b5c76819f385a29d0e840bd71",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T13:58:34.000Z",
+      "day": "2026-10-19",
+      "title": "Show and fullscreen on connect once per connection",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/68c44385b9b0b70b5c76819f385a29d0e840bd71"
+    },
+    {
+      "sha": "2ea892d4865855599b457eb46076e9a149fae432",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T13:37:48.000Z",
+      "day": "2026-10-19",
+      "title": "Use the Receive switch as the only on/off control on the home screen",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/2ea892d4865855599b457eb46076e9a149fae432"
+    },
+    {
+      "sha": "6db340807d13e9469428a29ec2310675780d47fb",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T13:32:39.000Z",
+      "day": "2026-10-19",
+      "title": "Add a Settings button to the desktop window bar",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/6db340807d13e9469428a29ec2310675780d47fb"
+    },
+    {
+      "sha": "84b958e94ee94a2a49c089aee48456f3b56ca4f6",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T13:27:01.000Z",
+      "day": "2026-10-19",
+      "title": "Offer Disconnect while waiting for the first frame",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/84b958e94ee94a2a49c089aee48456f3b56ca4f6"
+    },
+    {
+      "sha": "37183d30b88f05ff4bf44d5afc672bbbcac51e19",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T13:20:35.000Z",
+      "day": "2026-10-19",
+      "title": "Put Disconnect on the playback toolbar",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/37183d30b88f05ff4bf44d5afc672bbbcac51e19"
+    },
+    {
+      "sha": "011576bad488c5a092098fd18de0479f2aec027d",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T13:06:17.000Z",
+      "day": "2026-10-19",
+      "title": "Omit log history from state-change snapshots",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/011576bad488c5a092098fd18de0479f2aec027d"
+    },
+    {
+      "sha": "abd36eb9413f4c5d5e9b0eaca7c7e393249109e7",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T12:59:37.000Z",
+      "day": "2026-10-19",
+      "title": "Keep cleared logs from returning with the next snapshot",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/abd36eb9413f4c5d5e9b0eaca7c7e393249109e7"
+    },
+    {
+      "sha": "97b345d1b529013f8e6b617eefc428913d73aa8f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T12:55:47.000Z",
+      "day": "2026-10-19",
+      "title": "Replace invalid UTF-8 in receiver JSON strings",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/97b345d1b529013f8e6b617eefc428913d73aa8f"
+    },
+    {
+      "sha": "e7944baaaf7ea33cd538007cdd6610728c2f06c2",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T12:52:40.000Z",
+      "day": "2026-10-19",
+      "title": "Queue receiver commands instead of dropping them while busy",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e7944baaaf7ea33cd538007cdd6610728c2f06c2"
+    },
+    {
+      "sha": "6a1624cbbd7d9a6e082f2890220d79d4c38ab992",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T12:44:41.000Z",
+      "day": "2026-10-19",
+      "title": "Leave Android Back keys to system navigation in the crop editor",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/6a1624cbbd7d9a6e082f2890220d79d4c38ab992"
+    },
+    {
+      "sha": "304922720fc20aa5ced8c5bc27bc3126e2bea76f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T12:40:19.000Z",
+      "day": "2026-10-19",
+      "title": "Start with native defaults when stored settings cannot be restored",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/304922720fc20aa5ced8c5bc27bc3126e2bea76f"
+    },
+    {
+      "sha": "ceb86709fef0feb5fe9bb0fa38f43975dced8efe",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-19T12:37:52.000Z",
+      "day": "2026-10-19",
+      "title": "Recover from video decode failures instead of stopping the receiver",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/ceb86709fef0feb5fe9bb0fa38f43975dced8efe"
+    },
+    {
+      "sha": "9df3b58280d11e740b9b950495ea3f0c19a02ea9",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-10-19T10:04:41.000Z",
+      "day": "2026-10-19",
+      "title": "Lay out desktop bot app windows like the mobile web view (#2073)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/9df3b58280d11e740b9b950495ea3f0c19a02ea9"
+    },
+    {
+      "sha": "6e2b29cd927a447bc6e765003e56d6f93ed48168",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-19T04:32:31.000Z",
+      "day": "2026-10-19",
+      "title": "breakpad_client: prepare release 0.0.3",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/6e2b29cd927a447bc6e765003e56d6f93ed48168"
+    },
+    {
+      "sha": "7771cd1dbe69c22f3e0c9eb237d544e15714d2bf",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-19T04:31:46.000Z",
+      "day": "2026-10-19",
+      "title": "breakpad_client: fix Linux build on CMake < 3.25 and add integration tests (#542)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/7771cd1dbe69c22f3e0c9eb237d544e15714d2bf"
+    },
+    {
+      "sha": "4e1e51d036d38996dac1603b4ca60d9c001d98f2",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-19T03:14:34.000Z",
+      "day": "2026-10-19",
+      "title": "desktop_webview_window: check GTK container before WebKit snapshot in Linux paint test",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/4e1e51d036d38996dac1603b4ca60d9c001d98f2"
+    },
+    {
+      "sha": "e9af43b72e02cc1b53f982adcea9714f774bebbd",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-10-18T14:41:35.000Z",
+      "day": "2026-10-18",
+      "title": "Trim dev profile debuginfo to reduce target size",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/e9af43b72e02cc1b53f982adcea9714f774bebbd"
+    },
+    {
+      "sha": "63f9999079172adfa8594c5df0b9d327a6a27418",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-10-18T14:38:39.000Z",
+      "day": "2026-10-18",
+      "title": "Document mixin-headless setup, events protocol, and security",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/63f9999079172adfa8594c5df0b9d327a6a27418"
+    },
+    {
+      "sha": "88538b1ca0d8e5ed75ba5244537d3b8834fdcabc",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-10-18T14:36:19.000Z",
+      "day": "2026-10-18",
+      "title": "Add headless Mixin host with agent events and send tools",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/88538b1ca0d8e5ed75ba5244537d3b8834fdcabc"
+    },
+    {
+      "sha": "363d8de33fd6b01c40dc3488e6bcec9b7bed3cb1",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T06:59:20.000Z",
+      "day": "2026-10-18",
+      "title": "desktop_webview_window: cover reported navigation and window lifecycle regressions (#541)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/363d8de33fd6b01c40dc3488e6bcec9b7bed3cb1"
+    },
+    {
+      "sha": "5200c806b0876b0c8ca5e124440b2145a4a1ec66",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T06:47:33.000Z",
+      "day": "2026-10-18",
+      "title": "pasteboard: migrate Android to built-in Kotlin (#536)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/5200c806b0876b0c8ca5e124440b2145a4a1ec66"
+    },
+    {
+      "sha": "26087e5eec3852b38a67729b707a49ad3489423e",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T06:38:24.000Z",
+      "day": "2026-10-18",
+      "title": "pasteboard: apply Dart formatting required by CI",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/26087e5eec3852b38a67729b707a49ad3489423e"
+    },
+    {
+      "sha": "cf4e3e0a707291093d11d1aef2b21d3f2ded7890",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T06:36:28.000Z",
+      "day": "2026-10-18",
+      "title": "ci: preserve base branch history for PR diffs",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/cf4e3e0a707291093d11d1aef2b21d3f2ded7890"
+    },
+    {
+      "sha": "48f04f6d30f5c9cc25c52a54a53b652823699231",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T06:18:47.000Z",
+      "day": "2026-10-18",
+      "title": "desktop_webview_window: prepare release 0.4.0",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/48f04f6d30f5c9cc25c52a54a53b652823699231"
+    },
+    {
+      "sha": "fe8dfb6c8a942404b376cc28d5bb0c0a5b54af5b",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T06:18:24.000Z",
+      "day": "2026-10-18",
+      "title": "desktop_webview_window: remove the obsolete 0.3.x Windows handoff note (#537)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/fe8dfb6c8a942404b376cc28d5bb0c0a5b54af5b"
+    },
+    {
+      "sha": "449062c4a0fcc8b0fcb7164ce98d34068cb428cc",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T05:58:34.000Z",
+      "day": "2026-10-18",
+      "title": "desktop_webview_window: run the integration suite on Linux in CI (#535)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/449062c4a0fcc8b0fcb7164ce98d34068cb428cc"
+    },
+    {
+      "sha": "e27375458ccb81e9464306bf6ff7536b55c2ded6",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T05:58:30.000Z",
+      "day": "2026-10-18",
+      "title": "desktop_webview_window: report failed page loads (#534)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/e27375458ccb81e9464306bf6ff7536b55c2ded6"
+    },
+    {
+      "sha": "80e68ee39fbd8b545ab44c86d4c62d7f1057158e",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T05:47:35.000Z",
+      "day": "2026-10-18",
+      "title": "desktop_webview_window: report message origins and drop iframe messages (#533)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/80e68ee39fbd8b545ab44c86d4c62d7f1057158e"
+    },
+    {
+      "sha": "955ca68f92614865f16adcd7ad3df42183b88e68",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T05:18:38.000Z",
+      "day": "2026-10-18",
+      "title": "desktop_webview_window: stop enabling deprecated Java applets on macOS (#531)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/955ca68f92614865f16adcd7ad3df42183b88e68"
+    },
+    {
+      "sha": "d0b4f9e76575e4c3a74c98d71dfdce9f1cc06e69",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T05:18:33.000Z",
+      "day": "2026-10-18",
+      "title": "desktop_webview_window: link WebView2 loader statically for x64 and ARM64 (#532)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/d0b4f9e76575e4c3a74c98d71dfdce9f1cc06e69"
+    },
+    {
+      "sha": "98550ace27a65183eeefdc0c1a1222448f58430d",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-18T04:17:29.000Z",
+      "day": "2026-10-18",
+      "title": "desktop_webview_window: render native title bars and unify browser APIs (#518)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/98550ace27a65183eeefdc0c1a1222448f58430d"
+    },
+    {
+      "sha": "39b8aac677f170c490853badae6689b91d75b1eb",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-17T08:38:18.000Z",
+      "day": "2026-10-17",
+      "title": "Remove the experimental three-way merge editor",
+      "url": "https://github.com/boyan01/intelli-git/commit/39b8aac677f170c490853badae6689b91d75b1eb"
+    },
+    {
+      "sha": "aa74e4fe5313f741d03266025e3bda20a55863ab",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-17T07:23:45.000Z",
+      "day": "2026-10-17",
+      "title": "Redesign the commit view around changelists and reviewed files",
+      "url": "https://github.com/boyan01/intelli-git/commit/aa74e4fe5313f741d03266025e3bda20a55863ab"
+    },
+    {
+      "sha": "fc289d50d8e9234d54c3e775ceff44b5fa9c5e5e",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-17T02:41:05.000Z",
+      "day": "2026-10-17",
+      "title": "desktop_drop: prepare release 0.9.1",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/fc289d50d8e9234d54c3e775ceff44b5fa9c5e5e"
+    },
+    {
+      "sha": "9293d2d67a7e3e97f8f9eb4d826a4f0908b4ad02",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-17T02:40:39.000Z",
+      "day": "2026-10-17",
+      "title": "desktop_drop: fix use-after-free when posting Windows platform tasks (#526)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/9293d2d67a7e3e97f8f9eb4d826a4f0908b4ad02"
+    },
+    {
+      "sha": "b6053de2128484b6ca4a4bf036eb1ca826bfd94b",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-16T08:36:52.000Z",
+      "day": "2026-10-16",
+      "title": "desktop_drop: prepare release 0.9.0",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/b6053de2128484b6ca4a4bf036eb1ca826bfd94b"
+    },
+    {
+      "sha": "dd30c896003e599ea4e3726ef9dd9b4e227f61e3",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-16T08:28:46.000Z",
+      "day": "2026-10-16",
+      "title": "desktop_drop: unify Android drop decisions and support directories",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/dd30c896003e599ea4e3726ef9dd9b4e227f61e3"
+    },
+    {
+      "sha": "49f1ce447bd5b1d1b317a125bbc313f2181656de",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-16T08:28:46.000Z",
+      "day": "2026-10-16",
+      "title": "desktop_drop: simplify target acceptance and drop callbacks",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/49f1ce447bd5b1d1b317a125bbc313f2181656de"
+    },
+    {
+      "sha": "e74c1d31bcc67a5094866f175f9e481df1611eb7",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-16T08:26:10.000Z",
+      "day": "2026-10-16",
+      "title": "desktop_drop: add typed async drops and iOS support over shared FFI (#523)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/e74c1d31bcc67a5094866f175f9e481df1611eb7"
+    },
+    {
+      "sha": "ea42b5f94fa01d20004a5824f5a35af30798b457",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-10-15T11:41:41.000Z",
+      "day": "2026-10-15",
+      "title": "Bump version to 6.3.1 (#2069)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/ea42b5f94fa01d20004a5824f5a35af30798b457"
+    },
+    {
+      "sha": "171b2c3ab2ecf1cf9459258b456c0b2364812a5e",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-10-15T06:01:38.000Z",
+      "day": "2026-10-15",
+      "title": "Upgrade desktop_webview_window to fix blank Windows bot pages (#2068)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/171b2c3ab2ecf1cf9459258b456c0b2364812a5e"
+    },
+    {
+      "sha": "5b2d1ee4f099e027dcaa21203052d0c3120dd416",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-15T03:57:05.000Z",
+      "day": "2026-10-15",
+      "title": "Unify browser test CI and fix desktop_drop macOS example (#522)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/5b2d1ee4f099e027dcaa21203052d0c3120dd416"
+    },
+    {
+      "sha": "4d3b34e51a54613babc328913a164b17bbb7f548",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-15T03:26:29.000Z",
+      "day": "2026-10-15",
+      "title": "desktop_drop: cover browser drops with mixed and non-file items (#521)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/4d3b34e51a54613babc328913a164b17bbb7f548"
+    },
+    {
+      "sha": "75d013b0666a3600db7e9c9264b8aff9bcd739a8",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T03:11:12.000Z",
+      "day": "2026-10-15",
+      "title": "Release 0.1.8",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/75d013b0666a3600db7e9c9264b8aff9bcd739a8"
+    },
+    {
+      "sha": "3bc9b27162c48a29d131a96f087bb7469c5a143a",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T03:11:12.000Z",
+      "day": "2026-10-15",
+      "title": "Escape receiver JSON strings and preserve signed values",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/3bc9b27162c48a29d131a96f087bb7469c5a143a"
+    },
+    {
+      "sha": "54062fcbe9edc1f06987c0c4a94e34c89b0fdbed",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T02:23:20.000Z",
+      "day": "2026-10-15",
+      "title": "Release 0.1.7",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/54062fcbe9edc1f06987c0c4a94e34c89b0fdbed"
+    },
+    {
+      "sha": "73204d0c6cf799252d2de2e3ca4f7173f783d84b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T02:20:21.000Z",
+      "day": "2026-10-15",
+      "title": "Remember AirPlay volume across connections and app restarts",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/73204d0c6cf799252d2de2e3ca4f7173f783d84b"
+    },
+    {
+      "sha": "71cda5536fa23c1a1e23c831bc5ebd95abf2e115",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T01:41:11.000Z",
+      "day": "2026-10-15",
+      "title": "Fix Dart formatting in player crop test",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/71cda5536fa23c1a1e23c831bc5ebd95abf2e115"
+    },
+    {
+      "sha": "d686fc7193f7e3303b7c1e2a7287a1fef982407c",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T01:39:43.000Z",
+      "day": "2026-10-15",
+      "title": "Redesign receiver logs and refine desktop title bar",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/d686fc7193f7e3303b7c1e2a7287a1fef982407c"
+    },
+    {
+      "sha": "f057b651dabefbf6e50f23ca788a64a24c99d8b6",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T01:25:43.000Z",
+      "day": "2026-10-15",
+      "title": "Improve TV focus transitions and settings layout",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/f057b651dabefbf6e50f23ca788a64a24c99d8b6"
+    },
+    {
+      "sha": "bd1bb29c3097ce415153dc9400bba6d2f96a0fbf",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T01:25:43.000Z",
+      "day": "2026-10-15",
+      "title": "Fix playback controls auto-hide after crop editing",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/bd1bb29c3097ce415153dc9400bba6d2f96a0fbf"
+    },
+    {
+      "sha": "ad77325ab9b094f6f92ed2835fd619150aa5a05b",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-14T03:43:23.000Z",
+      "day": "2026-10-14",
+      "title": "desktop_webview_window: prepare release 0.3.2",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/ad77325ab9b094f6f92ed2835fd619150aa5a05b"
+    },
+    {
+      "sha": "7c552605cb85b56088a8d11ca43b5c3095d72981",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-14T03:40:30.000Z",
+      "day": "2026-10-14",
+      "title": "release: streamline agent publishing and verification",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/7c552605cb85b56088a8d11ca43b5c3095d72981"
+    },
+    {
+      "sha": "f4084f7e2ca95e93b303168a34e73f4e3013cd58",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-14T02:27:01.000Z",
+      "day": "2026-10-14",
+      "title": "Unify example workspaces and upgrade development tooling",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/f4084f7e2ca95e93b303168a34e73f4e3013cd58"
+    },
+    {
+      "sha": "83cffc97026c18524661ec3069e5af1429743112",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-14T02:15:16.000Z",
+      "day": "2026-10-14",
+      "title": "Refresh workspace dependencies and Flutter project metadata",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/83cffc97026c18524661ec3069e5af1429743112"
+    },
+    {
+      "sha": "eddd9de65ab33461f3bb5c68c002bb4994d904e3",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-14T02:04:25.000Z",
+      "day": "2026-10-14",
+      "title": "desktop_webview_window: improve example and desktop integration coverage (#520)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/eddd9de65ab33461f3bb5c68c002bb4994d904e3"
+    },
+    {
+      "sha": "bee5a1e2cf59ace59aac88c1780a55817e5f8b07",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-13T01:56:17.000Z",
+      "day": "2026-10-13",
+      "title": "Merge pull request #517 from MixinNetwork/ci/integration-test-matrix",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/bee5a1e2cf59ace59aac88c1780a55817e5f8b07"
+    },
+    {
+      "sha": "721e43f9ba4b8fc14488433d652c1a73f9dee7dc",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-13T01:50:37.000Z",
+      "day": "2026-10-13",
+      "title": "ci: centralize desktop integration test scheduling",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/721e43f9ba4b8fc14488433d652c1a73f9dee7dc"
+    },
+    {
+      "sha": "0c65bdda2f5e0dd75573b6e3735c2a9699115e72",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-13T01:26:05.000Z",
+      "day": "2026-10-13",
+      "title": "Simplify desktop CI and reuse build artifacts (#12)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/0c65bdda2f5e0dd75573b6e3735c2a9699115e72"
+    },
+    {
+      "sha": "8c7aaf5ab782d08e11c9166d8f38fc45a04a9fad",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T08:23:10.000Z",
+      "day": "2026-10-12",
+      "title": "chore(release): prepare mixin_markdown_widget 0.3.2",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/8c7aaf5ab782d08e11c9166d8f38fc45a04a9fad"
+    },
+    {
+      "sha": "f2e671b65f9dde4731b6bf5f4f76c5c0bbe3b146",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T08:23:09.000Z",
+      "day": "2026-10-12",
+      "title": "mixin_markdown_widget: resolve absolute Windows image paths before URIs",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/f2e671b65f9dde4731b6bf5f4f76c5c0bbe3b146"
+    },
+    {
+      "sha": "3fad14ffad5440697a44f7459a4e6cecef0d563b",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T08:18:59.000Z",
+      "day": "2026-10-12",
+      "title": "chore(release): prepare desktop_webview_window 0.3.1",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/3fad14ffad5440697a44f7459a4e6cecef0d563b"
+    },
+    {
+      "sha": "591c6f7c35597c7aa09eef4a46111ab606223468",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T08:13:25.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: update WebView2 SDK to 1.0.4258.31",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/591c6f7c35597c7aa09eef4a46111ab606223468"
+    },
+    {
+      "sha": "ecbe6d54c2d85adc9fba03309d11d172b3c527c8",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:55:41.000Z",
+      "day": "2026-10-12",
+      "title": "Merge pull request #508 with Windows regression fixes",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/ecbe6d54c2d85adc9fba03309d11d172b3c527c8"
+    },
+    {
+      "sha": "524f8ac74150d40d3f1622d423e63e651d60c1c1",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:53:56.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: configure fake media for elevated Windows CI",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/524f8ac74150d40d3f1622d423e63e651d60c1c1"
+    },
+    {
+      "sha": "3c609ec8ed472218bc50c73ab0de86e2aac7316c",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:47:03.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: await native close processing in Windows tests",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/3c609ec8ed472218bc50c73ab0de86e2aac7316c"
+    },
+    {
+      "sha": "6d425e401528cf1bd6a567353485e799fc2964a0",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:41:13.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: close native test windows before Flutter teardown",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/6d425e401528cf1bd6a567353485e799fc2964a0"
+    },
+    {
+      "sha": "c1377c8dcdda3628e8c026f966af6675652ebad6",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:37:41.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: fix stale Windows navigation and window policies",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/c1377c8dcdda3628e8c026f966af6675652ebad6"
+    },
+    {
+      "sha": "8d34f6d761c7fe11f0e34f169aeb9e0e0f47e872",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:34:57.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: keep focus flushing inside widget tests",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/8d34f6d761c7fe11f0e34f169aeb9e0e0f47e872"
+    },
+    {
+      "sha": "dc27cc5f3b960c8ee2fd923125dc2454c33881f2",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:34:21.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: flush focus updates between integration tests",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/dc27cc5f3b960c8ee2fd923125dc2454c33881f2"
+    },
+    {
+      "sha": "0287308784792b6641a461fd7fde54e6a0f140d6",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:29:03.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: validate WebView2 behavior on Windows",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/0287308784792b6641a461fd7fde54e6a0f140d6"
+    },
+    {
+      "sha": "11074d9a6dd74b5315e5714d08dd5a0351e086b5",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:28:01.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: cover Windows navigation, visibility, and permissions",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/11074d9a6dd74b5315e5714d08dd5a0351e086b5"
+    },
+    {
+      "sha": "808754ad66e1bc5638860fd7ad8c114f6314aba2",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:24:01.000Z",
+      "day": "2026-10-12",
+      "title": "Merge remote-tracking branch 'origin/main' into HEAD",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/808754ad66e1bc5638860fd7ad8c114f6314aba2"
+    },
+    {
+      "sha": "9da263c60c4dc5af21291662353b7ee84896ca83",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:11:56.000Z",
+      "day": "2026-10-12",
+      "title": "Merge pull request #511 from FrankenApps/fill-webview-window",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/9da263c60c4dc5af21291662353b7ee84896ca83"
+    },
+    {
+      "sha": "f55ae58f59424c75474169f9d66b189275ae6a27",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:10:42.000Z",
+      "day": "2026-10-12",
+      "title": "desktop_webview_window: resolve title bar conflicts with main",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/f55ae58f59424c75474169f9d66b189275ae6a27"
+    },
+    {
+      "sha": "c6f2e336ace8fe2222c89e6944dedc2ba8e05f4a",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:07:55.000Z",
+      "day": "2026-10-12",
+      "title": "Merge pull request #510 from FrankenApps/fix-swift-package",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/c6f2e336ace8fe2222c89e6944dedc2ba8e05f4a"
+    },
+    {
+      "sha": "728aa7895a56268f62d067ab08902268fab99232",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T06:03:09.000Z",
+      "day": "2026-10-12",
+      "title": "Merge pull request #514 from matsukiender-star/mixin/fix/linux-create-new-window",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/728aa7895a56268f62d067ab08902268fab99232"
+    },
+    {
+      "sha": "5f1936d28fd3b0779dfd252cb712360aa018b86a",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T05:48:06.000Z",
+      "day": "2026-10-12",
+      "title": "chore: ignore macOS Finder metadata",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/5f1936d28fd3b0779dfd252cb712360aa018b86a"
+    },
+    {
+      "sha": "49492a639be608d891396db6c66dc4c77e34c078",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-12T05:48:01.000Z",
+      "day": "2026-10-12",
+      "title": "mixin_markdown_widget: handle GitHub review HTML markup",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/49492a639be608d891396db6c66dc4c77e34c078"
+    },
+    {
+      "sha": "495655bd189caf9ffc6323c740acbf72f0102cf7",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-12T02:35:43.000Z",
+      "day": "2026-10-12",
+      "title": "docs: streamline project guides and refresh README presentation",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/495655bd189caf9ffc6323c740acbf72f0102cf7"
+    },
+    {
+      "sha": "183d010ca32083981f7645cf66581a385421f14d",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-12T01:18:34.000Z",
+      "day": "2026-10-12",
+      "title": "Simplify update dialog and localize release notes",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/183d010ca32083981f7645cf66581a385421f14d"
+    },
+    {
+      "sha": "14a7eba413afa9b0b8bdf5c56a1842b00b163f94",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-12T01:06:49.000Z",
+      "day": "2026-10-12",
+      "title": "Embed the published update public key in client builds",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/14a7eba413afa9b0b8bdf5c56a1842b00b163f94"
+    },
+    {
+      "sha": "93f5bffbbdb55a99ebda1d493d5e1e74449be3fc",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-12T01:06:32.000Z",
+      "day": "2026-10-12",
+      "title": "Fix TV crop focus handoff and precise remote controls",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/93f5bffbbdb55a99ebda1d493d5e1e74449be3fc"
+    },
+    {
+      "sha": "ebe20c3b00055095002ca1a356d8e8658e0ee00a",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-11T07:54:20.000Z",
+      "day": "2026-10-11",
+      "title": "Fix macOS desktop integration cleanup and fullscreen position checks",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/ebe20c3b00055095002ca1a356d8e8658e0ee00a"
+    },
+    {
+      "sha": "626c061e762bd67fc078e94528fc6a9b13b1b176",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-11T07:31:24.000Z",
+      "day": "2026-10-11",
+      "title": "Prepare release 0.1.6 and resume sizing after fullscreen transitions",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/626c061e762bd67fc078e94528fc6a9b13b1b176"
+    },
+    {
+      "sha": "fd686e540395a46f25179f2016a641ce6a4829c6",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-11T06:32:47.000Z",
+      "day": "2026-10-11",
+      "title": "Test Windows update flows and restore update entry points",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/fd686e540395a46f25179f2016a641ce6a4829c6"
+    },
+    {
+      "sha": "2f1606dcbbe89a0b0dd6afe79c94cc5efa95fc9f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-11T06:14:07.000Z",
+      "day": "2026-10-11",
+      "title": "Fix Windows window manager initialization deadlock",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/2f1606dcbbe89a0b0dd6afe79c94cc5efa95fc9f"
+    },
+    {
+      "sha": "3e00ef37f11a9d3ab886e08a8d0ee4bdc83ed005",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-11T05:13:57.000Z",
+      "day": "2026-10-11",
+      "title": "Restore window size on the current display after disconnect",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/3e00ef37f11a9d3ab886e08a8d0ee4bdc83ed005"
+    },
+    {
+      "sha": "3fa1d36d3c309720ba8826c4c9b6c0821abbfd1b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-11T05:05:02.000Z",
+      "day": "2026-10-11",
+      "title": "Add video crop editing and refine playback controls",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/3fa1d36d3c309720ba8826c4c9b6c0821abbfd1b"
+    },
+    {
+      "sha": "02cac1352209d7acc21aa1d4d4b5362000a6d32d",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-11T02:51:25.000Z",
+      "day": "2026-10-11",
+      "title": "Upgrade nativeapi to 0.5.2 and simplify desktop integration",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/02cac1352209d7acc21aa1d4d4b5362000a6d32d"
+    },
+    {
+      "sha": "3a762467242ef48c42d754c35ba4da6412355b00",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-11T02:03:54.000Z",
+      "day": "2026-10-11",
+      "title": "Recover stalled macOS video display and expand playback diagnostics",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/3a762467242ef48c42d754c35ba4da6412355b00"
+    },
+    {
+      "sha": "3ed8019f82c7d8bb5d7c46d6c8f1a31dd23bb797",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-11T01:44:19.000Z",
+      "day": "2026-10-11",
+      "title": "Fix audio output lifecycle and Apple clock conversion after sleep",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/3ed8019f82c7d8bb5d7c46d6c8f1a31dd23bb797"
+    },
+    {
+      "sha": "9c329be088025e77a6aaf63e7f3a89a5fa778db3",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-10T07:07:23.000Z",
+      "day": "2026-10-10",
+      "title": "Add Windows in-app updates with signed release metadata",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/9c329be088025e77a6aaf63e7f3a89a5fa778db3"
+    },
+    {
+      "sha": "aacae01197f759939b05477bcec1f87bb56ccb19",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-10T05:42:58.000Z",
+      "day": "2026-10-10",
+      "title": "Release Intelli Git 0.0.12",
+      "url": "https://github.com/boyan01/intelli-git/commit/aacae01197f759939b05477bcec1f87bb56ccb19"
+    },
+    {
+      "sha": "aaa10b63c5eeb6df20e4af1e4387cd007727539d",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-10T05:42:35.000Z",
+      "day": "2026-10-10",
+      "title": "Use native VS Code image previews in Git diffs",
+      "url": "https://github.com/boyan01/intelli-git/commit/aaa10b63c5eeb6df20e4af1e4387cd007727539d"
+    },
+    {
+      "sha": "5faf917b9d051a08022014791ff4594b238c0318",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-10T05:19:47.000Z",
+      "day": "2026-10-10",
+      "title": "Improve tree scrolling and Explorer-style hierarchy guides",
+      "url": "https://github.com/boyan01/intelli-git/commit/5faf917b9d051a08022014791ff4594b238c0318"
+    },
+    {
+      "sha": "d1580cbfed4f58a87c5f78dc2849a652734cb166",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-10T02:07:15.000Z",
+      "day": "2026-10-10",
+      "title": "Use latest stable Flutter for CI and release builds",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/d1580cbfed4f58a87c5f78dc2849a652734cb166"
+    },
+    {
+      "sha": "be52d9d462d99d060a8c45854002d597ac574216",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T11:45:04.000Z",
+      "day": "2026-10-09",
+      "title": "Add Android app updates and TV update navigation",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/be52d9d462d99d060a8c45854002d597ac574216"
+    },
+    {
+      "sha": "dc15b7bc3a5f7d71561205adb91e92933c183208",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T10:04:33.000Z",
+      "day": "2026-10-09",
+      "title": "Keep native resize fixture targets within the active screen",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/dc15b7bc3a5f7d71561205adb91e92933c183208"
+    },
+    {
+      "sha": "9abd26656a8603ff055665adde6d46e83843e4a0",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T09:51:07.000Z",
+      "day": "2026-10-09",
+      "title": "Check animated window progress without requiring a frame count",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/9abd26656a8603ff055665adde6d46e83843e4a0"
+    },
+    {
+      "sha": "bdf92c5108b1eb9c8156657e1ea015c67c642a55",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T09:35:39.000Z",
+      "day": "2026-10-09",
+      "title": "Commit the exact window target before resize completion",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/bdf92c5108b1eb9c8156657e1ea015c67c642a55"
+    },
+    {
+      "sha": "28fde11885e468bb19a68c9263382de9e068fe31",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T09:18:21.000Z",
+      "day": "2026-10-09",
+      "title": "Recreate removed tray items and avoid Linux menu cleanup loop",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/28fde11885e468bb19a68c9263382de9e068fe31"
+    },
+    {
+      "sha": "508e9fe74e156b7448f888142f277ccb1e972ce2",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T09:08:40.000Z",
+      "day": "2026-10-09",
+      "title": "Wait for renderer readiness in native recovery fixture",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/508e9fe74e156b7448f888142f277ccb1e972ce2"
+    },
+    {
+      "sha": "1f2ba54926f0eafe4d5b1b93d30379178cd0ae02",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T08:52:33.000Z",
+      "day": "2026-10-09",
+      "title": "Dispose receiver before the desktop test binding completion frame",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/1f2ba54926f0eafe4d5b1b93d30379178cd0ae02"
+    },
+    {
+      "sha": "8818a5240e74be4c532fe8f70f42a5b01d25b026",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T08:44:30.000Z",
+      "day": "2026-10-09",
+      "title": "Make native video recovery fixture independent of runner stalls",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/8818a5240e74be4c532fe8f70f42a5b01d25b026"
+    },
+    {
+      "sha": "e9dd820d692940926262eb943e910ced6402d83f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T08:23:31.000Z",
+      "day": "2026-10-09",
+      "title": "Separate HEVC pixel checks from real-time decode deadlines",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e9dd820d692940926262eb943e910ced6402d83f"
+    },
+    {
+      "sha": "2678d395a5329fca49a58a15369e32908788f486",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T08:06:47.000Z",
+      "day": "2026-10-09",
+      "title": "Bound desktop integration waits and report stalled phases",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/2678d395a5329fca49a58a15369e32908788f486"
+    },
+    {
+      "sha": "bd9201150661bd940cf7edc96df6c62c5a8eb48f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T08:03:21.000Z",
+      "day": "2026-10-09",
+      "title": "Diagnose macOS HEVC fixture failures on hosted runners",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/bd9201150661bd940cf7edc96df6c62c5a8eb48f"
+    },
+    {
+      "sha": "98c8fbd80129d1f59a5d7447445483589177e7c5",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T07:43:16.000Z",
+      "day": "2026-10-09",
+      "title": "Prepare release 0.1.5 with bilingual changelog",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/98c8fbd80129d1f59a5d7447445483589177e7c5"
+    },
+    {
+      "sha": "86fccead83e5716fdb8716b5b56dca0166b1b8ea",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T06:55:21.000Z",
+      "day": "2026-10-09",
+      "title": "Generate release and update notes from bilingual changelog",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/86fccead83e5716fdb8716b5b56dca0166b1b8ea"
+    },
+    {
+      "sha": "46a71c5aef85e5b6a0e5249e5f0e52b3e8ad0b60",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T06:39:31.000Z",
+      "day": "2026-10-09",
+      "title": "Add macOS self-updates with Flutter UI and signed releases",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/46a71c5aef85e5b6a0e5249e5f0e52b3e8ad0b60"
+    },
+    {
+      "sha": "8eb03ef077444c1f85ec3cddbc294ce967bd9d6d",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T01:36:18.000Z",
+      "day": "2026-10-09",
+      "title": "Fix native callback cleanup before application exit",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/8eb03ef077444c1f85ec3cddbc294ce967bd9d6d"
+    },
+    {
+      "sha": "014f0b3c7b3d15717be9fe74c90406347c401fd3",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T01:27:30.000Z",
+      "day": "2026-10-09",
+      "title": "Simplify desktop tray menus and preserve playback when hidden",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/014f0b3c7b3d15717be9fe74c90406347c401fd3"
+    },
+    {
+      "sha": "9022ce77688ced2f106da072b84ac6e26ec75bab",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-09T00:54:30.000Z",
+      "day": "2026-10-09",
+      "title": "Add configurable playback buffer presets",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/9022ce77688ced2f106da072b84ac6e26ec75bab"
+    },
+    {
+      "sha": "3bbc37f9ec6b2a7853a3b2a11d220e54dc842637",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-08T14:34:22.000Z",
+      "day": "2026-10-08",
+      "title": "Add display timing metrics and coalesce overdue video frames",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/3bbc37f9ec6b2a7853a3b2a11d220e54dc842637"
+    },
+    {
+      "sha": "532f9e38fe1e86b37e55e6684a617934f2dd367b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-08T13:50:20.000Z",
+      "day": "2026-10-08",
+      "title": "Use native timed video display and asynchronous window resizing on macOS",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/532f9e38fe1e86b37e55e6684a617934f2dd367b"
+    },
+    {
+      "sha": "34f624bceeee182a55961dd9f05c4c45c899877c",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-08T01:43:50.000Z",
+      "day": "2026-10-08",
+      "title": "Bump version to 0.1.4+5",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/34f624bceeee182a55961dd9f05c4c45c899877c"
+    },
+    {
+      "sha": "003d8da4e7da68dcdf595566adf8f9ad1a2f586c",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-08T01:36:23.000Z",
+      "day": "2026-10-08",
+      "title": "Fix macOS startup lifecycle callbacks",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/003d8da4e7da68dcdf595566adf8f9ad1a2f586c"
+    },
+    {
+      "sha": "d7274cebbc22ebff0505c808090586c55606256f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T17:52:51.000Z",
+      "day": "2026-10-08",
+      "title": "Bump version to 0.1.3+4",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/d7274cebbc22ebff0505c808090586c55606256f"
+    },
+    {
+      "sha": "fbc3150d700934d071a2c29f61787867160692b1",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T17:51:38.000Z",
+      "day": "2026-10-08",
+      "title": "Refine rounded tray icon and reuse libclang in CI (#10)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/fbc3150d700934d071a2c29f61787867160692b1"
+    },
+    {
+      "sha": "e3604f070f3c0780629d04c9ca09740bd481acf3",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T17:03:14.000Z",
+      "day": "2026-10-08",
+      "title": "Recover a late native resize without losing restored geometry (#11)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e3604f070f3c0780629d04c9ca09740bd481acf3"
+    },
+    {
+      "sha": "627763d510c0c6625bcef01604e27e7aaee02135",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T15:02:31.000Z",
+      "day": "2026-10-07",
+      "title": "Fix unfocused hover and desktop titlebar interactions (#8)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/627763d510c0c6625bcef01604e27e7aaee02135"
+    },
+    {
+      "sha": "dd9cf8d115f8ddcaff4285f026f46ac7ffc4f36e",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T14:59:07.000Z",
+      "day": "2026-10-07",
+      "title": "Fix desktop video window lifecycle and unify desktop regression coverage (#7)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/dd9cf8d115f8ddcaff4285f026f46ac7ffc4f36e"
+    },
+    {
+      "sha": "f3dd8aa23b586125156a441c5ce81a00ebca3051",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T13:50:04.000Z",
+      "day": "2026-10-07",
+      "title": "Show desktop windows on manual launch and keep login startup quiet (#6)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/f3dd8aa23b586125156a441c5ce81a00ebca3051"
+    },
+    {
+      "sha": "24115bfbc076c567d1ecd067e4df321d6af97367",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T11:07:57.000Z",
+      "day": "2026-10-07",
+      "title": "Add ad-hoc signed Apple Silicon DMG release packaging (#5)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/24115bfbc076c567d1ecd067e4df321d6af97367"
+    },
+    {
+      "sha": "234184e095b5b1d63b77ca8783ab146dbbc87b67",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T09:33:16.000Z",
+      "day": "2026-10-07",
+      "title": "Reuse Windows native dependencies across runner image updates",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/234184e095b5b1d63b77ca8783ab146dbbc87b67"
+    },
+    {
+      "sha": "623bd2aa871c9f3e110ffb1a66e4927295af7be5",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T09:08:22.000Z",
+      "day": "2026-10-07",
+      "title": "Add desktop settings logs and tray-only startup (#4)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/623bd2aa871c9f3e110ffb1a66e4927295af7be5"
+    },
+    {
+      "sha": "e7223769259e35a206f69519cf9ceba9c322a686",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T08:35:48.000Z",
+      "day": "2026-10-07",
+      "title": "Preserve overdue video references before presentation",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e7223769259e35a206f69519cf9ceba9c322a686"
+    },
+    {
+      "sha": "5323908faea950fbd46803f400192a45945df3e5",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T07:53:07.000Z",
+      "day": "2026-10-07",
+      "title": "Build and publish release-tag Linux, Windows and Android assets (#3)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/5323908faea950fbd46803f400192a45945df3e5"
+    },
+    {
+      "sha": "e97bd6423398fb1437afde6e03047080dd46f5a8",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T07:48:05.000Z",
+      "day": "2026-10-07",
+      "title": "Keep documentation update guidance concise",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e97bd6423398fb1437afde6e03047080dd46f5a8"
+    },
+    {
+      "sha": "dde1c5246a8f50fa051dc44779affa2c05401d24",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T07:47:49.000Z",
+      "day": "2026-10-07",
+      "title": "Clarify when development documentation needs updating",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/dde1c5246a8f50fa051dc44779affa2c05401d24"
+    },
+    {
+      "sha": "d1d38b75c686feedd915733fc538782dae4b682b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T07:47:14.000Z",
+      "day": "2026-10-07",
+      "title": "Remove CI cache implementation details from development guide",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/d1d38b75c686feedd915733fc538782dae4b682b"
+    },
+    {
+      "sha": "43c2017246f73d073935e8027f91307c8dadd538",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-07T07:47:04.000Z",
+      "day": "2026-10-07",
+      "title": "Cache Windows native dependencies in CI",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/43c2017246f73d073935e8027f91307c8dadd538"
+    },
+    {
+      "sha": "0c0c4e6971573740ccf9e0e6c62f60d867cff67e",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T13:23:36.000Z",
+      "day": "2026-10-06",
+      "title": "Fix Android host, Linux accessibility and iPad CI fixtures (#2)",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/0c0c4e6971573740ccf9e0e6c62f60d867cff67e"
+    },
+    {
+      "sha": "41641a6bcd8a3aea41583b3caee2e0af47f0c56d",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T12:49:26.000Z",
+      "day": "2026-10-06",
+      "title": "Merge pull request #1 from boyan01/feat/desktop-launch-at-login",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/41641a6bcd8a3aea41583b3caee2e0af47f0c56d"
+    },
+    {
+      "sha": "12be53cbaf24ef39a9c0ab636c39af7e3770e385",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T12:20:32.000Z",
+      "day": "2026-10-06",
+      "title": "feat(desktop): manage explicit launch-at-login registration",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/12be53cbaf24ef39a9c0ab636c39af7e3770e385"
+    },
+    {
+      "sha": "bff77de47cfc58bb5d3dc4a398b77fd43046bf79",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T10:31:19.000Z",
+      "day": "2026-10-06",
+      "title": "Improve Linux GPU video output and Flutter frame pacing",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/bff77de47cfc58bb5d3dc4a398b77fd43046bf79"
+    },
+    {
+      "sha": "54cd4655ec6b39357ee37fa38604e52dfe7d6f56",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T08:38:03.000Z",
+      "day": "2026-10-06",
+      "title": "docs: add AirPlay mirroring demo to READMEs",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/54cd4655ec6b39357ee37fa38604e52dfe7d6f56"
+    },
+    {
+      "sha": "bf396cd0e39fdb6616a48bfb9da4b90f43603d83",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T08:32:27.000Z",
+      "day": "2026-10-06",
+      "title": "Bind desktop window controls to runner handles and fix Windows native linking",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/bf396cd0e39fdb6616a48bfb9da4b90f43603d83"
+    },
+    {
+      "sha": "7fd46e7e26312b95beb30d5047bfaba11fc2eec3",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T07:45:35.000Z",
+      "day": "2026-10-06",
+      "title": "Fix Windows builds and add modern Inno Setup installer",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/7fd46e7e26312b95beb30d5047bfaba11fc2eec3"
+    },
+    {
+      "sha": "4bbde4749ee3323313ce763c04f2d0d9ff9bfe81",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T06:59:49.000Z",
+      "day": "2026-10-06",
+      "title": "Simplify playback stats overlay and follow control visibility",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/4bbde4749ee3323313ce763c04f2d0d9ff9bfe81"
+    },
+    {
+      "sha": "193b40463ebc95a5eb032a8be609f5e3e2af606b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T06:43:21.000Z",
+      "day": "2026-10-06",
+      "title": "Fix playback UI and TV navigation and unify desktop integration",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/193b40463ebc95a5eb032a8be609f5e3e2af606b"
+    },
+    {
+      "sha": "fc2522979dfbf495018d0691385380678c1df034",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T05:10:05.000Z",
+      "day": "2026-10-06",
+      "title": "Enable fast pairing by default",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/fc2522979dfbf495018d0691385380678c1df034"
+    },
+    {
+      "sha": "23360ab6fe4e948b005c2d1a9b686ec01c4d619b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T04:54:05.000Z",
+      "day": "2026-10-06",
+      "title": "Refactor receiver boundaries and unify JSON control",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/23360ab6fe4e948b005c2d1a9b686ec01c4d619b"
+    },
+    {
+      "sha": "5211c109c04356d5e25c4a8f6f214d9f58222b82",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-06T01:49:00.000Z",
+      "day": "2026-10-06",
+      "title": "Add fast pairing on all platforms and align video scheduling clocks",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/5211c109c04356d5e25c4a8f6f214d9f58222b82"
+    },
+    {
+      "sha": "7e06d9492591cd77c21a9a4e6434b7ab843138c6",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T15:06:57.000Z",
+      "day": "2026-10-05",
+      "title": "docs: update readme",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/7e06d9492591cd77c21a9a4e6434b7ab843138c6"
+    },
+    {
+      "sha": "de1874a53df0748ed545e3d783f7ff1307cb904c",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T15:03:43.000Z",
+      "day": "2026-10-05",
+      "title": "Unify native video scheduling and add playback diagnostics",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/de1874a53df0748ed545e3d783f7ff1307cb904c"
+    },
+    {
+      "sha": "0a6e86f530db417b11471eb116f902ec9eb910b9",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T13:34:42.000Z",
+      "day": "2026-10-05",
+      "title": "Improve Windows video playback with D3D11 decoding and shared textures",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/0a6e86f530db417b11471eb116f902ec9eb910b9"
+    },
+    {
+      "sha": "dcc77aec8dae7f7af67cad740d7d4b49289c4e81",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T11:15:01.000Z",
+      "day": "2026-10-05",
+      "title": "Fix CI native regressions and Windows build preparation",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/dcc77aec8dae7f7af67cad740d7d4b49289c4e81"
+    },
+    {
+      "sha": "1c938625aea2e98e83fc92f3e95cbac2fff797b4",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T10:21:14.000Z",
+      "day": "2026-10-05",
+      "title": "feat: support mirroring resolution settings on all platforms",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/1c938625aea2e98e83fc92f3e95cbac2fff797b4"
+    },
+    {
+      "sha": "885b4afb2d91d74af458f973a79b722222a86ff7",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T10:20:52.000Z",
+      "day": "2026-10-05",
+      "title": "Improve Windows and Linux system fonts",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/885b4afb2d91d74af458f973a79b722222a86ff7"
+    },
+    {
+      "sha": "1c44d7d7bf74656df8112e83869b355580041e38",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T09:57:12.000Z",
+      "day": "2026-10-05",
+      "title": "Fix CI toolchain environments and tray fixture synchronization",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/1c44d7d7bf74656df8112e83869b355580041e38"
+    },
+    {
+      "sha": "176f77e3ad65bb35646266fbc656a77a6a71e582",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T09:42:43.000Z",
+      "day": "2026-10-05",
+      "title": "Build native players automatically from Flutter platform builds",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/176f77e3ad65bb35646266fbc656a77a6a71e582"
+    },
+    {
+      "sha": "6d15d88d9ecaa01aa39c4a9d8bf98e0cb03ebc50",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T09:10:40.000Z",
+      "day": "2026-10-05",
+      "title": "Improve receiver settings application and name reset controls",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/6d15d88d9ecaa01aa39c4a9d8bf98e0cb03ebc50"
+    },
+    {
+      "sha": "ea0befe10b0b9e9729c6b6fab95b90798da858a3",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T09:09:47.000Z",
+      "day": "2026-10-05",
+      "title": "Add cross-platform CI and unify Android NDK configuration",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/ea0befe10b0b9e9729c6b6fab95b90798da858a3"
+    },
+    {
+      "sha": "16c4fbfb23970bd79903c4ae541f367bf0929b2d",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T08:31:54.000Z",
+      "day": "2026-10-05",
+      "title": "Consolidate development guidance and native test workflows",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/16c4fbfb23970bd79903c4ae541f367bf0929b2d"
+    },
+    {
+      "sha": "9c142af56687d96cdd68ede3357a49c1a0e93431",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T06:28:01.000Z",
+      "day": "2026-10-05",
+      "title": "Improve settings autosave and cross-platform build information",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/9c142af56687d96cdd68ede3357a49c1a0e93431"
+    },
+    {
+      "sha": "712ca6db9ca196b27277a7937cfd004f44c4c2ec",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-05T00:35:50.000Z",
+      "day": "2026-10-05",
+      "title": "Fix desktop playback sizing and display resolution selection",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/712ca6db9ca196b27277a7937cfd004f44c4c2ec"
+    },
+    {
+      "sha": "897d1931551f8654413ca8c30597b32b40ad0968",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-04T23:39:06.000Z",
+      "day": "2026-10-05",
+      "title": "Unify platform app icons and clarify tray status colors",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/897d1931551f8654413ca8c30597b32b40ad0968"
+    },
+    {
+      "sha": "34a0fb9fe89ddcae041fb64c156d060e1559ccd1",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-04T23:28:17.000Z",
+      "day": "2026-10-05",
+      "title": "Add cross-platform HEVC playback and improve macOS mirroring",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/34a0fb9fe89ddcae041fb64c156d060e1559ccd1"
+    },
+    {
+      "sha": "7fee360cf9d095f1a50ee0529733d3700cacab29",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-04T16:40:19.000Z",
+      "day": "2026-10-05",
+      "title": "Release Intelli Git 0.0.11",
+      "url": "https://github.com/boyan01/intelli-git/commit/7fee360cf9d095f1a50ee0529733d3700cacab29"
+    },
+    {
+      "sha": "5c76e739b339bbae7dfe56acc31ff329cdb4b7a3",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-04T14:18:28.000Z",
+      "day": "2026-10-04",
+      "title": "Improve Android playback and receiver diagnostics",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/5c76e739b339bbae7dfe56acc31ff329cdb4b7a3"
+    },
+    {
+      "sha": "f2c5f897bf8e63a510c723a50764a50eaf671e89",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-04T10:44:21.000Z",
+      "day": "2026-10-04",
+      "title": "Add Android video quality settings and fix frame presentation ordering",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/f2c5f897bf8e63a510c723a50764a50eaf671e89"
+    },
+    {
+      "sha": "a7d1bf13d1e953ea2d26b10eaf6e437aad0e618a",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-04T10:25:34.000Z",
+      "day": "2026-10-04",
+      "title": "Use device names by default and add random receiver naming",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/a7d1bf13d1e953ea2d26b10eaf6e437aad0e618a"
+    },
+    {
+      "sha": "138c66d16dfc5839d2bb35a74456df52862931e0",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-04T10:25:34.000Z",
+      "day": "2026-10-04",
+      "title": "Add Linux window integration and tray support",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/138c66d16dfc5839d2bb35a74456df52862931e0"
+    },
+    {
+      "sha": "52bb32b81f47bb3e98df136d6f2efb46483ab0c0",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-04T09:56:48.000Z",
+      "day": "2026-10-04",
+      "title": "Fix Android video frame presentation timing",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/52bb32b81f47bb3e98df136d6f2efb46483ab0c0"
+    },
+    {
+      "sha": "4960e96d41ca0ff5934abd51d3ed1e26f6abaa48",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-04T09:01:12.000Z",
+      "day": "2026-10-04",
+      "title": "Complete desktop audio integration and iPad lifecycle fixes",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/4960e96d41ca0ff5934abd51d3ed1e26f6abaa48"
+    },
+    {
+      "sha": "6accc0cd05c6b0ce06a4a2a70250fb75c6d9c46c",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T17:29:55.000Z",
+      "day": "2026-10-04",
+      "title": "Complete shared Linux platform integration",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/6accc0cd05c6b0ce06a4a2a70250fb75c6d9c46c"
+    },
+    {
+      "sha": "1720ebf34861148c6207ee1d106a28030bf59ed5",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T17:23:10.000Z",
+      "day": "2026-10-04",
+      "title": "Add Windows and foreground iPad receiver hosts",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/1720ebf34861148c6207ee1d106a28030bf59ed5"
+    },
+    {
+      "sha": "4790029714feffd28092216ec25ce7a7bf6813f6",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T16:22:41.000Z",
+      "day": "2026-10-04",
+      "title": "Fix Android receiver restart after renaming",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/4790029714feffd28092216ec25ce7a7bf6813f6"
+    },
+    {
+      "sha": "a15ff42563d55a921a2cafe585912bc9a5796bac",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T15:51:05.000Z",
+      "day": "2026-10-03",
+      "title": "Replace FFmpeg audio decoding with platform codecs",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/a15ff42563d55a921a2cafe585912bc9a5796bac"
+    },
+    {
+      "sha": "7bdf325770f87d71e9e309f74b04c4951cbc5c99",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T15:06:17.000Z",
+      "day": "2026-10-03",
+      "title": "Keep Android AirPlay reception running in a foreground service",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/7bdf325770f87d71e9e309f74b04c4951cbc5c99"
+    },
+    {
+      "sha": "a44b15c4c5e591186a37b0dfc4bb826305dec07f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T14:27:37.000Z",
+      "day": "2026-10-03",
+      "title": "Unify C++ playback and fix media pause recovery",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/a44b15c4c5e591186a37b0dfc4bb826305dec07f"
+    },
+    {
+      "sha": "97989e083ad7519d6e8391c51f263128ba7990fa",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T12:40:49.000Z",
+      "day": "2026-10-03",
+      "title": "Add file logging and fix macOS receiver handoff",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/97989e083ad7519d6e8391c51f263128ba7990fa"
+    },
+    {
+      "sha": "13f9a99596fa62f352023ba2d2599879c4b32b92",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T11:59:44.000Z",
+      "day": "2026-10-03",
+      "title": "Fix audio continuity and Android video resizing",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/13f9a99596fa62f352023ba2d2599879c4b32b92"
+    },
+    {
+      "sha": "be296cb4779ef04eac8b7ed3ce818e4880b7f1fc",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T11:18:08.000Z",
+      "day": "2026-10-03",
+      "title": "Keep README focused on product documentation",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/be296cb4779ef04eac8b7ed3ce818e4880b7f1fc"
+    },
+    {
+      "sha": "57e4ccae37f1c343f182880d002a9f37d77bb266",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T11:06:35.000Z",
+      "day": "2026-10-03",
+      "title": "Redesign receiver UI and refine platform lifecycle",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/57e4ccae37f1c343f182880d002a9f37d77bb266"
+    },
+    {
+      "sha": "b70f71d5fa94a99fa481a9182bdf2a103fd5018b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T09:01:37.000Z",
+      "day": "2026-10-03",
+      "title": "docs: rewrite project guides and remove validation log",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/b70f71d5fa94a99fa481a9182bdf2a103fd5018b"
+    },
+    {
+      "sha": "df96fca59759853e5884e66c5e5235f8f405ace4",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T08:35:43.000Z",
+      "day": "2026-10-03",
+      "title": "Consolidate native sources and remove unused prototype code",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/df96fca59759853e5884e66c5e5235f8f405ace4"
+    },
+    {
+      "sha": "6d196b67bac0c5f1344987e955dcd85d5efa313b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T07:39:30.000Z",
+      "day": "2026-10-03",
+      "title": "Complete shared root UI build and device acceptance",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/6d196b67bac0c5f1344987e955dcd85d5efa313b"
+    },
+    {
+      "sha": "9cc64d1e118e79cd8e40eb11d238a4510a180134",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T07:20:19.000Z",
+      "day": "2026-10-03",
+      "title": "Merge commit 'e8d1e99099210133c9f04746d7eb26f5250ec32f'",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/9cc64d1e118e79cd8e40eb11d238a4510a180134"
+    },
+    {
+      "sha": "1fd877f28e5093bbd638cfd44304a35d530417e9",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T07:17:15.000Z",
+      "day": "2026-10-03",
+      "title": "Record shared UI checkpoint validation and remaining acceptance",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/1fd877f28e5093bbd638cfd44304a35d530417e9"
+    },
+    {
+      "sha": "329639f1d14f65bf226a24c66dd4e9e71ed9003d",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T07:16:33.000Z",
+      "day": "2026-10-03",
+      "title": "Share receiver UI across macOS Android and TV",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/329639f1d14f65bf226a24c66dd4e9e71ed9003d"
+    },
+    {
+      "sha": "e8d1e99099210133c9f04746d7eb26f5250ec32f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T07:16:31.000Z",
+      "day": "2026-10-03",
+      "title": "Add root Android native host and shared receiver bridge",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e8d1e99099210133c9f04746d7eb26f5250ec32f"
+    },
+    {
+      "sha": "ac2f6ec02cca1caaea025fa340e9d54c646b1224",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T06:51:46.000Z",
+      "day": "2026-10-03",
+      "title": "Document Android main integration and completed regression scope",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/ac2f6ec02cca1caaea025fa340e9d54c646b1224"
+    },
+    {
+      "sha": "e1652886b3473031c6caa8a2f9fb6e567ef2710b",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T06:22:45.000Z",
+      "day": "2026-10-03",
+      "title": "Record user-confirmed iPhone mirroring and audio on Android",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e1652886b3473031c6caa8a2f9fb6e567ef2710b"
+    },
+    {
+      "sha": "62e18ade82a64235dc726dc3cb6d8349f96d8b2e",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T06:20:40.000Z",
+      "day": "2026-10-03",
+      "title": "Advertise Android screen mirroring with the correct AirPlay feature bit",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/62e18ade82a64235dc726dc3cb6d8349f96d8b2e"
+    },
+    {
+      "sha": "4c0d665a9f5f35081853b267eed55734a92ee780",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T06:20:40.000Z",
+      "day": "2026-10-03",
+      "title": "Merge commit 'ff019a9d5f66aec45c24d259c4916fd4f5783d4e' into android/foundation",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/4c0d665a9f5f35081853b267eed55734a92ee780"
+    },
+    {
+      "sha": "865845b040fd11d97afa7d5e88b1ef1b54cc3653",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T06:17:18.000Z",
+      "day": "2026-10-03",
+      "title": "Add playable Flutter Android AirPlay receiver and installable host",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/865845b040fd11d97afa7d5e88b1ef1b54cc3653"
+    },
+    {
+      "sha": "ff019a9d5f66aec45c24d259c4916fd4f5783d4e",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T06:16:41.000Z",
+      "day": "2026-10-03",
+      "title": "Embed macOS AirPlay video with bounded Flutter texture transport",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/ff019a9d5f66aec45c24d259c4916fd4f5783d4e"
+    },
+    {
+      "sha": "51c9cc8c177d851dd22d0b0e0605bab60a91672a",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T05:55:57.000Z",
+      "day": "2026-10-03",
+      "title": "Add isolated Android UxPlay receiver foundation and device validation",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/51c9cc8c177d851dd22d0b0e0605bab60a91672a"
+    },
+    {
+      "sha": "e6819bbd6f6cad0dec2c0a6337944cbc3fe90a42",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T05:08:27.000Z",
+      "day": "2026-10-03",
+      "title": "Create Flutter AirPlay macOS receiver baseline",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e6819bbd6f6cad0dec2c0a6337944cbc3fe90a42"
+    },
+    {
+      "sha": "aea19d5227d6b18f946ff252b3d9dbdff59234d5",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-01T05:05:46.000Z",
+      "day": "2026-10-01",
+      "title": "Create the VSIX output directory before production packaging",
+      "url": "https://github.com/boyan01/intelli-git/commit/aea19d5227d6b18f946ff252b3d9dbdff59234d5"
+    },
+    {
+      "sha": "0086d9f8685cf6a21065a844e3b0e996eec76eaa",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-01T05:01:55.000Z",
+      "day": "2026-10-01",
+      "title": "Add CI quality checks and standardize repository formatting",
+      "url": "https://github.com/boyan01/intelli-git/commit/0086d9f8685cf6a21065a844e3b0e996eec76eaa"
+    },
+    {
+      "sha": "b1c498cd1ecf0252e8ef3fb0dbe1ad40b76af3dc",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-01T04:04:02.000Z",
+      "day": "2026-10-01",
+      "title": "Move tagged extension publishing to GitHub Actions",
+      "url": "https://github.com/boyan01/intelli-git/commit/b1c498cd1ecf0252e8ef3fb0dbe1ad40b76af3dc"
+    },
+    {
+      "sha": "da9c9aed05628104e07dd5da5eb2d6ed9cfada98",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-30T11:36:21.000Z",
+      "day": "2026-09-30",
+      "title": "Release Intelli Git 0.0.10",
+      "url": "https://github.com/boyan01/intelli-git/commit/da9c9aed05628104e07dd5da5eb2d6ed9cfada98"
+    },
+    {
+      "sha": "bfd286cab7bba307b300e968218127c2b4577293",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-30T11:33:01.000Z",
+      "day": "2026-09-30",
+      "title": "Share project documentation with extension packaging",
+      "url": "https://github.com/boyan01/intelli-git/commit/bfd286cab7bba307b300e968218127c2b4577293"
+    },
+    {
+      "sha": "c64d23a5ca2e994a2c59b9ce6b0bc4659dd5dd27",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-30T10:57:14.000Z",
+      "day": "2026-09-30",
+      "title": "Remove release process details from the project README",
+      "url": "https://github.com/boyan01/intelli-git/commit/c64d23a5ca2e994a2c59b9ce6b0bc4659dd5dd27"
+    },
+    {
+      "sha": "364030321914891fcf60a83857dc32fbc8bf5b47",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-30T10:56:01.000Z",
+      "day": "2026-09-30",
+      "title": "Clarify Intelli Git setup and daily workflows",
+      "url": "https://github.com/boyan01/intelli-git/commit/364030321914891fcf60a83857dc32fbc8bf5b47"
+    },
+    {
+      "sha": "4b726d6734eeaae78f0ef1024d6ae7111bd8cb47",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-30T10:53:14.000Z",
+      "day": "2026-09-30",
+      "title": "Use the GitHub GPL template and simplify license documentation",
+      "url": "https://github.com/boyan01/intelli-git/commit/4b726d6734eeaae78f0ef1024d6ae7111bd8cb47"
+    },
+    {
+      "sha": "a2ee3bce8b12e1980eca01801709fed593429ca1",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-30T10:49:44.000Z",
+      "day": "2026-09-30",
+      "title": "Open source Intelli Git under GPL-3.0-or-later",
+      "url": "https://github.com/boyan01/intelli-git/commit/a2ee3bce8b12e1980eca01801709fed593429ca1"
+    },
+    {
+      "sha": "93df811a2971a642bdc442c81082d132db3d44ae",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-28T04:11:15.000Z",
+      "day": "2026-09-28",
+      "title": "Load untracked file hunks only for editor operations",
+      "url": "https://github.com/boyan01/intelli-git/commit/93df811a2971a642bdc442c81082d132db3d44ae"
+    },
+    {
+      "sha": "3c524a4f0baa9101c043814e07654f3811e8d84e",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-28T03:37:42.000Z",
+      "day": "2026-09-28",
+      "title": "Release Intelli Git 0.0.9",
+      "url": "https://github.com/boyan01/intelli-git/commit/3c524a4f0baa9101c043814e07654f3811e8d84e"
+    },
+    {
+      "sha": "fcb71426d3d6b9a579dee57d2a854ed9484b75bf",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-28T03:34:32.000Z",
+      "day": "2026-09-28",
+      "title": "Improve Git Log lane layout and folded-edge arrows",
+      "url": "https://github.com/boyan01/intelli-git/commit/fcb71426d3d6b9a579dee57d2a854ed9484b75bf"
+    },
+    {
+      "sha": "3920089d033f88d3df1d035343dd48264fb38e91",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-27T08:45:17.000Z",
+      "day": "2026-09-27",
+      "title": "Normalize scoped repository paths for Windows",
+      "url": "https://github.com/boyan01/intelli-git/commit/3920089d033f88d3df1d035343dd48264fb38e91"
+    },
+    {
+      "sha": "62355c46d7684c2152015a81766cfead6de14e8a",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-09-24T06:16:11.000Z",
+      "day": "2026-09-24",
+      "title": "Fix AppImage builder package version parsing (#2060)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/62355c46d7684c2152015a81766cfead6de14e8a"
+    },
+    {
+      "sha": "fd2c0df403d76b6ff435ef1a8dd3b7a4dfe828a9",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-09-22T09:26:55.000Z",
+      "day": "2026-09-22",
+      "title": "Add experimental Flutter web and Rust WASM runtime support",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/fd2c0df403d76b6ff435ef1a8dd3b7a4dfe828a9"
+    },
+    {
+      "sha": "cdad4db42a443f8ba2b0d6638198623287dba744",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-09-14T04:45:09.000Z",
+      "day": "2026-09-14",
+      "title": "Decouple message processing from user profile refresh",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/cdad4db42a443f8ba2b0d6638198623287dba744"
+    },
+    {
+      "sha": "a211468d5d3e6e8eb501e9e4f1d57ed0b881ed5f",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-09-14T04:16:57.000Z",
+      "day": "2026-09-14",
+      "title": "Optimize MCP message search and isolate slow queries",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/a211468d5d3e6e8eb501e9e4f1d57ed0b881ed5f"
+    },
+    {
+      "sha": "64bf3ed316e40f1cccfe8cac817b41426c249088",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-09-12T06:19:03.000Z",
+      "day": "2026-09-12",
+      "title": "Align Flutter toolchain configuration and ignore Finder metadata",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/64bf3ed316e40f1cccfe8cac817b41426c249088"
+    },
+    {
+      "sha": "fbb8275ef880613d5236468123059fe64b6b8c36",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-09-12T06:17:59.000Z",
+      "day": "2026-09-12",
+      "title": "Sync schema v29 and settings UI fixes from Flutter",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/fbb8275ef880613d5236468123059fe64b6b8c36"
+    },
+    {
+      "sha": "bf86ee91aea003bc13b487986a89c1e3df2fe92f",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-09-12T05:56:19.000Z",
+      "day": "2026-09-12",
+      "title": "Separate macOS debug and release bundle identifiers",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/bf86ee91aea003bc13b487986a89c1e3df2fe92f"
+    },
+    {
+      "sha": "84d2e47ed4aa9073223d08cb83c22710404c490a",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-09-12T05:38:21.000Z",
+      "day": "2026-09-12",
+      "title": "Simplify bridge generation and share message models",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/84d2e47ed4aa9073223d08cb83c22710404c490a"
+    },
+    {
+      "sha": "5f44c3405c9094bca7b0b6bf5551aee73f49d27c",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-09-12T05:13:00.000Z",
+      "day": "2026-09-12",
+      "title": "Generate Swift bridge adapters from the public Rust API",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/5f44c3405c9094bca7b0b6bf5551aee73f49d27c"
+    },
+    {
+      "sha": "400b2e32158ec9783f18582405b3100a44d687d5",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-09-10T05:51:11.000Z",
+      "day": "2026-09-10",
+      "title": "feat: add Codex CLI AI provider with model discovery and configurable reasoning effort",
+      "url": "https://github.com/boyan01/intelli-git/commit/400b2e32158ec9783f18582405b3100a44d687d5"
+    },
+    {
+      "sha": "f94046b2b40d6b6a2122588c2b0b5ce58188a6f6",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-09-07T02:33:59.000Z",
+      "day": "2026-09-07",
+      "title": "Add read-only HTTP MCP sidecar with global message search",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/f94046b2b40d6b6a2122588c2b0b5ce58188a6f6"
+    },
+    {
+      "sha": "38dfe33c85da6a5b155e2fe39d9c29f9a432bf06",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-09-01T13:42:55.000Z",
+      "day": "2026-09-01",
+      "title": "Clarify package release workflow",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/38dfe33c85da6a5b155e2fe39d9c29f9a432bf06"
+    },
+    {
+      "sha": "eaf0859273eb944f6538114864867974024435e1",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-09-01T13:35:02.000Z",
+      "day": "2026-09-01",
+      "title": "desktop_drop: prepare 0.8.4 release",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/eaf0859273eb944f6538114864867974024435e1"
+    },
+    {
+      "sha": "c9b4fab5b1a2ece9a70090d5f9af703c46ce6e6e",
+      "repo": "juho05/desktop_drop",
+      "date": "2026-08-31T01:51:19.000Z",
+      "day": "2026-08-31",
+      "title": "chore(release): prepare desktop_drop 0.8.3",
+      "url": "https://github.com/juho05/desktop_drop/commit/c9b4fab5b1a2ece9a70090d5f9af703c46ce6e6e"
+    },
+    {
+      "sha": "1c857823e9ce029ea9b7b62e055335cdc39d94ae",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-31T01:51:19.000Z",
+      "day": "2026-08-31",
+      "title": "chore(release): prepare desktop_drop 0.8.3",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/1c857823e9ce029ea9b7b62e055335cdc39d94ae"
+    },
+    {
+      "sha": "989795e8488efafcd2f01bccbcb67a92846ecde4",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-26T06:39:21.000Z",
+      "day": "2026-08-26",
+      "title": "ci: enable publishing for desktop_keep_screen_on and fts5_simple",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/989795e8488efafcd2f01bccbcb67a92846ecde4"
+    },
+    {
+      "sha": "0c9aa50455106503cacfdb54ef1acfd217af2614",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-26T06:30:01.000Z",
+      "day": "2026-08-26",
+      "title": "chore(release): prepare desktop_multi_window 0.3.1",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/0c9aa50455106503cacfdb54ef1acfd217af2614"
+    },
+    {
+      "sha": "7b280bb022068d7464d118ab602f1ed9929f195a",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-26T06:28:17.000Z",
+      "day": "2026-08-26",
+      "title": "chore(release): prepare ogg_opus_player 0.8.1",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/7b280bb022068d7464d118ab602f1ed9929f195a"
+    },
+    {
+      "sha": "86ab64fb542aea8e27eb13458c851abbdd34cc1f",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-26T06:26:43.000Z",
+      "day": "2026-08-26",
+      "title": "chore(release): prepare fts5_simple 0.0.2",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/86ab64fb542aea8e27eb13458c851abbdd34cc1f"
+    },
+    {
+      "sha": "8f311aa1de73e72ac96f28ba618bb88e27a20511",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-26T06:22:30.000Z",
+      "day": "2026-08-26",
+      "title": "chore(release): prepare desktop_lifecycle 0.1.2",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/8f311aa1de73e72ac96f28ba618bb88e27a20511"
+    },
+    {
+      "sha": "acbc248b34b99cc05289b5235925c8566e9fcf80",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-26T06:19:50.000Z",
+      "day": "2026-08-26",
+      "title": "chore(release): prepare desktop_keep_screen_on 0.0.4",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/acbc248b34b99cc05289b5235925c8566e9fcf80"
+    },
+    {
+      "sha": "1e54e32a35893bfd3e07f8c7a2788b641f833202",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-26T06:15:35.000Z",
+      "day": "2026-08-26",
+      "title": "Add Swift Package Manager support to remaining Apple plugins (#496)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/1e54e32a35893bfd3e07f8c7a2788b641f833202"
+    },
+    {
+      "sha": "82f9df388f20b18660aff9f1dea3b71aea07cf3b",
+      "repo": "juho05/desktop_drop",
+      "date": "2026-08-26T05:17:40.000Z",
+      "day": "2026-08-26",
+      "title": "chore(release): prepare desktop_drop 0.8.2",
+      "url": "https://github.com/juho05/desktop_drop/commit/82f9df388f20b18660aff9f1dea3b71aea07cf3b"
+    },
+    {
+      "sha": "01084c031ac020826eb3573896cd23d77fa45520",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-26T05:17:40.000Z",
+      "day": "2026-08-26",
+      "title": "chore(release): prepare desktop_drop 0.8.2",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/01084c031ac020826eb3573896cd23d77fa45520"
+    },
+    {
+      "sha": "b255d497548029f0d6e39a1c17b0d6707091a9b2",
+      "repo": "juho05/desktop_drop",
+      "date": "2026-08-25T13:26:22.000Z",
+      "day": "2026-08-25",
+      "title": "chore(release): prepare desktop_drop 0.8.1",
+      "url": "https://github.com/juho05/desktop_drop/commit/b255d497548029f0d6e39a1c17b0d6707091a9b2"
+    },
+    {
+      "sha": "1948abf56d9b26a105ec1ab2db1b588dc3c41dbd",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-25T13:26:22.000Z",
+      "day": "2026-08-25",
+      "title": "chore(release): prepare desktop_drop 0.8.1",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/1948abf56d9b26a105ec1ab2db1b588dc3c41dbd"
+    },
+    {
+      "sha": "a991c5c93e57c580f133a92d58b51f3889405f84",
+      "repo": "juho05/desktop_drop",
+      "date": "2026-08-25T02:51:30.000Z",
+      "day": "2026-08-25",
+      "title": "desktop_drop: format Linux channel tests",
+      "url": "https://github.com/juho05/desktop_drop/commit/a991c5c93e57c580f133a92d58b51f3889405f84"
+    },
+    {
+      "sha": "12aee3eb1fb0d1aae9693c6286e2b541e5c6b1f4",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-25T02:51:30.000Z",
+      "day": "2026-08-25",
+      "title": "desktop_drop: format Linux channel tests",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/12aee3eb1fb0d1aae9693c6286e2b541e5c6b1f4"
+    },
+    {
+      "sha": "89fb1a73c5f0c125665e101ee6eb1a444e15da11",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-08-20T10:27:54.000Z",
+      "day": "2026-08-20",
+      "title": "fix: polish settings UI (#2034)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/89fb1a73c5f0c125665e101ee6eb1a444e15da11"
+    },
+    {
+      "sha": "ec7f83b63be5f1d449208461475afa62d50d9799",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-20T08:40:03.000Z",
+      "day": "2026-08-20",
+      "title": "desktop_drop: migrate Android to built-in Kotlin (#491)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/ec7f83b63be5f1d449208461475afa62d50d9799"
+    },
+    {
+      "sha": "06b1e62fc558dca7866170d1931e3aa6028ecf93",
+      "repo": "juho05/desktop_drop",
+      "date": "2026-08-20T08:40:03.000Z",
+      "day": "2026-08-20",
+      "title": "desktop_drop: migrate Android to built-in Kotlin (#491)",
+      "url": "https://github.com/juho05/desktop_drop/commit/06b1e62fc558dca7866170d1931e3aa6028ecf93"
+    },
+    {
+      "sha": "6876572d9008d8287c2bfdfdfbe090c188b95baa",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-08-19T07:34:44.000Z",
+      "day": "2026-08-19",
+      "title": "typescript ui",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/6876572d9008d8287c2bfdfdfbe090c188b95baa"
+    },
+    {
+      "sha": "63acf35682ea4e0c39d300f3a3902659a017254c",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-08-10T13:50:25.000Z",
+      "day": "2026-08-10",
+      "title": "Fix sidebar background colors",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/63acf35682ea4e0c39d300f3a3902659a017254c"
+    },
+    {
+      "sha": "3be23414761fb5082700cb5f65e9f3a8264a7e99",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-08-10T13:45:52.000Z",
+      "day": "2026-08-10",
+      "title": "Fix quoted message jump direction",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/3be23414761fb5082700cb5f65e9f3a8264a7e99"
+    },
+    {
+      "sha": "68ffcc3bb08f3d4787480ed45d577b032e4ff248",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-08-09T14:38:00.000Z",
+      "day": "2026-08-09",
+      "title": "Fix sticker tab controller lifecycle",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/68ffcc3bb08f3d4787480ed45d577b032e4ff248"
+    },
+    {
+      "sha": "ad7ade1f217d051c8cfe73855156cca3702629b9",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-08-09T14:06:07.000Z",
+      "day": "2026-08-09",
+      "title": "Cache network images on disk",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/ad7ade1f217d051c8cfe73855156cca3702629b9"
+    },
+    {
+      "sha": "3c0b69f1fabb5fb93c40b22a558638080972bae3",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-08-09T13:14:46.000Z",
+      "day": "2026-08-09",
+      "title": "Refactor Flutter chat view components",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/3c0b69f1fabb5fb93c40b22a558638080972bae3"
+    },
+    {
+      "sha": "284a1533a79932e1a2a5297d2584dcf4ad4a9a80",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-07-31T14:14:27.000Z",
+      "day": "2026-07-31",
+      "title": "Release Intelli Git 0.0.8",
+      "url": "https://github.com/boyan01/intelli-git/commit/284a1533a79932e1a2a5297d2584dcf4ad4a9a80"
+    },
+    {
+      "sha": "d33d87bdae15faba94d9b2b9f5701def7da7e2e7",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-07-31T14:11:06.000Z",
+      "day": "2026-07-31",
+      "title": "Extend Early Access builds to six months",
+      "url": "https://github.com/boyan01/intelli-git/commit/d33d87bdae15faba94d9b2b9f5701def7da7e2e7"
+    },
+    {
+      "sha": "ba61c55c19d75dc2a81f748365bbf17ded17bb0b",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-07-31T14:08:50.000Z",
+      "day": "2026-07-31",
+      "title": "Disable the experimental merge editor by default",
+      "url": "https://github.com/boyan01/intelli-git/commit/ba61c55c19d75dc2a81f748365bbf17ded17bb0b"
+    },
+    {
+      "sha": "9546e8f09e93c48235207e08a22936a1d7fc0902",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-07-31T13:53:37.000Z",
+      "day": "2026-07-31",
+      "title": "Fix Chinese input in Linux AppImage (#2014)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/9546e8f09e93c48235207e08a22936a1d7fc0902"
+    },
+    {
+      "sha": "2100535724bb914adba9b486dca74b6814f8e7b9",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-30T03:14:22.000Z",
+      "day": "2026-07-30",
+      "title": "improve",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/2100535724bb914adba9b486dca74b6814f8e7b9"
+    },
+    {
+      "sha": "00d90511d79b39c7aa474276cd5980c05d2d14cd",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-29T01:16:28.000Z",
+      "day": "2026-07-29",
+      "title": "Refactor conversation list state ownership",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/00d90511d79b39c7aa474276cd5980c05d2d14cd"
+    },
+    {
+      "sha": "7ae4803edd1696238447e141b08836fa567da9e2",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-28T03:07:18.000Z",
+      "day": "2026-07-28",
+      "title": "Update message recall policy",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/7ae4803edd1696238447e141b08836fa567da9e2"
+    },
+    {
+      "sha": "0309383c183bb5cd00102aeba13deba16b79e506",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-27T06:25:16.000Z",
+      "day": "2026-07-27",
+      "title": "Fix transcript image loading after download",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/0309383c183bb5cd00102aeba13deba16b79e506"
+    },
+    {
+      "sha": "22f5966c00d60436e896a82a2bfc4f499fd577da",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-27T06:00:04.000Z",
+      "day": "2026-07-27",
+      "title": "Improve chat timeline navigation and rendering",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/22f5966c00d60436e896a82a2bfc4f499fd577da"
+    },
+    {
+      "sha": "6b40509ef4e129cbf5b2d91dc8547d56ec8df8e1",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-26T14:05:08.000Z",
+      "day": "2026-07-26",
+      "title": "Swift ui",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/6b40509ef4e129cbf5b2d91dc8547d56ec8df8e1"
+    },
+    {
+      "sha": "6c583e7277bbc32044ba4cdea3934de27e226749",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-26T07:54:38.000Z",
+      "day": "2026-07-26",
+      "title": "update agents.md",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/6c583e7277bbc32044ba4cdea3934de27e226749"
+    },
+    {
+      "sha": "375bfcc2841469b3e53ce5199a9e1f9f532fe93d",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-26T07:39:15.000Z",
+      "day": "2026-07-26",
+      "title": "fix: restore cached account when health probe fails",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/375bfcc2841469b3e53ce5199a9e1f9f532fe93d"
+    },
+    {
+      "sha": "d1fc97f5b4d4e0b24fb64004a635b0f35d0c5a15",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-26T07:30:52.000Z",
+      "day": "2026-07-26",
+      "title": "chore: remove obsolete Flutter porting skill",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/d1fc97f5b4d4e0b24fb64004a635b0f35d0c5a15"
+    },
+    {
+      "sha": "4c1e277d2d5df61e971491ccaf1c0bda745f86bd",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-26T07:29:45.000Z",
+      "day": "2026-07-26",
+      "title": "refactor: split Flutter and Swift bridges",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/4c1e277d2d5df61e971491ccaf1c0bda745f86bd"
+    },
+    {
+      "sha": "44a0743801fb703d2b4bb5197fd9530b0b1cc368",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-25T11:06:37.000Z",
+      "day": "2026-07-25",
+      "title": "Inline account access from conversation list controller",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/44a0743801fb703d2b4bb5197fd9530b0b1cc368"
+    },
+    {
+      "sha": "76e8b8c487e8a3e4059551138de6bbf6330fba91",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-25T07:40:26.000Z",
+      "day": "2026-07-25",
+      "title": "Subscribe to circle changes from Flutter",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/76e8b8c487e8a3e4059551138de6bbf6330fba91"
+    },
+    {
+      "sha": "265f57921377f1738a3566b517c9c3ea83b8d49f",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-25T02:42:44.000Z",
+      "day": "2026-07-25",
+      "title": "Show avatar placeholders while loading",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/265f57921377f1738a3566b517c9c3ea83b8d49f"
+    },
+    {
+      "sha": "d2600c1ecd916af953a460639df73b25e8513f6d",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-25T02:40:10.000Z",
+      "day": "2026-07-25",
+      "title": "Support Lottie sticker group icons",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/d2600c1ecd916af953a460639df73b25e8513f6d"
+    },
+    {
+      "sha": "883d64953ac3a9d257291d5c12118230d9cbd51e",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-07-25T02:16:53.000Z",
+      "day": "2026-07-25",
+      "title": "Refactor Settings",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/883d64953ac3a9d257291d5c12118230d9cbd51e"
+    }
+  ]
+}

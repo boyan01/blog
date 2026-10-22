@@ -1,0 +1,11 @@
+---
+layout: default
+title: 旧文
+permalink: /archive/
+archive: true
+---
+<main id="main" class="archive-page wrap">
+  <p class="eyebrow">FROM THE ARCHIVE</p><h1>以前写下的。</h1><p class="archive-intro">记录当时的探索，也保留一路走来的痕迹。</p>
+  <div class="archive-links">{% for post in site.posts %}<a href="{{ post.url | relative_url }}"><span class="mono">{{ post.date | date: '%Y.%m.%d' }}</span><span>{{ post.title }}</span><span aria-hidden="true">↗</span></a>{% endfor %}</div>
+  <a href="{{ '/' | relative_url }}" class="back-link">← 回到星图</a>
+</main>

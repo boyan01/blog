@@ -1,33 +1,30 @@
-{% include header.html %}
-
-{% if site.layout == 'stacked' %}
-  <div class="container-lg py-6 p-responsive text-center">
-    {% include masthead.html metadata=false %}
-
-    <div class="container-md f4 text-left border rounded-2 bg-white p-3 p-sm-5 mt-6">
-      <p class="f5"><a href="/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
-      <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
-      {{ content }}
-    </div>
-  </div>
-{% else %}
-  <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
-    <div class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right border-gray-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
-      {% include masthead.html metadata=true %}
-    </div>
-
-    <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
-      <div class="mx-auto" style="max-width: 900px;">
-        <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
-          <div class="f4 {% if site.style == 'dark' %}text-white{% endif %}">
-            <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
-            <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
-            {{ content }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-{% endif %}
-
-{% include footer.html %}
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}BIN</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:image" content="{{ '/assets/images/night-lake-storybook.png' | absolute_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% if page.home %}<link rel="preload" as="image" href="{{ '/assets/images/night-lake-storybook.png' | relative_url }}">{% endif %}
+</head>
+<body class="{% if page.home %}home{% else %}interior{% endif %}">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="BIN 首页">BIN</a>
+    <nav aria-label="主导航">
+      <a href="{{ '/' | relative_url }}#footprints">足迹</a>
+      <a href="{{ '/archive/' | relative_url }}" {% if page.archive %}aria-current="page"{% endif %}>旧文</a>
+      <a href="https://github.com/boyan01" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  {{ content }}
+  <footer class="site-footer wrap"><a href="{{ '/' | relative_url }}">BIN</a><span>一点代码，一点星光。</span><a href="https://github.com/boyan01/blog" target="_blank" rel="noopener noreferrer">View source ↗</a></footer>
+</body>
+</html>

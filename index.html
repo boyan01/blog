@@ -1,3 +1,49 @@
 ---
-layout: home
+layout: default
+home: true
 ---
+<main id="main">
+  <section class="hero" aria-label="代码星图">
+    <div class="landscape" aria-hidden="true"></div>
+    <div class="ambient-stars" aria-hidden="true"></div>
+    <div class="hero-copy wrap">
+      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A SMALL CORNER OF THE INTERNET</p>
+      <h1>随缘<span>写代码。</span></h1>
+      <p class="intro">把日子写进代码，<br>让留下的足迹，慢慢连成星光。</p>
+      <a class="explore-link" href="#sky" id="explore">探索星图 <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="sky" id="sky" tabindex="-1" aria-label="公开提交星图">
+      <div class="sky-art">
+      <svg class="constellations" viewBox="0 0 640 350" preserveAspectRatio="none" role="img" aria-label="仓库间的星群连线" aria-hidden="true"></svg>
+      <div class="star-layer"></div>
+      </div>
+      <div class="sky-caption"><span class="tiny-cross" aria-hidden="true">✦</span> 每颗星，都是一天留下的代码。</div>
+    </div>
+    <div class="hero-bottom wrap">
+      <a href="#footprints" class="scroll-cue"><span aria-hidden="true">↓</span> 向下看看最近</a>
+      <button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="true"><span aria-hidden="true">◌</span> <span class="motion-label">星光流动中</span></button>
+    </div>
+  </section>
+  <section class="observatory wrap" aria-labelledby="observatory-title">
+    <div class="observation-heading"><div><p class="eyebrow">THE CONSTELLATION</p><h2 id="observatory-title">代码有迹，星光有时。</h2></div><p class="snapshot-status" id="snapshot-status">正在读取公开足迹…</p></div>
+    <div class="timeline" id="timeline" hidden>
+      <div class="timeline-top"><span>最近 90 天</span><output id="timeline-date" for="time-range"></output><button type="button" id="timeline-reset">回到现在 ↗</button></div>
+      <div class="timeline-track"><div id="activity-bars" class="activity-bars" aria-hidden="true"></div><input id="time-range" type="range" min="0" max="89" value="89" aria-label="回放日期"></div>
+      <div class="timeline-labels" aria-hidden="true"></div>
+      <div class="timeline-bottom"><p>拖动时间，看星图慢慢亮起。</p><p id="activity-summary"></p></div>
+    </div>
+    <div class="repo-filters" role="group" aria-label="筛选仓库"></div>
+    <noscript><p class="fallback-note">打开 JavaScript 即可探索星图。也可以直接<a href="https://github.com/boyan01?tab=overview">在 GitHub 查看我的足迹 ↗</a>。</p></noscript>
+  </section>
+  <section class="footprints wrap" id="footprints" aria-labelledby="footprints-title">
+    <div class="section-heading"><div><p class="eyebrow">RECENT FOOTPRINTS</p><h2 id="footprints-title">最近，在折腾什么。</h2></div><span class="section-note">公开提交里的小小进展</span></div>
+    <div id="footprint-list" class="footprint-list"><p class="fallback-note">足迹读取中。<a href="https://github.com/boyan01">也可以去 GitHub 看看 ↗</a></p></div>
+    <button id="show-more" class="text-button" type="button" hidden>再往前看看 <span aria-hidden="true">↓</span></button>
+  </section>
+  <section class="archive-teaser wrap" aria-labelledby="archive-title">
+    <div><p class="eyebrow">FROM THE ARCHIVE</p><h2 id="archive-title">以前写下的，<br>也留在这里。</h2><p>一些旧文字，记录当时的探索。</p><a class="explore-link" href="{{ '/archive/' | relative_url }}">翻翻旧文 <span aria-hidden="true">↗</span></a></div>
+    <div class="archive-links">{% for post in site.posts %}<a href="{{ post.url | relative_url }}"><span class="mono">{{ post.date | date: '%Y.%m.%d' }}</span><span>{{ post.title }}</span><span aria-hidden="true">↗</span></a>{% endfor %}</div>
+  </section>
+</main>
+<dialog id="star-detail" aria-labelledby="detail-title"><button class="dialog-close" type="button" aria-label="关闭星星详情">×</button><p class="eyebrow" id="detail-date"></p><h2 id="detail-title"></h2><p class="detail-count"></p><ul class="detail-commits"></ul></dialog>
+<script src="{{ '/assets/site.js' | relative_url }}" defer></script>
