@@ -9,3 +9,4 @@ Gemfile.lock
 .idea/vcs.xml
 .idea/workspace.xml
 .DS_Store
+__pycache__/
