@@ -5,7 +5,6 @@ from collections import Counter, defaultdict
 import hashlib
 import json
 import math
-import os
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
@@ -41,18 +40,6 @@ def constellations(snapshot):
     return result
 
 
-def font_path():
-    candidates = [
-        os.environ.get("BANNER_FONT"),
-        "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
-        "/Library/Fonts/Arial Unicode.ttf",
-    ]
-    for candidate in candidates:
-        if candidate and Path(candidate).is_file():
-            return candidate
-    raise FileNotFoundError("Install fonts-noto-cjk or set BANNER_FONT to a CJK font.")
-
-
 def seed(value):
     return int.from_bytes(hashlib.sha256(value.encode()).digest()[:4], "big")
 
@@ -65,7 +52,7 @@ def draw_text(draw, xy, text, font, color, anchor=None):
     draw.text(tuple(v * SCALE for v in xy), text, font=font, fill=color, anchor=anchor)
 
 
-def background(snapshot, fonts):
+def background(fonts):
     size = tuple(v * SCALE for v in SIZE)
     source = Image.open(ROOT / "assets/images/night-lake-storybook.png").convert("RGB")
     scene = ImageOps.fit(source, size, method=Image.Resampling.LANCZOS, centering=(0.5, 1))
@@ -75,18 +62,9 @@ def background(snapshot, fonts):
         alpha = 28 * max(0, 1 - ratio / 0.62) + 190 * max(0, (ratio - 0.62) / 0.38)
         vertical.putpixel((0, y), (8, 15, 26, int(alpha)))
     scene = Image.alpha_composite(scene.convert("RGBA"), vertical.resize(size))
-    horizontal = Image.new("RGBA", (size[0], 1))
-    for x in range(size[0]):
-        horizontal.putpixel((x, 0), (8, 15, 26, int(110 * max(0, 1 - x / size[0] / 0.6))))
-    scene = Image.alpha_composite(scene, horizontal.resize(size))
     draw = ImageDraw.Draw(scene)
     draw_text(draw, (56, 32), "BIN", fonts["brand"], "#e3e9e8")
-    draw_text(draw, (56, 125), "随缘", fonts["title"], "#e3e9e8")
-    draw_text(draw, (56, 184), "写代码。", fonts["title"], "#e3e9e8")
-    draw_text(draw, (59, 274), "每颗星，都是一天留下的代码。", fonts["body"], "#a5b5c1")
-    caption = f"{snapshot['end'].replace('-', '.')}  /  90 DAYS  /  {len(snapshot['commits'])} COMMITS"
-    draw_text(draw, (56, 518), caption, fonts["small"], "#a5b5c1")
-    draw_text(draw, (945, 516), "i.soit.tech ↗", fonts["link"], "#d2dcd9", anchor="ra")
+    draw_text(draw, (945, 516), "i.soit.tech", fonts["link"], "#d2dcd9", anchor="ra")
     return scene
 
 
@@ -111,9 +89,6 @@ def frame_at(scene, groups, fonts, phase):
     glow = Image.new("RGBA", scene.size)
     draw, halo = ImageDraw.Draw(layer), ImageDraw.Draw(glow)
 
-    def position(x, y):
-        return 405 + x * 0.86 + drift_x, 38 + y * 0.82 + drift_y
-
     for index in range(40):
         x, y = seed(f"x{index}") % 1000, 22 + seed(f"y{index}") % 280
         alpha = 38 + 25 * (1 + math.sin(theta + index))
@@ -121,13 +96,18 @@ def frame_at(scene, groups, fonts, phase):
     for group in groups:
         points = group["points"]
         color = group["color"]
+        cx, cy = group["anchor"]
+
+        def position(x, y):
+            return (
+                50 + cx * 1.42 + (x - cx) * 0.78 + drift_x,
+                50 + cy * 0.60 + (y - cy) * 0.70 + drift_y,
+            )
+
         for a, b in zip(points, points[1:]):
             dashed_line(draw, position(a["x"], a["y"]), position(b["x"], b["y"]), rgba(color, 88), phase * 8)
-        cx, cy = group["anchor"]
         label_pos = position(cx, cy - 68)
-        # Keep the top-right label inside the image while retaining the site's grouping.
-        label_pos = (min(label_pos[0], 914), max(18, label_pos[1]))
-        draw_text(draw, label_pos, group["repo"].split("/")[1], fonts["label"], rgba(color, 170), anchor="mt")
+        draw_text(draw, label_pos, group["repo"].split("/")[1], fonts["label"], rgba(color, 135), anchor="mt")
         for index, point in enumerate(points):
             key = seed(group["repo"] + point["day"])
             pulse = 0.73 + 0.27 * math.sin(theta * (1 + key % 2) + key % 100)
@@ -146,12 +126,11 @@ def frame_at(scene, groups, fonts, phase):
 
 def render(snapshot_path, output):
     snapshot = json.loads(snapshot_path.read_text())
-    path = font_path()
-    fonts = {name: ImageFont.truetype(path, size * SCALE) for name, size in {
-        "brand": 26, "title": 49, "body": 14, "small": 11, "link": 13, "label": 11,
+    fonts = {name: ImageFont.load_default(size=size * SCALE) for name, size in {
+        "brand": 22, "link": 12, "label": 11,
     }.items()}
     groups = constellations(snapshot)
-    scene = background(snapshot, fonts)
+    scene = background(fonts)
     frames = [frame_at(scene, groups, fonts, index / FRAMES) for index in range(FRAMES)]
     # Reserve warm tones so the small lit window survives GIF color reduction.
     warm_colors = ["#f4d58d", "#e5bd73", "#d5a663", "#b98d51", "#997143", "#805c38", "#674a2e", "#523c29", "#413124", "#322820", "#27211d", "#fff5dc"]

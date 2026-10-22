@@ -27,10 +27,7 @@ jobs:
           cache: pip
           cache-dependency-path: scripts/banner-requirements.txt
       - name: Install banner renderer
-        run: |
-          python -m pip install -r scripts/banner-requirements.txt
-          sudo apt-get update
-          sudo apt-get install --no-install-recommends -y fonts-noto-cjk
+        run: python -m pip install -r scripts/banner-requirements.txt
       - name: Verify data boundaries
         run: |
           node --test tests/activity.test.mjs

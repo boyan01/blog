@@ -40,8 +40,7 @@
     selectedRepo = null,
     selectedDay,
     visibleRows = 6,
-    groups = [],
-    starRecords = [];
+    groups = [];
   const dayLabel = (day) => day.replaceAll("-", ".");
   const motionQuery = matchMedia("(prefers-reduced-motion: reduce)");
   let motion = !motionQuery.matches;
@@ -149,7 +148,6 @@
     const layer = $(".star-layer");
     svg.replaceChildren();
     layer.replaceChildren();
-    starRecords = [];
     // Show eight recent active days per constellation. Positions stay fixed while rewinding.
     const shownRepos = selectedRepo
       ? repos.filter((r) => r.name === selectedRepo)
@@ -220,7 +218,6 @@
         button.addEventListener("blur", () => highlightRepo(null));
         button.addEventListener("click", () => showDetail(group));
         layer.append(button);
-        starRecords.push(button);
       });
       if (points.length) {
         const label = element("span", "cluster-label", shortRepo(repo.name));
@@ -298,15 +295,6 @@
     renderSky();
     renderFootprints();
   }
-  $("#explore").addEventListener("click", (event) => {
-    if (!starRecords.length) return;
-    event.preventDefault();
-    $("#sky").scrollIntoView({
-      behavior: motion ? "smooth" : "instant",
-      block: "center",
-    });
-    starRecords.at(-1).focus({ preventScroll: true });
-  });
   $("#show-more").addEventListener("click", () => {
     const previous = visibleRows;
     visibleRows += 6;
@@ -392,7 +380,6 @@
       render();
     } catch (error) {
       $("#snapshot-status").textContent = "星图暂时没有连上，旧文依然在这里。";
-      $(".sky-caption").textContent = "星图暂不可用 · 可以去 GitHub 看看";
       $("#footprint-list").replaceChildren();
       const link = element("a", "explore-link", "去 GitHub 看公开足迹 ↗");
       link.href = "https://github.com/boyan01";

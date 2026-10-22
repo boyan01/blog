@@ -30,7 +30,7 @@ class BannerTests(unittest.TestCase):
     def test_loop_returns_to_the_same_image(self):
         scene = banner.Image.new("RGBA", tuple(value * banner.SCALE for value in banner.SIZE), "#081020")
         groups = banner.constellations({"commits": [{"repo": "bin/example", "day": "2026-10-22"}]})
-        fonts = {"label": banner.ImageFont.truetype(banner.font_path(), 22)}
+        fonts = {"label": banner.ImageFont.load_default(size=22)}
         first = banner.frame_at(scene, groups, fonts, 0)
         last = banner.frame_at(scene, groups, fonts, 1)
         # Subpixel trigonometric rounding may affect a handful of antialiased pixels.
