@@ -30,7 +30,7 @@ The `Refresh public activity` workflow runs daily at 09:23 Asia/Shanghai, or man
 
 ## Profile banner
 
-The same daily workflow renders `assets/profile-banner.gif` from the refreshed public snapshot before committing both files together. The 8-second looping GIF uses the storybook background, the six busiest repositories, and each repository's latest eight active days. The cover keeps only a small BIN wordmark and the site address; the star groups update from the snapshot without statistics or explanatory copy. Rendering uses Pillow and its bundled font; no browser, external rendering service, or cross-repository token is required. A failed render keeps the last committed snapshot and banner intact.
+The same daily workflow renders `assets/profile-banner.gif` from the refreshed public snapshot before committing both files together. The 1000 × 360, 8-second looping GIF uses the storybook background, the six busiest repositories, and each repository's latest eight active days. The cover keeps only a small BIN wordmark and the site address; the star groups update from the snapshot without statistics or explanatory copy. Rendering uses Pillow and its bundled font; no browser, external rendering service, or cross-repository token is required. A failed render keeps the last committed snapshot and banner intact.
 
 To regenerate locally:
 

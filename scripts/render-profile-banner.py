@@ -11,12 +11,12 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SIZE = (1000, 560)
+SIZE = (1000, 360)
 SCALE = 2
 FRAMES = 80
 DURATION_MS = 100
 PALETTE = ["#bfdacf", "#b5cce6", "#cdbfa5", "#91bdc4", "#bcb9d9", "#b7c5b1"]
-ANCHORS = [(140, 125), (345, 85), (500, 180), (300, 265), (555, 55), (90, 270)]
+ANCHORS = [(140, 125), (345, 85), (500, 180), (280, 265), (580, 55), (60, 270)]
 OFFSETS = [(0, 0), (-45, -28), (28, -46), (63, 3), (26, 42), (-33, 53), (-73, 13), (67, 60)]
 
 
@@ -55,7 +55,7 @@ def draw_text(draw, xy, text, font, color, anchor=None):
 def background(fonts):
     size = tuple(v * SCALE for v in SIZE)
     source = Image.open(ROOT / "assets/images/night-lake-storybook.png").convert("RGB")
-    scene = ImageOps.fit(source, size, method=Image.Resampling.LANCZOS, centering=(0.5, 1))
+    scene = ImageOps.fit(source, size, method=Image.Resampling.LANCZOS, centering=(0.5, 0.68))
     vertical = Image.new("RGBA", (1, size[1]))
     for y in range(size[1]):
         ratio = y / size[1]
@@ -63,8 +63,8 @@ def background(fonts):
         vertical.putpixel((0, y), (8, 15, 26, int(alpha)))
     scene = Image.alpha_composite(scene.convert("RGBA"), vertical.resize(size))
     draw = ImageDraw.Draw(scene)
-    draw_text(draw, (56, 32), "BIN", fonts["brand"], "#e3e9e8")
-    draw_text(draw, (945, 516), "i.soit.tech", fonts["link"], "#d2dcd9", anchor="ra")
+    draw_text(draw, (56, 24), "BIN", fonts["brand"], "#e3e9e8")
+    draw_text(draw, (945, 330), "i.soit.tech", fonts["link"], "#d2dcd9", anchor="ra")
     return scene
 
 
@@ -90,7 +90,7 @@ def frame_at(scene, groups, fonts, phase):
     draw, halo = ImageDraw.Draw(layer), ImageDraw.Draw(glow)
 
     for index in range(40):
-        x, y = seed(f"x{index}") % 1000, 22 + seed(f"y{index}") % 280
+        x, y = seed(f"x{index}") % 1000, 18 + seed(f"y{index}") % 140
         alpha = 38 + 25 * (1 + math.sin(theta + index))
         draw.ellipse((x * SCALE, y * SCALE, (x + 1) * SCALE, (y + 1) * SCALE), fill=(166, 187, 209, int(alpha)))
     for group in groups:
@@ -100,8 +100,8 @@ def frame_at(scene, groups, fonts, phase):
 
         def position(x, y):
             return (
-                50 + cx * 1.42 + (x - cx) * 0.78 + drift_x,
-                50 + cy * 0.60 + (y - cy) * 0.70 + drift_y,
+                50 + cx * 1.42 + (x - cx) * 0.62 + drift_x,
+                40 + cy * 0.28 + (y - cy) * 0.45 + drift_y,
             )
 
         for a, b in zip(points, points[1:]):
