@@ -1,6 +1,6 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-10-22T04:00:14.063Z",
+  "generatedAt": "2026-10-22T04:33:50.707Z",
   "start": "2026-07-25",
   "end": "2026-10-22",
   "source": "GitHub public commit search",
@@ -38,14 +38,6 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/0ca4b1a3f713dbb8a99e2ab5f1459f41a4522d58"
     },
     {
-      "sha": "ad89e54c102fa8e3f41b08049976fe2a7f67e336",
-      "repo": "MixinNetwork/flutter-plugins",
-      "date": "2026-10-21T01:49:12.000Z",
-      "day": "2026-10-21",
-      "title": "mixin_markdown_widget: let MixinSelectionArea settle with MarkdownWidget (#552)",
-      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/ad89e54c102fa8e3f41b08049976fe2a7f67e336"
-    },
-    {
       "sha": "31a0cbc18ed1c52da1c65678cbe4d365a0205201",
       "repo": "MixinNetwork/flutter-plugins",
       "date": "2026-10-21T01:49:12.000Z",
@@ -54,12 +46,20 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/31a0cbc18ed1c52da1c65678cbe4d365a0205201"
     },
     {
-      "sha": "e19caccb30a80664942b46cc33153f3336b86856",
+      "sha": "ad89e54c102fa8e3f41b08049976fe2a7f67e336",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-21T01:49:12.000Z",
+      "day": "2026-10-21",
+      "title": "mixin_markdown_widget: let MixinSelectionArea settle with MarkdownWidget (#552)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/ad89e54c102fa8e3f41b08049976fe2a7f67e336"
+    },
+    {
+      "sha": "4d945ba40f4cf789db24f07f78754d424e01ad27",
       "repo": "MixinNetwork/flutter-plugins",
       "date": "2026-10-21T01:49:11.000Z",
       "day": "2026-10-21",
-      "title": "mixin_markdown_widget: select whole Chinese words on double click (#550)",
-      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/e19caccb30a80664942b46cc33153f3336b86856"
+      "title": "mixin_markdown_widget: fix streaming block identity, highlight flicker, and selection details (#543)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/4d945ba40f4cf789db24f07f78754d424e01ad27"
     },
     {
       "sha": "9009859463e3fd5469bf9f807ff390a1a371282b",
@@ -70,12 +70,12 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/9009859463e3fd5469bf9f807ff390a1a371282b"
     },
     {
-      "sha": "4d945ba40f4cf789db24f07f78754d424e01ad27",
+      "sha": "e19caccb30a80664942b46cc33153f3336b86856",
       "repo": "MixinNetwork/flutter-plugins",
       "date": "2026-10-21T01:49:11.000Z",
       "day": "2026-10-21",
-      "title": "mixin_markdown_widget: fix streaming block identity, highlight flicker, and selection details (#543)",
-      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/4d945ba40f4cf789db24f07f78754d424e01ad27"
+      "title": "mixin_markdown_widget: select whole Chinese words on double click (#550)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/e19caccb30a80664942b46cc33153f3336b86856"
     },
     {
       "sha": "0058b398710560c72176b032669c7d22b1607902",
@@ -630,20 +630,20 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/b6053de2128484b6ca4a4bf036eb1ca826bfd94b"
     },
     {
-      "sha": "dd30c896003e599ea4e3726ef9dd9b4e227f61e3",
-      "repo": "MixinNetwork/flutter-plugins",
-      "date": "2026-10-16T08:28:46.000Z",
-      "day": "2026-10-16",
-      "title": "desktop_drop: unify Android drop decisions and support directories",
-      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/dd30c896003e599ea4e3726ef9dd9b4e227f61e3"
-    },
-    {
       "sha": "49f1ce447bd5b1d1b317a125bbc313f2181656de",
       "repo": "MixinNetwork/flutter-plugins",
       "date": "2026-10-16T08:28:46.000Z",
       "day": "2026-10-16",
       "title": "desktop_drop: simplify target acceptance and drop callbacks",
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/49f1ce447bd5b1d1b317a125bbc313f2181656de"
+    },
+    {
+      "sha": "dd30c896003e599ea4e3726ef9dd9b4e227f61e3",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-16T08:28:46.000Z",
+      "day": "2026-10-16",
+      "title": "desktop_drop: unify Android drop decisions and support directories",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/dd30c896003e599ea4e3726ef9dd9b4e227f61e3"
     },
     {
       "sha": "e74c1d31bcc67a5094866f175f9e481df1611eb7",
@@ -686,20 +686,20 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/4d3b34e51a54613babc328913a164b17bbb7f548"
     },
     {
-      "sha": "75d013b0666a3600db7e9c9264b8aff9bcd739a8",
-      "repo": "boyan01/flutter-airplay",
-      "date": "2026-10-15T03:11:12.000Z",
-      "day": "2026-10-15",
-      "title": "Release 0.1.8",
-      "url": "https://github.com/boyan01/flutter-airplay/commit/75d013b0666a3600db7e9c9264b8aff9bcd739a8"
-    },
-    {
       "sha": "3bc9b27162c48a29d131a96f087bb7469c5a143a",
       "repo": "boyan01/flutter-airplay",
       "date": "2026-10-15T03:11:12.000Z",
       "day": "2026-10-15",
       "title": "Escape receiver JSON strings and preserve signed values",
       "url": "https://github.com/boyan01/flutter-airplay/commit/3bc9b27162c48a29d131a96f087bb7469c5a143a"
+    },
+    {
+      "sha": "75d013b0666a3600db7e9c9264b8aff9bcd739a8",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T03:11:12.000Z",
+      "day": "2026-10-15",
+      "title": "Release 0.1.8",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/75d013b0666a3600db7e9c9264b8aff9bcd739a8"
     },
     {
       "sha": "54062fcbe9edc1f06987c0c4a94e34c89b0fdbed",
@@ -734,20 +734,20 @@
       "url": "https://github.com/boyan01/flutter-airplay/commit/d686fc7193f7e3303b7c1e2a7287a1fef982407c"
     },
     {
-      "sha": "f057b651dabefbf6e50f23ca788a64a24c99d8b6",
-      "repo": "boyan01/flutter-airplay",
-      "date": "2026-10-15T01:25:43.000Z",
-      "day": "2026-10-15",
-      "title": "Improve TV focus transitions and settings layout",
-      "url": "https://github.com/boyan01/flutter-airplay/commit/f057b651dabefbf6e50f23ca788a64a24c99d8b6"
-    },
-    {
       "sha": "bd1bb29c3097ce415153dc9400bba6d2f96a0fbf",
       "repo": "boyan01/flutter-airplay",
       "date": "2026-10-15T01:25:43.000Z",
       "day": "2026-10-15",
       "title": "Fix playback controls auto-hide after crop editing",
       "url": "https://github.com/boyan01/flutter-airplay/commit/bd1bb29c3097ce415153dc9400bba6d2f96a0fbf"
+    },
+    {
+      "sha": "f057b651dabefbf6e50f23ca788a64a24c99d8b6",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-15T01:25:43.000Z",
+      "day": "2026-10-15",
+      "title": "Improve TV focus transitions and settings layout",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/f057b651dabefbf6e50f23ca788a64a24c99d8b6"
     },
     {
       "sha": "ad77325ab9b094f6f92ed2835fd619150aa5a05b",
@@ -1646,20 +1646,20 @@
       "url": "https://github.com/boyan01/flutter-airplay/commit/f2c5f897bf8e63a510c723a50764a50eaf671e89"
     },
     {
-      "sha": "a7d1bf13d1e953ea2d26b10eaf6e437aad0e618a",
-      "repo": "boyan01/flutter-airplay",
-      "date": "2026-10-04T10:25:34.000Z",
-      "day": "2026-10-04",
-      "title": "Use device names by default and add random receiver naming",
-      "url": "https://github.com/boyan01/flutter-airplay/commit/a7d1bf13d1e953ea2d26b10eaf6e437aad0e618a"
-    },
-    {
       "sha": "138c66d16dfc5839d2bb35a74456df52862931e0",
       "repo": "boyan01/flutter-airplay",
       "date": "2026-10-04T10:25:34.000Z",
       "day": "2026-10-04",
       "title": "Add Linux window integration and tray support",
       "url": "https://github.com/boyan01/flutter-airplay/commit/138c66d16dfc5839d2bb35a74456df52862931e0"
+    },
+    {
+      "sha": "a7d1bf13d1e953ea2d26b10eaf6e437aad0e618a",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-04T10:25:34.000Z",
+      "day": "2026-10-04",
+      "title": "Use device names by default and add random receiver naming",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/a7d1bf13d1e953ea2d26b10eaf6e437aad0e618a"
     },
     {
       "sha": "52bb32b81f47bb3e98df136d6f2efb46483ab0c0",
@@ -1830,20 +1830,20 @@
       "url": "https://github.com/boyan01/flutter-airplay/commit/e1652886b3473031c6caa8a2f9fb6e567ef2710b"
     },
     {
-      "sha": "62e18ade82a64235dc726dc3cb6d8349f96d8b2e",
-      "repo": "boyan01/flutter-airplay",
-      "date": "2026-10-03T06:20:40.000Z",
-      "day": "2026-10-03",
-      "title": "Advertise Android screen mirroring with the correct AirPlay feature bit",
-      "url": "https://github.com/boyan01/flutter-airplay/commit/62e18ade82a64235dc726dc3cb6d8349f96d8b2e"
-    },
-    {
       "sha": "4c0d665a9f5f35081853b267eed55734a92ee780",
       "repo": "boyan01/flutter-airplay",
       "date": "2026-10-03T06:20:40.000Z",
       "day": "2026-10-03",
       "title": "Merge commit 'ff019a9d5f66aec45c24d259c4916fd4f5783d4e' into android/foundation",
       "url": "https://github.com/boyan01/flutter-airplay/commit/4c0d665a9f5f35081853b267eed55734a92ee780"
+    },
+    {
+      "sha": "62e18ade82a64235dc726dc3cb6d8349f96d8b2e",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-03T06:20:40.000Z",
+      "day": "2026-10-03",
+      "title": "Advertise Android screen mirroring with the correct AirPlay feature bit",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/62e18ade82a64235dc726dc3cb6d8349f96d8b2e"
     },
     {
       "sha": "865845b040fd11d97afa7d5e88b1ef1b54cc3653",
@@ -2086,20 +2086,20 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/eaf0859273eb944f6538114864867974024435e1"
     },
     {
-      "sha": "c9b4fab5b1a2ece9a70090d5f9af703c46ce6e6e",
-      "repo": "juho05/desktop_drop",
-      "date": "2026-08-31T01:51:19.000Z",
-      "day": "2026-08-31",
-      "title": "chore(release): prepare desktop_drop 0.8.3",
-      "url": "https://github.com/juho05/desktop_drop/commit/c9b4fab5b1a2ece9a70090d5f9af703c46ce6e6e"
-    },
-    {
       "sha": "1c857823e9ce029ea9b7b62e055335cdc39d94ae",
       "repo": "MixinNetwork/flutter-plugins",
       "date": "2026-08-31T01:51:19.000Z",
       "day": "2026-08-31",
       "title": "chore(release): prepare desktop_drop 0.8.3",
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/1c857823e9ce029ea9b7b62e055335cdc39d94ae"
+    },
+    {
+      "sha": "c9b4fab5b1a2ece9a70090d5f9af703c46ce6e6e",
+      "repo": "juho05/desktop_drop",
+      "date": "2026-08-31T01:51:19.000Z",
+      "day": "2026-08-31",
+      "title": "chore(release): prepare desktop_drop 0.8.3",
+      "url": "https://github.com/juho05/desktop_drop/commit/c9b4fab5b1a2ece9a70090d5f9af703c46ce6e6e"
     },
     {
       "sha": "989795e8488efafcd2f01bccbcb67a92846ecde4",
@@ -2158,14 +2158,6 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/1e54e32a35893bfd3e07f8c7a2788b641f833202"
     },
     {
-      "sha": "82f9df388f20b18660aff9f1dea3b71aea07cf3b",
-      "repo": "juho05/desktop_drop",
-      "date": "2026-08-26T05:17:40.000Z",
-      "day": "2026-08-26",
-      "title": "chore(release): prepare desktop_drop 0.8.2",
-      "url": "https://github.com/juho05/desktop_drop/commit/82f9df388f20b18660aff9f1dea3b71aea07cf3b"
-    },
-    {
       "sha": "01084c031ac020826eb3573896cd23d77fa45520",
       "repo": "MixinNetwork/flutter-plugins",
       "date": "2026-08-26T05:17:40.000Z",
@@ -2174,12 +2166,12 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/01084c031ac020826eb3573896cd23d77fa45520"
     },
     {
-      "sha": "b255d497548029f0d6e39a1c17b0d6707091a9b2",
+      "sha": "82f9df388f20b18660aff9f1dea3b71aea07cf3b",
       "repo": "juho05/desktop_drop",
-      "date": "2026-08-25T13:26:22.000Z",
-      "day": "2026-08-25",
-      "title": "chore(release): prepare desktop_drop 0.8.1",
-      "url": "https://github.com/juho05/desktop_drop/commit/b255d497548029f0d6e39a1c17b0d6707091a9b2"
+      "date": "2026-08-26T05:17:40.000Z",
+      "day": "2026-08-26",
+      "title": "chore(release): prepare desktop_drop 0.8.2",
+      "url": "https://github.com/juho05/desktop_drop/commit/82f9df388f20b18660aff9f1dea3b71aea07cf3b"
     },
     {
       "sha": "1948abf56d9b26a105ec1ab2db1b588dc3c41dbd",
@@ -2190,12 +2182,12 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/1948abf56d9b26a105ec1ab2db1b588dc3c41dbd"
     },
     {
-      "sha": "a991c5c93e57c580f133a92d58b51f3889405f84",
+      "sha": "b255d497548029f0d6e39a1c17b0d6707091a9b2",
       "repo": "juho05/desktop_drop",
-      "date": "2026-08-25T02:51:30.000Z",
+      "date": "2026-08-25T13:26:22.000Z",
       "day": "2026-08-25",
-      "title": "desktop_drop: format Linux channel tests",
-      "url": "https://github.com/juho05/desktop_drop/commit/a991c5c93e57c580f133a92d58b51f3889405f84"
+      "title": "chore(release): prepare desktop_drop 0.8.1",
+      "url": "https://github.com/juho05/desktop_drop/commit/b255d497548029f0d6e39a1c17b0d6707091a9b2"
     },
     {
       "sha": "12aee3eb1fb0d1aae9693c6286e2b541e5c6b1f4",
@@ -2206,6 +2198,14 @@
       "url": "https://github.com/MixinNetwork/flutter-plugins/commit/12aee3eb1fb0d1aae9693c6286e2b541e5c6b1f4"
     },
     {
+      "sha": "a991c5c93e57c580f133a92d58b51f3889405f84",
+      "repo": "juho05/desktop_drop",
+      "date": "2026-08-25T02:51:30.000Z",
+      "day": "2026-08-25",
+      "title": "desktop_drop: format Linux channel tests",
+      "url": "https://github.com/juho05/desktop_drop/commit/a991c5c93e57c580f133a92d58b51f3889405f84"
+    },
+    {
       "sha": "89fb1a73c5f0c125665e101ee6eb1a444e15da11",
       "repo": "MixinNetwork/flutter-app",
       "date": "2026-08-20T10:27:54.000Z",
@@ -2214,20 +2214,20 @@
       "url": "https://github.com/MixinNetwork/flutter-app/commit/89fb1a73c5f0c125665e101ee6eb1a444e15da11"
     },
     {
-      "sha": "ec7f83b63be5f1d449208461475afa62d50d9799",
-      "repo": "MixinNetwork/flutter-plugins",
-      "date": "2026-08-20T08:40:03.000Z",
-      "day": "2026-08-20",
-      "title": "desktop_drop: migrate Android to built-in Kotlin (#491)",
-      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/ec7f83b63be5f1d449208461475afa62d50d9799"
-    },
-    {
       "sha": "06b1e62fc558dca7866170d1931e3aa6028ecf93",
       "repo": "juho05/desktop_drop",
       "date": "2026-08-20T08:40:03.000Z",
       "day": "2026-08-20",
       "title": "desktop_drop: migrate Android to built-in Kotlin (#491)",
       "url": "https://github.com/juho05/desktop_drop/commit/06b1e62fc558dca7866170d1931e3aa6028ecf93"
+    },
+    {
+      "sha": "ec7f83b63be5f1d449208461475afa62d50d9799",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-08-20T08:40:03.000Z",
+      "day": "2026-08-20",
+      "title": "desktop_drop: migrate Android to built-in Kotlin (#491)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/ec7f83b63be5f1d449208461475afa62d50d9799"
     },
     {
       "sha": "6876572d9008d8287c2bfdfdfbe090c188b95baa",
