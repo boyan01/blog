@@ -1,10 +1,90 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-10-22T05:17:29.944Z",
-  "start": "2026-07-25",
-  "end": "2026-10-22",
+  "generatedAt": "2026-10-23T06:06:29.882Z",
+  "start": "2026-07-26",
+  "end": "2026-10-23",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "87d38a18d5b4842575ebd2df4bab8cf9741f7a66",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-23T05:26:14.000Z",
+      "day": "2026-10-23",
+      "title": "Know the Android TV layout before the first frame",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/87d38a18d5b4842575ebd2df4bab8cf9741f7a66"
+    },
+    {
+      "sha": "c6355ae0fd604574052ebb2f688fe2e5c7388a3f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-23T05:26:14.000Z",
+      "day": "2026-10-23",
+      "title": "Keep the Android TV launch screen dark",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/c6355ae0fd604574052ebb2f688fe2e5c7388a3f"
+    },
+    {
+      "sha": "605b5615b35785e6028614dd15a30263421b2159",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-23T04:40:41.000Z",
+      "day": "2026-10-23",
+      "title": "Adapt the playback timeline to steady-state transit",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/605b5615b35785e6028614dd15a30263421b2159"
+    },
+    {
+      "sha": "18b0af92d53f3618ae77152faf1b1975edee4089",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-23T04:40:34.000Z",
+      "day": "2026-10-23",
+      "title": "Retry AAudio without MMAP after an MMAP timeout",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/18b0af92d53f3618ae77152faf1b1975edee4089"
+    },
+    {
+      "sha": "daa48458851618046e1acb60651df8d05100b0e8",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-23T04:40:34.000Z",
+      "day": "2026-10-23",
+      "title": "Read the panel size for auto quality on Android TVs",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/daa48458851618046e1acb60651df8d05100b0e8"
+    },
+    {
+      "sha": "e814c58c565722a4fc82f1d0ce9645c4295742ba",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-23T04:40:34.000Z",
+      "day": "2026-10-23",
+      "title": "Ask Android displays for low-latency output while mirroring",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e814c58c565722a4fc82f1d0ce9645c4295742ba"
+    },
+    {
+      "sha": "f3993c9bcf87333719ac0719ffc0ff715a78e6f3",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-10-22T23:25:03.000Z",
+      "day": "2026-10-23",
+      "title": "pasteboard: prepare release 0.6.0",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/f3993c9bcf87333719ac0719ffc0ff715a78e6f3"
+    },
+    {
+      "sha": "9b6939ebb972f92fa514d57ba42672a57a23da2a",
+      "repo": "boyan01/blog",
+      "date": "2026-10-22T06:14:00.000Z",
+      "day": "2026-10-22",
+      "title": "Disable redundant Vercel deployments",
+      "url": "https://github.com/boyan01/blog/commit/9b6939ebb972f92fa514d57ba42672a57a23da2a"
+    },
+    {
+      "sha": "aee643aceb29f9898533a2ab357fbdc073f98602",
+      "repo": "boyan01/boyan01",
+      "date": "2026-10-22T05:28:44.000Z",
+      "day": "2026-10-22",
+      "title": "Refresh the compact profile cover",
+      "url": "https://github.com/boyan01/boyan01/commit/aee643aceb29f9898533a2ab357fbdc073f98602"
+    },
+    {
+      "sha": "3f6934fbcd2c6110e2d8be94e348bc1dedd08bf2",
+      "repo": "boyan01/blog",
+      "date": "2026-10-22T05:28:37.000Z",
+      "day": "2026-10-22",
+      "title": "Resize the profile banner to a compact 1000 by 360 cover",
+      "url": "https://github.com/boyan01/blog/commit/3f6934fbcd2c6110e2d8be94e348bc1dedd08bf2"
+    },
     {
       "sha": "25bbe6580fb890f59c97feb2cceff25628bca7e6",
       "repo": "boyan01/boyan01",
@@ -12,6 +92,14 @@
       "day": "2026-10-22",
       "title": "Refresh the profile cover without slogans",
       "url": "https://github.com/boyan01/boyan01/commit/25bbe6580fb890f59c97feb2cceff25628bca7e6"
+    },
+    {
+      "sha": "b38d4ddf8c767ee3c1b59e2d33356e5616758054",
+      "repo": "boyan01/blog",
+      "date": "2026-10-22T05:16:55.000Z",
+      "day": "2026-10-22",
+      "title": "Simplify the homepage and profile banner around the night sky",
+      "url": "https://github.com/boyan01/blog/commit/b38d4ddf8c767ee3c1b59e2d33356e5616758054"
     },
     {
       "sha": "7b6fa96b9f527796c1b711338108c3f9117b353e",
@@ -2420,46 +2508,6 @@
       "day": "2026-07-26",
       "title": "refactor: split Flutter and Swift bridges",
       "url": "https://github.com/boyan01/mixin-desktop/commit/4c1e277d2d5df61e971491ccaf1c0bda745f86bd"
-    },
-    {
-      "sha": "44a0743801fb703d2b4bb5197fd9530b0b1cc368",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-25T11:06:37.000Z",
-      "day": "2026-07-25",
-      "title": "Inline account access from conversation list controller",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/44a0743801fb703d2b4bb5197fd9530b0b1cc368"
-    },
-    {
-      "sha": "76e8b8c487e8a3e4059551138de6bbf6330fba91",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-25T07:40:26.000Z",
-      "day": "2026-07-25",
-      "title": "Subscribe to circle changes from Flutter",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/76e8b8c487e8a3e4059551138de6bbf6330fba91"
-    },
-    {
-      "sha": "265f57921377f1738a3566b517c9c3ea83b8d49f",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-25T02:42:44.000Z",
-      "day": "2026-07-25",
-      "title": "Show avatar placeholders while loading",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/265f57921377f1738a3566b517c9c3ea83b8d49f"
-    },
-    {
-      "sha": "d2600c1ecd916af953a460639df73b25e8513f6d",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-25T02:40:10.000Z",
-      "day": "2026-07-25",
-      "title": "Support Lottie sticker group icons",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/d2600c1ecd916af953a460639df73b25e8513f6d"
-    },
-    {
-      "sha": "883d64953ac3a9d257291d5c12118230d9cbd51e",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-25T02:16:53.000Z",
-      "day": "2026-07-25",
-      "title": "Refactor Settings",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/883d64953ac3a9d257291d5c12118230d9cbd51e"
     }
   ]
 }
