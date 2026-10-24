@@ -1,10 +1,82 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-10-23T06:06:29.882Z",
-  "start": "2026-07-26",
-  "end": "2026-10-23",
+  "generatedAt": "2026-10-24T06:01:48.721Z",
+  "start": "2026-07-27",
+  "end": "2026-10-24",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "c2576e74d30a7daf03bcedecb781a11f6954c349",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-24T05:11:20.000Z",
+      "day": "2026-10-24",
+      "title": "Release 0.1.11",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/c2576e74d30a7daf03bcedecb781a11f6954c349"
+    },
+    {
+      "sha": "f24def2c96c977ca22c9b27d67448acf30eca810",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-24T04:56:51.000Z",
+      "day": "2026-10-24",
+      "title": "Keep TV focus animations and outlines on TCL TVs",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/f24def2c96c977ca22c9b27d67448acf30eca810"
+    },
+    {
+      "sha": "e01bdc865ae09d04e181c4dd066999d0989b6703",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-24T04:46:00.000Z",
+      "day": "2026-10-24",
+      "title": "Open one TV picture setting per home row",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/e01bdc865ae09d04e181c4dd066999d0989b6703"
+    },
+    {
+      "sha": "2ad0422095626f31f335c46ab7942fa1a0449f00",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-24T04:28:17.000Z",
+      "day": "2026-10-24",
+      "title": "Animate TV focus movement, scrolling and growth",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/2ad0422095626f31f335c46ab7942fa1a0449f00"
+    },
+    {
+      "sha": "ee5df1c8e963016ae6b6ab1cb059c2733b679c4f",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-24T02:59:07.000Z",
+      "day": "2026-10-24",
+      "title": "Release 0.1.10",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/ee5df1c8e963016ae6b6ab1cb059c2733b679c4f"
+    },
+    {
+      "sha": "a929575899f7dec0cc0237bec560f3d1e494f0b1",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-24T02:28:19.000Z",
+      "day": "2026-10-24",
+      "title": "Build OpenSSL on Windows with a native Perl",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/a929575899f7dec0cc0237bec560f3d1e494f0b1"
+    },
+    {
+      "sha": "2f1b6a13578358854c495c5a6428195c3aa14bd6",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-23T06:27:49.000Z",
+      "day": "2026-10-23",
+      "title": "Keep the TV home layout stable during startup",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/2f1b6a13578358854c495c5a6428195c3aa14bd6"
+    },
+    {
+      "sha": "142237c54a92be797fe1008989843d89e6d26966",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-23T06:15:04.000Z",
+      "day": "2026-10-23",
+      "title": "Show the TV banner on TCL and Thunderbird launchers",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/142237c54a92be797fe1008989843d89e6d26966"
+    },
+    {
+      "sha": "f74f912d9c91636dc3c3e2b0fe1665d32e5450a7",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-23T06:00:31.000Z",
+      "day": "2026-10-23",
+      "title": "Add TV picture controls and group settings",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/f74f912d9c91636dc3c3e2b0fe1665d32e5450a7"
+    },
     {
       "sha": "87d38a18d5b4842575ebd2df4bab8cf9741f7a66",
       "repo": "boyan01/flutter-airplay",
@@ -2468,46 +2540,6 @@
       "day": "2026-07-27",
       "title": "Improve chat timeline navigation and rendering",
       "url": "https://github.com/boyan01/mixin-desktop/commit/22f5966c00d60436e896a82a2bfc4f499fd577da"
-    },
-    {
-      "sha": "6b40509ef4e129cbf5b2d91dc8547d56ec8df8e1",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-26T14:05:08.000Z",
-      "day": "2026-07-26",
-      "title": "Swift ui",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/6b40509ef4e129cbf5b2d91dc8547d56ec8df8e1"
-    },
-    {
-      "sha": "6c583e7277bbc32044ba4cdea3934de27e226749",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-26T07:54:38.000Z",
-      "day": "2026-07-26",
-      "title": "update agents.md",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/6c583e7277bbc32044ba4cdea3934de27e226749"
-    },
-    {
-      "sha": "375bfcc2841469b3e53ce5199a9e1f9f532fe93d",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-26T07:39:15.000Z",
-      "day": "2026-07-26",
-      "title": "fix: restore cached account when health probe fails",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/375bfcc2841469b3e53ce5199a9e1f9f532fe93d"
-    },
-    {
-      "sha": "d1fc97f5b4d4e0b24fb64004a635b0f35d0c5a15",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-26T07:30:52.000Z",
-      "day": "2026-07-26",
-      "title": "chore: remove obsolete Flutter porting skill",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/d1fc97f5b4d4e0b24fb64004a635b0f35d0c5a15"
-    },
-    {
-      "sha": "4c1e277d2d5df61e971491ccaf1c0bda745f86bd",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-26T07:29:45.000Z",
-      "day": "2026-07-26",
-      "title": "refactor: split Flutter and Swift bridges",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/4c1e277d2d5df61e971491ccaf1c0bda745f86bd"
     }
   ]
 }
