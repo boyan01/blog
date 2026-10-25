@@ -1,8 +1,8 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-10-24T06:01:48.721Z",
-  "start": "2026-07-27",
-  "end": "2026-10-24",
+  "generatedAt": "2026-10-25T06:18:57.765Z",
+  "start": "2026-07-28",
+  "end": "2026-10-25",
   "source": "GitHub public commit search",
   "commits": [
     {
@@ -2524,22 +2524,6 @@
       "day": "2026-07-28",
       "title": "Update message recall policy",
       "url": "https://github.com/boyan01/mixin-desktop/commit/7ae4803edd1696238447e141b08836fa567da9e2"
-    },
-    {
-      "sha": "0309383c183bb5cd00102aeba13deba16b79e506",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-27T06:25:16.000Z",
-      "day": "2026-07-27",
-      "title": "Fix transcript image loading after download",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/0309383c183bb5cd00102aeba13deba16b79e506"
-    },
-    {
-      "sha": "22f5966c00d60436e896a82a2bfc4f499fd577da",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-27T06:00:04.000Z",
-      "day": "2026-07-27",
-      "title": "Improve chat timeline navigation and rendering",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/22f5966c00d60436e896a82a2bfc4f499fd577da"
     }
   ]
 }
