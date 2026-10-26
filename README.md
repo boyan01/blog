@@ -26,7 +26,7 @@ GH_TOKEN="$(gh auth token)" node scripts/sync-activity.mjs
 
 Each star represents one repository's active day. The overview shows the six most active repositories and each constellation's latest eight active days at the selected date. Repository filters expose the other repositories as well. The timeline and counts include all collected commits within the selected scope. Recent rows group by repository and day, showing the latest commit title; stars open the full daily list.
 
-The `Refresh public activity` workflow runs daily at 09:23 Asia/Shanghai, or manually. On `master`, it updates the snapshot, commits it, and explicitly requests a Pages build because a push made with `GITHUB_TOKEN` does not itself trigger a Pages build. Keep Pages configured as **Deploy from a branch → master → /(root)**. A failed collection leaves the last committed snapshot and deployed site intact. Branch protection may require an adjusted publishing policy; GitHub may disable scheduled workflows in inactive public repositories.
+The `Refresh public activity` workflow runs daily at 00:00 UTC (08:00 Asia/Shanghai), or manually. GitHub may start scheduled runs some minutes late, especially on the hour. On `master`, it updates the snapshot, commits it, and explicitly requests a Pages build because a push made with `GITHUB_TOKEN` does not itself trigger a Pages build. Keep Pages configured as **Deploy from a branch → master → /(root)**. A failed collection leaves the last committed snapshot and deployed site intact. Branch protection may require an adjusted publishing policy; GitHub may disable scheduled workflows in inactive public repositories.
 
 ## Profile banner
 
