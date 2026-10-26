@@ -36,15 +36,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: node scripts/sync-activity.mjs
-      - name: Render the profile banner
+      - name: Render the profile banners
         run: python scripts/render-profile-banner.py
-      - name: Save the snapshot and banner
+      - name: Save the snapshot and banners
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/data/activity.json assets/profile-banner.gif
+          git add assets/data/activity.json assets/profile-banner-light.png assets/profile-banner-dark.png
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh public activity and profile banner"
+            git commit -m "Refresh public activity and profile banners"
             git push origin HEAD:master
           fi
       - name: Request the GitHub Pages build

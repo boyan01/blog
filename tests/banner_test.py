@@ -1,4 +1,4 @@
-"""Check that the profile banner reflects the public activity window."""
+"""Check that the profile banners reflect the public activity window."""
 
 import importlib.util
 from pathlib import Path
@@ -27,16 +27,32 @@ class BannerTests(unittest.TestCase):
         self.assertEqual(groups[0]["points"][-1]["count"], 4)
         self.assertEqual(banner.constellations({"commits": []}), [])
 
-    def test_loop_returns_to_the_same_image(self):
-        scene = banner.Image.new("RGBA", tuple(value * banner.SCALE for value in banner.SIZE), "#081020")
-        groups = banner.constellations({"commits": [{"repo": "bin/example", "day": "2026-10-22"}]})
-        fonts = {"label": banner.ImageFont.load_default(size=22)}
-        first = banner.frame_at(scene, groups, fonts, 0)
-        last = banner.frame_at(scene, groups, fonts, 1)
-        # Subpixel trigonometric rounding may affect a handful of antialiased pixels.
-        from PIL import ImageChops, ImageStat
-        self.assertLess(max(ImageStat.Stat(ImageChops.difference(first, last)).mean), 0.01)
+    def test_skyline_has_one_building_per_day_in_the_window(self):
+        snapshot = {
+            "start": "2026-10-01",
+            "end": "2026-10-05",
+            "commits": [{"repo": "bin/a", "day": "2026-10-02"}] * 4 + [{"repo": "bin/b", "day": "2026-10-04"}],
+        }
+        counts = banner.daily_counts(snapshot)
+        self.assertEqual(counts, [0, 4, 0, 1, 0])
+        buildings = banner.skyline(counts)
+        self.assertEqual(len(buildings), 5)
+        tops = [top for _, top, _ in buildings]
+        self.assertLess(tops[1], tops[3])
+        self.assertEqual(tops[0], tops[2])
 
+    def test_renders_both_themes_at_double_resolution(self):
+        snapshot = {
+            "start": "2026-10-20",
+            "end": "2026-10-22",
+            "commits": [{"repo": "bin/example", "day": "2026-10-22"}],
+        }
+        fonts = {name: banner.ImageFont.load_default(size=22) for name in ("brand", "link", "label")}
+        for theme in banner.THEMES.values():
+            image = banner.render_banner(snapshot, theme, fonts)
+            self.assertEqual(image.size, (2000, 720))
+            # The ground strip under the skyline uses the theme's ground color.
+            self.assertEqual(image.getpixel((10, 719)), banner.rgba(theme["ground"])[:3])
 
 if __name__ == "__main__":
     unittest.main()

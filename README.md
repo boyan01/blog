@@ -30,7 +30,7 @@ The `Refresh public activity` workflow runs daily at 09:23 Asia/Shanghai, or man
 
 ## Profile banner
 
-The same daily workflow renders `assets/profile-banner.gif` from the refreshed public snapshot before committing both files together. The 1000 × 360, 8-second looping GIF uses the storybook background, the six busiest repositories, and each repository's latest eight active days. The cover keeps only a small BIN wordmark and the site address; the star groups update from the snapshot without statistics or explanatory copy. Rendering uses Pillow and its bundled font; no browser, external rendering service, or cross-repository token is required. A failed render keeps the last committed snapshot and banner intact.
+The same daily workflow renders `assets/profile-banner-light.png` and `assets/profile-banner-dark.png` from the refreshed public snapshot before committing them with it. Each is a static 2000 × 720 image of the home page's sky, by day and by night: the six busiest repositories as constellations of their latest eight active days, a skyline of the 90-day window with today's building lit, the BIN wordmark, and the site address. Rendering uses Pillow and the site's own Bricolage Grotesque subset; no browser, external rendering service, or cross-repository token is required. A failed render keeps the last committed snapshot and banners intact.
 
 To regenerate locally:
 
@@ -40,9 +40,9 @@ python -m unittest discover -s tests -p '*_test.py'
 python scripts/render-profile-banner.py
 ```
 
-No system font installation is needed. The renderer validates the frame count, infinite loop, dimensions, and a 5 MB size limit before replacing the banner.
+No system font installation is needed. The renderer validates each image's dimensions and a 5 MB size limit before replacing it.
 
-The profile repository references the raw image from `master`, wrapped in a link to `https://i.soit.tech/`. New banners appear after GitHub's image caches refresh; the README itself does not need daily commits.
+The profile repository wraps both raw images from `master` in a `<picture>` element, so GitHub shows the one matching the viewer's theme, linked to `https://i.soit.tech/`. New banners appear after GitHub's image caches refresh; the profile README itself does not need daily commits.
 
 ## Design
 
@@ -52,7 +52,7 @@ The light theme is the same sky by day and the dark theme by night. Every color 
 
 Motion respects the system's reduced-motion preference and has a pause button. Star details support keyboard navigation and Escape, and the skyline is a native range input. Latin text and numbers use a self-hosted, Latin-only subset of [Bricolage Grotesque](https://github.com/ateliertriay/bricolage) (`assets/fonts`, SIL OFL 1.1); Chinese text uses system fonts.
 
-`assets/images/night-lake-storybook.png` is no longer shown on the site; it remains the profile banner background and Open Graph image. Its prompt is recorded in `assets/images/night-lake-storybook.prompt.txt`.
+`assets/images/night-lake-storybook.png` is no longer shown on the site; it remains the Open Graph image. Its prompt is recorded in `assets/images/night-lake-storybook.prompt.txt`.
 
 ## License
 

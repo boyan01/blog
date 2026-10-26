@@ -1,22 +1,39 @@
-"""Render a looping profile GIF from the site's public activity snapshot."""
+"""Render the day and night profile banners from the site's public activity snapshot."""
 
 import argparse
 from collections import Counter, defaultdict
+from datetime import date, timedelta
 import hashlib
 import json
 import math
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
+FONT = ROOT / "assets/fonts/bricolage-grotesque.woff2"
 SIZE = (1000, 360)
 SCALE = 2
-FRAMES = 80
-DURATION_MS = 100
-PALETTE = ["#bfdacf", "#b5cce6", "#cdbfa5", "#91bdc4", "#bcb9d9", "#b7c5b1"]
-ANCHORS = [(140, 125), (345, 85), (500, 180), (280, 265), (580, 55), (60, 270)]
+SKYLINE_HEIGHT = 74
+# The site's two skies, from zenith to horizon, with their ground and lamp colors.
+THEMES = {
+    "light": {
+        "sky": [(0, "#2f6dc0"), (0.55, "#5b92d6"), (1, "#a7c7ec")],
+        "haze": (255, 248, 230, 90),
+        "ground": "#f5f7fb",
+        "lamp": "#ffad33",
+        "specks": 0.5,
+    },
+    "dark": {
+        "sky": [(0, "#050a1a"), (0.55, "#0d1736"), (1, "#283c6c")],
+        "haze": (255, 186, 120, 34),
+        "ground": "#0a0f20",
+        "lamp": "#ffcf70",
+        "specks": 1,
+    },
+}
+ANCHORS = [(140, 125), (345, 85), (500, 180), (300, 265), (555, 55), (90, 270)]
 OFFSETS = [(0, 0), (-45, -28), (28, -46), (63, 3), (26, 42), (-33, 53), (-73, 13), (67, 60)]
 
 
@@ -36,123 +53,148 @@ def constellations(snapshot):
                 continue
             ox, oy = OFFSETS[slot % len(OFFSETS)]
             points.append({"x": cx + ox, "y": cy + oy, "day": day, "count": days[repo][day]})
-        result.append({"repo": repo, "color": PALETTE[index], "anchor": (cx, cy), "points": points})
+        result.append({"repo": repo, "anchor": (cx, cy), "points": points})
     return result
+
+
+def daily_counts(snapshot):
+    """Commit counts for every day in the snapshot window, oldest first."""
+    counts = Counter(commit["day"] for commit in snapshot["commits"])
+    start, end = date.fromisoformat(snapshot["start"]), date.fromisoformat(snapshot["end"])
+    return [counts[(start + timedelta(days=i)).isoformat()] for i in range((end - start).days + 1)]
+
+
+def skyline(counts):
+    """One building per day, scaled like the site's skyline: (left, top, right) in banner units."""
+    width = SIZE[0] / len(counts)
+    peak = max([1, *counts])
+    buildings = []
+    for index, count in enumerate(counts):
+        height = math.sqrt(count / peak) * (SKYLINE_HEIGHT - 9) + 6 if count else 0
+        buildings.append((index * width, SIZE[1] - 3 - height, (index + 1) * width - 1.2))
+    return buildings
 
 
 def seed(value):
     return int.from_bytes(hashlib.sha256(value.encode()).digest()[:4], "big")
 
 
+def ambient_stars(count=70):
+    """Faint background stars, kept apart so neighbors never merge into one blot."""
+    stars = []
+    for index in range(count * 2):
+        x, y = seed(f"x{index}") % 1000, 10 + seed(f"y{index}") % 250
+        if all(math.hypot(x - a, y - b) > 12 for a, b in stars):
+            stars.append((x, y))
+        if len(stars) == count:
+            break
+    return stars
+
+
+def position(cx, cy, x, y):
+    """Spread anchors across the wide banner while keeping each constellation's shape."""
+    return 90 + cx * 1.35 + (x - cx) * 0.62, 30 + cy * 0.62 + (y - cy) * 0.62
+
+
 def rgba(color, alpha=255):
     return tuple(bytes.fromhex(color.removeprefix("#"))) + (int(alpha),)
 
 
-def draw_text(draw, xy, text, font, color, anchor=None):
-    draw.text(tuple(v * SCALE for v in xy), text, font=font, fill=color, anchor=anchor)
+def font(size, weight):
+    face = ImageFont.truetype(FONT, size * SCALE)
+    face.set_variation_by_axes([min(96, max(14, size)), weight])
+    return face
 
 
-def background(fonts):
-    size = tuple(v * SCALE for v in SIZE)
-    source = Image.open(ROOT / "assets/images/night-lake-storybook.png").convert("RGB")
-    scene = ImageOps.fit(source, size, method=Image.Resampling.LANCZOS, centering=(0.5, 0.68))
-    vertical = Image.new("RGBA", (1, size[1]))
+def scaled(*values):
+    return [value * SCALE for value in values]
+
+
+def sky(theme):
+    size = tuple(scaled(*SIZE))
+    column = Image.new("RGB", (1, size[1]))
+    stops = theme["sky"]
     for y in range(size[1]):
-        ratio = y / size[1]
-        alpha = 28 * max(0, 1 - ratio / 0.62) + 190 * max(0, (ratio - 0.62) / 0.38)
-        vertical.putpixel((0, y), (8, 15, 26, int(alpha)))
-    scene = Image.alpha_composite(scene.convert("RGBA"), vertical.resize(size))
-    draw = ImageDraw.Draw(scene)
-    draw_text(draw, (56, 24), "BIN", fonts["brand"], "#e3e9e8")
-    draw_text(draw, (945, 330), "i.soit.tech", fonts["link"], "#d2dcd9", anchor="ra")
-    return scene
+        ratio = y / (size[1] - 1)
+        for (start, a), (stop, b) in zip(stops, stops[1:]):
+            if start <= ratio <= stop:
+                t = (ratio - start) / (stop - start)
+                column.putpixel((0, y), tuple(round(p + (q - p) * t) for p, q in zip(rgba(a)[:3], rgba(b)[:3])))
+                break
+    scene = column.resize(size).convert("RGBA")
+    haze = Image.new("RGBA", size)
+    ImageDraw.Draw(haze).ellipse(scaled(-100, 260, 1100, 540), fill=theme["haze"])
+    return Image.alpha_composite(scene, haze.filter(ImageFilter.GaussianBlur(60 * SCALE)))
 
 
-def dashed_line(draw, start, end, fill, offset):
-    dx, dy = end[0] - start[0], end[1] - start[1]
-    length = math.hypot(dx, dy)
-    if not length:
-        return
-    position = -offset
-    while position < length:
-        a, b = max(0, position), min(length, position + 3)
-        if b > a:
-            coords = [(start[0] + dx * t / length, start[1] + dy * t / length) for t in (a, b)]
-            draw.line([(x * SCALE, y * SCALE) for x, y in coords], fill=fill, width=SCALE)
-        position += 8
-
-
-def frame_at(scene, groups, fonts, phase):
-    theta = phase * math.tau
-    drift_x, drift_y = 2 * math.sin(theta), 2 * math.cos(theta)
+def render_banner(snapshot, theme, fonts):
+    scene = sky(theme)
     layer = Image.new("RGBA", scene.size)
     glow = Image.new("RGBA", scene.size)
     draw, halo = ImageDraw.Draw(layer), ImageDraw.Draw(glow)
 
-    for index in range(40):
-        x, y = seed(f"x{index}") % 1000, 18 + seed(f"y{index}") % 140
-        alpha = 38 + 25 * (1 + math.sin(theta + index))
-        draw.ellipse((x * SCALE, y * SCALE, (x + 1) * SCALE, (y + 1) * SCALE), fill=(166, 187, 209, int(alpha)))
-    for group in groups:
+    for index, (x, y) in enumerate(ambient_stars()):
+        r = 1.2 if index % 9 == 0 else 0.8
+        alpha = (60 + seed(f"o{index}") % 90) * theme["specks"]
+        draw.ellipse(scaled(x - r, y - r, x + r, y + r), fill=(255, 255, 255, int(alpha)))
+    for group in constellations(snapshot):
         points = group["points"]
-        color = group["color"]
         cx, cy = group["anchor"]
-
-        def position(x, y):
-            return (
-                50 + cx * 1.42 + (x - cx) * 0.62 + drift_x,
-                40 + cy * 0.28 + (y - cy) * 0.45 + drift_y,
-            )
-
-        for a, b in zip(points, points[1:]):
-            dashed_line(draw, position(a["x"], a["y"]), position(b["x"], b["y"]), rgba(color, 88), phase * 8)
-        label_pos = position(cx, cy - 68)
-        draw_text(draw, label_pos, group["repo"].split("/")[1], fonts["label"], rgba(color, 135), anchor="mt")
-        for index, point in enumerate(points):
-            key = seed(group["repo"] + point["day"])
-            pulse = 0.73 + 0.27 * math.sin(theta * (1 + key % 2) + key % 100)
-            x, y = position(point["x"], point["y"])
-            radius = (1.5 + min(1.8, math.sqrt(point["count"]) * 0.35)) * pulse
-            halo.ellipse(((x - 7) * SCALE, (y - 7) * SCALE, (x + 7) * SCALE, (y + 7) * SCALE), fill=rgba(color, 85 * pulse))
-            draw.ellipse(((x - radius) * SCALE, (y - radius) * SCALE, (x + radius) * SCALE, (y + radius) * SCALE), fill=rgba(color, 255 * pulse))
+        placed = [position(cx, cy, point["x"], point["y"]) for point in points]
+        for a, b in zip(placed, placed[1:]):
+            draw.line(scaled(*a, *b), fill=(255, 255, 255, 92), width=SCALE)
+        if placed:
+            label = position(cx, cy, cx, cy)[0], min(y for _, y in placed) - 12
+            draw.text(scaled(*label), group["repo"].split("/")[1], font=fonts["label"], fill=(255, 255, 255, 190), anchor="ms")
+        for index, (point, (x, y)) in enumerate(zip(points, placed)):
+            radius = 1.2 + min(2, math.sqrt(point["count"]) * 0.4)
+            halo.ellipse(scaled(x - 6, y - 6, x + 6, y + 6), fill=(255, 255, 255, 110))
+            draw.ellipse(scaled(x - radius, y - radius, x + radius, y + radius), fill="#fff")
             if index == len(points) - 1:
-                radius = 6 * pulse
-                cross = [(x, y-radius), (x+radius*0.22, y-radius*0.22), (x+radius, y), (x+radius*0.22, y+radius*0.22), (x, y+radius), (x-radius*0.22, y+radius*0.22), (x-radius, y), (x-radius*0.22, y-radius*0.22)]
-                draw.polygon([(px * SCALE, py * SCALE) for px, py in cross], fill=rgba(color, 240 * pulse))
-    result = Image.alpha_composite(scene, glow.filter(ImageFilter.GaussianBlur(5 * SCALE)))
-    result = Image.alpha_composite(result, layer)
-    return result.convert("RGB").resize(SIZE, Image.Resampling.LANCZOS)
+                # The newest day of each constellation gets a glint.
+                for step in range(4):
+                    near, far, alpha = 2 + step * 2.5, 4.5 + step * 2.5, int(210 * (1 - step / 4))
+                    for sx, sy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                        draw.line(scaled(x + sx * near, y + sy * near, x + sx * far, y + sy * far), fill=(255, 255, 255, alpha), width=SCALE)
+
+    # The skyline is the ground's color, and today's building is lit with a lamp post.
+    buildings = skyline(daily_counts(snapshot))
+    for left, top, right in buildings:
+        draw.rectangle(scaled(left, top, right, SIZE[1]), fill=theme["ground"])
+    draw.rectangle(scaled(0, SIZE[1] - 3, *SIZE), fill=theme["ground"])
+    left, top, right = buildings[-1]
+    middle = (left + right) / 2
+    halo.ellipse(scaled(middle - 14, top - 22, middle + 14, SIZE[1] + 6), fill=rgba(theme["lamp"], 120))
+    draw.rectangle(scaled(left, top, right, SIZE[1] - 3), fill=theme["lamp"])
+    draw.rectangle(scaled(middle - 1, top - 12, middle + 1, top), fill=theme["lamp"])
+
+    draw.text(scaled(40, 26), "BIN", font=fonts["brand"], fill="#fff")
+    draw.text(scaled(960, 31), "i.soit.tech", font=fonts["link"], fill=(255, 255, 255, 200), anchor="ra")
+    result = Image.alpha_composite(scene, glow.filter(ImageFilter.GaussianBlur(4 * SCALE)))
+    return Image.alpha_composite(result, layer).convert("RGB")
 
 
-def render(snapshot_path, output):
+def render(snapshot_path, output_dir):
     snapshot = json.loads(snapshot_path.read_text())
-    fonts = {name: ImageFont.load_default(size=size * SCALE) for name, size in {
-        "brand": 22, "link": 12, "label": 11,
-    }.items()}
-    groups = constellations(snapshot)
-    scene = background(fonts)
-    frames = [frame_at(scene, groups, fonts, index / FRAMES) for index in range(FRAMES)]
-    # Reserve warm tones so the small lit window survives GIF color reduction.
-    warm_colors = ["#f4d58d", "#e5bd73", "#d5a663", "#b98d51", "#997143", "#805c38", "#674a2e", "#523c29", "#413124", "#322820", "#27211d", "#fff5dc"]
-    palette = frames[0].quantize(colors=244)
-    palette.putpalette(palette.getpalette()[:244 * 3] + [channel for color in warm_colors for channel in rgba(color)[:3]])
-    frames = [frame.quantize(palette=palette, dither=Image.Dither.NONE) for frame in frames]
-    output.parent.mkdir(parents=True, exist_ok=True)
-    temporary = output.with_suffix(".tmp.gif")
-    frames[0].save(temporary, save_all=True, append_images=frames[1:], duration=DURATION_MS, loop=0, optimize=True, disposal=1)
-    if temporary.stat().st_size > 5_000_000:
-        temporary.unlink()
-        raise ValueError("Profile banner exceeds the 5 MB delivery budget.")
-    with Image.open(temporary) as image:
-        if image.n_frames != FRAMES or image.size != SIZE or image.info.get("loop") != 0:
-            raise ValueError("Generated GIF did not pass animation validation.")
-    temporary.replace(output)
-    print(f"Rendered {output.name}: {FRAMES} frames, {FRAMES * DURATION_MS / 1000:g}s, {output.stat().st_size:,} bytes.")
+    fonts = {"brand": font(22, 800), "link": font(14, 500), "label": font(12, 500)}
+    output_dir.mkdir(parents=True, exist_ok=True)
+    for name, theme in THEMES.items():
+        output = output_dir / f"profile-banner-{name}.png"
+        temporary = output.with_suffix(".tmp.png")
+        render_banner(snapshot, theme, fonts).save(temporary, optimize=True)
+        with Image.open(temporary) as image:
+            if image.size != tuple(scaled(*SIZE)):
+                raise ValueError(f"Generated {output.name} has the wrong size.")
+        if temporary.stat().st_size > 5_000_000:
+            temporary.unlink()
+            raise ValueError(f"{output.name} exceeds the 5 MB delivery budget.")
+        temporary.replace(output)
+        print(f"Rendered {output.name}: {output.stat().st_size:,} bytes.")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--snapshot", type=Path, default=ROOT / "assets/data/activity.json")
-    parser.add_argument("--output", type=Path, default=ROOT / "assets/profile-banner.gif")
+    parser.add_argument("--output-dir", type=Path, default=ROOT / "assets")
     args = parser.parse_args()
-    render(args.snapshot, args.output)
+    render(args.snapshot, args.output_dir)
