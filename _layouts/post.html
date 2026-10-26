@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-<main id="main" class="article-wrap wrap">
-  <a href="{{ '/archive/' | relative_url }}" class="back-link">← 所有旧文</a>
-  <header class="article-header"><p class="eyebrow">FROM THE ARCHIVE · {{ page.date | date: '%Y.%m.%d' }}</p><h1>{{ page.title }}</h1><p class="article-notice">这是一篇历史文章，保留当时的内容。技术细节可能已不适用于当前版本。</p></header>
+<main id="main" class="article wrap">
+  <header class="article-header">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y.%m.%d' }}</time>
+    <h1>{{ page.title }}</h1>
+  </header>
   <article class="prose">{{ content }}</article>
-  <a href="{{ '/archive/' | relative_url }}" class="back-link">← 回到旧文</a>
 </main>

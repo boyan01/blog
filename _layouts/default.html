@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme-pref="auto">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#2f6dc0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#060b1c" media="(prefers-color-scheme: dark)">
   <title>{% if page.title %}{{ page.title | escape }} · {% endif %}BIN</title>
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
@@ -11,20 +13,44 @@
   <meta property="og:image" content="{{ '/assets/images/night-lake-storybook.png' | absolute_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <script>
+    // Apply the saved theme before first paint; the toggle cycles auto → light → dark.
+    (() => {
+      const modes = ["auto", "light", "dark"];
+      const root = document.documentElement;
+      let mode = "auto";
+      try { mode = localStorage.getItem("theme") || "auto"; } catch {}
+      root.dataset.themePref = modes.includes(mode) ? mode : "auto";
+      document.addEventListener("click", (event) => {
+        if (!event.target.closest("[data-theme-toggle]")) return;
+        const next = modes[(modes.indexOf(root.dataset.themePref) + 1) % modes.length];
+        root.dataset.themePref = next;
+        try { localStorage.setItem("theme", next); } catch {}
+      });
+    })();
+  </script>
+  <link rel="preload" href="{{ '/assets/fonts/bricolage-grotesque.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-  {% if page.home %}<link rel="preload" as="image" href="{{ '/assets/images/night-lake-storybook.png' | relative_url }}">{% endif %}
 </head>
 <body class="{% if page.home %}home{% else %}interior{% endif %}">
   <a class="skip-link" href="#main">跳到正文</a>
   <header class="site-header wrap">
     <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="BIN 首页">BIN</a>
     <nav aria-label="主导航">
-      <a href="{{ '/' | relative_url }}#footprints">足迹</a>
-      <a href="{{ '/archive/' | relative_url }}" {% if page.archive %}aria-current="page"{% endif %}>旧文</a>
-      <a href="https://github.com/boyan01" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="{{ '/' | relative_url }}#footprints">最近</a>
+      <a href="{{ '/archive/' | relative_url }}" {% if page.archive %}aria-current="page"{% endif %}>文章</a>
+      <a href="https://github.com/boyan01" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <button class="theme-toggle" type="button" data-theme-toggle>
+        <span class="theme-option" data-mode="auto"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5a6.5 6.5 0 0 1 0 13z" class="fill"/></svg><span class="sr-only">主题：跟随系统，点击切换</span></span>
+        <span class="theme-option" data-mode="light"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="3.6"/><path d="M10 1.8v2.4M10 15.8v2.4M1.8 10h2.4M15.8 10h2.4M4.2 4.2l1.7 1.7M14.1 14.1l1.7 1.7M4.2 15.8l1.7-1.7M14.1 5.9l1.7-1.7"/></svg><span class="sr-only">主题：浅色，点击切换</span></span>
+        <span class="theme-option" data-mode="dark"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M15.8 12.6A6.6 6.6 0 0 1 7.4 4.2a6.6 6.6 0 1 0 8.4 8.4z"/></svg><span class="sr-only">主题：深色，点击切换</span></span>
+      </button>
     </nav>
   </header>
   {{ content }}
-  <footer class="site-footer wrap"><a href="{{ '/' | relative_url }}">BIN</a><a href="https://github.com/boyan01/blog" target="_blank" rel="noopener noreferrer">View source ↗</a></footer>
+  <footer class="site-footer wrap">
+    <span>BIN</span>
+    <a href="https://github.com/boyan01/blog" target="_blank" rel="noopener noreferrer">源码</a>
+  </footer>
 </body>
 </html>

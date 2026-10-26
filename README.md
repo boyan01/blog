@@ -1,6 +1,6 @@
 # BIN
 
-A quiet personal website at [i.soit.tech](https://i.soit.tech): a night landscape, an interactive constellation of public commits, and a small writing archive.
+A quiet personal website at [i.soit.tech](https://i.soit.tech): a sky of public commits, by day and by night, and a small writing archive.
 
 ## Development
 
@@ -46,9 +46,13 @@ The profile repository references the raw image from `master`, wrapped in a link
 
 ## Design
 
-The header reads **BIN**. The opening view centers the constellations above the lake with no slogan or explanatory caption. Activity totals and the timeline remain below the landscape. Motion respects the system's reduced-motion preference and has a manual toggle. Star details support keyboard navigation and Escape, and all content links work independently of the animated sky. Stars drift together with their connecting lines, pulse at staggered intervals, and highlight their constellation on pointer hover or keyboard focus. The same motion toggle stops both the scene animation and star pseudo-element animations. The page uses system fonts and serves its own storybook-style background image.
+The home page opens on a full-bleed sky. Each of the six busiest repositories is a constellation of its latest eight active days, and the bottom of the sky is a skyline of the last 90 days: one building per day, its height scaled by commit count. Dragging across the skyline rewinds the sky; the selected day is lit. Recent commits and the writing archive sit on the ground below. The page carries no explanatory copy.
 
-`assets/images/night-lake-storybook.png` was generated with the built-in image generation tool. Its prompt is recorded in `assets/images/night-lake-storybook.prompt.txt`.
+The light theme is the same sky by day and the dark theme by night. Every color is a `light-dark()` token in `assets/site.css`. The header toggle cycles between following the system, light, and dark; an inline script in the layout applies the saved choice from `localStorage` before first paint.
+
+Motion respects the system's reduced-motion preference and has a pause button. Star details support keyboard navigation and Escape, and the skyline is a native range input. Latin text and numbers use a self-hosted, Latin-only subset of [Bricolage Grotesque](https://github.com/ateliertriay/bricolage) (`assets/fonts`, SIL OFL 1.1); Chinese text uses system fonts.
+
+`assets/images/night-lake-storybook.png` is no longer shown on the site; it remains the profile banner background and Open Graph image. Its prompt is recorded in `assets/images/night-lake-storybook.prompt.txt`.
 
 ## License
 

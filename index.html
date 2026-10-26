@@ -3,41 +3,37 @@ layout: default
 home: true
 ---
 <main id="main">
-  <section class="hero" aria-label="代码星图">
-    <div class="landscape" aria-hidden="true"></div>
+  <section class="scene" aria-label="最近 90 天的公开提交">
     <div class="ambient-stars" aria-hidden="true"></div>
-    <h1 class="sr-only">BIN 的代码星图</h1>
-    <div class="sky" id="sky" tabindex="-1" aria-label="公开提交星图">
+    <div class="sky" id="sky" tabindex="-1">
       <div class="sky-art">
-      <svg class="constellations" viewBox="0 0 640 350" preserveAspectRatio="none" role="img" aria-label="仓库间的星群连线" aria-hidden="true"></svg>
-      <div class="star-layer"></div>
+        <svg class="constellations" viewBox="0 0 640 350" preserveAspectRatio="none" aria-hidden="true"></svg>
+        <div class="star-layer"></div>
       </div>
     </div>
-    <div class="hero-bottom wrap">
-      <a href="#footprints" class="scroll-cue"><span aria-hidden="true">↓</span> 向下看看最近</a>
-      <button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="true"><span aria-hidden="true">◌</span> <span class="motion-label">星光流动中</span></button>
+    <button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="true" aria-label="星星动画">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path class="icon-pause" d="M5 3.5v9M11 3.5v9"/><path class="icon-play" d="M5 3.2v9.6L12.5 8z"/></svg>
+    </button>
+    <div class="skyline" id="timeline" hidden>
+      <div id="activity-bars" class="activity-bars" aria-hidden="true"></div>
+      <input id="time-range" type="range" min="0" max="89" value="89" aria-label="选择日期">
+      <div class="scrub-label"><output id="timeline-date" for="time-range"></output><button type="button" id="timeline-reset" hidden>回到今天</button></div>
     </div>
   </section>
-  <section class="observatory wrap" aria-labelledby="observatory-title">
-    <div class="observation-heading"><div><p class="eyebrow">PUBLIC ACTIVITY</p><h2 id="observatory-title">公开提交</h2></div><p class="snapshot-status" id="snapshot-status">正在读取公开足迹…</p></div>
-    <div class="timeline" id="timeline" hidden>
-      <div class="timeline-top"><span>最近 90 天</span><output id="timeline-date" for="time-range"></output><button type="button" id="timeline-reset">回到现在 ↗</button></div>
-      <div class="timeline-track"><div id="activity-bars" class="activity-bars" aria-hidden="true"></div><input id="time-range" type="range" min="0" max="89" value="89" aria-label="回放日期"></div>
-      <div class="timeline-labels" aria-hidden="true"></div>
-      <div class="timeline-bottom"><p>拖动时间，看星图慢慢亮起。</p><p id="activity-summary"></p></div>
-    </div>
-    <div class="repo-filters" role="group" aria-label="筛选仓库"></div>
-    <noscript><p class="fallback-note">打开 JavaScript 即可探索星图。也可以直接<a href="https://github.com/boyan01?tab=overview">在 GitHub 查看我的足迹 ↗</a>。</p></noscript>
-  </section>
-  <section class="footprints wrap" id="footprints" aria-labelledby="footprints-title">
-    <div class="section-heading"><div><p class="eyebrow">RECENT FOOTPRINTS</p><h2 id="footprints-title">最近，在折腾什么。</h2></div><span class="section-note">公开提交里的小小进展</span></div>
-    <div id="footprint-list" class="footprint-list"><p class="fallback-note">足迹读取中。<a href="https://github.com/boyan01">也可以去 GitHub 看看 ↗</a></p></div>
-    <button id="show-more" class="text-button" type="button" hidden>再往前看看 <span aria-hidden="true">↓</span></button>
-  </section>
-  <section class="archive-teaser wrap" aria-labelledby="archive-title">
-    <div><p class="eyebrow">FROM THE ARCHIVE</p><h2 id="archive-title">以前写下的，<br>也留在这里。</h2><p>一些旧文字，记录当时的探索。</p><a class="explore-link" href="{{ '/archive/' | relative_url }}">翻翻旧文 <span aria-hidden="true">↗</span></a></div>
-    <div class="archive-links">{% for post in site.posts %}<a href="{{ post.url | relative_url }}"><span class="mono">{{ post.date | date: '%Y.%m.%d' }}</span><span>{{ post.title }}</span><span aria-hidden="true">↗</span></a>{% endfor %}</div>
-  </section>
+  <div class="ground wrap">
+    <section class="recent" id="footprints" aria-labelledby="footprints-title">
+      <div class="section-head">
+        <h2 id="footprints-title">最近</h2>
+        <div class="repo-filters" role="group" aria-label="按仓库筛选"></div>
+      </div>
+      <div id="footprint-list" class="footprint-list"><noscript><p class="fallback-note"><a href="https://github.com/boyan01">在 GitHub 上查看</a></p></noscript></div>
+      <button id="show-more" class="text-button" type="button" hidden>更早</button>
+    </section>
+    <section class="writing" aria-labelledby="writing-title">
+      <h2 id="writing-title">文章</h2>
+      <div class="post-list">{% for post in site.posts %}<a href="{{ post.url | relative_url }}"><span class="post-title">{{ post.title }}</span><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time></a>{% endfor %}</div>
+    </section>
+  </div>
 </main>
-<dialog id="star-detail" aria-labelledby="detail-title"><button class="dialog-close" type="button" aria-label="关闭星星详情">×</button><p class="eyebrow" id="detail-date"></p><h2 id="detail-title"></h2><p class="detail-count"></p><ul class="detail-commits"></ul></dialog>
+<dialog id="star-detail" aria-labelledby="detail-title"><button class="dialog-close" type="button" aria-label="关闭">×</button><p id="detail-date"></p><h2 id="detail-title"></h2><p class="detail-count"></p><ul class="detail-commits"></ul></dialog>
 <script src="{{ '/assets/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
