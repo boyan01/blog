@@ -1,10 +1,386 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-10-27T01:02:58.279Z",
+  "generatedAt": "2026-10-27T03:01:51.547Z",
   "start": "2026-07-30",
   "end": "2026-10-27",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "98ad40c3e285257eaa3eff9a030e22faddb3da18",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T02:56:57.000Z",
+      "day": "2026-10-27",
+      "title": "CI flakes: a longer stall timeout, the rebuild seen by its log",
+      "url": "https://github.com/boyan01/lychee_player/commit/98ad40c3e285257eaa3eff9a030e22faddb3da18"
+    },
+    {
+      "sha": "4a2b0f61d789353da0770172bf51ad3796431904",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T02:40:01.000Z",
+      "day": "2026-10-27",
+      "title": "Virtual time waits for a size change to be published",
+      "url": "https://github.com/boyan01/lychee_player/commit/4a2b0f61d789353da0770172bf51ad3796431904"
+    },
+    {
+      "sha": "8191fe8a83ffaf9cd9afee9918266652cce69d8e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T02:19:47.000Z",
+      "day": "2026-10-27",
+      "title": "Fix the two cases core-linux failed: FFmpeg's own http",
+      "url": "https://github.com/boyan01/lychee_player/commit/8191fe8a83ffaf9cd9afee9918266652cce69d8e"
+    },
+    {
+      "sha": "20ba118d6d47cfbb6df64b3d284d8bdd81fd6764",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:43:50.000Z",
+      "day": "2026-10-27",
+      "title": "clang-format the lines changed since 1750b3e",
+      "url": "https://github.com/boyan01/lychee_player/commit/20ba118d6d47cfbb6df64b3d284d8bdd81fd6764"
+    },
+    {
+      "sha": "2ab58b876b8495f426b20a987d955642dae22e50",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:43:15.000Z",
+      "day": "2026-10-27",
+      "title": "FFmpeg demuxer: continuous HLS discontinuities, TS seeks to the keyframe before",
+      "url": "https://github.com/boyan01/lychee_player/commit/2ab58b876b8495f426b20a987d955642dae22e50"
+    },
+    {
+      "sha": "eae2650115b3b9d3fb0101996d3bcd3a737719b1",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:40:02.000Z",
+      "day": "2026-10-27",
+      "title": "Linux: ship our own LGPL 2.1 FFmpeg (GnuTLS) as a release asset",
+      "url": "https://github.com/boyan01/lychee_player/commit/eae2650115b3b9d3fb0101996d3bcd3a737719b1"
+    },
+    {
+      "sha": "1126d4493ec00d46e2650668359a46246512a0ef",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:34:06.000Z",
+      "day": "2026-10-27",
+      "title": "Rust test: only check that frames keep coming, not the rate",
+      "url": "https://github.com/boyan01/lychee_player/commit/1126d4493ec00d46e2650668359a46246512a0ef"
+    },
+    {
+      "sha": "2746b8cd9a2ded537df611214d047844516d3f84",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:34:06.000Z",
+      "day": "2026-10-27",
+      "title": "Swift package: read the transfer function only on macOS 12 and later",
+      "url": "https://github.com/boyan01/lychee_player/commit/2746b8cd9a2ded537df611214d047844516d3f84"
+    },
+    {
+      "sha": "79c48266c5145cf99c56113252b2982c5d3a2a87",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:20:38.000Z",
+      "day": "2026-10-27",
+      "title": "CI: keep the fuzzing corpus between runs",
+      "url": "https://github.com/boyan01/lychee_player/commit/79c48266c5145cf99c56113252b2982c5d3a2a87"
+    },
+    {
+      "sha": "e8960c1368f5e6283201cb535367bbdd2008d507",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:20:38.000Z",
+      "day": "2026-10-27",
+      "title": "CI: check lychee.h's ABI against the last release and the change's base",
+      "url": "https://github.com/boyan01/lychee_player/commit/e8960c1368f5e6283201cb535367bbdd2008d507"
+    },
+    {
+      "sha": "f84aa2b85d2f1bff5db5fb4a97d697048dce1ce2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:20:38.000Z",
+      "day": "2026-10-27",
+      "title": "CI: realtime cases' timing checks only warn on hosted runners",
+      "url": "https://github.com/boyan01/lychee_player/commit/f84aa2b85d2f1bff5db5fb4a97d697048dce1ce2"
+    },
+    {
+      "sha": "0ae408b8518492675c747f3460a0f73a8b17f95a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:20:01.000Z",
+      "day": "2026-10-27",
+      "title": "Replay kept packets on a resync over input that cannot seek",
+      "url": "https://github.com/boyan01/lychee_player/commit/0ae408b8518492675c747f3460a0f73a8b17f95a"
+    },
+    {
+      "sha": "df7c319f12f13e82c0831eab3aa66ddc0322c075",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T01:16:35.000Z",
+      "day": "2026-10-27",
+      "title": "Read untagged HD as BT.709 on the swscale and VideoToolbox paths",
+      "url": "https://github.com/boyan01/lychee_player/commit/df7c319f12f13e82c0831eab3aa66ddc0322c075"
+    },
+    {
+      "sha": "27b356eba930b1578318ae103d76e3a28ef200fd",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:56:03.000Z",
+      "day": "2026-10-26",
+      "title": "Docs: what the parser fuzzers cover, what they found, CI fuzzing",
+      "url": "https://github.com/boyan01/lychee_player/commit/27b356eba930b1578318ae103d76e3a28ef200fd"
+    },
+    {
+      "sha": "87bd5ffbf12455ce408bbc4f60eeff3c4b3b3c72",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:51:14.000Z",
+      "day": "2026-10-26",
+      "title": "Fuzz Matroska, MPEG-TS and HLS; build the fuzzers on Linux",
+      "url": "https://github.com/boyan01/lychee_player/commit/87bd5ffbf12455ce408bbc4f60eeff3c4b3b3c72"
+    },
+    {
+      "sha": "9de4cac683c9032e951eea68dc65dcf99e3f5322",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:51:14.000Z",
+      "day": "2026-10-26",
+      "title": "Matroska: bound block times and stop EBML lacing at a bad size",
+      "url": "https://github.com/boyan01/lychee_player/commit/9de4cac683c9032e951eea68dc65dcf99e3f5322"
+    },
+    {
+      "sha": "a4661206c7442748e9711611c211fb7619236590",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:51:14.000Z",
+      "day": "2026-10-26",
+      "title": "CI: fuzz the parsers on parsers changes",
+      "url": "https://github.com/boyan01/lychee_player/commit/a4661206c7442748e9711611c211fb7619236590"
+    },
+    {
+      "sha": "af099fc38e385c1ee3c390749d2574ce309415c9",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:51:14.000Z",
+      "day": "2026-10-26",
+      "title": "HLS playlist: clamp EXTINF and TARGETDURATION before scaling",
+      "url": "https://github.com/boyan01/lychee_player/commit/af099fc38e385c1ee3c390749d2574ce309415c9"
+    },
+    {
+      "sha": "8f350af965bb2db45c5faea6732f91e8503d91e2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:22:58.000Z",
+      "day": "2026-10-26",
+      "title": "Check rendered frames by pixels: --frame-ppm, --snapshot, frame_check.py",
+      "url": "https://github.com/boyan01/lychee_player/commit/8f350af965bb2db45c5faea6732f91e8503d91e2"
+    },
+    {
+      "sha": "3df2ef680637cc973cfa0912de6327341f2a4341",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:20:41.000Z",
+      "day": "2026-10-26",
+      "title": "examples/glfw: Linux renderer (GLFW, OpenGL ES 3 on EGL)",
+      "url": "https://github.com/boyan01/lychee_player/commit/3df2ef680637cc973cfa0912de6327341f2a4341"
+    },
+    {
+      "sha": "0e7107def2fe76b518ef1a49c9ab7c5785ba7ff3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:07:27.000Z",
+      "day": "2026-10-26",
+      "title": "Flutter plugin: clang-format the source moved for SwiftPM",
+      "url": "https://github.com/boyan01/lychee_player/commit/0e7107def2fe76b518ef1a49c9ab7c5785ba7ff3"
+    },
+    {
+      "sha": "f08bb96a9a42f1c44623708847ae0f8bd7e43498",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:07:15.000Z",
+      "day": "2026-10-26",
+      "title": "clang-format: Standard: Latest, so Objective-C generics keep >>",
+      "url": "https://github.com/boyan01/lychee_player/commit/f08bb96a9a42f1c44623708847ae0f8bd7e43498"
+    },
+    {
+      "sha": "c4915dc0db85a3ac36b819dcc4c480738686230f",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:06:15.000Z",
+      "day": "2026-10-26",
+      "title": "Apple: ship the core without FFmpeg, as the Swift packages' NoFFmpeg trait",
+      "url": "https://github.com/boyan01/lychee_player/commit/c4915dc0db85a3ac36b819dcc4c480738686230f"
+    },
+    {
+      "sha": "d981315e7d46935936cc6dcf5cf16bcb67374437",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:06:15.000Z",
+      "day": "2026-10-26",
+      "title": "Flutter plugin: Swift package, frames through sdk/apple's driver",
+      "url": "https://github.com/boyan01/lychee_player/commit/d981315e7d46935936cc6dcf5cf16bcb67374437"
+    },
+    {
+      "sha": "9214aff85bd6341b57a715dc0628c520db7a5d07",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T14:00:16.000Z",
+      "day": "2026-10-26",
+      "title": "Stricter warnings, ASan/UBSan and coverage runs, clang-format on changed lines",
+      "url": "https://github.com/boyan01/lychee_player/commit/9214aff85bd6341b57a715dc0628c520db7a5d07"
+    },
+    {
+      "sha": "aeee5218a49fbfb8fce6858326bb48e95dfa92cb",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T13:27:14.000Z",
+      "day": "2026-10-26",
+      "title": "examples/glfw: Direct3D 11 renderer for Windows",
+      "url": "https://github.com/boyan01/lychee_player/commit/aeee5218a49fbfb8fce6858326bb48e95dfa92cb"
+    },
+    {
+      "sha": "d8a57adc28f5413f8db3cbf987b041bdfe189e3b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T13:14:05.000Z",
+      "day": "2026-10-26",
+      "title": "Test by layer, run CI by area",
+      "url": "https://github.com/boyan01/lychee_player/commit/d8a57adc28f5413f8db3cbf987b041bdfe189e3b"
+    },
+    {
+      "sha": "ddcb9b29438828883fe3eb83498930edca9b3707",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T12:44:08.000Z",
+      "day": "2026-10-26",
+      "title": "libass in shipped builds: macOS, iOS and Android render styled ASS",
+      "url": "https://github.com/boyan01/lychee_player/commit/ddcb9b29438828883fe3eb83498930edca9b3707"
+    },
+    {
+      "sha": "ee498da65c4c395441fa421d96ef3747052ec064",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T12:43:26.000Z",
+      "day": "2026-10-26",
+      "title": "lychee_cli: --subtitle-ppm writes the subtitle pictures it prints",
+      "url": "https://github.com/boyan01/lychee_player/commit/ee498da65c4c395441fa421d96ef3747052ec064"
+    },
+    {
+      "sha": "2ab4f5510bd6e17234d65194885328fc739349a4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T12:36:50.000Z",
+      "day": "2026-10-26",
+      "title": "Linux: disposeAll looked its textures up by a truncated id",
+      "url": "https://github.com/boyan01/lychee_player/commit/2ab4f5510bd6e17234d65194885328fc739349a4"
+    },
+    {
+      "sha": "cddb77e890e45a5551b6df0cdfe4607b98cf1d7b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T12:16:17.000Z",
+      "day": "2026-10-26",
+      "title": "FFmpeg-free MPEG-TS and HLS demuxers on Apple",
+      "url": "https://github.com/boyan01/lychee_player/commit/cddb77e890e45a5551b6df0cdfe4607b98cf1d7b"
+    },
+    {
+      "sha": "10367ee04344da2ce6abb40660dd96a90a24ea82",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T12:07:56.000Z",
+      "day": "2026-10-26",
+      "title": "API 11: clear a player's event callback when its Dart isolate goes",
+      "url": "https://github.com/boyan01/lychee_player/commit/10367ee04344da2ce6abb40660dd96a90a24ea82"
+    },
+    {
+      "sha": "088678c22c5af6d7e18d398abbf12e5c26fc1300",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:55:39.000Z",
+      "day": "2026-10-26",
+      "title": "Windows: our own slim LGPL 2.1 FFmpeg in place of BtbN's",
+      "url": "https://github.com/boyan01/lychee_player/commit/088678c22c5af6d7e18d398abbf12e5c26fc1300"
+    },
+    {
+      "sha": "0c49a7815651d6ad0a10af2fe65dc679ed43fa3a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:53:50.000Z",
+      "day": "2026-10-26",
+      "title": "Windows: decode H.264/HEVC and AAC with Media Foundation; FFmpeg-free MP4",
+      "url": "https://github.com/boyan01/lychee_player/commit/0c49a7815651d6ad0a10af2fe65dc679ed43fa3a"
+    },
+    {
+      "sha": "311259478388d4b562f1c399dc1d72be730a6b1e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:53:27.000Z",
+      "day": "2026-10-26",
+      "title": "Windows: tone-map PQ on the GPU with a shader of our own",
+      "url": "https://github.com/boyan01/lychee_player/commit/311259478388d4b562f1c399dc1d72be730a6b1e"
+    },
+    {
+      "sha": "06a8ae304e90c9ffe74285034cabc9535bdf97fe",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:53:11.000Z",
+      "day": "2026-10-26",
+      "title": "Mp4Demuxer: reject stz2 field sizes other than 4, 8 and 16 bits",
+      "url": "https://github.com/boyan01/lychee_player/commit/06a8ae304e90c9ffe74285034cabc9535bdf97fe"
+    },
+    {
+      "sha": "dd430cd3ed91b01efab9db2e1e992a5a4a0a7829",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:45:46.000Z",
+      "day": "2026-10-26",
+      "title": "Fold tx3g parsing into TextSubtitleDecoder",
+      "url": "https://github.com/boyan01/lychee_player/commit/dd430cd3ed91b01efab9db2e1e992a5a4a0a7829"
+    },
+    {
+      "sha": "1304bf115aa6e54b78dc0052cf91b67d790215d6",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:41:28.000Z",
+      "day": "2026-10-26",
+      "title": "Fuzz the FFmpeg-free MP4 parser; fix the two bugs it found",
+      "url": "https://github.com/boyan01/lychee_player/commit/1304bf115aa6e54b78dc0052cf91b67d790215d6"
+    },
+    {
+      "sha": "ac46a1aeef811db5e62c47daa17707a5bcac88a1",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:41:16.000Z",
+      "day": "2026-10-26",
+      "title": "Mp4Demuxer: fragmented MP4 and tx3g subtitles without FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/ac46a1aeef811db5e62c47daa17707a5bcac88a1"
+    },
+    {
+      "sha": "e29a5e1f6c1c9d2f9c3b77bf07d161b202a61c9e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:37:12.000Z",
+      "day": "2026-10-26",
+      "title": "Android without FFmpeg: MediaCodec audio, MP4 files; HDR check",
+      "url": "https://github.com/boyan01/lychee_player/commit/e29a5e1f6c1c9d2f9c3b77bf07d161b202a61c9e"
+    },
+    {
+      "sha": "ccb43f8ca89f7e056a483704b68105be494252be",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:33:49.000Z",
+      "day": "2026-10-26",
+      "title": "FFmpeg-free Matroska/WebM; VP9, AV1, Opus, FLAC, MP3 through Apple's decoders",
+      "url": "https://github.com/boyan01/lychee_player/commit/ccb43f8ca89f7e056a483704b68105be494252be"
+    },
+    {
+      "sha": "452025873c413d1363d338c2bd702bff87f91079",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:16:03.000Z",
+      "day": "2026-10-26",
+      "title": "FFmpeg reads through DataSource on Apple platforms",
+      "url": "https://github.com/boyan01/lychee_player/commit/452025873c413d1363d338c2bd702bff87f91079"
+    },
+    {
+      "sha": "33d54ff88ba01819770738117cc57de1d54d0ae5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:08:02.000Z",
+      "day": "2026-10-26",
+      "title": "CI: core-linux job runs the regression on ubuntu-24.04",
+      "url": "https://github.com/boyan01/lychee_player/commit/33d54ff88ba01819770738117cc57de1d54d0ae5"
+    },
+    {
+      "sha": "ad452e30b9b4715c2db6214a2decd5858050b23a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T11:02:43.000Z",
+      "day": "2026-10-26",
+      "title": "API 10: lychee_player_is_seekable(); log setter inside a callback swaps without waiting",
+      "url": "https://github.com/boyan01/lychee_player/commit/ad452e30b9b4715c2db6214a2decd5858050b23a"
+    },
+    {
+      "sha": "4ec457c093bbb0d09caed0b8712d7ee0ec63b355",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T10:14:03.000Z",
+      "day": "2026-10-26",
+      "title": "Virtual time: wait for slow live decoders and for undelivered events",
+      "url": "https://github.com/boyan01/lychee_player/commit/4ec457c093bbb0d09caed0b8712d7ee0ec63b355"
+    },
+    {
+      "sha": "a70a747124ee9d58262d760490ca0f7843584f0e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T08:51:33.000Z",
+      "day": "2026-10-26",
+      "title": "Seek failures, split APKs, view player swap, callback-owned player drop",
+      "url": "https://github.com/boyan01/lychee_player/commit/a70a747124ee9d58262d760490ca0f7843584f0e"
+    },
+    {
+      "sha": "4c7ab9469a5704dc8d80d872f5000c016afa36db",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-26T08:06:20.000Z",
+      "day": "2026-10-26",
+      "title": "Roadmap: live-jitter flakes like live-resolution, and now gates releases",
+      "url": "https://github.com/boyan01/lychee_player/commit/4c7ab9469a5704dc8d80d872f5000c016afa36db"
+    },
     {
       "sha": "1750b3eb2198e7719c829a245de60a8c1c1ad138",
       "repo": "boyan01/lychee_player",
