@@ -34,7 +34,40 @@ THEMES = {
     },
 }
 ANCHORS = [(140, 125), (345, 85), (500, 180), (300, 265), (555, 55), (90, 270)]
-OFFSETS = [(0, 0), (-45, -28), (28, -46), (63, 3), (26, 42), (-33, 53), (-73, 13), (67, 60)]
+# The site's simplified real constellations (assets/site.js): eight stars offset from an anchor, and their lines.
+CONSTELLATIONS = [
+    {  # Orion
+        "stars": [(-30, -40), (-10, 0), (2, -2), (14, -5), (28, -34), (-24, 40), (32, 36), (0, -56)],
+        "edges": [(0, 1), (1, 2), (2, 3), (3, 4), (1, 5), (3, 6), (0, 7), (7, 4)],
+    },
+    {  # Cygnus
+        "stars": [(-6, -50), (0, -12), (-42, -2), (40, -24), (6, 16), (12, 46), (-70, 18), (66, -40)],
+        "edges": [(0, 1), (1, 2), (1, 3), (1, 4), (4, 5), (2, 6), (3, 7)],
+    },
+    {  # Scorpius
+        "stars": [(60, -46), (52, -28), (48, -10), (28, -18), (12, 6), (0, 32), (-34, 46), (-58, 24)],
+        "edges": [(0, 1), (1, 2), (1, 3), (3, 4), (4, 5), (5, 6), (6, 7)],
+    },
+    {  # Leo
+        "stars": [(32, 38), (26, 14), (34, -10), (24, -32), (46, -46), (-20, -14), (-56, 8), (-18, 20)],
+        "edges": [(0, 1), (1, 2), (2, 3), (3, 4), (2, 5), (5, 6), (6, 7), (7, 0)],
+    },
+    {  # Big Dipper, with Mizar's unlinked companion Alcor
+        "stars": [(-62, -22), (-58, 14), (-22, 22), (-20, -6), (10, -14), (38, -12), (66, 6), (44, -28)],
+        "edges": [(0, 1), (1, 2), (2, 3), (3, 0), (3, 4), (4, 5), (5, 6)],
+    },
+    {  # Gemini
+        "stars": [(-50, -38), (-30, -50), (-22, -8), (2, -22), (10, 22), (28, 4), (56, 24), (34, 46)],
+        "edges": [(0, 1), (0, 2), (1, 3), (2, 3), (2, 4), (3, 5), (5, 6), (4, 7)],
+    },
+    {  # Pegasus
+        "stars": [(-60, -28), (-8, -32), (-6, 18), (-58, 20), (24, 8), (42, 26), (68, 14), (24, -46)],
+        "edges": [(0, 1), (1, 2), (2, 3), (3, 0), (2, 4), (4, 5), (5, 6), (1, 7)],
+    },
+]
+# The site's four-point sparkle, 24 units tall and centered on the origin: its top-right
+# edge as a cubic Bézier from the top tip to the shorter right tip.
+SPARKLE_EDGE = [(0, -12), (0.6, -4.4), (2.4, -1.2), (9, 0)]
 
 
 def constellations(snapshot):
@@ -47,13 +80,17 @@ def constellations(snapshot):
     for index, repo in enumerate(sorted(counts, key=lambda name: (-counts[name], name))[:6]):
         history = sorted(days[repo])
         cx, cy = ANCHORS[index]
+        constellation = CONSTELLATIONS[index % len(CONSTELLATIONS)]
         points = []
-        for slot, day in enumerate(history):
-            if slot < len(history) - 8:
+        for position, day in enumerate(history):
+            if position < len(history) - 8:
                 continue
-            ox, oy = OFFSETS[slot % len(OFFSETS)]
-            points.append({"x": cx + ox, "y": cy + oy, "day": day, "count": days[repo][day]})
-        result.append({"repo": repo, "anchor": (cx, cy), "points": points})
+            slot = position % len(constellation["stars"])
+            ox, oy = constellation["stars"][slot]
+            points.append({"x": cx + ox, "y": cy + oy, "slot": slot, "day": day, "count": days[repo][day]})
+        lit = {point["slot"] for point in points}
+        edges = [edge for edge in constellation["edges"] if set(edge) <= lit]
+        result.append({"repo": repo, "anchor": (cx, cy), "points": points, "edges": edges})
     return result
 
 
@@ -96,6 +133,25 @@ def position(cx, cy, x, y):
     return 90 + cx * 1.35 + (x - cx) * 0.62, 30 + cy * 0.62 + (y - cy) * 0.62
 
 
+def sparkle(x, y, height, tilt=0):
+    """The site's four-point sparkle as a polygon centered on (x, y), rotated by tilt degrees."""
+    edge = []
+    for step in range(13):
+        t = step / 12
+        weights = ((1 - t) ** 3, 3 * (1 - t) ** 2 * t, 3 * (1 - t) * t**2, t**3)
+        edge.append([sum(w * point[axis] for w, point in zip(weights, SPARKLE_EDGE)) for axis in (0, 1)])
+    # Mirror the top-right edge into the other three, walking the outline clockwise.
+    outline = (
+        edge
+        + [(ex, -ey) for ex, ey in reversed(edge)]
+        + [(-ex, -ey) for ex, ey in edge]
+        + [(-ex, ey) for ex, ey in reversed(edge)]
+    )
+    angle = math.radians(tilt)
+    cos, sin, scale = math.cos(angle), math.sin(angle), height / 24
+    return [(x + (ex * cos - ey * sin) * scale, y + (ex * sin + ey * cos) * scale) for ex, ey in outline]
+
+
 def rgba(color, alpha=255):
     return tuple(bytes.fromhex(color.removeprefix("#"))) + (int(alpha),)
 
@@ -132,6 +188,9 @@ def render_banner(snapshot, theme, fonts):
     layer = Image.new("RGBA", scene.size)
     glow = Image.new("RGBA", scene.size)
     draw, halo = ImageDraw.Draw(layer), ImageDraw.Draw(glow)
+    # Sparkles are drawn at twice the resolution and scaled down, so their thin arms stay smooth.
+    sparkles = Image.new("RGBA", (scene.width * 2, scene.height * 2))
+    shine = ImageDraw.Draw(sparkles)
 
     for index, (x, y) in enumerate(ambient_stars()):
         r = 1.2 if index % 9 == 0 else 0.8
@@ -140,22 +199,30 @@ def render_banner(snapshot, theme, fonts):
     for group in constellations(snapshot):
         points = group["points"]
         cx, cy = group["anchor"]
-        placed = [position(cx, cy, point["x"], point["y"]) for point in points]
-        for a, b in zip(placed, placed[1:]):
-            draw.line(scaled(*a, *b), fill=(255, 255, 255, 92), width=SCALE)
+        placed = {point["slot"]: position(cx, cy, point["x"], point["y"]) for point in points}
+        for a, b in group["edges"]:
+            draw.line(scaled(*placed[a], *placed[b]), fill=(255, 255, 255, 92), width=SCALE)
         if placed:
-            label = position(cx, cy, cx, cy)[0], min(y for _, y in placed) - 12
+            label = position(cx, cy, cx, cy)[0], min(y for _, y in placed.values()) - 12
             draw.text(scaled(*label), group["repo"].split("/")[1], font=fonts["label"], fill=(255, 255, 255, 190), anchor="ms")
-        for index, (point, (x, y)) in enumerate(zip(points, placed)):
-            radius = 1.2 + min(2, math.sqrt(point["count"]) * 0.4)
+        for index, point in enumerate(points):
+            x, y = placed[point["slot"]]
             halo.ellipse(scaled(x - 6, y - 6, x + 6, y + 6), fill=(255, 255, 255, 110))
-            draw.ellipse(scaled(x - radius, y - radius, x + radius, y + radius), fill="#fff")
-            if index == len(points) - 1:
-                # The newest day of each constellation gets a glint.
-                for step in range(4):
-                    near, far, alpha = 2 + step * 2.5, 4.5 + step * 2.5, int(210 * (1 - step / 4))
-                    for sx, sy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
-                        draw.line(scaled(x + sx * near, y + sy * near, x + sx * far, y + sy * far), fill=(255, 255, 255, alpha), width=SCALE)
+            # As on the site, busy days and the newest day shine as four-point sparkles; the rest stay dots.
+            bright = index == len(points) - 1
+            if not bright and point["count"] < 5:
+                radius = 1.2 + min(2, math.sqrt(point["count"]) * 0.4)
+                draw.ellipse(scaled(x - radius, y - radius, x + radius, y + radius), fill="#fff")
+                continue
+            height = min(13, 6 + 1.5 * math.sqrt(point["count"]))
+            tilt = seed(group["repo"] + point["day"]) % 21 - 10
+            shapes = [(x, y, height)]
+            if bright:
+                # The newest day keeps its two small companions, like ✨.
+                height = max(10, height)
+                shapes = [(x, y, height), (x + 0.69 * height, y - 0.64 * height, 0.55 * height), (x + 0.64 * height, y + 0.6 * height, 0.36 * height)]
+            for sx, sy, size in shapes:
+                shine.polygon([(px * SCALE * 2, py * SCALE * 2) for px, py in sparkle(sx, sy, size, tilt)], fill="#fff")
 
     # The skyline is the ground's color, and today's building is lit with a lamp post.
     buildings = skyline(daily_counts(snapshot))
@@ -171,7 +238,8 @@ def render_banner(snapshot, theme, fonts):
     draw.text(scaled(40, 26), "BIN", font=fonts["brand"], fill="#fff")
     draw.text(scaled(960, 31), "i.soit.tech", font=fonts["link"], fill=(255, 255, 255, 200), anchor="ra")
     result = Image.alpha_composite(scene, glow.filter(ImageFilter.GaussianBlur(4 * SCALE)))
-    return Image.alpha_composite(result, layer).convert("RGB")
+    result = Image.alpha_composite(result, layer)
+    return Image.alpha_composite(result, sparkles.resize(scene.size, Image.LANCZOS)).convert("RGB")
 
 
 def render(snapshot_path, output_dir):

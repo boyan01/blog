@@ -27,6 +27,18 @@ class BannerTests(unittest.TestCase):
         self.assertEqual(groups[0]["points"][-1]["count"], 4)
         self.assertEqual(banner.constellations({"commits": []}), [])
 
+    def test_each_repository_traces_its_own_constellation_between_lit_stars(self):
+        commits = [{"repo": f"bin/repo{index}", "day": f"2026-10-{day:02}"} for index in range(6) for day in range(1, 10 - index)]
+        groups = banner.constellations({"commits": commits})
+        shapes = [tuple((point["x"] - group["anchor"][0], point["y"] - group["anchor"][1]) for point in group["points"]) for group in groups]
+        self.assertEqual(len(set(shapes)), 6)
+        for group in groups:
+            lit = {point["slot"] for point in group["points"]}
+            self.assertTrue(group["edges"])
+            self.assertTrue(all(a in lit and b in lit for a, b in group["edges"]))
+        # A repository with fewer than eight active days shows part of its constellation.
+        self.assertLess(len(groups[-1]["edges"]), len(banner.CONSTELLATIONS[5]["edges"]))
+
     def test_skyline_has_one_building_per_day_in_the_window(self):
         snapshot = {
             "start": "2026-10-01",

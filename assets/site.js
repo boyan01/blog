@@ -9,15 +9,45 @@
     [555, 55],
     [90, 270],
   ];
-  const offsets = [
-    [0, 0],
-    [-45, -28],
-    [28, -46],
-    [63, 3],
-    [26, 42],
-    [-33, 53],
-    [-73, 13],
-    [67, 60],
+  // Simplified real constellations, eight stars each, offset from an anchor.
+  // Star order is the fill order, so the first few already read as a shape.
+  const constellations = [
+    {
+      name: "Orion",
+      stars: [[-30, -40], [-10, 0], [2, -2], [14, -5], [28, -34], [-24, 40], [32, 36], [0, -56]],
+      edges: [[0, 1], [1, 2], [2, 3], [3, 4], [1, 5], [3, 6], [0, 7], [7, 4]],
+    },
+    {
+      name: "Cygnus",
+      stars: [[-6, -50], [0, -12], [-42, -2], [40, -24], [6, 16], [12, 46], [-70, 18], [66, -40]],
+      edges: [[0, 1], [1, 2], [1, 3], [1, 4], [4, 5], [2, 6], [3, 7]],
+    },
+    {
+      name: "Scorpius",
+      stars: [[60, -46], [52, -28], [48, -10], [28, -18], [12, 6], [0, 32], [-34, 46], [-58, 24]],
+      edges: [[0, 1], [1, 2], [1, 3], [3, 4], [4, 5], [5, 6], [6, 7]],
+    },
+    {
+      name: "Leo",
+      stars: [[32, 38], [26, 14], [34, -10], [24, -32], [46, -46], [-20, -14], [-56, 8], [-18, 20]],
+      edges: [[0, 1], [1, 2], [2, 3], [3, 4], [2, 5], [5, 6], [6, 7], [7, 0]],
+    },
+    {
+      name: "Big Dipper",
+      // The eighth star is Alcor, Mizar's unlinked companion.
+      stars: [[-62, -22], [-58, 14], [-22, 22], [-20, -6], [10, -14], [38, -12], [66, 6], [44, -28]],
+      edges: [[0, 1], [1, 2], [2, 3], [3, 0], [3, 4], [4, 5], [5, 6]],
+    },
+    {
+      name: "Gemini",
+      stars: [[-50, -38], [-30, -50], [-22, -8], [2, -22], [10, 22], [28, 4], [56, 24], [34, 46]],
+      edges: [[0, 1], [0, 2], [1, 3], [2, 3], [2, 4], [3, 5], [5, 6], [4, 7]],
+    },
+    {
+      name: "Pegasus",
+      stars: [[-60, -28], [-8, -32], [-6, 18], [-58, 20], [24, 8], [42, 26], [68, 14], [24, -46]],
+      edges: [[0, 1], [1, 2], [2, 3], [3, 0], [2, 4], [4, 5], [5, 6], [1, 7]],
+    },
   ];
   const hash = (value) => {
     let n = 2166136261;
@@ -139,49 +169,63 @@
     shownRepos.forEach((repo, index) => {
       const anchorIndex = selectedRepo ? 1 : index;
       const [cx, cy] = anchors[anchorIndex];
+      // Pick by rank, so the six shown constellations never repeat a shape.
+      const { stars, edges } =
+        constellations[repos.indexOf(repo) % constellations.length];
       // Slot by active-day index, so the same date keeps its position during playback.
       const history = groups.filter((g) => g.repo === repo.name).reverse();
       const points = history
         .filter((group) => group.day <= selectedDay)
         .slice(-8)
         .map((group) => {
-          const slot = history.indexOf(group) % offsets.length;
-          return { group, x: cx + offsets[slot][0], y: cy + offsets[slot][1] };
+          const slot = history.indexOf(group) % stars.length;
+          return { group, slot, x: cx + stars[slot][0], y: cy + stars[slot][1] };
         });
+      const lit = new Map(points.map((point) => [point.slot, point]));
+      for (const [from, to] of edges) {
+        const a = lit.get(from);
+        const b = lit.get(to);
+        if (!a || !b) continue;
+        const line = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "line",
+        );
+        for (const [key, value] of Object.entries({
+          x1: a.x,
+          y1: a.y,
+          x2: b.x,
+          y2: b.y,
+        }))
+          line.setAttribute(key, value);
+        line.dataset.repo = repo.name;
+        svg.append(line);
+      }
       points.forEach((point, pointIndex) => {
-        if (pointIndex) {
-          const previous = points[pointIndex - 1];
-          const line = document.createElementNS(
-            "http://www.w3.org/2000/svg",
-            "line",
-          );
-          for (const [key, value] of Object.entries({
-            x1: previous.x,
-            y1: previous.y,
-            x2: point.x,
-            y2: point.y,
-          }))
-            line.setAttribute(key, value);
-          line.dataset.repo = repo.name;
-          svg.append(line);
-        }
         const { group, x, y } = point;
+        const count = group.commits.length;
+        // Busy days and the newest day shine as four-point sparkles; the rest stay dots.
+        const bright = pointIndex === points.length - 1;
+        const sparkle = bright || count >= 5;
+        // The newest star stays large enough for its companions to show.
+        const size = sparkle
+          ? Math.max(bright ? 13 : 0, Math.min(18, 8 + 2 * Math.sqrt(count)))
+          : Math.min(6, 2.5 + Math.sqrt(count));
         const button = element(
           "button",
-          "star" + (pointIndex === points.length - 1 ? " bright" : ""),
+          "star" + (sparkle ? " sparkle" : "") + (bright ? " bright" : ""),
         );
         button.type = "button";
         button.dataset.repo = repo.name;
-        button.style.cssText = `left:${(x / 640) * 100}%;top:${(y / 350) * 100}%;--size:${Math.min(7, 2.5 + Math.sqrt(group.commits.length))}px;--pulse-duration:${3 + (hash(group.key) % 25) / 10}s;--pulse-delay:-${(hash(group.key) % 40) / 10}s`;
+        button.style.cssText = `left:${(x / 640) * 100}%;top:${(y / 350) * 100}%;--size:${size}px;--tilt:${(hash(group.key) % 21) - 10}deg;--pulse-duration:${3 + (hash(group.key) % 25) / 10}s;--pulse-delay:-${(hash(group.key) % 40) / 10}s`;
         button.setAttribute(
           "aria-label",
-          `${shortRepo(repo.name)}，${group.day}，${commitCount(group.commits.length)}`,
+          `${shortRepo(repo.name)}，${group.day}，${commitCount(count)}`,
         );
         const tooltip = element("span", "star-tooltip");
         tooltip.setAttribute("aria-hidden", "true");
         tooltip.append(
           element("b", "", shortDay(group.day)),
-          document.createTextNode(commitCount(group.commits.length)),
+          document.createTextNode(commitCount(count)),
         );
         if (x > 520) button.classList.add("edge-right");
         if (x < 80) button.classList.add("edge-left");
