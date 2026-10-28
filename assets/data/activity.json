@@ -1,10 +1,266 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-10-27T03:01:51.547Z",
-  "start": "2026-07-30",
-  "end": "2026-10-27",
+  "generatedAt": "2026-10-28T03:12:45.549Z",
+  "start": "2026-07-31",
+  "end": "2026-10-28",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "d83b783916542edd47f7195abb739f07b453b89b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T01:52:22.000Z",
+      "day": "2026-10-28",
+      "title": "Let the example quit by itself on iOS and Android",
+      "url": "https://github.com/boyan01/lychee_player/commit/d83b783916542edd47f7195abb739f07b453b89b"
+    },
+    {
+      "sha": "29c9ca425835d48fdf05613da91166f7ab221edc",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:41:51.000Z",
+      "day": "2026-10-27",
+      "title": "Strip release Android libraries before prefab packaging",
+      "url": "https://github.com/boyan01/lychee_player/commit/29c9ca425835d48fdf05613da91166f7ab221edc"
+    },
+    {
+      "sha": "5ce7e0cd3884e06142a475c5ad715b4652a48b1b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:41:40.000Z",
+      "day": "2026-10-27",
+      "title": "Bound audio clock corrections when output latency changes",
+      "url": "https://github.com/boyan01/lychee_player/commit/5ce7e0cd3884e06142a475c5ad715b4652a48b1b"
+    },
+    {
+      "sha": "cabc36e062a88bd45d6d8764eb0c4720defb8ab5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:39:27.000Z",
+      "day": "2026-10-27",
+      "title": "Rebuild iOS hardware video decoding after foreground recovery",
+      "url": "https://github.com/boyan01/lychee_player/commit/cabc36e062a88bd45d6d8764eb0c4720defb8ab5"
+    },
+    {
+      "sha": "49bfe51e9e9b0b1014da9d7a3379dca3676547ed",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:32:19.000Z",
+      "day": "2026-10-27",
+      "title": "Check the full core when clang-tidy rules or runner change",
+      "url": "https://github.com/boyan01/lychee_player/commit/49bfe51e9e9b0b1014da9d7a3379dca3676547ed"
+    },
+    {
+      "sha": "1e3cb79bfb7dccca38016dece26d1998251903d1",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:30:48.000Z",
+      "day": "2026-10-27",
+      "title": "Add a reproducible transport stream timestamp reset fixture",
+      "url": "https://github.com/boyan01/lychee_player/commit/1e3cb79bfb7dccca38016dece26d1998251903d1"
+    },
+    {
+      "sha": "a69ed6dd3c70a96e7cc4d0c7f029d0b9c0aae84d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:30:48.000Z",
+      "day": "2026-10-27",
+      "title": "Expose Homebrew LLVM tools on both macOS runner architectures",
+      "url": "https://github.com/boyan01/lychee_player/commit/a69ed6dd3c70a96e7cc4d0c7f029d0b9c0aae84d"
+    },
+    {
+      "sha": "e104fe72b7974a7492012dcbbc0775cd97698fd3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:30:08.000Z",
+      "day": "2026-10-27",
+      "title": "Close the root Swift package NoFFmpeg URL verification",
+      "url": "https://github.com/boyan01/lychee_player/commit/e104fe72b7974a7492012dcbbc0775cd97698fd3"
+    },
+    {
+      "sha": "564cae2fdd6c7ecdf3fbc67919019e4ac2736149",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:28:51.000Z",
+      "day": "2026-10-27",
+      "title": "Invalidate cached FFmpeg builds when release inputs change",
+      "url": "https://github.com/boyan01/lychee_player/commit/564cae2fdd6c7ecdf3fbc67919019e4ac2736149"
+    },
+    {
+      "sha": "8fc406bcaf00b9d0243b9a059fb638c340dc479d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:28:51.000Z",
+      "day": "2026-10-27",
+      "title": "Check the Intel assembler only on an FFmpeg cache miss",
+      "url": "https://github.com/boyan01/lychee_player/commit/8fc406bcaf00b9d0243b9a059fb638c340dc479d"
+    },
+    {
+      "sha": "fb6414498b90e49e788ec198bc6d00089e694dcd",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T13:23:31.000Z",
+      "day": "2026-10-27",
+      "title": "Check changed C++ lines with clang-tidy in macOS CI",
+      "url": "https://github.com/boyan01/lychee_player/commit/fb6414498b90e49e788ec198bc6d00089e694dcd"
+    },
+    {
+      "sha": "65f682539005071b9a43e46b545b4863f3e54ae4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T12:58:45.000Z",
+      "day": "2026-10-27",
+      "title": "Roadmap: iOS audio sessions and AAudio route changes seen on devices",
+      "url": "https://github.com/boyan01/lychee_player/commit/65f682539005071b9a43e46b545b4863f3e54ae4"
+    },
+    {
+      "sha": "11dcec176b858a3a59c7f312e544d019558cf3c0",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T12:52:12.000Z",
+      "day": "2026-10-27",
+      "title": "Fix all clang-tidy findings in core/src",
+      "url": "https://github.com/boyan01/lychee_player/commit/11dcec176b858a3a59c7f312e544d019558cf3c0"
+    },
+    {
+      "sha": "2d3d2acd4579131bdac1f10f74425836cc26b6ec",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T12:33:47.000Z",
+      "day": "2026-10-27",
+      "title": "Remove libass: subtitles stay basic",
+      "url": "https://github.com/boyan01/lychee_player/commit/2d3d2acd4579131bdac1f10f74425836cc26b6ec"
+    },
+    {
+      "sha": "40162205135b58506e09c57fc3b82808058e7fc6",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T11:36:41.000Z",
+      "day": "2026-10-27",
+      "title": "Roadmap: only what is left",
+      "url": "https://github.com/boyan01/lychee_player/commit/40162205135b58506e09c57fc3b82808058e7fc6"
+    },
+    {
+      "sha": "353a04128a466421d8b8f5bd0c2295153b4a2a47",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T11:27:17.000Z",
+      "day": "2026-10-27",
+      "title": "Windows and Linux: drop the BtbN FFmpeg fallback",
+      "url": "https://github.com/boyan01/lychee_player/commit/353a04128a466421d8b8f5bd0c2295153b4a2a47"
+    },
+    {
+      "sha": "c93469d17a94eec23202cd8b8fd7adb083d7c45c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T10:53:19.000Z",
+      "day": "2026-10-27",
+      "title": "Release: realtime timing only warns on the hosted VM, as in CI",
+      "url": "https://github.com/boyan01/lychee_player/commit/c93469d17a94eec23202cd8b8fd7adb083d7c45c"
+    },
+    {
+      "sha": "646bbd1731edf2042b69d6f884950f64ba75808a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T10:16:13.000Z",
+      "day": "2026-10-27",
+      "title": "CHANGELOG: 1.0.0-beta.2",
+      "url": "https://github.com/boyan01/lychee_player/commit/646bbd1731edf2042b69d6f884950f64ba75808a"
+    },
+    {
+      "sha": "ace000626e71af35ecb5b3b43346a53601fd6eaf",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T10:14:47.000Z",
+      "day": "2026-10-27",
+      "title": "Roadmap: defects 2 and 4 fixed, defect 3's cause; clang-tidy local part",
+      "url": "https://github.com/boyan01/lychee_player/commit/ace000626e71af35ecb5b3b43346a53601fd6eaf"
+    },
+    {
+      "sha": "82913509b9d9f22d46300302ebdc4ed7486bbd4d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T10:05:54.000Z",
+      "day": "2026-10-27",
+      "title": "Play on silently when the audio device pulls nothing",
+      "url": "https://github.com/boyan01/lychee_player/commit/82913509b9d9f22d46300302ebdc4ed7486bbd4d"
+    },
+    {
+      "sha": "923198a546e5079f34f2d8d2dd4bf54a0c2ee3be",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T10:05:54.000Z",
+      "day": "2026-10-27",
+      "title": "HLS: read other video streams only once selected",
+      "url": "https://github.com/boyan01/lychee_player/commit/923198a546e5079f34f2d8d2dd4bf54a0c2ee3be"
+    },
+    {
+      "sha": "5f5135af8f91704faf37176ce230f073de3493ce",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T10:05:53.000Z",
+      "day": "2026-10-27",
+      "title": "clang-tidy on the lines a branch changed, locally",
+      "url": "https://github.com/boyan01/lychee_player/commit/5f5135af8f91704faf37176ce230f073de3493ce"
+    },
+    {
+      "sha": "9d3bc612a3d34a23671565ed1225dae8aab7dabe",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T10:05:53.000Z",
+      "day": "2026-10-27",
+      "title": "Read every video stream on input that cannot seek, as every audio one",
+      "url": "https://github.com/boyan01/lychee_player/commit/9d3bc612a3d34a23671565ed1225dae8aab7dabe"
+    },
+    {
+      "sha": "a31fd7a0c16aa650314d90f09a1322ba6ac1bd47",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T09:38:18.000Z",
+      "day": "2026-10-27",
+      "title": "Linux arm64: allow glibc's loader in the FFmpeg dependency check",
+      "url": "https://github.com/boyan01/lychee_player/commit/a31fd7a0c16aa650314d90f09a1322ba6ac1bd47"
+    },
+    {
+      "sha": "6d7b9c3de32e7f838fa677dc5cb5c43209340fd3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T08:49:35.000Z",
+      "day": "2026-10-27",
+      "title": "Give up on a hardware decoder that hangs, and never block destroy on it",
+      "url": "https://github.com/boyan01/lychee_player/commit/6d7b9c3de32e7f838fa677dc5cb5c43209340fd3"
+    },
+    {
+      "sha": "8f8a5c85971f8ba472f9a179255a5111a20baf96",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T07:51:51.000Z",
+      "day": "2026-10-27",
+      "title": "Linux arm64: our own FFmpeg, built on GitHub's arm64 runner",
+      "url": "https://github.com/boyan01/lychee_player/commit/8f8a5c85971f8ba472f9a179255a5111a20baf96"
+    },
+    {
+      "sha": "f7d405a7f2fe33694e0ef82c9dfe7af2ddc96b78",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T07:37:38.000Z",
+      "day": "2026-10-27",
+      "title": "Linux VAAPI seen working on an Intel iGPU",
+      "url": "https://github.com/boyan01/lychee_player/commit/f7d405a7f2fe33694e0ef82c9dfe7af2ddc96b78"
+    },
+    {
+      "sha": "faf35ec51543a6137a7e49eb5fe93e28e27f7422",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T06:42:51.000Z",
+      "day": "2026-10-27",
+      "title": "Example: command-line driven runs; Linux quit crash on NVIDIA",
+      "url": "https://github.com/boyan01/lychee_player/commit/faf35ec51543a6137a7e49eb5fe93e28e27f7422"
+    },
+    {
+      "sha": "870fae36e888b4e53062fa7f103766798486455c",
+      "repo": "boyan01/blog",
+      "date": "2026-10-27T05:45:28.000Z",
+      "day": "2026-10-27",
+      "title": "Draw each repository as a real constellation with sparkle stars",
+      "url": "https://github.com/boyan01/blog/commit/870fae36e888b4e53062fa7f103766798486455c"
+    },
+    {
+      "sha": "1167d5c5043a311cc24bc0b2a1fe290f7774ac40",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T05:26:07.000Z",
+      "day": "2026-10-27",
+      "title": "CI: plain and TSan on a self-hosted Intel Mac for pushes",
+      "url": "https://github.com/boyan01/lychee_player/commit/1167d5c5043a311cc24bc0b2a1fe290f7774ac40"
+    },
+    {
+      "sha": "af6f4d2f6c4fbd8a030dca90904eff1927a4196a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T05:26:07.000Z",
+      "day": "2026-10-27",
+      "title": "CoreAudio: log a device that does not start",
+      "url": "https://github.com/boyan01/lychee_player/commit/af6f4d2f6c4fbd8a030dca90904eff1927a4196a"
+    },
+    {
+      "sha": "48b13a7b7cd6269e8849edbc1dd59f58a0c72ee7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-27T03:21:06.000Z",
+      "day": "2026-10-27",
+      "title": "http-lost: rate-limit the server so the drop comes after the open",
+      "url": "https://github.com/boyan01/lychee_player/commit/48b13a7b7cd6269e8849edbc1dd59f58a0c72ee7"
+    },
     {
       "sha": "98ad40c3e285257eaa3eff9a030e22faddb3da18",
       "repo": "boyan01/lychee_player",
@@ -3516,14 +3772,6 @@
       "day": "2026-07-31",
       "title": "Fix Chinese input in Linux AppImage (#2014)",
       "url": "https://github.com/MixinNetwork/flutter-app/commit/9546e8f09e93c48235207e08a22936a1d7fc0902"
-    },
-    {
-      "sha": "2100535724bb914adba9b486dca74b6814f8e7b9",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-07-30T03:14:22.000Z",
-      "day": "2026-07-30",
-      "title": "improve",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/2100535724bb914adba9b486dca74b6814f8e7b9"
     }
   ]
 }
