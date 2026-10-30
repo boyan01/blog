@@ -1,10 +1,1322 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-10-28T03:12:45.549Z",
-  "start": "2026-07-31",
-  "end": "2026-10-28",
+  "generatedAt": "2026-10-30T03:41:40.616Z",
+  "start": "2026-08-02",
+  "end": "2026-10-30",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "9ded9feee1db44c13e6629fb0e964a4cfdb1a9f5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T03:38:09.000Z",
+      "day": "2026-10-30",
+      "title": "Record the hosted live HLS timing discrepancy",
+      "url": "https://github.com/boyan01/lychee_player/commit/9ded9feee1db44c13e6629fb0e964a4cfdb1a9f5"
+    },
+    {
+      "sha": "55328c7657f24857f55d7505bb5551136648021b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T03:25:32.000Z",
+      "day": "2026-10-30",
+      "title": "Document the beta.3 release",
+      "url": "https://github.com/boyan01/lychee_player/commit/55328c7657f24857f55d7505bb5551136648021b"
+    },
+    {
+      "sha": "f1a0a4696fb8fa0b57b1e6db63e01208808a36eb",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T03:20:21.000Z",
+      "day": "2026-10-30",
+      "title": "Move Android publications to the verified GitHub namespace",
+      "url": "https://github.com/boyan01/lychee_player/commit/f1a0a4696fb8fa0b57b1e6db63e01208808a36eb"
+    },
+    {
+      "sha": "26ce6fec3caed368335a1aa12aee670fa747b3af",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T02:59:06.000Z",
+      "day": "2026-10-30",
+      "title": "Prepare signed Android publications for Maven Central",
+      "url": "https://github.com/boyan01/lychee_player/commit/26ce6fec3caed368335a1aa12aee670fa747b3af"
+    },
+    {
+      "sha": "78325e47818c6d133ec6b251e62e45d557814b1a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T02:34:12.000Z",
+      "day": "2026-10-30",
+      "title": "Add an explicitly loaded FFmpeg extension to the Android SDK",
+      "url": "https://github.com/boyan01/lychee_player/commit/78325e47818c6d133ec6b251e62e45d557814b1a"
+    },
+    {
+      "sha": "3673615817c6cc5449fb99500816f569bcc9ace8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T02:04:49.000Z",
+      "day": "2026-10-30",
+      "title": "Cancel Android example captures when the activity is destroyed",
+      "url": "https://github.com/boyan01/lychee_player/commit/3673615817c6cc5449fb99500816f569bcc9ace8"
+    },
+    {
+      "sha": "545662aaad1b0516a2fadb8b9f89b40f25d901c0",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T01:43:22.000Z",
+      "day": "2026-10-30",
+      "title": "Use the official Android CLI for CI emulators",
+      "url": "https://github.com/boyan01/lychee_player/commit/545662aaad1b0516a2fadb8b9f89b40f25d901c0"
+    },
+    {
+      "sha": "6ae3976724d1317f02d9f0a4c4e39c0b81c51848",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T15:02:55.000Z",
+      "day": "2026-10-29",
+      "title": "docs: close iOS foreground recovery on the iPhone 17",
+      "url": "https://github.com/boyan01/lychee_player/commit/6ae3976724d1317f02d9f0a4c4e39c0b81c51848"
+    },
+    {
+      "sha": "652868db44291b3d3c623977392d9ef7440c8607",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T15:01:31.000Z",
+      "day": "2026-10-29",
+      "title": "Retry an audio device that failed to start",
+      "url": "https://github.com/boyan01/lychee_player/commit/652868db44291b3d3c623977392d9ef7440c8607"
+    },
+    {
+      "sha": "d520f27629103a70d01473b7b9f64480dd5d836d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T14:09:56.000Z",
+      "day": "2026-10-29",
+      "title": "Close audio gaps at loop seams and recover iOS hardware decoding",
+      "url": "https://github.com/boyan01/lychee_player/commit/d520f27629103a70d01473b7b9f64480dd5d836d"
+    },
+    {
+      "sha": "2a14e10e68bb341de66536256f24d871a3c00697",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T11:30:08.000Z",
+      "day": "2026-10-29",
+      "title": "Follow the window's display to its GPU in the Windows harness",
+      "url": "https://github.com/boyan01/lychee_player/commit/2a14e10e68bb341de66536256f24d871a3c00697"
+    },
+    {
+      "sha": "22fa0eaf93cf82b2be073a4a94e558f1817af75d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T10:44:26.000Z",
+      "day": "2026-10-29",
+      "title": "Fade audio around seeks, pauses, rate and track changes and stops",
+      "url": "https://github.com/boyan01/lychee_player/commit/22fa0eaf93cf82b2be073a4a94e558f1817af75d"
+    },
+    {
+      "sha": "4890d006cc1102c14c330a7eee7c7e89f70d9e3c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T08:28:11.000Z",
+      "day": "2026-10-29",
+      "title": "docs: close Linux Intel VAAPI HDR dmabuf verification",
+      "url": "https://github.com/boyan01/lychee_player/commit/4890d006cc1102c14c330a7eee7c7e89f70d9e3c"
+    },
+    {
+      "sha": "25b80dfa970939ee57d03131980721ff7aa555ab",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T08:07:10.000Z",
+      "day": "2026-10-29",
+      "title": "docs: close Apple FFmpeg-free VP9 device verification",
+      "url": "https://github.com/boyan01/lychee_player/commit/25b80dfa970939ee57d03131980721ff7aa555ab"
+    },
+    {
+      "sha": "0eda549b29415aded91ada44e2cecc6d3d580b93",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T07:58:07.000Z",
+      "day": "2026-10-29",
+      "title": "docs: close Apple FFmpeg-free AV1 device verification",
+      "url": "https://github.com/boyan01/lychee_player/commit/0eda549b29415aded91ada44e2cecc6d3d580b93"
+    },
+    {
+      "sha": "64d0e95bd86a0a9396f95d5e72c98ed32d21953e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T07:54:48.000Z",
+      "day": "2026-10-29",
+      "title": "Keep Opus pre-skip across loops on Android without FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/64d0e95bd86a0a9396f95d5e72c98ed32d21953e"
+    },
+    {
+      "sha": "1e952b1a0e6ea34f9ffd92cc852efb2d5c84a507",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T07:53:38.000Z",
+      "day": "2026-10-29",
+      "title": "docs: record iOS recovery result and automate paused checks",
+      "url": "https://github.com/boyan01/lychee_player/commit/1e952b1a0e6ea34f9ffd92cc852efb2d5c84a507"
+    },
+    {
+      "sha": "6d47e9a2b2934f32f82f93cf48fd96e650b6849e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T07:48:16.000Z",
+      "day": "2026-10-29",
+      "title": "docs: retain iOS recovery check after software fallback",
+      "url": "https://github.com/boyan01/lychee_player/commit/6d47e9a2b2934f32f82f93cf48fd96e650b6849e"
+    },
+    {
+      "sha": "c43bc7bfb1969e334defa45612fd7142d6039c8e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T07:42:34.000Z",
+      "day": "2026-10-29",
+      "title": "docs: close Android AC-3 device verification",
+      "url": "https://github.com/boyan01/lychee_player/commit/c43bc7bfb1969e334defa45612fd7142d6039c8e"
+    },
+    {
+      "sha": "220804b2a1dd5a5d9beed0d60c82bf63193d2d0a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T07:40:22.000Z",
+      "day": "2026-10-29",
+      "title": "docs: record Xiaomi 14 Flutter HDR color failure",
+      "url": "https://github.com/boyan01/lychee_player/commit/220804b2a1dd5a5d9beed0d60c82bf63193d2d0a"
+    },
+    {
+      "sha": "150d52adc3fc5edc2f717857fac20b8b58578dda",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T07:33:10.000Z",
+      "day": "2026-10-29",
+      "title": "docs: close Xiaomi 14 VP9 and AV1 hardware verification",
+      "url": "https://github.com/boyan01/lychee_player/commit/150d52adc3fc5edc2f717857fac20b8b58578dda"
+    },
+    {
+      "sha": "c253e9b2efdae58e3c1ad1e315750f3f77c023a8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T07:06:34.000Z",
+      "day": "2026-10-29",
+      "title": "docs: clarify VP8 hardware coverage after Xiaomi 14 test",
+      "url": "https://github.com/boyan01/lychee_player/commit/c253e9b2efdae58e3c1ad1e315750f3f77c023a8"
+    },
+    {
+      "sha": "fafb52f660865765391dcfad6637f721d61ca489",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T07:02:00.000Z",
+      "day": "2026-10-29",
+      "title": "docs: record Xiaomi 14 Bluetooth route retest limits",
+      "url": "https://github.com/boyan01/lychee_player/commit/fafb52f660865765391dcfad6637f721d61ca489"
+    },
+    {
+      "sha": "204cf214f909146c98114f64ecb80c035cdd8b32",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T06:58:03.000Z",
+      "day": "2026-10-29",
+      "title": "docs: close Xiaomi 14 untagged HD color verification",
+      "url": "https://github.com/boyan01/lychee_player/commit/204cf214f909146c98114f64ecb80c035cdd8b32"
+    },
+    {
+      "sha": "294ed61e493aaa110e9f5211a3c74e46bea5e74d",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-29T06:44:16.000Z",
+      "day": "2026-10-29",
+      "title": "Release Intelli Git 0.0.13",
+      "url": "https://github.com/boyan01/intelli-git/commit/294ed61e493aaa110e9f5211a3c74e46bea5e74d"
+    },
+    {
+      "sha": "56d95c05eccffb9eb9b5fb9af277f7a6d59d826f",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-29T06:42:48.000Z",
+      "day": "2026-10-29",
+      "title": "Keep git log ref tooltips from being clipped by the list",
+      "url": "https://github.com/boyan01/intelli-git/commit/56d95c05eccffb9eb9b5fb9af277f7a6d59d826f"
+    },
+    {
+      "sha": "b359f4c5d852365e62f9a1838fe9ed8e8c2d3750",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T06:39:43.000Z",
+      "day": "2026-10-29",
+      "title": "Open https and AES-128 HLS in FFmpeg's fallback on Android",
+      "url": "https://github.com/boyan01/lychee_player/commit/b359f4c5d852365e62f9a1838fe9ed8e8c2d3750"
+    },
+    {
+      "sha": "f7c86d78ae7990c0dfe03d2884ee4a339c879230",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-10-29T06:30:47.000Z",
+      "day": "2026-10-29",
+      "title": "Make git log branch and tag labels readable",
+      "url": "https://github.com/boyan01/intelli-git/commit/f7c86d78ae7990c0dfe03d2884ee4a339c879230"
+    },
+    {
+      "sha": "2c35a1fd8170696e565994c229e6c92b8d35d110",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T06:04:41.000Z",
+      "day": "2026-10-29",
+      "title": "Follow http to https redirects on Android and cache cleartext probes",
+      "url": "https://github.com/boyan01/lychee_player/commit/2c35a1fd8170696e565994c229e6c92b8d35d110"
+    },
+    {
+      "sha": "4f73be1b0df59d341ff308ace1d34865d8e543a7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T05:31:19.000Z",
+      "day": "2026-10-29",
+      "title": "Use Android system TLS and remove mbedTLS from FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/4f73be1b0df59d341ff308ace1d34865d8e543a7"
+    },
+    {
+      "sha": "d267d76d276a005aa7c34929e562fdc902d56e4d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T05:11:14.000Z",
+      "day": "2026-10-29",
+      "title": "Honor HLS byte ranges in FFmpeg DataSource IO",
+      "url": "https://github.com/boyan01/lychee_player/commit/d267d76d276a005aa7c34929e562fdc902d56e4d"
+    },
+    {
+      "sha": "7548ce184b0ce8371912e6fedbf7203f6a780531",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T05:02:40.000Z",
+      "day": "2026-10-29",
+      "title": "Decrypt Android AES-128 HLS with javax.crypto",
+      "url": "https://github.com/boyan01/lychee_player/commit/7548ce184b0ce8371912e6fedbf7203f6a780531"
+    },
+    {
+      "sha": "d1ae5d6c76cdabeffc6527484cfc43f189497b2c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T04:19:31.000Z",
+      "day": "2026-10-29",
+      "title": "Close verified CI roadmap follow-ups",
+      "url": "https://github.com/boyan01/lychee_player/commit/d1ae5d6c76cdabeffc6527484cfc43f189497b2c"
+    },
+    {
+      "sha": "438de2f5dcb1eee32d56f290f77afaf700f3923f",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T03:43:15.000Z",
+      "day": "2026-10-29",
+      "title": "Record integrated validation and remaining hardware checks",
+      "url": "https://github.com/boyan01/lychee_player/commit/438de2f5dcb1eee32d56f290f77afaf700f3923f"
+    },
+    {
+      "sha": "c7395ca9bc43c6f4198e00f7decc91b446e7ac2c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T03:33:08.000Z",
+      "day": "2026-10-29",
+      "title": "Merge precise native HDR regression expectations",
+      "url": "https://github.com/boyan01/lychee_player/commit/c7395ca9bc43c6f4198e00f7decc91b446e7ac2c"
+    },
+    {
+      "sha": "8abbd7228af7fc33b6f08145614255dc4ff18675",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T03:32:32.000Z",
+      "day": "2026-10-29",
+      "title": "Match native HDR expectations to the software decoder backend",
+      "url": "https://github.com/boyan01/lychee_player/commit/8abbd7228af7fc33b6f08145614255dc4ff18675"
+    },
+    {
+      "sha": "f215e9a34a7227e36dd13004d568004e4b07eefa",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T02:55:46.000Z",
+      "day": "2026-10-29",
+      "title": "Merge explicit Windows CI audio device testing",
+      "url": "https://github.com/boyan01/lychee_player/commit/f215e9a34a7227e36dd13004d568004e4b07eefa"
+    },
+    {
+      "sha": "35e8e537a3367455c9f370e966a43c8f947b3f69",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T02:55:11.000Z",
+      "day": "2026-10-29",
+      "title": "Merge Android snapshot sampling CI fix",
+      "url": "https://github.com/boyan01/lychee_player/commit/35e8e537a3367455c9f370e966a43c8f947b3f69"
+    },
+    {
+      "sha": "3bef8d7b7504d10b00056d7020d106e8879b9245",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T02:54:30.000Z",
+      "day": "2026-10-29",
+      "title": "Keep audio regressions strict on headless Windows runners",
+      "url": "https://github.com/boyan01/lychee_player/commit/3bef8d7b7504d10b00056d7020d106e8879b9245"
+    },
+    {
+      "sha": "0c7b2823199226250376708bcb30942ebd6e5a06",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T02:52:25.000Z",
+      "day": "2026-10-29",
+      "title": "Match Android snapshot references to texture sampling",
+      "url": "https://github.com/boyan01/lychee_player/commit/0c7b2823199226250376708bcb30942ebd6e5a06"
+    },
+    {
+      "sha": "570e3b5af99d7a824acffe6726419710ceba273c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T02:35:05.000Z",
+      "day": "2026-10-29",
+      "title": "Merge changed-line tidy CI fixes",
+      "url": "https://github.com/boyan01/lychee_player/commit/570e3b5af99d7a824acffe6726419710ceba273c"
+    },
+    {
+      "sha": "0434030a927cba813c2e4145b8cff132d16f1998",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T02:31:13.000Z",
+      "day": "2026-10-29",
+      "title": "Use size_t arithmetic for HDR cusp array extents",
+      "url": "https://github.com/boyan01/lychee_player/commit/0434030a927cba813c2e4145b8cff132d16f1998"
+    },
+    {
+      "sha": "0c8de99a9b6464a7e20f6cbe3525eb6f44d67f92",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T02:29:20.000Z",
+      "day": "2026-10-29",
+      "title": "Avoid oversized arguments in changed-line tidy",
+      "url": "https://github.com/boyan01/lychee_player/commit/0c8de99a9b6464a7e20f6cbe3525eb6f44d67f92"
+    },
+    {
+      "sha": "d9197138b94006a3eb2a3f8e6aa8d60bfee72feb",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T02:16:08.000Z",
+      "day": "2026-10-29",
+      "title": "Record completed Windows and Android CPU HDR validation",
+      "url": "https://github.com/boyan01/lychee_player/commit/d9197138b94006a3eb2a3f8e6aa8d60bfee72feb"
+    },
+    {
+      "sha": "d36343b53c783ab35a30b876513bf1d90d81a0b7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T01:31:31.000Z",
+      "day": "2026-10-29",
+      "title": "Merge the verified clang-tidy baseline",
+      "url": "https://github.com/boyan01/lychee_player/commit/d36343b53c783ab35a30b876513bf1d90d81a0b7"
+    },
+    {
+      "sha": "04f9161fc50ba95980d20e8a9af9a925b3386406",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T01:30:03.000Z",
+      "day": "2026-10-29",
+      "title": "Correct the documented clang-tidy baseline",
+      "url": "https://github.com/boyan01/lychee_player/commit/04f9161fc50ba95980d20e8a9af9a925b3386406"
+    },
+    {
+      "sha": "e239ff83ffcb510712c2d2492733735b0959c899",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T01:24:43.000Z",
+      "day": "2026-10-29",
+      "title": "Close the software H.264 benchmark follow-up",
+      "url": "https://github.com/boyan01/lychee_player/commit/e239ff83ffcb510712c2d2492733735b0959c899"
+    },
+    {
+      "sha": "43a41dc14393478ddcb16b40c6541207f251f1cf",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T01:23:24.000Z",
+      "day": "2026-10-29",
+      "title": "Merge the software H.264 startup correction",
+      "url": "https://github.com/boyan01/lychee_player/commit/43a41dc14393478ddcb16b40c6541207f251f1cf"
+    },
+    {
+      "sha": "1bcbed55f69675ed865fd2f274ffbd719050cf65",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T01:20:51.000Z",
+      "day": "2026-10-29",
+      "title": "Deliver software H.264 frames without a batch wait",
+      "url": "https://github.com/boyan01/lychee_player/commit/1bcbed55f69675ed865fd2f274ffbd719050cf65"
+    },
+    {
+      "sha": "cad1cb095be39984fa01d63683d0999449012d79",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T01:12:17.000Z",
+      "day": "2026-10-29",
+      "title": "Merge Linux HDR gamut and reference corrections",
+      "url": "https://github.com/boyan01/lychee_player/commit/cad1cb095be39984fa01d63683d0999449012d79"
+    },
+    {
+      "sha": "739e85b51fb9297a47c7889bdaa2f687bf000e1b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T01:10:46.000Z",
+      "day": "2026-10-29",
+      "title": "Align Linux HDR gamut mapping with high precision SDR conversion",
+      "url": "https://github.com/boyan01/lychee_player/commit/739e85b51fb9297a47c7889bdaa2f687bf000e1b"
+    },
+    {
+      "sha": "05818b60b35bc799cf9e217fed4f1a4f1cbb84e2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T01:03:29.000Z",
+      "day": "2026-10-29",
+      "title": "Merge verified VideoToolbox throughput improvement",
+      "url": "https://github.com/boyan01/lychee_player/commit/05818b60b35bc799cf9e217fed4f1a4f1cbb84e2"
+    },
+    {
+      "sha": "867f78ad08343371cdd35fd87df180b46bbd9f5f",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T01:02:48.000Z",
+      "day": "2026-10-29",
+      "title": "Close the verified VideoToolbox throughput roadmap item",
+      "url": "https://github.com/boyan01/lychee_player/commit/867f78ad08343371cdd35fd87df180b46bbd9f5f"
+    },
+    {
+      "sha": "dfa2cc6fdb665fb6e22504161260ad19297a9da4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T00:55:23.000Z",
+      "day": "2026-10-29",
+      "title": "Batch native VideoToolbox decoding on Apple platforms",
+      "url": "https://github.com/boyan01/lychee_player/commit/dfa2cc6fdb665fb6e22504161260ad19297a9da4"
+    },
+    {
+      "sha": "5a724e6bbae32335da1a7d7ec40af602600b22f5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T00:52:16.000Z",
+      "day": "2026-10-29",
+      "title": "Account for CoreMedia shared workers in soak checks",
+      "url": "https://github.com/boyan01/lychee_player/commit/5a724e6bbae32335da1a7d7ec40af602600b22f5"
+    },
+    {
+      "sha": "a7bd5f24783469088ff90ef8b76f22069038dc6e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T00:50:57.000Z",
+      "day": "2026-10-29",
+      "title": "Merge AirPlay live packet validation",
+      "url": "https://github.com/boyan01/lychee_player/commit/a7bd5f24783469088ff90ef8b76f22069038dc6e"
+    },
+    {
+      "sha": "f747bec4df6233db2d7fe346e843ba080d61c283",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T00:48:56.000Z",
+      "day": "2026-10-29",
+      "title": "Merge IMSC image subtitle verification",
+      "url": "https://github.com/boyan01/lychee_player/commit/f747bec4df6233db2d7fe346e843ba080d61c283"
+    },
+    {
+      "sha": "8f96bff36007f9ac15ac3d44dc42bec235eb48ee",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T00:47:54.000Z",
+      "day": "2026-10-29",
+      "title": "Verify existing IMSC image subtitles across native backends",
+      "url": "https://github.com/boyan01/lychee_player/commit/8f96bff36007f9ac15ac3d44dc42bec235eb48ee"
+    },
+    {
+      "sha": "229e3b9f2402624908136a270dd8c4f423f8fa77",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T00:45:15.000Z",
+      "day": "2026-10-29",
+      "title": "Verify AirPlay AAC-ELD through the live packet API",
+      "url": "https://github.com/boyan01/lychee_player/commit/229e3b9f2402624908136a270dd8c4f423f8fa77"
+    },
+    {
+      "sha": "c0828b05d5d411ddc1e453e9eb453d477981f5f8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T00:41:40.000Z",
+      "day": "2026-10-29",
+      "title": "Merge desktop dependency validation",
+      "url": "https://github.com/boyan01/lychee_player/commit/c0828b05d5d411ddc1e453e9eb453d477981f5f8"
+    },
+    {
+      "sha": "a4740fd602eb9965303982733381ff3a891244a3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T00:41:13.000Z",
+      "day": "2026-10-29",
+      "title": "Update GLFW to 3.5.1 for the desktop harness",
+      "url": "https://github.com/boyan01/lychee_player/commit/a4740fd602eb9965303982733381ff3a891244a3"
+    },
+    {
+      "sha": "13c728970b77c928dd376c57957cb9e22f66b249",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-29T00:31:36.000Z",
+      "day": "2026-10-29",
+      "title": "Document why Android keeps Mbed TLS 3.6 LTS",
+      "url": "https://github.com/boyan01/lychee_player/commit/13c728970b77c928dd376c57957cb9e22f66b249"
+    },
+    {
+      "sha": "61a88664ddd4f824bccb09df5787c00ffb8f27aa",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T16:20:36.000Z",
+      "day": "2026-10-29",
+      "title": "Read IMSC PNG pictures and fMP4 auxiliary resources across platforms",
+      "url": "https://github.com/boyan01/lychee_player/commit/61a88664ddd4f824bccb09df5787c00ffb8f27aa"
+    },
+    {
+      "sha": "504f551ffa43e7da071cc7fb14939fec6ce5a51a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T14:15:49.000Z",
+      "day": "2026-10-28",
+      "title": "Tone map Linux dmabuf previews using HDR color metadata",
+      "url": "https://github.com/boyan01/lychee_player/commit/504f551ffa43e7da071cc7fb14939fec6ce5a51a"
+    },
+    {
+      "sha": "6670ed69ee465509ffebeb2b4d50a1932e59a775",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T14:06:40.000Z",
+      "day": "2026-10-28",
+      "title": "Verify the pinned Linux clang-tidy wheel locally",
+      "url": "https://github.com/boyan01/lychee_player/commit/6670ed69ee465509ffebeb2b4d50a1932e59a775"
+    },
+    {
+      "sha": "29858d9e53698336f3774e91b06729539cbcf298",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T14:05:37.000Z",
+      "day": "2026-10-28",
+      "title": "Gate releases on native Linux fresh-app builds",
+      "url": "https://github.com/boyan01/lychee_player/commit/29858d9e53698336f3774e91b06729539cbcf298"
+    },
+    {
+      "sha": "93eef2612802490ed1f1033a9d8b73fc7be72fb3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T13:39:41.000Z",
+      "day": "2026-10-28",
+      "title": "Verify low-delay VAAPI and D3D11VA live decoding",
+      "url": "https://github.com/boyan01/lychee_player/commit/93eef2612802490ed1f1033a9d8b73fc7be72fb3"
+    },
+    {
+      "sha": "490bd6e4e676d232226969098d70ce78551daafb",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T13:31:37.000Z",
+      "day": "2026-10-28",
+      "title": "Read native H.264 and HEVC source color from their format descriptions",
+      "url": "https://github.com/boyan01/lychee_player/commit/490bd6e4e676d232226969098d70ce78551daafb"
+    },
+    {
+      "sha": "773a9d38a9ef78cf07470d193ab7476088debd4c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T12:49:05.000Z",
+      "day": "2026-10-28",
+      "title": "Separate system workqueue workers in macOS soak checks",
+      "url": "https://github.com/boyan01/lychee_player/commit/773a9d38a9ef78cf07470d193ab7476088debd4c"
+    },
+    {
+      "sha": "287fea2bf40b355d206dbe7bc6174dc7b05a4eb5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T12:15:21.000Z",
+      "day": "2026-10-28",
+      "title": "Honor source color defaults instead of VideoToolbox's SD profile guess",
+      "url": "https://github.com/boyan01/lychee_player/commit/287fea2bf40b355d206dbe7bc6174dc7b05a4eb5"
+    },
+    {
+      "sha": "2679fa21fb9cf96d3c17e1bdf3a8b22deafbf529",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T12:08:11.000Z",
+      "day": "2026-10-28",
+      "title": "Verify the native Linux harness on Wayland",
+      "url": "https://github.com/boyan01/lychee_player/commit/2679fa21fb9cf96d3c17e1bdf3a8b22deafbf529"
+    },
+    {
+      "sha": "ba5c3f19c34c0a6f0a8053c4037e0da7264a616d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T12:08:11.000Z",
+      "day": "2026-10-28",
+      "title": "Ship and validate ARMv7 Android builds",
+      "url": "https://github.com/boyan01/lychee_player/commit/ba5c3f19c34c0a6f0a8053c4037e0da7264a616d"
+    },
+    {
+      "sha": "7f6a8678be3c7319fd8868b84b9636f9cfe492aa",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T12:08:02.000Z",
+      "day": "2026-10-28",
+      "title": "Check Android and Windows backends with clang-tidy",
+      "url": "https://github.com/boyan01/lychee_player/commit/7f6a8678be3c7319fd8868b84b9636f9cfe492aa"
+    },
+    {
+      "sha": "a624b923041d73ff1eb56b86ea2b943de174c2d8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T12:08:02.000Z",
+      "day": "2026-10-28",
+      "title": "Soak each native frame hand-off harness",
+      "url": "https://github.com/boyan01/lychee_player/commit/a624b923041d73ff1eb56b86ea2b943de174c2d8"
+    },
+    {
+      "sha": "9e69c3f2d0406a0f9664ceb16989e0e734b595e3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T12:07:28.000Z",
+      "day": "2026-10-28",
+      "title": "Expose native Windows HDR textures with fixed PQ encoding",
+      "url": "https://github.com/boyan01/lychee_player/commit/9e69c3f2d0406a0f9664ceb16989e0e734b595e3"
+    },
+    {
+      "sha": "f647ed0a50fff9f898b173fa624cf477d7f886b6",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T12:03:01.000Z",
+      "day": "2026-10-28",
+      "title": "Read HLS subtitles before FFmpeg probing skips early cues",
+      "url": "https://github.com/boyan01/lychee_player/commit/f647ed0a50fff9f898b173fa624cf477d7f886b6"
+    },
+    {
+      "sha": "ec5135fc66f1196ee506effaebacbd1ff2b43508",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T11:49:17.000Z",
+      "day": "2026-10-28",
+      "title": "Expose color primaries and transfer on Linux dmabufs",
+      "url": "https://github.com/boyan01/lychee_player/commit/ec5135fc66f1196ee506effaebacbd1ff2b43508"
+    },
+    {
+      "sha": "ffa53868f9d0d9146cce58ba9c51123ad1571148",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T11:49:17.000Z",
+      "day": "2026-10-28",
+      "title": "Decode VP9 and AV1 with Windows Store extensions",
+      "url": "https://github.com/boyan01/lychee_player/commit/ffa53868f9d0d9146cce58ba9c51123ad1571148"
+    },
+    {
+      "sha": "d0d8868cd877b3b63e3c2b8c226470686d78cee2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T11:46:33.000Z",
+      "day": "2026-10-28",
+      "title": "Complete live HEVC pictures and initialize Windows FLAC streams",
+      "url": "https://github.com/boyan01/lychee_player/commit/d0d8868cd877b3b63e3c2b8c226470686d78cee2"
+    },
+    {
+      "sha": "21bbf80a1c5a78e2cfbb458c27156e7a8097f5fc",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T10:51:28.000Z",
+      "day": "2026-10-28",
+      "title": "Decode AC-3 with the platform audio backends",
+      "url": "https://github.com/boyan01/lychee_player/commit/21bbf80a1c5a78e2cfbb458c27156e7a8097f5fc"
+    },
+    {
+      "sha": "beefa0edf793f932bd2a2ef3a07338cefa2f220f",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T10:51:10.000Z",
+      "day": "2026-10-28",
+      "title": "Adapt HLS fMP4 variants using Windows and Android transfer rates",
+      "url": "https://github.com/boyan01/lychee_player/commit/beefa0edf793f932bd2a2ef3a07338cefa2f220f"
+    },
+    {
+      "sha": "62b373eb2dae4422baed367043fad877c502dd7c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T10:42:10.000Z",
+      "day": "2026-10-28",
+      "title": "Fix FFmpeg HLS subtitle buffer leaks in shipped builds",
+      "url": "https://github.com/boyan01/lychee_player/commit/62b373eb2dae4422baed367043fad877c502dd7c"
+    },
+    {
+      "sha": "f1c317529f03a25d05d0cc5020f1e9802b38e11c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T10:42:10.000Z",
+      "day": "2026-10-28",
+      "title": "Ship dav1d software AV1 on Linux and Windows",
+      "url": "https://github.com/boyan01/lychee_player/commit/f1c317529f03a25d05d0cc5020f1e9802b38e11c"
+    },
+    {
+      "sha": "cad3e245e59b5c4dcce643587951b3b6bc054a34",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T10:29:45.000Z",
+      "day": "2026-10-28",
+      "title": "Read fMP4 WebVTT and IMSC text subtitle renditions in HLS",
+      "url": "https://github.com/boyan01/lychee_player/commit/cad3e245e59b5c4dcce643587951b3b6bc054a34"
+    },
+    {
+      "sha": "379dced159d6e065a878cc18f400025b67fb99b8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T10:15:29.000Z",
+      "day": "2026-10-28",
+      "title": "Hold the video timeline when audio runs out",
+      "url": "https://github.com/boyan01/lychee_player/commit/379dced159d6e065a878cc18f400025b67fb99b8"
+    },
+    {
+      "sha": "0b0df28d4fb53f84204b54fd7b358b6e1994015b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T09:58:09.000Z",
+      "day": "2026-10-28",
+      "title": "AGENTS.md: finish a feature on every platform in one piece of work",
+      "url": "https://github.com/boyan01/lychee_player/commit/0b0df28d4fb53f84204b54fd7b358b6e1994015b"
+    },
+    {
+      "sha": "d37f134b28d48a5d4d4193694d4780ee515deaf7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T09:51:35.000Z",
+      "day": "2026-10-28",
+      "title": "Run the clock on from the moment the last audio is written",
+      "url": "https://github.com/boyan01/lychee_player/commit/d37f134b28d48a5d4d4193694d4780ee515deaf7"
+    },
+    {
+      "sha": "d3c85f909e47b4c03ac6dde3c0a4cef409b62319",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T09:51:35.000Z",
+      "day": "2026-10-28",
+      "title": "Accept the stalled-device hold's glitch count under TSan",
+      "url": "https://github.com/boyan01/lychee_player/commit/d3c85f909e47b4c03ac6dde3c0a4cef409b62319"
+    },
+    {
+      "sha": "1daed1f1f14a0c4acc0329f440979191037ae24d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T09:07:32.000Z",
+      "day": "2026-10-28",
+      "title": "CI: hosted runners only; install meson for dav1d",
+      "url": "https://github.com/boyan01/lychee_player/commit/1daed1f1f14a0c4acc0329f440979191037ae24d"
+    },
+    {
+      "sha": "e58f1f31a410fb4ec03ce513783280748d62fb99",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T09:07:32.000Z",
+      "day": "2026-10-28",
+      "title": "Fix what CI's first run of the merged batches found",
+      "url": "https://github.com/boyan01/lychee_player/commit/e58f1f31a410fb4ec03ce513783280748d62fb99"
+    },
+    {
+      "sha": "35f691a53bfc4eff51d98f647cc61cbfcd196b52",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T08:28:02.000Z",
+      "day": "2026-10-28",
+      "title": "Merge branch 'refs/heads/claude/batch-a-mac-4f59aa'",
+      "url": "https://github.com/boyan01/lychee_player/commit/35f691a53bfc4eff51d98f647cc61cbfcd196b52"
+    },
+    {
+      "sha": "e8b7b25e6eff7c72e42a2a6d86ed3ae073d6b8f6",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T08:26:15.000Z",
+      "day": "2026-10-28",
+      "title": "Record the Android emulator checks of MediaCodec VP8, VP9, AV1 and TS",
+      "url": "https://github.com/boyan01/lychee_player/commit/e8b7b25e6eff7c72e42a2a6d86ed3ae073d6b8f6"
+    },
+    {
+      "sha": "01c001c7e9432ac34d819350b4fc99900c17584c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T08:21:13.000Z",
+      "day": "2026-10-28",
+      "title": "Merge branch 'refs/heads/claude/batch-c-linux-d82750'",
+      "url": "https://github.com/boyan01/lychee_player/commit/01c001c7e9432ac34d819350b4fc99900c17584c"
+    },
+    {
+      "sha": "7e876ee4fa478f42b97ba7031d98489e188c9659",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T08:19:44.000Z",
+      "day": "2026-10-28",
+      "title": "Merge branch 'refs/heads/claude/batch-b-windows-0c40a3'",
+      "url": "https://github.com/boyan01/lychee_player/commit/7e876ee4fa478f42b97ba7031d98489e188c9659"
+    },
+    {
+      "sha": "b91332bf13ed84aee424862cae42b526d873c3b4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T08:19:36.000Z",
+      "day": "2026-10-28",
+      "title": "Merge branch 'refs/heads/claude/batch-d-ci-ddbd4e'",
+      "url": "https://github.com/boyan01/lychee_player/commit/b91332bf13ed84aee424862cae42b526d873c3b4"
+    },
+    {
+      "sha": "23d83a36345d70f7d565664c1b64b803613914cf",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T08:17:13.000Z",
+      "day": "2026-10-28",
+      "title": "Open MPEG-TS and HLS with the own demuxers in Linux's FFmpeg build",
+      "url": "https://github.com/boyan01/lychee_player/commit/23d83a36345d70f7d565664c1b64b803613914cf"
+    },
+    {
+      "sha": "99fe0c0ca2ab3aad3a80746e97b17e4a4bf8ea51",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T08:13:45.000Z",
+      "day": "2026-10-28",
+      "title": "Soak on Windows: tool/soak.sh in Git Bash, and the glfw harness",
+      "url": "https://github.com/boyan01/lychee_player/commit/99fe0c0ca2ab3aad3a80746e97b17e4a4bf8ea51"
+    },
+    {
+      "sha": "191815d61accbb3b593cbb7b828a53c0dff9b1e2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T08:06:58.000Z",
+      "day": "2026-10-28",
+      "title": "Soak the core on Linux",
+      "url": "https://github.com/boyan01/lychee_player/commit/191815d61accbb3b593cbb7b828a53c0dff9b1e2"
+    },
+    {
+      "sha": "db425a117080b62af6c96b3e670c22a0d572b047",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:58:58.000Z",
+      "day": "2026-10-28",
+      "title": "Roadmap: the Windows quit crash does not reproduce after a reboot",
+      "url": "https://github.com/boyan01/lychee_player/commit/db425a117080b62af6c96b3e670c22a0d572b047"
+    },
+    {
+      "sha": "49c09f6811d550a25cdd71fd538a299bd85cd07f",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:58:50.000Z",
+      "day": "2026-10-28",
+      "title": "Validate clang-tidy on Linux and fix its one finding there",
+      "url": "https://github.com/boyan01/lychee_player/commit/49c09f6811d550a25cdd71fd538a299bd85cd07f"
+    },
+    {
+      "sha": "75f4f661d3703c007dcadb3fb971ebcb9a927877",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:58:31.000Z",
+      "day": "2026-10-28",
+      "title": "Build a Linux app in tool/release.sh check",
+      "url": "https://github.com/boyan01/lychee_player/commit/75f4f661d3703c007dcadb3fb971ebcb9a927877"
+    },
+    {
+      "sha": "c99f3ed074e0145dbb5b262f418b2338a93b9e21",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:56:33.000Z",
+      "day": "2026-10-28",
+      "title": "Build and test the Rust crates on Linux against LYCHEE_LIB_DIR",
+      "url": "https://github.com/boyan01/lychee_player/commit/c99f3ed074e0145dbb5b262f418b2338a93b9e21"
+    },
+    {
+      "sha": "b6e731be5618cfb1ffb7ccddb0f1e40262a3e927",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:50:41.000Z",
+      "day": "2026-10-28",
+      "title": "Roadmap: what draining the software HEVC decoder per input does",
+      "url": "https://github.com/boyan01/lychee_player/commit/b6e731be5618cfb1ffb7ccddb0f1e40262a3e927"
+    },
+    {
+      "sha": "62116875e3731193fb7423b3e478acb30653e208",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:50:15.000Z",
+      "day": "2026-10-28",
+      "title": "Windows without FFmpeg: Opus, and the decoders' dropped delay",
+      "url": "https://github.com/boyan01/lychee_player/commit/62116875e3731193fb7423b3e478acb30653e208"
+    },
+    {
+      "sha": "f219080f00aac9c2ce26676a6d5c2b2b4b52d4ce",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:50:01.000Z",
+      "day": "2026-10-28",
+      "title": "Windows without FFmpeg: ALAC through Media Foundation",
+      "url": "https://github.com/boyan01/lychee_player/commit/f219080f00aac9c2ce26676a6d5c2b2b4b52d4ce"
+    },
+    {
+      "sha": "8bf22bd41ca9442b76481c7d538060385badbee5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:49:21.000Z",
+      "day": "2026-10-28",
+      "title": "Windows without FFmpeg: FLAC through Media Foundation",
+      "url": "https://github.com/boyan01/lychee_player/commit/8bf22bd41ca9442b76481c7d538060385badbee5"
+    },
+    {
+      "sha": "6e7cf33300ccfc14fb4306015b5b64ed1de2187d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:36:14.000Z",
+      "day": "2026-10-28",
+      "title": "Decode AV1 in software with dav1d on Apple and Android",
+      "url": "https://github.com/boyan01/lychee_player/commit/6e7cf33300ccfc14fb4306015b5b64ed1de2187d"
+    },
+    {
+      "sha": "f5e06ef7a8c283171b472ccc38f1e0a73de732bd",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:26:06.000Z",
+      "day": "2026-10-28",
+      "title": "Read MPEG-TS and HLS with the own demuxers in Android's FFmpeg build",
+      "url": "https://github.com/boyan01/lychee_player/commit/f5e06ef7a8c283171b472ccc38f1e0a73de732bd"
+    },
+    {
+      "sha": "9b03016a037e4789090fed45417473fbb93db418",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:25:43.000Z",
+      "day": "2026-10-28",
+      "title": "Decode VP8, VP9 and AV1 through MediaCodec",
+      "url": "https://github.com/boyan01/lychee_player/commit/9b03016a037e4789090fed45417473fbb93db418"
+    },
+    {
+      "sha": "a4cd85a8ebfe9801678a63056e6d4d1864dbfb10",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:25:00.000Z",
+      "day": "2026-10-28",
+      "title": "Windows: MPEG-TS and HLS through the own demuxers with FFmpeg too",
+      "url": "https://github.com/boyan01/lychee_player/commit/a4cd85a8ebfe9801678a63056e6d4d1864dbfb10"
+    },
+    {
+      "sha": "f06c17d02b46ad4a3ae035e9ed72a1e88d229dbe",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:24:49.000Z",
+      "day": "2026-10-28",
+      "title": "HLS: AES-128 through BCrypt on Windows",
+      "url": "https://github.com/boyan01/lychee_player/commit/f06c17d02b46ad4a3ae035e9ed72a1e88d229dbe"
+    },
+    {
+      "sha": "eddafc9a84f2cc1a1e24aa3c5144191f5f3dd7f1",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T07:24:41.000Z",
+      "day": "2026-10-28",
+      "title": "Skip frames ending within 100 us after the start",
+      "url": "https://github.com/boyan01/lychee_player/commit/eddafc9a84f2cc1a1e24aa3c5144191f5f3dd7f1"
+    },
+    {
+      "sha": "a4323377ed88cad7e4f85da7934e80d323b53c5b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T06:56:12.000Z",
+      "day": "2026-10-28",
+      "title": "Find TS timestamp jumps ahead and short runs at open",
+      "url": "https://github.com/boyan01/lychee_player/commit/a4323377ed88cad7e4f85da7934e80d323b53c5b"
+    },
+    {
+      "sha": "e911c59cf27399f03e3023b4671a5ae90586589c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T06:43:10.000Z",
+      "day": "2026-10-28",
+      "title": "Note why TS timed metadata stays unread",
+      "url": "https://github.com/boyan01/lychee_player/commit/e911c59cf27399f03e3023b4671a5ae90586589c"
+    },
+    {
+      "sha": "f70782c9cc59bdd7c6d2384930acc830e4f6858c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T06:42:30.000Z",
+      "day": "2026-10-28",
+      "title": "Read WebVTT subtitle renditions in the own HLS demuxer",
+      "url": "https://github.com/boyan01/lychee_player/commit/f70782c9cc59bdd7c6d2384930acc830e4f6858c"
+    },
+    {
+      "sha": "3a5f5392dc04e4fefc82b4d4dcd29435d3cd0908",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T06:32:10.000Z",
+      "day": "2026-10-28",
+      "title": "Adapt the HLS variant to the measured bandwidth",
+      "url": "https://github.com/boyan01/lychee_player/commit/3a5f5392dc04e4fefc82b4d4dcd29435d3cd0908"
+    },
+    {
+      "sha": "db742d49bde4e1f1f1a9ce4780819a0ec045afa3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T06:15:01.000Z",
+      "day": "2026-10-28",
+      "title": "Share one NSURLSession among an HLS demuxer's requests",
+      "url": "https://github.com/boyan01/lychee_player/commit/db742d49bde4e1f1f1a9ce4780819a0ec045afa3"
+    },
+    {
+      "sha": "98d3fd32b6658d80c8ac6a34dcdd8f946134bf34",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T06:05:35.000Z",
+      "day": "2026-10-28",
+      "title": "Hold TS audio until the video places a run found while reading",
+      "url": "https://github.com/boyan01/lychee_player/commit/98d3fd32b6658d80c8ac6a34dcdd8f946134bf34"
+    },
+    {
+      "sha": "58ac662bef2c9e517e5b4d73de3520147a7bbdb8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T06:04:31.000Z",
+      "day": "2026-10-28",
+      "title": "Tell duplicate TS packets by their payload too",
+      "url": "https://github.com/boyan01/lychee_player/commit/58ac662bef2c9e517e5b4d73de3520147a7bbdb8"
+    },
+    {
+      "sha": "134ea99402b28cb15f77e1a9632d8ad5938968c3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T06:04:09.000Z",
+      "day": "2026-10-28",
+      "title": "Run the changed-lines clang-tidy check on Linux too",
+      "url": "https://github.com/boyan01/lychee_player/commit/134ea99402b28cb15f77e1a9632d8ad5938968c3"
+    },
+    {
+      "sha": "e6e5bacecd44be05178cf9e0aa31e34e33298789",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-10-28T06:03:54.000Z",
+      "day": "2026-10-28",
+      "title": "Bump version to 6.3.6 (#2083)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/e6e5bacecd44be05178cf9e0aa31e34e33298789"
+    },
+    {
+      "sha": "f433507f459a30d3609c07fd9d61e97a95bcc085",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T06:02:48.000Z",
+      "day": "2026-10-28",
+      "title": "Check the hand-pinned sources for newer releases weekly",
+      "url": "https://github.com/boyan01/lychee_player/commit/f433507f459a30d3609c07fd9d61e97a95bcc085"
+    },
+    {
+      "sha": "e51aa904e88fa8fa5f41b33c35c336bf4b81a635",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T05:59:29.000Z",
+      "day": "2026-10-28",
+      "title": "Check Windows apps, attest provenance and an SBOM in releases",
+      "url": "https://github.com/boyan01/lychee_player/commit/e51aa904e88fa8fa5f41b33c35c336bf4b81a635"
+    },
+    {
+      "sha": "318398d2f64e8d740758836dfd5dfd70c5afb3d2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T05:55:56.000Z",
+      "day": "2026-10-28",
+      "title": "Benchmark every push on the self-hosted Mac",
+      "url": "https://github.com/boyan01/lychee_player/commit/318398d2f64e8d740758836dfd5dfd70c5afb3d2"
+    },
+    {
+      "sha": "059c4b3b8fa6ef0dae8a865af2c638acfb1a62a1",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T05:55:31.000Z",
+      "day": "2026-10-28",
+      "title": "Roadmap: the realtime cases pass on an idle Windows PC",
+      "url": "https://github.com/boyan01/lychee_player/commit/059c4b3b8fa6ef0dae8a865af2c638acfb1a62a1"
+    },
+    {
+      "sha": "85b39c155b14406e18400803ad4cb47a0508ab89",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T05:53:42.000Z",
+      "day": "2026-10-28",
+      "title": "Add Android and Windows CI jobs",
+      "url": "https://github.com/boyan01/lychee_player/commit/85b39c155b14406e18400803ad4cb47a0508ab89"
+    },
+    {
+      "sha": "07d92f504e39ba44592911397ca3ff04dfde1763",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T05:34:48.000Z",
+      "day": "2026-10-28",
+      "title": "Drop the Apple deployment warning from the roadmap",
+      "url": "https://github.com/boyan01/lychee_player/commit/07d92f504e39ba44592911397ca3ff04dfde1763"
+    },
+    {
+      "sha": "feb32f830785adba0913b2ece51c6ff687884357",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T05:03:58.000Z",
+      "day": "2026-10-28",
+      "title": "Merge branch 'refs/heads/claude/dazzling-tu-29e3bf'",
+      "url": "https://github.com/boyan01/lychee_player/commit/feb32f830785adba0913b2ece51c6ff687884357"
+    },
+    {
+      "sha": "48d9de1761871fc3c0ac42eb794a8a0f7727ef55",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T05:03:13.000Z",
+      "day": "2026-10-28",
+      "title": "Merge branch 'refs/heads/claude/android-batch-27cb49'",
+      "url": "https://github.com/boyan01/lychee_player/commit/48d9de1761871fc3c0ac42eb794a8a0f7727ef55"
+    },
+    {
+      "sha": "8c952cf8258322d79d2a1c547e815b68035b31aa",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T05:01:44.000Z",
+      "day": "2026-10-28",
+      "title": "Merge branch 'refs/heads/claude/windows-batch-8c7bf6'",
+      "url": "https://github.com/boyan01/lychee_player/commit/8c952cf8258322d79d2a1c547e815b68035b31aa"
+    },
+    {
+      "sha": "22b126dc8917ebaacbfb5bfdc5690e6316220c3b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:55:51.000Z",
+      "day": "2026-10-28",
+      "title": "Open MPEG-TS and HLS with the own demuxers in Apple's FFmpeg build",
+      "url": "https://github.com/boyan01/lychee_player/commit/22b126dc8917ebaacbfb5bfdc5690e6316220c3b"
+    },
+    {
+      "sha": "3e8bbd8db5950ecb54a9328b6ebee6d27d4c11c2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:41:17.000Z",
+      "day": "2026-10-28",
+      "title": "Add tool/soak.sh: memory and threads under looping, seeks and switches",
+      "url": "https://github.com/boyan01/lychee_player/commit/3e8bbd8db5950ecb54a9328b6ebee6d27d4c11c2"
+    },
+    {
+      "sha": "90f9d9250d2f1f9de9f1e3dd9d9121ed5495e9ee",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:40:19.000Z",
+      "day": "2026-10-28",
+      "title": "Tag untagged Apple frames BT.709, and snapshot the Swift example",
+      "url": "https://github.com/boyan01/lychee_player/commit/90f9d9250d2f1f9de9f1e3dd9d9121ed5495e9ee"
+    },
+    {
+      "sha": "5035765ba597bf2e393b3b7b054d76438fae6fc8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:27:13.000Z",
+      "day": "2026-10-28",
+      "title": "glfw harness on Windows: --adapter SEC:N switches the D3D11 adapter",
+      "url": "https://github.com/boyan01/lychee_player/commit/5035765ba597bf2e393b3b7b054d76438fae6fc8"
+    },
+    {
+      "sha": "52e2b769c0823fea7e44283407bc63eeb34e35be",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:23:12.000Z",
+      "day": "2026-10-28",
+      "title": "Add tool/bench.sh: throughput, latency and memory per resolution",
+      "url": "https://github.com/boyan01/lychee_player/commit/52e2b769c0823fea7e44283407bc63eeb34e35be"
+    },
+    {
+      "sha": "5fd3355f9430baccae1aa2b92065dfa209e629a7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:21:53.000Z",
+      "day": "2026-10-28",
+      "title": "glfw harness on Windows: recreate the device after a GPU reset",
+      "url": "https://github.com/boyan01/lychee_player/commit/5fd3355f9430baccae1aa2b92065dfa209e629a7"
+    },
+    {
+      "sha": "d205d878c88e6a60463aa9f26d61ed42a9dabd01",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:17:39.000Z",
+      "day": "2026-10-28",
+      "title": "Build the Rust crates for iOS against an xcframework slice",
+      "url": "https://github.com/boyan01/lychee_player/commit/d205d878c88e6a60463aa9f26d61ed42a9dabd01"
+    },
+    {
+      "sha": "67ecf43ef572592ee699ea3bd5b3dde3841fe04a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:14:49.000Z",
+      "day": "2026-10-28",
+      "title": "Pin Actions by commit SHA and let Dependabot propose updates",
+      "url": "https://github.com/boyan01/lychee_player/commit/67ecf43ef572592ee699ea3bd5b3dde3841fe04a"
+    },
+    {
+      "sha": "a5dae53e48a41e19e3d87457ea9d96b0c795d2ed",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:13:40.000Z",
+      "day": "2026-10-28",
+      "title": "Check lychee.h layouts on 32-bit and Windows targets too",
+      "url": "https://github.com/boyan01/lychee_player/commit/a5dae53e48a41e19e3d87457ea9d96b0c795d2ed"
+    },
+    {
+      "sha": "c360ab00af83b47d526001a745411abd3e2ce1fb",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:12:43.000Z",
+      "day": "2026-10-28",
+      "title": "release.sh check builds a Windows app on Windows; Rust on Windows",
+      "url": "https://github.com/boyan01/lychee_player/commit/c360ab00af83b47d526001a745411abd3e2ce1fb"
+    },
+    {
+      "sha": "3c43169a8bf79f86abaa91b60a06749ff13591b9",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:09:45.000Z",
+      "day": "2026-10-28",
+      "title": "Fuzz live HLS reloads on a clock the fuzzer advances",
+      "url": "https://github.com/boyan01/lychee_player/commit/3c43169a8bf79f86abaa91b60a06749ff13591b9"
+    },
+    {
+      "sha": "46565cb065c76c3bfdb29871462a54bab32897df",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T04:04:15.000Z",
+      "day": "2026-10-28",
+      "title": "Play HLS audio renditions and switch variants without FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/46565cb065c76c3bfdb29871462a54bab32897df"
+    },
+    {
+      "sha": "fb784865186d612a8753b7521235dcdf48ac7081",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:56:47.000Z",
+      "day": "2026-10-28",
+      "title": "Build the Rust crates for Android against the AAR",
+      "url": "https://github.com/boyan01/lychee_player/commit/fb784865186d612a8753b7521235dcdf48ac7081"
+    },
+    {
+      "sha": "a407828bdaf915e26b13c39581eff84097d803f8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:53:48.000Z",
+      "day": "2026-10-28",
+      "title": "Check the Android example's frames by pixels",
+      "url": "https://github.com/boyan01/lychee_player/commit/a407828bdaf915e26b13c39581eff84097d803f8"
+    },
+    {
+      "sha": "a87969612035cfa2e9eb14319d1790f296db2cb2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:53:48.000Z",
+      "day": "2026-10-28",
+      "title": "Read http(s) through HttpURLConnection on Android",
+      "url": "https://github.com/boyan01/lychee_player/commit/a87969612035cfa2e9eb14319d1790f296db2cb2"
+    },
+    {
+      "sha": "316d0cb4046ae80a30e0c0c863a1ea4ee7474223",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:51:18.000Z",
+      "day": "2026-10-28",
+      "title": "Windows plugin: LYCHEE_WITH_FFMPEG=OFF builds the core without FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/316d0cb4046ae80a30e0c0c863a1ea4ee7474223"
+    },
+    {
+      "sha": "a151ed2317e03cc008c5f5ccbdae7ef3aa63796a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:47:01.000Z",
+      "day": "2026-10-28",
+      "title": "Windows without FFmpeg: software video, ADTS and MP3, TS, HLS, Matroska",
+      "url": "https://github.com/boyan01/lychee_player/commit/a151ed2317e03cc008c5f5ccbdae7ef3aa63796a"
+    },
+    {
+      "sha": "9801d32b7ceae123f5c41a4efc21e976097c9b84",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:38:23.000Z",
+      "day": "2026-10-28",
+      "title": "Play fMP4 and AES-128 HLS without FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/9801d32b7ceae123f5c41a4efc21e976097c9b84"
+    },
+    {
+      "sha": "05e186b4069aefb6c64517c821b56e4fba12f23c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:24:22.000Z",
+      "day": "2026-10-28",
+      "title": "Ask MediaCodec for low latency on live input",
+      "url": "https://github.com/boyan01/lychee_player/commit/05e186b4069aefb6c64517c821b56e4fba12f23c"
+    },
+    {
+      "sha": "3f8516b73a7349e362d873d6ceff62a0fae40ad5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:23:29.000Z",
+      "day": "2026-10-28",
+      "title": "Windows: http(s) through WinHTTP, for both builds",
+      "url": "https://github.com/boyan01/lychee_player/commit/3f8516b73a7349e362d873d6ceff62a0fae40ad5"
+    },
+    {
+      "sha": "82f4f6fbb426189c13f21c8e800c13fb172eb213",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:14:31.000Z",
+      "day": "2026-10-28",
+      "title": "Check A/V sync by where a tone starts, and play MP3 in TS without FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/82f4f6fbb426189c13f21c8e800c13fb172eb213"
+    },
+    {
+      "sha": "09f82d17c557f0de82efcda3ca4bc55b7570968d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:11:34.000Z",
+      "day": "2026-10-28",
+      "title": "Roadmap: the Windows plugin's pixel buffer path works",
+      "url": "https://github.com/boyan01/lychee_player/commit/09f82d17c557f0de82efcda3ca4bc55b7570968d"
+    },
+    {
+      "sha": "10307f758940535bb18c17dd426e1ec723ea12f7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:10:53.000Z",
+      "day": "2026-10-28",
+      "title": "MSVC /W4, and warnings as errors in the shipped builds of the core",
+      "url": "https://github.com/boyan01/lychee_player/commit/10307f758940535bb18c17dd426e1ec723ea12f7"
+    },
+    {
+      "sha": "8f351c474cf70455bf51d914879a5f098e007d8f",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:10:46.000Z",
+      "day": "2026-10-28",
+      "title": "Serve media to the Windows PC emulator through adb reverse",
+      "url": "https://github.com/boyan01/lychee_player/commit/8f351c474cf70455bf51d914879a5f098e007d8f"
+    },
+    {
+      "sha": "9050762e01519b8fdddcca7d98748d94290d4986",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T03:01:53.000Z",
+      "day": "2026-10-28",
+      "title": "Decode on from the next keyframe after VideoToolbox rejects damage",
+      "url": "https://github.com/boyan01/lychee_player/commit/9050762e01519b8fdddcca7d98748d94290d4986"
+    },
+    {
+      "sha": "633007126029aabe392746ce50a70ef277aaafa2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T02:59:10.000Z",
+      "day": "2026-10-28",
+      "title": "Test hook for devices with few hardware video decoders",
+      "url": "https://github.com/boyan01/lychee_player/commit/633007126029aabe392746ce50a70ef277aaafa2"
+    },
+    {
+      "sha": "458108c6ffa03032844e7ec788170b036bfdb9f0",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T02:57:07.000Z",
+      "day": "2026-10-28",
+      "title": "Windows: tone-map HLG with our shader, as PQ",
+      "url": "https://github.com/boyan01/lychee_player/commit/458108c6ffa03032844e7ec788170b036bfdb9f0"
+    },
+    {
+      "sha": "5f4f28f4eff666bfcc996eb7d4b9eea72cdf7604",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T02:56:27.000Z",
+      "day": "2026-10-28",
+      "title": "Roadmap: swscale reads untagged HD as BT.709 on Windows too",
+      "url": "https://github.com/boyan01/lychee_player/commit/5f4f28f4eff666bfcc996eb7d4b9eea72cdf7604"
+    },
+    {
+      "sha": "02364d732867697767c4f36de871aa0be394659a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T02:53:49.000Z",
+      "day": "2026-10-28",
+      "title": "Join MPEG-TS timestamps that start over without FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/02364d732867697767c4f36de871aa0be394659a"
+    },
+    {
+      "sha": "0c34a7217147a6419a60da41cd923c161b928a48",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T02:53:49.000Z",
+      "day": "2026-10-28",
+      "title": "Write wide zero fields in the MP4 test without undefined shifts",
+      "url": "https://github.com/boyan01/lychee_player/commit/0c34a7217147a6419a60da41cd923c161b928a48"
+    },
+    {
+      "sha": "f4cc7eb2cbf13f45b0bfee85fb1b7dea6d89df93",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T02:52:40.000Z",
+      "day": "2026-10-28",
+      "title": "Run tool/regression.sh on Windows in Git Bash",
+      "url": "https://github.com/boyan01/lychee_player/commit/f4cc7eb2cbf13f45b0bfee85fb1b7dea6d89df93"
+    },
+    {
+      "sha": "203671d73a9d390ed5ce421b1664c66aadc6557b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T02:39:04.000Z",
+      "day": "2026-10-28",
+      "title": "Check https on Android before 11, where TMPDIR is unset",
+      "url": "https://github.com/boyan01/lychee_player/commit/203671d73a9d390ed5ce421b1664c66aadc6557b"
+    },
+    {
+      "sha": "e7f301864c1710c7b2f135a3c4d7ff116a50dbfa",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T02:36:00.000Z",
+      "day": "2026-10-28",
+      "title": "Restart MediaCodec when the stream's coded size changes",
+      "url": "https://github.com/boyan01/lychee_player/commit/e7f301864c1710c7b2f135a3c4d7ff116a50dbfa"
+    },
+    {
+      "sha": "7e2e8a92f37a12eeeabb120e4774040dd7f1c402",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-28T02:29:14.000Z",
+      "day": "2026-10-28",
+      "title": "Build the Apple frameworks without availability warnings",
+      "url": "https://github.com/boyan01/lychee_player/commit/7e2e8a92f37a12eeeabb120e4774040dd7f1c402"
+    },
     {
       "sha": "d83b783916542edd47f7195abb739f07b453b89b",
       "repo": "boyan01/lychee_player",
@@ -3740,38 +5052,6 @@
       "day": "2026-08-09",
       "title": "Refactor Flutter chat view components",
       "url": "https://github.com/boyan01/mixin-desktop/commit/3c0b69f1fabb5fb93c40b22a558638080972bae3"
-    },
-    {
-      "sha": "284a1533a79932e1a2a5297d2584dcf4ad4a9a80",
-      "repo": "boyan01/intelli-git",
-      "date": "2026-07-31T14:14:27.000Z",
-      "day": "2026-07-31",
-      "title": "Release Intelli Git 0.0.8",
-      "url": "https://github.com/boyan01/intelli-git/commit/284a1533a79932e1a2a5297d2584dcf4ad4a9a80"
-    },
-    {
-      "sha": "d33d87bdae15faba94d9b2b9f5701def7da7e2e7",
-      "repo": "boyan01/intelli-git",
-      "date": "2026-07-31T14:11:06.000Z",
-      "day": "2026-07-31",
-      "title": "Extend Early Access builds to six months",
-      "url": "https://github.com/boyan01/intelli-git/commit/d33d87bdae15faba94d9b2b9f5701def7da7e2e7"
-    },
-    {
-      "sha": "ba61c55c19d75dc2a81f748365bbf17ded17bb0b",
-      "repo": "boyan01/intelli-git",
-      "date": "2026-07-31T14:08:50.000Z",
-      "day": "2026-07-31",
-      "title": "Disable the experimental merge editor by default",
-      "url": "https://github.com/boyan01/intelli-git/commit/ba61c55c19d75dc2a81f748365bbf17ded17bb0b"
-    },
-    {
-      "sha": "9546e8f09e93c48235207e08a22936a1d7fc0902",
-      "repo": "MixinNetwork/flutter-app",
-      "date": "2026-07-31T13:53:37.000Z",
-      "day": "2026-07-31",
-      "title": "Fix Chinese input in Linux AppImage (#2014)",
-      "url": "https://github.com/MixinNetwork/flutter-app/commit/9546e8f09e93c48235207e08a22936a1d7fc0902"
     }
   ]
 }
