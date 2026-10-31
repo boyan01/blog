@@ -1,10 +1,138 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-10-30T03:41:40.616Z",
-  "start": "2026-08-02",
-  "end": "2026-10-30",
+  "generatedAt": "2026-10-31T03:25:41.854Z",
+  "start": "2026-08-03",
+  "end": "2026-10-31",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "8faa242ffd614e0f97ecfd44063f7d96a6d83b50",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-30T17:24:02.000Z",
+      "day": "2026-10-31",
+      "title": "Sync UxPlay to upstream 534e2cc",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/8faa242ffd614e0f97ecfd44063f7d96a6d83b50"
+    },
+    {
+      "sha": "db520b4eb9d606710c24cec7d95dcead33e9afbf",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-30T12:47:26.000Z",
+      "day": "2026-10-30",
+      "title": "Upgrade Android to Kotlin 2.4, AGP 9.5 and SDK 37",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/db520b4eb9d606710c24cec7d95dcead33e9afbf"
+    },
+    {
+      "sha": "66c74b2b7c4891ae6c563689da555dbd1b13f5ad",
+      "repo": "boyan01/flutter-airplay",
+      "date": "2026-10-30T12:19:40.000Z",
+      "day": "2026-10-30",
+      "title": "Play through lychee_player and build every host from Flutter",
+      "url": "https://github.com/boyan01/flutter-airplay/commit/66c74b2b7c4891ae6c563689da555dbd1b13f5ad"
+    },
+    {
+      "sha": "9c9fdc7e42da0441f82187f4a483a96a736e3e40",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T09:23:16.000Z",
+      "day": "2026-10-30",
+      "title": "release: name the changelog section 1.0.0-beta.4",
+      "url": "https://github.com/boyan01/lychee_player/commit/9c9fdc7e42da0441f82187f4a483a96a736e3e40"
+    },
+    {
+      "sha": "fdabda3a676fb3219b5e04a0abfa3d68172e0ec4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T08:04:42.000Z",
+      "day": "2026-10-30",
+      "title": "docs: add version badges for each published package",
+      "url": "https://github.com/boyan01/lychee_player/commit/fdabda3a676fb3219b5e04a0abfa3d68172e0ec4"
+    },
+    {
+      "sha": "68d5697646b06a72ea1c02b9b1f4cf5f82a74b2c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T08:01:58.000Z",
+      "day": "2026-10-30",
+      "title": "flutter: rewrite the package README for app developers",
+      "url": "https://github.com/boyan01/lychee_player/commit/68d5697646b06a72ea1c02b9b1f4cf5f82a74b2c"
+    },
+    {
+      "sha": "fdfb2a4d3decd07852da18a3c058ff9e84987af3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T08:01:58.000Z",
+      "day": "2026-10-30",
+      "title": "docs: make the README a front page, move the rest to docs/",
+      "url": "https://github.com/boyan01/lychee_player/commit/fdfb2a4d3decd07852da18a3c058ff9e84987af3"
+    },
+    {
+      "sha": "56064371d8854093f0061b527ffa65898d66c8d4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T07:56:13.000Z",
+      "day": "2026-10-30",
+      "title": "docs: adopt area-prefixed, single-purpose commits",
+      "url": "https://github.com/boyan01/lychee_player/commit/56064371d8854093f0061b527ffa65898d66c8d4"
+    },
+    {
+      "sha": "38570bd01765284c527a090cf32082472ad54995",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T07:55:53.000Z",
+      "day": "2026-10-30",
+      "title": "docs: write the changelog for package users",
+      "url": "https://github.com/boyan01/lychee_player/commit/38570bd01765284c527a090cf32082472ad54995"
+    },
+    {
+      "sha": "48b5152ffc9483ebad0dfa0bff4ac7c7a44b9e33",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T07:54:21.000Z",
+      "day": "2026-10-30",
+      "title": "release: skip regression and fresh-app builds",
+      "url": "https://github.com/boyan01/lychee_player/commit/48b5152ffc9483ebad0dfa0bff4ac7c7a44b9e33"
+    },
+    {
+      "sha": "6654862a3b09542d3f212599dfbb512ecdd22ff4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T06:47:48.000Z",
+      "day": "2026-10-30",
+      "title": "Make Flutter FFmpeg support configurable from the app",
+      "url": "https://github.com/boyan01/lychee_player/commit/6654862a3b09542d3f212599dfbb512ecdd22ff4"
+    },
+    {
+      "sha": "90daf98548a9826353e5be9bb3b7fc15a7969a1d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T06:46:55.000Z",
+      "day": "2026-10-30",
+      "title": "Scale verification to the changed behavior",
+      "url": "https://github.com/boyan01/lychee_player/commit/90daf98548a9826353e5be9bb3b7fc15a7969a1d"
+    },
+    {
+      "sha": "0c28a36f655d19ff1d29f577a7e33cc1209dd3de",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T04:45:34.000Z",
+      "day": "2026-10-30",
+      "title": "Publish both Android artifacts automatically with each release",
+      "url": "https://github.com/boyan01/lychee_player/commit/0c28a36f655d19ff1d29f577a7e33cc1209dd3de"
+    },
+    {
+      "sha": "6c3da8013aa38696c2c4da719889132da04a2f7a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T04:45:34.000Z",
+      "day": "2026-10-30",
+      "title": "Let Android release consumers own their snapshot directory",
+      "url": "https://github.com/boyan01/lychee_player/commit/6c3da8013aa38696c2c4da719889132da04a2f7a"
+    },
+    {
+      "sha": "4353eed7a3b55ca5dcf6b006767084c8d2d7cb3c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T03:57:22.000Z",
+      "day": "2026-10-30",
+      "title": "Bootstrap Flutter when packing release checks",
+      "url": "https://github.com/boyan01/lychee_player/commit/4353eed7a3b55ca5dcf6b006767084c8d2d7cb3c"
+    },
+    {
+      "sha": "87e3e53cca98a565479f303e433ec0813c8434df",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-30T03:56:57.000Z",
+      "day": "2026-10-30",
+      "title": "Record the Android CI capture directory failure",
+      "url": "https://github.com/boyan01/lychee_player/commit/87e3e53cca98a565479f303e433ec0813c8434df"
+    },
     {
       "sha": "9ded9feee1db44c13e6629fb0e964a4cfdb1a9f5",
       "repo": "boyan01/lychee_player",
