@@ -1,10 +1,154 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-10-31T03:25:41.854Z",
-  "start": "2026-08-03",
-  "end": "2026-10-31",
+  "generatedAt": "2026-11-01T03:27:19.199Z",
+  "start": "2026-08-04",
+  "end": "2026-11-01",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "b2190b44846a4783081d983dd49eac6cff55f593",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T13:58:19.000Z",
+      "day": "2026-10-31",
+      "title": "core: follow live audio timestamps in platform decoders",
+      "url": "https://github.com/boyan01/lychee_player/commit/b2190b44846a4783081d983dd49eac6cff55f593"
+    },
+    {
+      "sha": "da0af87087fb1758882010785afe273e1cccfdee",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T10:58:50.000Z",
+      "day": "2026-10-31",
+      "title": "core/ffmpeg: measure the download rate on Linux",
+      "url": "https://github.com/boyan01/lychee_player/commit/da0af87087fb1758882010785afe273e1cccfdee"
+    },
+    {
+      "sha": "9f04692321fa0ca3250adfb9b3cddf56067ef344",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T10:39:14.000Z",
+      "day": "2026-10-31",
+      "title": "tool: expect no download rate from FFmpeg's own http on Linux",
+      "url": "https://github.com/boyan01/lychee_player/commit/9f04692321fa0ca3250adfb9b3cddf56067ef344"
+    },
+    {
+      "sha": "cef412870f2e9b0f69eb34484a7bdb67a9092064",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T10:17:27.000Z",
+      "day": "2026-10-31",
+      "title": "release: name the changelog section 1.0.0-beta.5",
+      "url": "https://github.com/boyan01/lychee_player/commit/cef412870f2e9b0f69eb34484a7bdb67a9092064"
+    },
+    {
+      "sha": "454d3ac9211f623c0da6ed061d3b0c49a711cda5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T10:17:13.000Z",
+      "day": "2026-10-31",
+      "title": "core/ffmpeg: define download_rate() where FFmpeg does its own I/O",
+      "url": "https://github.com/boyan01/lychee_player/commit/454d3ac9211f623c0da6ed061d3b0c49a711cda5"
+    },
+    {
+      "sha": "e16a73d602cf2be3d385de96918212759f102017",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T10:17:13.000Z",
+      "day": "2026-10-31",
+      "title": "tool: expect no rebuild drops from a software video decoder",
+      "url": "https://github.com/boyan01/lychee_player/commit/e16a73d602cf2be3d385de96918212759f102017"
+    },
+    {
+      "sha": "e1485a917df7b41516342ab7525a8f22a6fd52be",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:56:35.000Z",
+      "day": "2026-10-31",
+      "title": "docs: commit a feature with every platform it reaches",
+      "url": "https://github.com/boyan01/lychee_player/commit/e1485a917df7b41516342ab7525a8f22a6fd52be"
+    },
+    {
+      "sha": "6cbabb65a99c6a160d43f6effdb93f86f6bc7986",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:49:27.000Z",
+      "day": "2026-10-31",
+      "title": "core: report the A/V offset, audio output and HLS variant in stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/6cbabb65a99c6a160d43f6effdb93f86f6bc7986"
+    },
+    {
+      "sha": "9a4bea931f7aa607b36b72a3fabf14d59752babb",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:49:27.000Z",
+      "day": "2026-10-31",
+      "title": "rust: expose the A/V offset, audio output and HLS variant stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/9a4bea931f7aa607b36b72a3fabf14d59752babb"
+    },
+    {
+      "sha": "b4e7eb93e324e84996384e6745c25a886994a6eb",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:49:27.000Z",
+      "day": "2026-10-31",
+      "title": "flutter: expose the A/V offset, audio output and HLS variant stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/b4e7eb93e324e84996384e6745c25a886994a6eb"
+    },
+    {
+      "sha": "ed37ceaf22153525a3306b2ce51244e05e47f533",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:49:27.000Z",
+      "day": "2026-10-31",
+      "title": "apple: expose the A/V offset, audio output and HLS variant stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/ed37ceaf22153525a3306b2ce51244e05e47f533"
+    },
+    {
+      "sha": "f538ff9b255a1939c20589b77c821a7778fb0510",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:49:27.000Z",
+      "day": "2026-10-31",
+      "title": "android: expose the A/V offset, audio output and HLS variant stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/f538ff9b255a1939c20589b77c821a7778fb0510"
+    },
+    {
+      "sha": "25a43242abb8e66f1031447d0e1a3db874d17c98",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:07:28.000Z",
+      "day": "2026-10-31",
+      "title": "flutter: expose the API 16 playback stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/25a43242abb8e66f1031447d0e1a3db874d17c98"
+    },
+    {
+      "sha": "038da2f81318edc8285421e56e52565e0d6f5a33",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:07:27.000Z",
+      "day": "2026-10-31",
+      "title": "core: report decoding, network, startup, rebuffer and seek stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/038da2f81318edc8285421e56e52565e0d6f5a33"
+    },
+    {
+      "sha": "61c98689a685655580f7fd79bac0c22b7df4dec5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:07:27.000Z",
+      "day": "2026-10-31",
+      "title": "rust: expose the API 16 playback stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/61c98689a685655580f7fd79bac0c22b7df4dec5"
+    },
+    {
+      "sha": "7ead4c4c7e8ea6cac0fb6e002a5770f3dfaa616c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:07:27.000Z",
+      "day": "2026-10-31",
+      "title": "apple: expose the API 16 playback stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/7ead4c4c7e8ea6cac0fb6e002a5770f3dfaa616c"
+    },
+    {
+      "sha": "c83058b88c0aca6eff4e4feab4999e1b3d1e5312",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T06:07:27.000Z",
+      "day": "2026-10-31",
+      "title": "android: expose the API 16 playback stats",
+      "url": "https://github.com/boyan01/lychee_player/commit/c83058b88c0aca6eff4e4feab4999e1b3d1e5312"
+    },
+    {
+      "sha": "3a7d6dabfe48357079a575c54844c9ca2eb70163",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-10-31T05:40:26.000Z",
+      "day": "2026-10-31",
+      "title": "core: let host apps show and measure players they create",
+      "url": "https://github.com/boyan01/lychee_player/commit/3a7d6dabfe48357079a575c54844c9ca2eb70163"
+    },
     {
       "sha": "8faa242ffd614e0f97ecfd44063f7d96a6d83b50",
       "repo": "boyan01/flutter-airplay",
