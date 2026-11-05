@@ -1,10 +1,98 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-04T04:02:40.864Z",
-  "start": "2026-08-07",
-  "end": "2026-11-04",
+  "generatedAt": "2026-11-05T04:24:54.981Z",
+  "start": "2026-08-08",
+  "end": "2026-11-05",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "cb1c636209849b08b5d376fccbb52adb13847622",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-11-04T14:24:59.000Z",
+      "day": "2026-11-04",
+      "title": "desktop_webview_window: prepare release 0.4.1",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/cb1c636209849b08b5d376fccbb52adb13847622"
+    },
+    {
+      "sha": "64e841738d918e05f60d7b5f9e8bd7c9cc0e2245",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-11-04T13:44:56.000Z",
+      "day": "2026-11-04",
+      "title": "desktop_webview_window: report sender URLs and add postMessage targetOrigin",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/64e841738d918e05f60d7b5f9e8bd7c9cc0e2245"
+    },
+    {
+      "sha": "1ea74f1249d90d90f763cc0d9e2bb5cd4d62c20d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-04T08:35:51.000Z",
+      "day": "2026-11-04",
+      "title": "core/mf: refuse AAC with a multichannel program config element",
+      "url": "https://github.com/boyan01/lychee_player/commit/1ea74f1249d90d90f763cc0d9e2bb5cd4d62c20d"
+    },
+    {
+      "sha": "5f94f209032400824152c3da2143c725f1f9892e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-04T08:35:51.000Z",
+      "day": "2026-11-04",
+      "title": "tool: add a compatibility sweep over sample collections",
+      "url": "https://github.com/boyan01/lychee_player/commit/5f94f209032400824152c3da2143c725f1f9892e"
+    },
+    {
+      "sha": "7c4d3d4cbece2e20a8665da60383848cbed185d2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-04T08:35:51.000Z",
+      "day": "2026-11-04",
+      "title": "docs: note what the Windows compatibility sweep found",
+      "url": "https://github.com/boyan01/lychee_player/commit/7c4d3d4cbece2e20a8665da60383848cbed185d2"
+    },
+    {
+      "sha": "b2d60e6fba56d5637b51ba3c28296ab20d164582",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-04T08:35:51.000Z",
+      "day": "2026-11-04",
+      "title": "core/mp4: go by the slices where stss gets keyframes wrong",
+      "url": "https://github.com/boyan01/lychee_player/commit/b2d60e6fba56d5637b51ba3c28296ab20d164582"
+    },
+    {
+      "sha": "6208402b202b0994b86ee5309d71a4e3a001d5e6",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-04T08:35:43.000Z",
+      "day": "2026-11-04",
+      "title": "docs: note MP4 seeks to samples stss wrongly calls keyframes",
+      "url": "https://github.com/boyan01/lychee_player/commit/6208402b202b0994b86ee5309d71a4e3a001d5e6"
+    },
+    {
+      "sha": "d782496dcea9fa78d1c7e796d9014fb0f5ff7a36",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-04T08:35:43.000Z",
+      "day": "2026-11-04",
+      "title": "core/matroska: fill block padding with a byte, not an int",
+      "url": "https://github.com/boyan01/lychee_player/commit/d782496dcea9fa78d1c7e796d9014fb0f5ff7a36"
+    },
+    {
+      "sha": "ded363820ea80115c9448be81f418b83bcccc674",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-04T08:35:43.000Z",
+      "day": "2026-11-04",
+      "title": "core/mf: give the decoder parameter sets before its first sample",
+      "url": "https://github.com/boyan01/lychee_player/commit/ded363820ea80115c9448be81f418b83bcccc674"
+    },
+    {
+      "sha": "a300a9642d79f74e03d5d896fa2ae6e9c81f9268",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-11-04T06:01:24.000Z",
+      "day": "2026-11-04",
+      "title": "ogg_opus_player: prepare release 0.8.2",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/a300a9642d79f74e03d5d896fa2ae6e9c81f9268"
+    },
+    {
+      "sha": "f863112f01e38c0d58fe6d57bed9c4517fbee345",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-04T05:29:46.000Z",
+      "day": "2026-11-04",
+      "title": "Show context menu item images on macOS 27 (#2092)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/f863112f01e38c0d58fe6d57bed9c4517fbee345"
+    },
     {
       "sha": "2a35acb42acecb66466dce3c5669c8d4f9472645",
       "repo": "boyan01/lychee_player",
