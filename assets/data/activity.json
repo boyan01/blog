@@ -1,10 +1,66 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-05T04:24:54.981Z",
-  "start": "2026-08-08",
-  "end": "2026-11-05",
+  "generatedAt": "2026-11-06T04:22:14.108Z",
+  "start": "2026-08-09",
+  "end": "2026-11-06",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "d70d8d040730819a1f8b700fd8068eab1ef09d66",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-11-06T01:41:33.000Z",
+      "day": "2026-11-06",
+      "title": "desktop_webview_window: prepare release 0.4.2",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/d70d8d040730819a1f8b700fd8068eab1ef09d66"
+    },
+    {
+      "sha": "6e05089be2b31231844df214d4066558f4793195",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-11-06T01:40:47.000Z",
+      "day": "2026-11-06",
+      "title": "desktop_webview_window: fix getAllCookies on Linux and Windows (#555)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/6e05089be2b31231844df214d4066558f4793195"
+    },
+    {
+      "sha": "2b3e95c0ddffc3078e666fc430529fbd3edc6043",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-05T14:16:37.000Z",
+      "day": "2026-11-05",
+      "title": "core: give H.264 without composition offsets display times",
+      "url": "https://github.com/boyan01/lychee_player/commit/2b3e95c0ddffc3078e666fc430529fbd3edc6043"
+    },
+    {
+      "sha": "24e748031b31bb5c228d9687445f91580a6b60f0",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-05T14:14:34.000Z",
+      "day": "2026-11-05",
+      "title": "core: share the RBSP bit reader",
+      "url": "https://github.com/boyan01/lychee_player/commit/24e748031b31bb5c228d9687445f91580a6b60f0"
+    },
+    {
+      "sha": "4cfd2961e7b91d71de6e77972063c221d56339bd",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-05T13:35:23.000Z",
+      "day": "2026-11-05",
+      "title": "tool: fetch source tarballs from the last release when upstream is down",
+      "url": "https://github.com/boyan01/lychee_player/commit/4cfd2961e7b91d71de6e77972063c221d56339bd"
+    },
+    {
+      "sha": "4aab1592d89b0672f2668ee3f1d219a9bf54beee",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-05T13:20:20.000Z",
+      "day": "2026-11-05",
+      "title": "release: name the changelog section 1.0.0-beta.7",
+      "url": "https://github.com/boyan01/lychee_player/commit/4aab1592d89b0672f2668ee3f1d219a9bf54beee"
+    },
+    {
+      "sha": "992b922db238ad54490cc94c66ccddce96a3cbca",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-05T11:35:49.000Z",
+      "day": "2026-11-05",
+      "title": "Sign bot requests from desktop bot windows (#2095)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/992b922db238ad54490cc94c66ccddce96a3cbca"
+    },
     {
       "sha": "cb1c636209849b08b5d376fccbb52adb13847622",
       "repo": "MixinNetwork/flutter-plugins",
