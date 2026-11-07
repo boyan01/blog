@@ -1,10 +1,90 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-06T04:22:14.108Z",
-  "start": "2026-08-09",
-  "end": "2026-11-06",
+  "generatedAt": "2026-11-07T03:51:30.601Z",
+  "start": "2026-08-10",
+  "end": "2026-11-07",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "74714118e19aa4a9cd43cec11a1bb7bd7ea6ec36",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-06T16:31:45.000Z",
+      "day": "2026-11-07",
+      "title": "Bump version to 6.5.1 (#2107)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/74714118e19aa4a9cd43cec11a1bb7bd7ea6ec36"
+    },
+    {
+      "sha": "010a900f98754af3e3c29455d61fd36e43557d56",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-06T08:36:16.000Z",
+      "day": "2026-11-06",
+      "title": "tool: check Android compositor frames with measured metadata",
+      "url": "https://github.com/boyan01/lychee_player/commit/010a900f98754af3e3c29455d61fd36e43557d56"
+    },
+    {
+      "sha": "1b4e28c22e8316ae165f9a4af659e59c4c8b1bb8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-06T08:36:16.000Z",
+      "day": "2026-11-06",
+      "title": "flutter: make the example a desktop drop player",
+      "url": "https://github.com/boyan01/lychee_player/commit/1b4e28c22e8316ae165f9a4af659e59c4c8b1bb8"
+    },
+    {
+      "sha": "3a62bd193aabb88e8fef503480d061bd7784c56c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-06T08:36:16.000Z",
+      "day": "2026-11-06",
+      "title": "windows: center NV12 chroma during SDR conversion",
+      "url": "https://github.com/boyan01/lychee_player/commit/3a62bd193aabb88e8fef503480d061bd7784c56c"
+    },
+    {
+      "sha": "033587cba6528dbeb4870b9f7e64e9c9f19d5372",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-06T08:36:15.000Z",
+      "day": "2026-11-06",
+      "title": "core: read legacy video containers with native backends",
+      "url": "https://github.com/boyan01/lychee_player/commit/033587cba6528dbeb4870b9f7e64e9c9f19d5372"
+    },
+    {
+      "sha": "03d9e6ac063ef0d685ef8e4caeaea6dca6ec6cc4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-06T08:36:15.000Z",
+      "day": "2026-11-06",
+      "title": "android: normalize Annex B start codes for system decoders",
+      "url": "https://github.com/boyan01/lychee_player/commit/03d9e6ac063ef0d685ef8e4caeaea6dca6ec6cc4"
+    },
+    {
+      "sha": "3f35c3f0ea882a65702942c6714966234acdc028",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-06T08:36:15.000Z",
+      "day": "2026-11-06",
+      "title": "docs: list the containers FFmpeg-free builds still miss",
+      "url": "https://github.com/boyan01/lychee_player/commit/3f35c3f0ea882a65702942c6714966234acdc028"
+    },
+    {
+      "sha": "50198c8937bd855aa346dc789fba1383a1e8e69d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-06T08:36:15.000Z",
+      "day": "2026-11-06",
+      "title": "core/audio: read standalone audio containers without FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/50198c8937bd855aa346dc789fba1383a1e8e69d"
+    },
+    {
+      "sha": "5d828929499af554d6f130b73f63136c38cc47fc",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-06T08:36:15.000Z",
+      "day": "2026-11-06",
+      "title": "windows: read ASF with Media Foundation",
+      "url": "https://github.com/boyan01/lychee_player/commit/5d828929499af554d6f130b73f63136c38cc47fc"
+    },
+    {
+      "sha": "972a9b585038497df500501f6ae07f87f14888d7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-06T08:36:15.000Z",
+      "day": "2026-11-06",
+      "title": "core/ffmpeg: interpolate SDR chroma when converting to RGB",
+      "url": "https://github.com/boyan01/lychee_player/commit/972a9b585038497df500501f6ae07f87f14888d7"
+    },
     {
       "sha": "d70d8d040730819a1f8b700fd8068eab1ef09d66",
       "repo": "MixinNetwork/flutter-plugins",
@@ -6028,30 +6108,6 @@
       "day": "2026-08-10",
       "title": "Fix quoted message jump direction",
       "url": "https://github.com/boyan01/mixin-desktop/commit/3be23414761fb5082700cb5f65e9f3a8264a7e99"
-    },
-    {
-      "sha": "68ffcc3bb08f3d4787480ed45d577b032e4ff248",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-08-09T14:38:00.000Z",
-      "day": "2026-08-09",
-      "title": "Fix sticker tab controller lifecycle",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/68ffcc3bb08f3d4787480ed45d577b032e4ff248"
-    },
-    {
-      "sha": "ad7ade1f217d051c8cfe73855156cca3702629b9",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-08-09T14:06:07.000Z",
-      "day": "2026-08-09",
-      "title": "Cache network images on disk",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/ad7ade1f217d051c8cfe73855156cca3702629b9"
-    },
-    {
-      "sha": "3c0b69f1fabb5fb93c40b22a558638080972bae3",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-08-09T13:14:46.000Z",
-      "day": "2026-08-09",
-      "title": "Refactor Flutter chat view components",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/3c0b69f1fabb5fb93c40b22a558638080972bae3"
     }
   ]
 }
