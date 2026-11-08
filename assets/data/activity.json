@@ -1,10 +1,194 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-07T03:51:30.601Z",
-  "start": "2026-08-10",
-  "end": "2026-11-07",
+  "generatedAt": "2026-11-08T03:33:03.327Z",
+  "start": "2026-08-11",
+  "end": "2026-11-08",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "b66233fe8481e7fc1ad73de397bca4a34246b72f",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T13:49:39.000Z",
+      "day": "2026-11-07",
+      "title": "Share the Flutter app's data directory and storage formats",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/b66233fe8481e7fc1ad73de397bca4a34246b72f"
+    },
+    {
+      "sha": "4c9d88f4341425f07f7314348507c9b38863b208",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T12:16:56.000Z",
+      "day": "2026-11-07",
+      "title": "Add inline send tray, disappearing-message indicators and emoji panel with sections and skin tones",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/4c9d88f4341425f07f7314348507c9b38863b208"
+    },
+    {
+      "sha": "fea2e4e9cbef9b65495c6230d1884fa816d40b85",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T11:58:31.000Z",
+      "day": "2026-11-07",
+      "title": "release: prepare 1.0.0 changelog",
+      "url": "https://github.com/boyan01/lychee_player/commit/fea2e4e9cbef9b65495c6230d1884fa816d40b85"
+    },
+    {
+      "sha": "9ddb86f33bf259d89fcc6605c942737cf9abfa8b",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T10:49:24.000Z",
+      "day": "2026-11-07",
+      "title": "Add toasts, floating pin banner and thumbnail send dialog, animate sending clock, restyle info and settings",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/9ddb86f33bf259d89fcc6605c942737cf9abfa8b"
+    },
+    {
+      "sha": "9f7cff636d4f02fbd664f71541d89d2509ca8696",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T10:11:40.000Z",
+      "day": "2026-11-07",
+      "title": "Animate rail and info panel widths, smooth voice progress, restyle photo viewer and fields",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/9f7cff636d4f02fbd664f71541d89d2509ca8696"
+    },
+    {
+      "sha": "847650f517b9726072cbd17bcbadd0659fe82b69",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T09:51:09.000Z",
+      "day": "2026-11-07",
+      "title": "tool: allow a few dropped frames in live-latency",
+      "url": "https://github.com/boyan01/lychee_player/commit/847650f517b9726072cbd17bcbadd0659fe82b69"
+    },
+    {
+      "sha": "e0d952f1d0b807c276cee9e2a2ac20407d459f5a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T09:09:10.000Z",
+      "day": "2026-11-07",
+      "title": "examples/cli: write each output line in one piece",
+      "url": "https://github.com/boyan01/lychee_player/commit/e0d952f1d0b807c276cee9e2a2ac20407d459f5a"
+    },
+    {
+      "sha": "b0a1622be42da552ceec1b0a578b206a7aa1c5d1",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T09:09:05.000Z",
+      "day": "2026-11-07",
+      "title": "Scope message changes by conversation, keep chat mounted under Settings, and polish search and composer",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/b0a1622be42da552ceec1b0a578b206a7aa1c5d1"
+    },
+    {
+      "sha": "1c9343198a8b78d1b5f669c1b0c5f2c1d6a5dc40",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T08:46:57.000Z",
+      "day": "2026-11-07",
+      "title": "core/test: give the ID3 versions uint8_t literals",
+      "url": "https://github.com/boyan01/lychee_player/commit/1c9343198a8b78d1b5f669c1b0c5f2c1d6a5dc40"
+    },
+    {
+      "sha": "2e23b717417daade0b91e6b99437da33935c5b09",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T08:46:57.000Z",
+      "day": "2026-11-07",
+      "title": "core: refuse subtitle times with more hours than fit",
+      "url": "https://github.com/boyan01/lychee_player/commit/2e23b717417daade0b91e6b99437da33935c5b09"
+    },
+    {
+      "sha": "468d1df05866736ea9c121cf2fb9a11fad046800",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T08:46:57.000Z",
+      "day": "2026-11-07",
+      "title": "docs: note the CLI lines that interleave across threads",
+      "url": "https://github.com/boyan01/lychee_player/commit/468d1df05866736ea9c121cf2fb9a11fad046800"
+    },
+    {
+      "sha": "eb32821de18d4c5e8008841c02d0acc30000e95b",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T08:45:24.000Z",
+      "day": "2026-11-07",
+      "title": "Size caption message rows from their final bubble width",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/eb32821de18d4c5e8008841c02d0acc30000e95b"
+    },
+    {
+      "sha": "7364e607641b26d20dae034a972210e1d09740cd",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T08:23:33.000Z",
+      "day": "2026-11-07",
+      "title": "Align message styles, context menus, profile dialog and default avatars with Flutter",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/7364e607641b26d20dae034a972210e1d09740cd"
+    },
+    {
+      "sha": "617a963ae148113b96a1fd1f644d82fadabb5c77",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T07:54:09.000Z",
+      "day": "2026-11-07",
+      "title": "tool: ship MPEG-2, MPEG-4 Part 2 and MP2 decoders in FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/617a963ae148113b96a1fd1f644d82fadabb5c77"
+    },
+    {
+      "sha": "78567a8261b2ee12849725923ac5e67388b8da12",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T07:54:09.000Z",
+      "day": "2026-11-07",
+      "title": "tool: fix regression cases that fail only on CI hosts",
+      "url": "https://github.com/boyan01/lychee_player/commit/78567a8261b2ee12849725923ac5e67388b8da12"
+    },
+    {
+      "sha": "d7c9ab78e6e1f141e7ada45aa160dff529ba7ea7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T07:54:09.000Z",
+      "day": "2026-11-07",
+      "title": "core/media: reduce scaling list deltas before adding them",
+      "url": "https://github.com/boyan01/lychee_player/commit/d7c9ab78e6e1f141e7ada45aa160dff529ba7ea7"
+    },
+    {
+      "sha": "291b1184472d2c8daf956adae1e1725003f00cc5",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T07:52:46.000Z",
+      "day": "2026-11-07",
+      "title": "Read the voice preview path from the recorder during composer cleanup",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/291b1184472d2c8daf956adae1e1725003f00cc5"
+    },
+    {
+      "sha": "13812e4009f1af63c7e07d22eb9f8223c74fa33e",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T07:50:48.000Z",
+      "day": "2026-11-07",
+      "title": "Introduce NSH design system and restyle home, chat and settings",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/13812e4009f1af63c7e07d22eb9f8223c74fa33e"
+    },
+    {
+      "sha": "f29a1ec046d285e1bdc80d87563c5c0bc8a4851c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T06:51:38.000Z",
+      "day": "2026-11-07",
+      "title": "flutter: add desktop playback shortcuts to the example",
+      "url": "https://github.com/boyan01/lychee_player/commit/f29a1ec046d285e1bdc80d87563c5c0bc8a4851c"
+    },
+    {
+      "sha": "b6cad455b69e24f37254d47bb9dd53d8fa6d54cc",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-07T06:51:07.000Z",
+      "day": "2026-11-07",
+      "title": "core/audio: read ID3 cover pictures from MP3",
+      "url": "https://github.com/boyan01/lychee_player/commit/b6cad455b69e24f37254d47bb9dd53d8fa6d54cc"
+    },
+    {
+      "sha": "f60ad1e8ac6df3c74d0aaf2142e46834561ee238",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T06:43:52.000Z",
+      "day": "2026-11-07",
+      "title": "Add NSH agent skills",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/f60ad1e8ac6df3c74d0aaf2142e46834561ee238"
+    },
+    {
+      "sha": "175c2a24d5ee4ceb00b7ecaaf9e23870efca9129",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T06:42:48.000Z",
+      "day": "2026-11-07",
+      "title": "Polish NSH UI runtime behavior, structure and native context menus",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/175c2a24d5ee4ceb00b7ecaaf9e23870efca9129"
+    },
+    {
+      "sha": "6c9a2a74ef5dd64226a8584bbc4740f280d4edd7",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-07T05:52:49.000Z",
+      "day": "2026-11-07",
+      "title": "Rebuild desktop UI with Native Shell and Rust services",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/6c9a2a74ef5dd64226a8584bbc4740f280d4edd7"
+    },
     {
       "sha": "74714118e19aa4a9cd43cec11a1bb7bd7ea6ec36",
       "repo": "MixinNetwork/flutter-app",
@@ -12,6 +196,22 @@
       "day": "2026-11-07",
       "title": "Bump version to 6.5.1 (#2107)",
       "url": "https://github.com/MixinNetwork/flutter-app/commit/74714118e19aa4a9cd43cec11a1bb7bd7ea6ec36"
+    },
+    {
+      "sha": "15836d9bef8714b6b9846d8a5d0421623f60c0fe",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-06T08:58:37.000Z",
+      "day": "2026-11-06",
+      "title": "Remove legacy UI targets and generated language bridges",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/15836d9bef8714b6b9846d8a5d0421623f60c0fe"
+    },
+    {
+      "sha": "2c41e24fae5e2473002cfd80ff316c1f514f00ed",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-06T08:56:45.000Z",
+      "day": "2026-11-06",
+      "title": "Use a dedicated default data directory for headless client",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/2c41e24fae5e2473002cfd80ff316c1f514f00ed"
     },
     {
       "sha": "010a900f98754af3e3c29455d61fd36e43557d56",
@@ -228,6 +428,14 @@
       "day": "2026-11-04",
       "title": "Show context menu item images on macOS 27 (#2092)",
       "url": "https://github.com/MixinNetwork/flutter-app/commit/f863112f01e38c0d58fe6d57bed9c4517fbee345"
+    },
+    {
+      "sha": "88dbe5f42e208bf55a0e6ca10ab0e36572f547f1",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-03T08:32:32.000Z",
+      "day": "2026-11-03",
+      "title": "Expose transcript children and image attachments over MCP",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/88dbe5f42e208bf55a0e6ca10ab0e36572f547f1"
     },
     {
       "sha": "2a35acb42acecb66466dce3c5669c8d4f9472645",
@@ -6092,22 +6300,6 @@
       "day": "2026-08-19",
       "title": "typescript ui",
       "url": "https://github.com/boyan01/mixin-desktop/commit/6876572d9008d8287c2bfdfdfbe090c188b95baa"
-    },
-    {
-      "sha": "63acf35682ea4e0c39d300f3a3902659a017254c",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-08-10T13:50:25.000Z",
-      "day": "2026-08-10",
-      "title": "Fix sidebar background colors",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/63acf35682ea4e0c39d300f3a3902659a017254c"
-    },
-    {
-      "sha": "3be23414761fb5082700cb5f65e9f3a8264a7e99",
-      "repo": "boyan01/mixin-desktop",
-      "date": "2026-08-10T13:45:52.000Z",
-      "day": "2026-08-10",
-      "title": "Fix quoted message jump direction",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/3be23414761fb5082700cb5f65e9f3a8264a7e99"
     }
   ]
 }
