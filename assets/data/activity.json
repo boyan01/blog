@@ -1,10 +1,266 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-09T03:48:36.948Z",
-  "start": "2026-08-12",
-  "end": "2026-11-09",
+  "generatedAt": "2026-11-10T05:22:27.812Z",
+  "start": "2026-08-13",
+  "end": "2026-11-10",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "fdbd96947a50ea9ad51b2d34d9b6f858f44199bd",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-10T02:34:01.000Z",
+      "day": "2026-11-10",
+      "title": "core/dash: count timeline segments before expanding them",
+      "url": "https://github.com/boyan01/lychee_player/commit/fdbd96947a50ea9ad51b2d34d9b6f858f44199bd"
+    },
+    {
+      "sha": "b03cbadc485e3f925125e8ccdb1ddcf7fc9c1da6",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T14:57:11.000Z",
+      "day": "2026-11-09",
+      "title": "release: prepare 1.0.1 changelog",
+      "url": "https://github.com/boyan01/lychee_player/commit/b03cbadc485e3f925125e8ccdb1ddcf7fc9c1da6"
+    },
+    {
+      "sha": "3d01a1eb7a29ea08a12752e0c3c26c087057cfa4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T13:45:08.000Z",
+      "day": "2026-11-09",
+      "title": "examples/cli: let a clock jump settle before reading the position",
+      "url": "https://github.com/boyan01/lychee_player/commit/3d01a1eb7a29ea08a12752e0c3c26c087057cfa4"
+    },
+    {
+      "sha": "3e454d55973e351ad215b13b777910a0024497c7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T13:45:08.000Z",
+      "day": "2026-11-09",
+      "title": "core: let a next item join when it opens after the read has ended",
+      "url": "https://github.com/boyan01/lychee_player/commit/3e454d55973e351ad215b13b777910a0024497c7"
+    },
+    {
+      "sha": "093b1f445856f810e0fe4a23e516361505b8f52c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T13:08:09.000Z",
+      "day": "2026-11-09",
+      "title": "windows: hand over http data as it arrives",
+      "url": "https://github.com/boyan01/lychee_player/commit/093b1f445856f810e0fe4a23e516361505b8f52c"
+    },
+    {
+      "sha": "2588324ad0c44d0458f88beb8f8621b4f98402a7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T13:07:49.000Z",
+      "day": "2026-11-09",
+      "title": "tool: generate not_media.dat with the rest of the media",
+      "url": "https://github.com/boyan01/lychee_player/commit/2588324ad0c44d0458f88beb8f8621b4f98402a7"
+    },
+    {
+      "sha": "d4f001c8f6df3607973e20effdb5d052a49eee8c",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T13:07:49.000Z",
+      "day": "2026-11-09",
+      "title": "tool: stall FFmpeg's own response in the Linux thumbnail cases",
+      "url": "https://github.com/boyan01/lychee_player/commit/d4f001c8f6df3607973e20effdb5d052a49eee8c"
+    },
+    {
+      "sha": "0ca1bf8c16ec6b8027fbe39fe5c775910f6d99e2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T13:07:37.000Z",
+      "day": "2026-11-09",
+      "title": "examples/cli: read the state after a switch, not before",
+      "url": "https://github.com/boyan01/lychee_player/commit/0ca1bf8c16ec6b8027fbe39fe5c775910f6d99e2"
+    },
+    {
+      "sha": "a56df81fb89a4e1d8aecbc9da67d057cafd01b97",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T13:07:30.000Z",
+      "day": "2026-11-09",
+      "title": "core/mp4: rename a loop variable that hid a local",
+      "url": "https://github.com/boyan01/lychee_player/commit/a56df81fb89a4e1d8aecbc9da67d057cafd01b97"
+    },
+    {
+      "sha": "f639fdca4bed604b61a2766ced08cbe0d3a6a712",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T13:07:30.000Z",
+      "day": "2026-11-09",
+      "title": "core/dash: number $Number$ segments in order on GCC and MSVC",
+      "url": "https://github.com/boyan01/lychee_player/commit/f639fdca4bed604b61a2766ced08cbe0d3a6a712"
+    },
+    {
+      "sha": "05a20a475747041a0d0cee7039d0af0d00dded32",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T13:07:29.000Z",
+      "day": "2026-11-09",
+      "title": "core: format AudioTap::Read as clang-format 23 does",
+      "url": "https://github.com/boyan01/lychee_player/commit/05a20a475747041a0d0cee7039d0af0d00dded32"
+    },
+    {
+      "sha": "4edc8259c8716cd469933c30aa2fe0b7f7308ac9",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:07.000Z",
+      "day": "2026-11-09",
+      "title": "core: play separate audio files with a video as one input",
+      "url": "https://github.com/boyan01/lychee_player/commit/4edc8259c8716cd469933c30aa2fe0b7f7308ac9"
+    },
+    {
+      "sha": "5809c517c71e662d9d0aca15ea2e7e260ba4951d",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:07.000Z",
+      "day": "2026-11-09",
+      "title": "tool: expect either mono upmix level in audio-gain-peak",
+      "url": "https://github.com/boyan01/lychee_player/commit/5809c517c71e662d9d0aca15ea2e7e260ba4951d"
+    },
+    {
+      "sha": "660289563df68687d8f657f236ad74f6345d1eee",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:07.000Z",
+      "day": "2026-11-09",
+      "title": "core/dash: play MPEG-DASH manifests without FFmpeg",
+      "url": "https://github.com/boyan01/lychee_player/commit/660289563df68687d8f657f236ad74f6345d1eee"
+    },
+    {
+      "sha": "6a23df5d2ce5cd361405680b8a508cee1c063557",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:07.000Z",
+      "day": "2026-11-09",
+      "title": "core, android: match the display mode to the video's frame rate",
+      "url": "https://github.com/boyan01/lychee_player/commit/6a23df5d2ce5cd361405680b8a508cee1c063557"
+    },
+    {
+      "sha": "8af2e962ba5b3a41147bf73ec9bb76a27d2c6a09",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:07.000Z",
+      "day": "2026-11-09",
+      "title": "core: report what an error is about",
+      "url": "https://github.com/boyan01/lychee_player/commit/8af2e962ba5b3a41147bf73ec9bb76a27d2c6a09"
+    },
+    {
+      "sha": "a8055649b2930ba71054e4ff4620c79fae95c368",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:07.000Z",
+      "day": "2026-11-09",
+      "title": "android: open content:// URIs through ContentResolver",
+      "url": "https://github.com/boyan01/lychee_player/commit/a8055649b2930ba71054e4ff4620c79fae95c368"
+    },
+    {
+      "sha": "c126c2ea31a871eff20f20ca040cbf4cb05a74c0",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:07.000Z",
+      "day": "2026-11-09",
+      "title": "core: add thumbnails apart from playback",
+      "url": "https://github.com/boyan01/lychee_player/commit/c126c2ea31a871eff20f20ca040cbf4cb05a74c0"
+    },
+    {
+      "sha": "d5e63d0e202300a4626bbd73a1025fc9bd88bb38",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:07.000Z",
+      "day": "2026-11-09",
+      "title": "tool: let variant switches land on any later segment boundary",
+      "url": "https://github.com/boyan01/lychee_player/commit/d5e63d0e202300a4626bbd73a1025fc9bd88bb38"
+    },
+    {
+      "sha": "0121fd6384ba86a7e2e9119f48ce854141120f92",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "tool: accept the next item's join a microsecond early",
+      "url": "https://github.com/boyan01/lychee_player/commit/0121fd6384ba86a7e2e9119f48ce854141120f92"
+    },
+    {
+      "sha": "0f42f06450ff3dd011915e632c67a16b9da66349",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "flutter: say selectTrack switches and turns off bitmap subtitles",
+      "url": "https://github.com/boyan01/lychee_player/commit/0f42f06450ff3dd011915e632c67a16b9da66349"
+    },
+    {
+      "sha": "3c97dd5cf9a344a90b5719e70759b2fdf04801da",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "core: open URLs and subtitle files with HTTP request headers",
+      "url": "https://github.com/boyan01/lychee_player/commit/3c97dd5cf9a344a90b5719e70759b2fdf04801da"
+    },
+    {
+      "sha": "40607abebd35a32c71b291751c40c760a3f87335",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "core: open at a start position",
+      "url": "https://github.com/boyan01/lychee_player/commit/40607abebd35a32c71b291751c40c760a3f87335"
+    },
+    {
+      "sha": "4728d5cf753c75c7ec14a43ec1d4ca054e887db9",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "docs: list what TV Play works around in the roadmap",
+      "url": "https://github.com/boyan01/lychee_player/commit/4728d5cf753c75c7ec14a43ec1d4ca054e887db9"
+    },
+    {
+      "sha": "53abd37b112a5430f7bd0583784c9e7665b2e188",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "core: add audio gain, fades and played samples for visualizers",
+      "url": "https://github.com/boyan01/lychee_player/commit/53abd37b112a5430f7bd0583784c9e7665b2e188"
+    },
+    {
+      "sha": "56cc9d08c87ed6aa14f2bd4521a95df6e1438109",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "docs: keep ASS as plain text for TV Play",
+      "url": "https://github.com/boyan01/lychee_player/commit/56cc9d08c87ed6aa14f2bd4521a95df6e1438109"
+    },
+    {
+      "sha": "6e0346886d32bba4bcbfb89c38b9dface5ae0076",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "core: switch to another source at the position",
+      "url": "https://github.com/boyan01/lychee_player/commit/6e0346886d32bba4bcbfb89c38b9dface5ae0076"
+    },
+    {
+      "sha": "9e9ecb9689bd7f627fc4b6f547be4c4c4f2e6149",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "core/hls: select variants and seek within live windows",
+      "url": "https://github.com/boyan01/lychee_player/commit/9e9ecb9689bd7f627fc4b6f547be4c4c4f2e6149"
+    },
+    {
+      "sha": "dde2f6de6a06c542594c663b52bdbd7ca96506ce",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "core: report default, forced, role and bitrate of tracks",
+      "url": "https://github.com/boyan01/lychee_player/commit/dde2f6de6a06c542594c663b52bdbd7ca96506ce"
+    },
+    {
+      "sha": "e8b7010168dacb42f5ee1fb9688d28aa161f48df",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "core: add lychee_player_close",
+      "url": "https://github.com/boyan01/lychee_player/commit/e8b7010168dacb42f5ee1fb9688d28aa161f48df"
+    },
+    {
+      "sha": "ed5240a64c5d7739c8a1ec4b1bff5b63b916d526",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "core: play a next item without a gap",
+      "url": "https://github.com/boyan01/lychee_player/commit/ed5240a64c5d7739c8a1ec4b1bff5b63b916d526"
+    },
+    {
+      "sha": "ff520c65f467a78f1a0fb6d87e7b46e8f20bfcbe",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-09T12:30:06.000Z",
+      "day": "2026-11-09",
+      "title": "core: carry request headers in switch_source and set_next",
+      "url": "https://github.com/boyan01/lychee_player/commit/ff520c65f467a78f1a0fb6d87e7b46e8f20bfcbe"
+    },
     {
       "sha": "cef9d0c8e7f1eb91b778119947e3a7e7f9c5c16a",
       "repo": "boyan01/mixin-desktop",
