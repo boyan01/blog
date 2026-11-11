@@ -1,10 +1,194 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-10T05:22:27.812Z",
-  "start": "2026-08-13",
-  "end": "2026-11-10",
+  "generatedAt": "2026-11-11T03:52:58.078Z",
+  "start": "2026-08-14",
+  "end": "2026-11-11",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "6f28a3fffc5da3807bde7ac979004eaab647164e",
+      "repo": "boyan01/intelli-git",
+      "date": "2026-11-11T02:16:22.000Z",
+      "day": "2026-11-11",
+      "title": "Add Git blame inline and gutter annotations (#11)",
+      "url": "https://github.com/boyan01/intelli-git/commit/6f28a3fffc5da3807bde7ac979004eaab647164e"
+    },
+    {
+      "sha": "45e8583082e83c447053fc44a4f34876da49c543",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T02:02:16.000Z",
+      "day": "2026-11-11",
+      "title": "tool: reset live FLV connections through the socket API",
+      "url": "https://github.com/boyan01/lychee_player/commit/45e8583082e83c447053fc44a4f34876da49c543"
+    },
+    {
+      "sha": "e4802576bf631b2869a6349af353450990a7d02b",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:59:57.000Z",
+      "day": "2026-11-11",
+      "title": "core: keep log listener checks clean",
+      "url": "https://github.com/boyan01/lychee_player/commit/e4802576bf631b2869a6349af353450990a7d02b"
+    },
+    {
+      "sha": "a55cc3f30437df2456e2beb5a6283ef9361a682e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:24:21.000Z",
+      "day": "2026-11-11",
+      "title": "release: prepare 1.0.3",
+      "url": "https://github.com/boyan01/lychee_player/commit/a55cc3f30437df2456e2beb5a6283ef9361a682e"
+    },
+    {
+      "sha": "08f6dafaacac15f6f4f675a96f6524cea472efb3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "core: replace a hung video decoder in hardware before software",
+      "url": "https://github.com/boyan01/lychee_player/commit/08f6dafaacac15f6f4f675a96f6524cea472efb3"
+    },
+    {
+      "sha": "143f9ca343a6d7edd8de3a61c42f660258bca340",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "core, flutter: hand log lines to Dart",
+      "url": "https://github.com/boyan01/lychee_player/commit/143f9ca343a6d7edd8de3a61c42f660258bca340"
+    },
+    {
+      "sha": "266cd64b1c099be20d439326bc001307731d4c80",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "docs: record the TV's SurfaceView and SurfaceTexture runs",
+      "url": "https://github.com/boyan01/lychee_player/commit/266cd64b1c099be20d439326bc001307731d4c80"
+    },
+    {
+      "sha": "48122bc701313535841d7ab9de2dfe75beb04a1a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "flutter/android: restore hardware composition for native video",
+      "url": "https://github.com/boyan01/lychee_player/commit/48122bc701313535841d7ab9de2dfe75beb04a1a"
+    },
+    {
+      "sha": "513717ed50e523387614cc5858ecfefb7e9ab763",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "core: keep the vsync grid when the caller skips vsyncs",
+      "url": "https://github.com/boyan01/lychee_player/commit/513717ed50e523387614cc5858ecfefb7e9ab763"
+    },
+    {
+      "sha": "5ec7b38a59968ce251c012dd151eaaee5947d982",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "flutter/android: show video in a SurfaceView on request",
+      "url": "https://github.com/boyan01/lychee_player/commit/5ec7b38a59968ce251c012dd151eaaee5947d982"
+    },
+    {
+      "sha": "8da09c24b44b2f8d178a1e3825947764b7eac378",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "core/apple: log the packet a VideoToolbox decode fails on",
+      "url": "https://github.com/boyan01/lychee_player/commit/8da09c24b44b2f8d178a1e3825947764b7eac378"
+    },
+    {
+      "sha": "a04271cd602c0fe95c47ae78737f8d21e20eac86",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "docs: record Android TV composition experiments",
+      "url": "https://github.com/boyan01/lychee_player/commit/a04271cd602c0fe95c47ae78737f8d21e20eac86"
+    },
+    {
+      "sha": "f04a1814f669d26e3d8c453b05d3e6285f41d18a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "core/mp2t: assemble video access units across PES packets",
+      "url": "https://github.com/boyan01/lychee_player/commit/f04a1814f669d26e3d8c453b05d3e6285f41d18a"
+    },
+    {
+      "sha": "f57ad01817dc629b79337a556916233834aa0ee5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-11T01:22:40.000Z",
+      "day": "2026-11-11",
+      "title": "flutter/android: draw video through a SurfaceTexture",
+      "url": "https://github.com/boyan01/lychee_player/commit/f57ad01817dc629b79337a556916233834aa0ee5"
+    },
+    {
+      "sha": "6317a1c484e47cf5fe5c087c9197f3369cf86bb8",
+      "repo": "longbridge/nsh",
+      "date": "2026-11-10T14:30:41.000Z",
+      "day": "2026-11-10",
+      "title": "macos: Keep input method candidates at a point-wide input (#1502)",
+      "url": "https://github.com/longbridge/nsh/commit/6317a1c484e47cf5fe5c087c9197f3369cf86bb8"
+    },
+    {
+      "sha": "72b639de40f2487fd92ef5cc1aa6651da8e62290",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-10T09:00:30.000Z",
+      "day": "2026-11-10",
+      "title": "release: prepare 1.0.2 changelog",
+      "url": "https://github.com/boyan01/lychee_player/commit/72b639de40f2487fd92ef5cc1aa6651da8e62290"
+    },
+    {
+      "sha": "7924a850729a3ae242f6c9b4cf02eda784d56935",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-10T08:09:17.000Z",
+      "day": "2026-11-10",
+      "title": "tool: reset a dropped live FLV connection at once",
+      "url": "https://github.com/boyan01/lychee_player/commit/7924a850729a3ae242f6c9b4cf02eda784d56935"
+    },
+    {
+      "sha": "042a93ac5fa15f0c3eda2b816a2a18b3e146983f",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-10T07:26:03.000Z",
+      "day": "2026-11-10",
+      "title": "core/flv: end live streams cleanly on FFmpeg's http",
+      "url": "https://github.com/boyan01/lychee_player/commit/042a93ac5fa15f0c3eda2b816a2a18b3e146983f"
+    },
+    {
+      "sha": "225c621f19d016a79b10d4b1a13b99f594ffa3aa",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-10T06:39:47.000Z",
+      "day": "2026-11-10",
+      "title": "Fix desktop logout after session revocation (#2108)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/225c621f19d016a79b10d4b1a13b99f594ffa3aa"
+    },
+    {
+      "sha": "84799d7c84cf253650fa68a0627f2e72a2f4f212",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-10T06:34:24.000Z",
+      "day": "2026-11-10",
+      "title": "core/flv: play HTTP-FLV live streams",
+      "url": "https://github.com/boyan01/lychee_player/commit/84799d7c84cf253650fa68a0627f2e72a2f4f212"
+    },
+    {
+      "sha": "2d4d375f7d4d132aaef08fe2fbbbb41e0fe9a1b3",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-10T06:28:36.000Z",
+      "day": "2026-11-10",
+      "title": "core/flv: read HEVC and AV1 video",
+      "url": "https://github.com/boyan01/lychee_player/commit/2d4d375f7d4d132aaef08fe2fbbbb41e0fe9a1b3"
+    },
+    {
+      "sha": "895737763210c122282884bcb2272aa850e61b5d",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-10T03:09:39.000Z",
+      "day": "2026-11-10",
+      "title": "Make the browser preview the default UI check",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/895737763210c122282884bcb2272aa850e61b5d"
+    },
+    {
+      "sha": "611cad9a9833a644167a8d0c463bf694f9d916ca",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-10T02:56:34.000Z",
+      "day": "2026-11-10",
+      "title": "Build the UI crate for the browser preview",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/611cad9a9833a644167a8d0c463bf694f9d916ca"
+    },
     {
       "sha": "fdbd96947a50ea9ad51b2d34d9b6f858f44199bd",
       "repo": "boyan01/lychee_player",
@@ -260,6 +444,190 @@
       "day": "2026-11-09",
       "title": "core: carry request headers in switch_source and set_next",
       "url": "https://github.com/boyan01/lychee_player/commit/ff520c65f467a78f1a0fb6d87e7b46e8f20bfcbe"
+    },
+    {
+      "sha": "3feb6f00b6a76224c210d7f71df00845bc856076",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-09T10:20:12.000Z",
+      "day": "2026-11-09",
+      "title": "Refine chat information sidebar and group invitations",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/3feb6f00b6a76224c210d7f71df00845bc856076"
+    },
+    {
+      "sha": "91180c71a5f18b455e30bea2dcf7d1af849ea8d7",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-09T09:13:07.000Z",
+      "day": "2026-11-09",
+      "title": "Redesign transfer and inscription detail dialogs",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/91180c71a5f18b455e30bea2dcf7d1af849ea8d7"
+    },
+    {
+      "sha": "2b2a8f6daf30a602cf8660ec00913634807d1a06",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-09T08:45:27.000Z",
+      "day": "2026-11-09",
+      "title": "Refine composer replies and attachment caption spacing",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/2b2a8f6daf30a602cf8660ec00913634807d1a06"
+    },
+    {
+      "sha": "efd3c5dc5165d677e3aac3fc4f2ad67dc9ed8983",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-09T08:22:12.000Z",
+      "day": "2026-11-09",
+      "title": "Reuse chat message styling in transcript dialogs",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/efd3c5dc5165d677e3aac3fc4f2ad67dc9ed8983"
+    },
+    {
+      "sha": "1012191ce888d66be069d52da011d68715b1de94",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-09T07:57:13.000Z",
+      "day": "2026-11-09",
+      "title": "Unify native preview and test build configuration",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/1012191ce888d66be069d52da011d68715b1de94"
+    },
+    {
+      "sha": "77a4fb54aa7f87258611e13a962a037a1f5aedae",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-09T07:32:50.000Z",
+      "day": "2026-11-09",
+      "title": "Redesign video viewer with shared media controls",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/77a4fb54aa7f87258611e13a962a037a1f5aedae"
+    },
+    {
+      "sha": "759bd6f04a0a513d6e81061a621d3cae48b43518",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-09T05:59:25.000Z",
+      "day": "2026-11-09",
+      "title": "Improve sticker playback and redesign album detail dialog",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/759bd6f04a0a513d6e81061a621d3cae48b43518"
+    },
+    {
+      "sha": "84f11a55633e34ae92671309e21ef2c68d7e4e9d",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-09T05:22:11.000Z",
+      "day": "2026-11-09",
+      "title": "Redesign image viewer and add pointer-centered zoom",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/84f11a55633e34ae92671309e21ef2c68d7e4e9d"
+    },
+    {
+      "sha": "8f16eef850ebd4b9e2869a36964c65add4f499b4",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-09T04:17:31.000Z",
+      "day": "2026-11-09",
+      "title": "Expand native previews and refine selection dialogs",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/8f16eef850ebd4b9e2869a36964c65add4f499b4"
+    },
+    {
+      "sha": "9d872dd0efa766b0d36cd4f712d541574bf5f325",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T13:12:23.000Z",
+      "day": "2026-11-08",
+      "title": "Open sticker store in a dedicated dialog",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/9d872dd0efa766b0d36cd4f712d541574bf5f325"
+    },
+    {
+      "sha": "ea27240d64178fb1ad800bb2f2b0d77e9831b445",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T12:31:40.000Z",
+      "day": "2026-11-08",
+      "title": "Improve post Markdown rendering and add preview scenes",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/ea27240d64178fb1ad800bb2f2b0d77e9831b445"
+    },
+    {
+      "sha": "e7ff4666899d337ecd95297f9643b24da45afb1c",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T12:14:25.000Z",
+      "day": "2026-11-08",
+      "title": "Refine sticker picker layout and remove GIF discovery",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/e7ff4666899d337ecd95297f9643b24da45afb1c"
+    },
+    {
+      "sha": "261f2fb7bb0ca47ebbb2b535d932d94202e25869",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T11:49:54.000Z",
+      "day": "2026-11-08",
+      "title": "Refine chat composer and fix voice preview playback",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/261f2fb7bb0ca47ebbb2b535d932d94202e25869"
+    },
+    {
+      "sha": "50f1174ad7c6a38359939aff5697118a611ec9dd",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T11:05:18.000Z",
+      "day": "2026-11-08",
+      "title": "Find the first unread message through the status index",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/50f1174ad7c6a38359939aff5697118a611ec9dd"
+    },
+    {
+      "sha": "ece3d451565bc595de84ccc7d47a14be4775c9f1",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T10:59:02.000Z",
+      "day": "2026-11-08",
+      "title": "Read unmuted rows, mark open chats read and log UI failures",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/ece3d451565bc595de84ccc7d47a14be4775c9f1"
+    },
+    {
+      "sha": "36cee0007502d2b2be9d76248ecb770155ce809a",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T10:45:28.000Z",
+      "day": "2026-11-08",
+      "title": "Open chats at their unread rows and animate message jumps",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/36cee0007502d2b2be9d76248ecb770155ce809a"
+    },
+    {
+      "sha": "2787809d003463983bfa0ebd04fea227b82d5329",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T09:22:07.000Z",
+      "day": "2026-11-08",
+      "title": "Preview every message type through production rows",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/2787809d003463983bfa0ebd04fea227b82d5329"
+    },
+    {
+      "sha": "0b6706adb45b704c6911ff9777a9c8e4a290efed",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T08:15:16.000Z",
+      "day": "2026-11-08",
+      "title": "Polish attachment controls and stabilize ZIP preview transitions",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/0b6706adb45b704c6911ff9777a9c8e4a290efed"
+    },
+    {
+      "sha": "bc3cf14a7d48e51d4bcc84bb51fb792095433c14",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T07:02:09.000Z",
+      "day": "2026-11-08",
+      "title": "Update",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/bc3cf14a7d48e51d4bcc84bb51fb792095433c14"
+    },
+    {
+      "sha": "c592ed2330820aae2cf23d6ba6fdc560797456e3",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T06:20:38.000Z",
+      "day": "2026-11-08",
+      "title": "Refine chat composer, attachment and voice controls",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/c592ed2330820aae2cf23d6ba6fdc560797456e3"
+    },
+    {
+      "sha": "c8f81e4080a10f03d15255436fc6e324cb2d3b40",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T05:58:26.000Z",
+      "day": "2026-11-08",
+      "title": "Harden NSH preview captures",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/c8f81e4080a10f03d15255436fc6e324cb2d3b40"
+    },
+    {
+      "sha": "0eadad71f8dcb6ef71fa85b94d35e2a102e4fb43",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T05:44:00.000Z",
+      "day": "2026-11-08",
+      "title": "Add debug-only NSH preview scenes with capture tooling",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/0eadad71f8dcb6ef71fa85b94d35e2a102e4fb43"
+    },
+    {
+      "sha": "c6b7943eb7a2a3a30542e960d5d8c64622c5dd2c",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-08T04:50:56.000Z",
+      "day": "2026-11-08",
+      "title": "Reorganize NSH modules around their owners",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/c6b7943eb7a2a3a30542e960d5d8c64622c5dd2c"
     },
     {
       "sha": "cef9d0c8e7f1eb91b778119947e3a7e7f9c5c16a",
