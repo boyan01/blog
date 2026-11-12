@@ -1,10 +1,34 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-11T03:52:58.078Z",
-  "start": "2026-08-14",
-  "end": "2026-11-11",
+  "generatedAt": "2026-11-12T05:00:14.312Z",
+  "start": "2026-08-15",
+  "end": "2026-11-12",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "54f038d68ec3103ba14666fefbce97f24b3a5fda",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-12T03:13:23.000Z",
+      "day": "2026-11-12",
+      "title": "headless: allow input: buttons on non-shareable app cards",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/54f038d68ec3103ba14666fefbce97f24b3a5fda"
+    },
+    {
+      "sha": "68a22c09f4816d17ed9118e35f8cc540121a1e88",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-12T02:54:28.000Z",
+      "day": "2026-11-12",
+      "title": "headless: add mixin_mark_read MCP tool to send READ receipts",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/68a22c09f4816d17ed9118e35f8cc540121a1e88"
+    },
+    {
+      "sha": "ed4192fb5957360a4c90fd7bd0a643b6ab6f4bd9",
+      "repo": "boyan01/mixin-desktop",
+      "date": "2026-11-11T12:49:34.000Z",
+      "day": "2026-11-11",
+      "title": "Enable Android builds and login for the NSH app",
+      "url": "https://github.com/boyan01/mixin-desktop/commit/ed4192fb5957360a4c90fd7bd0a643b6ab6f4bd9"
+    },
     {
       "sha": "6f28a3fffc5da3807bde7ac979004eaab647164e",
       "repo": "boyan01/intelli-git",
