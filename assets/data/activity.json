@@ -1,10 +1,34 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-12T05:00:14.312Z",
-  "start": "2026-08-15",
-  "end": "2026-11-12",
+  "generatedAt": "2026-11-13T04:16:20.941Z",
+  "start": "2026-08-16",
+  "end": "2026-11-13",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "a343477d49d8fec9e8b463f3d1fe4f664c9dca83",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-13T02:53:33.000Z",
+      "day": "2026-11-13",
+      "title": "test: make deferred_mount tests independent of machine speed (#2113)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/a343477d49d8fec9e8b463f3d1fe4f664c9dca83"
+    },
+    {
+      "sha": "bf6eeff8d514921506d13c25e03b42c1c82e9b26",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-12T12:29:53.000Z",
+      "day": "2026-11-12",
+      "title": "ci: pin Flutter to 3.47.9 for CI and release builds (#2114)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/bf6eeff8d514921506d13c25e03b42c1c82e9b26"
+    },
+    {
+      "sha": "d2829e31613761c6ab6686d27d5ad86105f6268e",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-12T05:16:42.000Z",
+      "day": "2026-11-12",
+      "title": "chore: upgrade to Flutter 3.50 stable (#2112)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/d2829e31613761c6ab6686d27d5ad86105f6268e"
+    },
     {
       "sha": "54f038d68ec3103ba14666fefbce97f24b3a5fda",
       "repo": "boyan01/mixin-desktop",
