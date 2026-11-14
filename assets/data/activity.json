@@ -1,10 +1,130 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-13T04:16:20.941Z",
-  "start": "2026-08-16",
-  "end": "2026-11-13",
+  "generatedAt": "2026-11-14T04:12:35.455Z",
+  "start": "2026-08-17",
+  "end": "2026-11-14",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "3ec0cf509c2b4df8651bd0f2f755024c39c7ab62",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T12:45:49.000Z",
+      "day": "2026-11-13",
+      "title": "Adapt macOS app lifecycle to official NSH packaging",
+      "url": "https://github.com/boyan01/nsh-app/commit/3ec0cf509c2b4df8651bd0f2f755024c39c7ab62"
+    },
+    {
+      "sha": "9a650aad47643607c8ba821ff1389c7654fac886",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T10:31:11.000Z",
+      "day": "2026-11-13",
+      "title": "Fix Command+C routing for message selections",
+      "url": "https://github.com/boyan01/nsh-app/commit/9a650aad47643607c8ba821ff1389c7654fac886"
+    },
+    {
+      "sha": "7367536ebfae1514211abbafd77819a0b11efa67",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T10:29:48.000Z",
+      "day": "2026-11-13",
+      "title": "Prepare official NSH package metadata and document lifecycle gaps",
+      "url": "https://github.com/boyan01/nsh-app/commit/7367536ebfae1514211abbafd77819a0b11efa67"
+    },
+    {
+      "sha": "b2da8fbf06da68b2ec5bdcdfe009c6dff308acc3",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T10:16:07.000Z",
+      "day": "2026-11-13",
+      "title": "Match macOS notification sound with Flutter",
+      "url": "https://github.com/boyan01/nsh-app/commit/b2da8fbf06da68b2ec5bdcdfe009c6dff308acc3"
+    },
+    {
+      "sha": "91d798471c0305d0f713acf1999c4dbb788b0062",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T10:11:03.000Z",
+      "day": "2026-11-13",
+      "title": "Preserve the NSH notification delegate lifecycle",
+      "url": "https://github.com/boyan01/nsh-app/commit/91d798471c0305d0f713acf1999c4dbb788b0062"
+    },
+    {
+      "sha": "92694faf883f0147329f3400d09f19ee0f879aad",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T10:11:03.000Z",
+      "day": "2026-11-13",
+      "title": "Format message database and runtime code",
+      "url": "https://github.com/boyan01/nsh-app/commit/92694faf883f0147329f3400d09f19ee0f879aad"
+    },
+    {
+      "sha": "a0db4d478f3f103ae6cf5b603317958f39b504ea",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T10:11:03.000Z",
+      "day": "2026-11-13",
+      "title": "Update NSH runtime revision",
+      "url": "https://github.com/boyan01/nsh-app/commit/a0db4d478f3f103ae6cf5b603317958f39b504ea"
+    },
+    {
+      "sha": "d81e512e6dc53b911a6e98513e42e1a69bd984fe",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T10:11:03.000Z",
+      "day": "2026-11-13",
+      "title": "Refine chat inspectors, pinned previews, and post shortcuts",
+      "url": "https://github.com/boyan01/nsh-app/commit/d81e512e6dc53b911a6e98513e42e1a69bd984fe"
+    },
+    {
+      "sha": "c6111dc07b10c0aae635d89068ff1ce19b0c80a5",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T09:51:42.000Z",
+      "day": "2026-11-13",
+      "title": "Fix Command W routing from the chat editor",
+      "url": "https://github.com/boyan01/nsh-app/commit/c6111dc07b10c0aae635d89068ff1ce19b0c80a5"
+    },
+    {
+      "sha": "2f3e31ee32d024b9b310ad3f8976603204831f4d",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T09:51:24.000Z",
+      "day": "2026-11-13",
+      "title": "Remove focus outlines from shared controls",
+      "url": "https://github.com/boyan01/nsh-app/commit/2f3e31ee32d024b9b310ad3f8976603204831f4d"
+    },
+    {
+      "sha": "dad7ad732f11be840140f7225db426a552c3dfb1",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T09:25:52.000Z",
+      "day": "2026-11-13",
+      "title": "Constrain long pinned system message text",
+      "url": "https://github.com/boyan01/nsh-app/commit/dad7ad732f11be840140f7225db426a552c3dfb1"
+    },
+    {
+      "sha": "85698a27b912865887077a340f4af3eeda58c781",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T09:25:45.000Z",
+      "day": "2026-11-13",
+      "title": "Use glass material for mention suggestions",
+      "url": "https://github.com/boyan01/nsh-app/commit/85698a27b912865887077a340f4af3eeda58c781"
+    },
+    {
+      "sha": "30236ba26e84d29c35b8966602ad8b449e0325d6",
+      "repo": "MixinNetwork/flutter-plugins",
+      "date": "2026-11-13T08:54:08.000Z",
+      "day": "2026-11-13",
+      "title": "Fix CI on Flutter 3.50: refresh lockfile, upgrade melos, migrate to material_ui (#558)",
+      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/30236ba26e84d29c35b8966602ad8b449e0325d6"
+    },
+    {
+      "sha": "50a6f8d39f5d31222b1565c45af33c217d149816",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-13T08:53:27.000Z",
+      "day": "2026-11-13",
+      "title": "Improve chat overlays, editing menu, and wallpaper styling",
+      "url": "https://github.com/boyan01/nsh-app/commit/50a6f8d39f5d31222b1565c45af33c217d149816"
+    },
+    {
+      "sha": "ed12af02d039fb2a57336879861fd0b36682b33e",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-13T08:29:35.000Z",
+      "day": "2026-11-13",
+      "title": "Bump version to 6.6.2 (#2116)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/ed12af02d039fb2a57336879861fd0b36682b33e"
+    },
     {
       "sha": "a343477d49d8fec9e8b463f3d1fe4f664c9dca83",
       "repo": "MixinNetwork/flutter-app",
@@ -31,27 +151,27 @@
     },
     {
       "sha": "54f038d68ec3103ba14666fefbce97f24b3a5fda",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-12T03:13:23.000Z",
       "day": "2026-11-12",
       "title": "headless: allow input: buttons on non-shareable app cards",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/54f038d68ec3103ba14666fefbce97f24b3a5fda"
+      "url": "https://github.com/boyan01/nsh-app/commit/54f038d68ec3103ba14666fefbce97f24b3a5fda"
     },
     {
       "sha": "68a22c09f4816d17ed9118e35f8cc540121a1e88",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-12T02:54:28.000Z",
       "day": "2026-11-12",
       "title": "headless: add mixin_mark_read MCP tool to send READ receipts",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/68a22c09f4816d17ed9118e35f8cc540121a1e88"
+      "url": "https://github.com/boyan01/nsh-app/commit/68a22c09f4816d17ed9118e35f8cc540121a1e88"
     },
     {
       "sha": "ed4192fb5957360a4c90fd7bd0a643b6ab6f4bd9",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-11T12:49:34.000Z",
       "day": "2026-11-11",
       "title": "Enable Android builds and login for the NSH app",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/ed4192fb5957360a4c90fd7bd0a643b6ab6f4bd9"
+      "url": "https://github.com/boyan01/nsh-app/commit/ed4192fb5957360a4c90fd7bd0a643b6ab6f4bd9"
     },
     {
       "sha": "6f28a3fffc5da3807bde7ac979004eaab647164e",
@@ -223,19 +343,19 @@
     },
     {
       "sha": "895737763210c122282884bcb2272aa850e61b5d",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-10T03:09:39.000Z",
       "day": "2026-11-10",
       "title": "Make the browser preview the default UI check",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/895737763210c122282884bcb2272aa850e61b5d"
+      "url": "https://github.com/boyan01/nsh-app/commit/895737763210c122282884bcb2272aa850e61b5d"
     },
     {
       "sha": "611cad9a9833a644167a8d0c463bf694f9d916ca",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-10T02:56:34.000Z",
       "day": "2026-11-10",
       "title": "Build the UI crate for the browser preview",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/611cad9a9833a644167a8d0c463bf694f9d916ca"
+      "url": "https://github.com/boyan01/nsh-app/commit/611cad9a9833a644167a8d0c463bf694f9d916ca"
     },
     {
       "sha": "fdbd96947a50ea9ad51b2d34d9b6f858f44199bd",
@@ -495,235 +615,235 @@
     },
     {
       "sha": "3feb6f00b6a76224c210d7f71df00845bc856076",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-09T10:20:12.000Z",
       "day": "2026-11-09",
       "title": "Refine chat information sidebar and group invitations",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/3feb6f00b6a76224c210d7f71df00845bc856076"
+      "url": "https://github.com/boyan01/nsh-app/commit/3feb6f00b6a76224c210d7f71df00845bc856076"
     },
     {
       "sha": "91180c71a5f18b455e30bea2dcf7d1af849ea8d7",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-09T09:13:07.000Z",
       "day": "2026-11-09",
       "title": "Redesign transfer and inscription detail dialogs",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/91180c71a5f18b455e30bea2dcf7d1af849ea8d7"
+      "url": "https://github.com/boyan01/nsh-app/commit/91180c71a5f18b455e30bea2dcf7d1af849ea8d7"
     },
     {
       "sha": "2b2a8f6daf30a602cf8660ec00913634807d1a06",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-09T08:45:27.000Z",
       "day": "2026-11-09",
       "title": "Refine composer replies and attachment caption spacing",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/2b2a8f6daf30a602cf8660ec00913634807d1a06"
+      "url": "https://github.com/boyan01/nsh-app/commit/2b2a8f6daf30a602cf8660ec00913634807d1a06"
     },
     {
       "sha": "efd3c5dc5165d677e3aac3fc4f2ad67dc9ed8983",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-09T08:22:12.000Z",
       "day": "2026-11-09",
       "title": "Reuse chat message styling in transcript dialogs",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/efd3c5dc5165d677e3aac3fc4f2ad67dc9ed8983"
+      "url": "https://github.com/boyan01/nsh-app/commit/efd3c5dc5165d677e3aac3fc4f2ad67dc9ed8983"
     },
     {
       "sha": "1012191ce888d66be069d52da011d68715b1de94",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-09T07:57:13.000Z",
       "day": "2026-11-09",
       "title": "Unify native preview and test build configuration",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/1012191ce888d66be069d52da011d68715b1de94"
+      "url": "https://github.com/boyan01/nsh-app/commit/1012191ce888d66be069d52da011d68715b1de94"
     },
     {
       "sha": "77a4fb54aa7f87258611e13a962a037a1f5aedae",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-09T07:32:50.000Z",
       "day": "2026-11-09",
       "title": "Redesign video viewer with shared media controls",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/77a4fb54aa7f87258611e13a962a037a1f5aedae"
+      "url": "https://github.com/boyan01/nsh-app/commit/77a4fb54aa7f87258611e13a962a037a1f5aedae"
     },
     {
       "sha": "759bd6f04a0a513d6e81061a621d3cae48b43518",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-09T05:59:25.000Z",
       "day": "2026-11-09",
       "title": "Improve sticker playback and redesign album detail dialog",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/759bd6f04a0a513d6e81061a621d3cae48b43518"
+      "url": "https://github.com/boyan01/nsh-app/commit/759bd6f04a0a513d6e81061a621d3cae48b43518"
     },
     {
       "sha": "84f11a55633e34ae92671309e21ef2c68d7e4e9d",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-09T05:22:11.000Z",
       "day": "2026-11-09",
       "title": "Redesign image viewer and add pointer-centered zoom",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/84f11a55633e34ae92671309e21ef2c68d7e4e9d"
+      "url": "https://github.com/boyan01/nsh-app/commit/84f11a55633e34ae92671309e21ef2c68d7e4e9d"
     },
     {
       "sha": "8f16eef850ebd4b9e2869a36964c65add4f499b4",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-09T04:17:31.000Z",
       "day": "2026-11-09",
       "title": "Expand native previews and refine selection dialogs",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/8f16eef850ebd4b9e2869a36964c65add4f499b4"
+      "url": "https://github.com/boyan01/nsh-app/commit/8f16eef850ebd4b9e2869a36964c65add4f499b4"
     },
     {
       "sha": "9d872dd0efa766b0d36cd4f712d541574bf5f325",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T13:12:23.000Z",
       "day": "2026-11-08",
       "title": "Open sticker store in a dedicated dialog",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/9d872dd0efa766b0d36cd4f712d541574bf5f325"
+      "url": "https://github.com/boyan01/nsh-app/commit/9d872dd0efa766b0d36cd4f712d541574bf5f325"
     },
     {
       "sha": "ea27240d64178fb1ad800bb2f2b0d77e9831b445",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T12:31:40.000Z",
       "day": "2026-11-08",
       "title": "Improve post Markdown rendering and add preview scenes",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/ea27240d64178fb1ad800bb2f2b0d77e9831b445"
+      "url": "https://github.com/boyan01/nsh-app/commit/ea27240d64178fb1ad800bb2f2b0d77e9831b445"
     },
     {
       "sha": "e7ff4666899d337ecd95297f9643b24da45afb1c",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T12:14:25.000Z",
       "day": "2026-11-08",
       "title": "Refine sticker picker layout and remove GIF discovery",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/e7ff4666899d337ecd95297f9643b24da45afb1c"
+      "url": "https://github.com/boyan01/nsh-app/commit/e7ff4666899d337ecd95297f9643b24da45afb1c"
     },
     {
       "sha": "261f2fb7bb0ca47ebbb2b535d932d94202e25869",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T11:49:54.000Z",
       "day": "2026-11-08",
       "title": "Refine chat composer and fix voice preview playback",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/261f2fb7bb0ca47ebbb2b535d932d94202e25869"
+      "url": "https://github.com/boyan01/nsh-app/commit/261f2fb7bb0ca47ebbb2b535d932d94202e25869"
     },
     {
       "sha": "50f1174ad7c6a38359939aff5697118a611ec9dd",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T11:05:18.000Z",
       "day": "2026-11-08",
       "title": "Find the first unread message through the status index",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/50f1174ad7c6a38359939aff5697118a611ec9dd"
+      "url": "https://github.com/boyan01/nsh-app/commit/50f1174ad7c6a38359939aff5697118a611ec9dd"
     },
     {
       "sha": "ece3d451565bc595de84ccc7d47a14be4775c9f1",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T10:59:02.000Z",
       "day": "2026-11-08",
       "title": "Read unmuted rows, mark open chats read and log UI failures",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/ece3d451565bc595de84ccc7d47a14be4775c9f1"
+      "url": "https://github.com/boyan01/nsh-app/commit/ece3d451565bc595de84ccc7d47a14be4775c9f1"
     },
     {
       "sha": "36cee0007502d2b2be9d76248ecb770155ce809a",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T10:45:28.000Z",
       "day": "2026-11-08",
       "title": "Open chats at their unread rows and animate message jumps",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/36cee0007502d2b2be9d76248ecb770155ce809a"
+      "url": "https://github.com/boyan01/nsh-app/commit/36cee0007502d2b2be9d76248ecb770155ce809a"
     },
     {
       "sha": "2787809d003463983bfa0ebd04fea227b82d5329",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T09:22:07.000Z",
       "day": "2026-11-08",
       "title": "Preview every message type through production rows",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/2787809d003463983bfa0ebd04fea227b82d5329"
+      "url": "https://github.com/boyan01/nsh-app/commit/2787809d003463983bfa0ebd04fea227b82d5329"
     },
     {
       "sha": "0b6706adb45b704c6911ff9777a9c8e4a290efed",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T08:15:16.000Z",
       "day": "2026-11-08",
       "title": "Polish attachment controls and stabilize ZIP preview transitions",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/0b6706adb45b704c6911ff9777a9c8e4a290efed"
+      "url": "https://github.com/boyan01/nsh-app/commit/0b6706adb45b704c6911ff9777a9c8e4a290efed"
     },
     {
       "sha": "bc3cf14a7d48e51d4bcc84bb51fb792095433c14",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T07:02:09.000Z",
       "day": "2026-11-08",
       "title": "Update",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/bc3cf14a7d48e51d4bcc84bb51fb792095433c14"
+      "url": "https://github.com/boyan01/nsh-app/commit/bc3cf14a7d48e51d4bcc84bb51fb792095433c14"
     },
     {
       "sha": "c592ed2330820aae2cf23d6ba6fdc560797456e3",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T06:20:38.000Z",
       "day": "2026-11-08",
       "title": "Refine chat composer, attachment and voice controls",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/c592ed2330820aae2cf23d6ba6fdc560797456e3"
+      "url": "https://github.com/boyan01/nsh-app/commit/c592ed2330820aae2cf23d6ba6fdc560797456e3"
     },
     {
       "sha": "c8f81e4080a10f03d15255436fc6e324cb2d3b40",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T05:58:26.000Z",
       "day": "2026-11-08",
       "title": "Harden NSH preview captures",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/c8f81e4080a10f03d15255436fc6e324cb2d3b40"
+      "url": "https://github.com/boyan01/nsh-app/commit/c8f81e4080a10f03d15255436fc6e324cb2d3b40"
     },
     {
       "sha": "0eadad71f8dcb6ef71fa85b94d35e2a102e4fb43",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T05:44:00.000Z",
       "day": "2026-11-08",
       "title": "Add debug-only NSH preview scenes with capture tooling",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/0eadad71f8dcb6ef71fa85b94d35e2a102e4fb43"
+      "url": "https://github.com/boyan01/nsh-app/commit/0eadad71f8dcb6ef71fa85b94d35e2a102e4fb43"
     },
     {
       "sha": "c6b7943eb7a2a3a30542e960d5d8c64622c5dd2c",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T04:50:56.000Z",
       "day": "2026-11-08",
       "title": "Reorganize NSH modules around their owners",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/c6b7943eb7a2a3a30542e960d5d8c64622c5dd2c"
+      "url": "https://github.com/boyan01/nsh-app/commit/c6b7943eb7a2a3a30542e960d5d8c64622c5dd2c"
     },
     {
       "sha": "cef9d0c8e7f1eb91b778119947e3a7e7f9c5c16a",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T03:42:00.000Z",
       "day": "2026-11-08",
       "title": "Use native selectable message text and add menu icons",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/cef9d0c8e7f1eb91b778119947e3a7e7f9c5c16a"
+      "url": "https://github.com/boyan01/nsh-app/commit/cef9d0c8e7f1eb91b778119947e3a7e7f9c5c16a"
     },
     {
       "sha": "f97c881307cd31f73a47d41e460ce60f23901d39",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T03:42:00.000Z",
       "day": "2026-11-08",
       "title": "Build NSH from the main branch of longbridge/nsh",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/f97c881307cd31f73a47d41e460ce60f23901d39"
+      "url": "https://github.com/boyan01/nsh-app/commit/f97c881307cd31f73a47d41e460ce60f23901d39"
     },
     {
       "sha": "4de1d17d0a126fce0f62def77b4a63db3f4a11ef",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T02:57:50.000Z",
       "day": "2026-11-08",
       "title": "Flatten message rows and avatars to cut native views",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/4de1d17d0a126fce0f62def77b4a63db3f4a11ef"
+      "url": "https://github.com/boyan01/nsh-app/commit/4de1d17d0a126fce0f62def77b4a63db3f4a11ef"
     },
     {
       "sha": "f21444ecfa4e48e3fc30171611c5045527c83fd4",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-08T02:28:06.000Z",
       "day": "2026-11-08",
       "title": "Sandbox the macOS bundle and speed up startup on large databases",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/f21444ecfa4e48e3fc30171611c5045527c83fd4"
+      "url": "https://github.com/boyan01/nsh-app/commit/f21444ecfa4e48e3fc30171611c5045527c83fd4"
     },
     {
       "sha": "b66233fe8481e7fc1ad73de397bca4a34246b72f",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T13:49:39.000Z",
       "day": "2026-11-07",
       "title": "Share the Flutter app's data directory and storage formats",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/b66233fe8481e7fc1ad73de397bca4a34246b72f"
+      "url": "https://github.com/boyan01/nsh-app/commit/b66233fe8481e7fc1ad73de397bca4a34246b72f"
     },
     {
       "sha": "4c9d88f4341425f07f7314348507c9b38863b208",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T12:16:56.000Z",
       "day": "2026-11-07",
       "title": "Add inline send tray, disappearing-message indicators and emoji panel with sections and skin tones",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/4c9d88f4341425f07f7314348507c9b38863b208"
+      "url": "https://github.com/boyan01/nsh-app/commit/4c9d88f4341425f07f7314348507c9b38863b208"
     },
     {
       "sha": "fea2e4e9cbef9b65495c6230d1884fa816d40b85",
@@ -735,19 +855,19 @@
     },
     {
       "sha": "9ddb86f33bf259d89fcc6605c942737cf9abfa8b",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T10:49:24.000Z",
       "day": "2026-11-07",
       "title": "Add toasts, floating pin banner and thumbnail send dialog, animate sending clock, restyle info and settings",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/9ddb86f33bf259d89fcc6605c942737cf9abfa8b"
+      "url": "https://github.com/boyan01/nsh-app/commit/9ddb86f33bf259d89fcc6605c942737cf9abfa8b"
     },
     {
       "sha": "9f7cff636d4f02fbd664f71541d89d2509ca8696",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T10:11:40.000Z",
       "day": "2026-11-07",
       "title": "Animate rail and info panel widths, smooth voice progress, restyle photo viewer and fields",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/9f7cff636d4f02fbd664f71541d89d2509ca8696"
+      "url": "https://github.com/boyan01/nsh-app/commit/9f7cff636d4f02fbd664f71541d89d2509ca8696"
     },
     {
       "sha": "847650f517b9726072cbd17bcbadd0659fe82b69",
@@ -767,11 +887,11 @@
     },
     {
       "sha": "b0a1622be42da552ceec1b0a578b206a7aa1c5d1",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T09:09:05.000Z",
       "day": "2026-11-07",
       "title": "Scope message changes by conversation, keep chat mounted under Settings, and polish search and composer",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/b0a1622be42da552ceec1b0a578b206a7aa1c5d1"
+      "url": "https://github.com/boyan01/nsh-app/commit/b0a1622be42da552ceec1b0a578b206a7aa1c5d1"
     },
     {
       "sha": "1c9343198a8b78d1b5f669c1b0c5f2c1d6a5dc40",
@@ -799,19 +919,19 @@
     },
     {
       "sha": "eb32821de18d4c5e8008841c02d0acc30000e95b",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T08:45:24.000Z",
       "day": "2026-11-07",
       "title": "Size caption message rows from their final bubble width",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/eb32821de18d4c5e8008841c02d0acc30000e95b"
+      "url": "https://github.com/boyan01/nsh-app/commit/eb32821de18d4c5e8008841c02d0acc30000e95b"
     },
     {
       "sha": "7364e607641b26d20dae034a972210e1d09740cd",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T08:23:33.000Z",
       "day": "2026-11-07",
       "title": "Align message styles, context menus, profile dialog and default avatars with Flutter",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/7364e607641b26d20dae034a972210e1d09740cd"
+      "url": "https://github.com/boyan01/nsh-app/commit/7364e607641b26d20dae034a972210e1d09740cd"
     },
     {
       "sha": "617a963ae148113b96a1fd1f644d82fadabb5c77",
@@ -839,19 +959,19 @@
     },
     {
       "sha": "291b1184472d2c8daf956adae1e1725003f00cc5",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T07:52:46.000Z",
       "day": "2026-11-07",
       "title": "Read the voice preview path from the recorder during composer cleanup",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/291b1184472d2c8daf956adae1e1725003f00cc5"
+      "url": "https://github.com/boyan01/nsh-app/commit/291b1184472d2c8daf956adae1e1725003f00cc5"
     },
     {
       "sha": "13812e4009f1af63c7e07d22eb9f8223c74fa33e",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T07:50:48.000Z",
       "day": "2026-11-07",
       "title": "Introduce NSH design system and restyle home, chat and settings",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/13812e4009f1af63c7e07d22eb9f8223c74fa33e"
+      "url": "https://github.com/boyan01/nsh-app/commit/13812e4009f1af63c7e07d22eb9f8223c74fa33e"
     },
     {
       "sha": "f29a1ec046d285e1bdc80d87563c5c0bc8a4851c",
@@ -871,27 +991,27 @@
     },
     {
       "sha": "f60ad1e8ac6df3c74d0aaf2142e46834561ee238",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T06:43:52.000Z",
       "day": "2026-11-07",
       "title": "Add NSH agent skills",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/f60ad1e8ac6df3c74d0aaf2142e46834561ee238"
+      "url": "https://github.com/boyan01/nsh-app/commit/f60ad1e8ac6df3c74d0aaf2142e46834561ee238"
     },
     {
       "sha": "175c2a24d5ee4ceb00b7ecaaf9e23870efca9129",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T06:42:48.000Z",
       "day": "2026-11-07",
       "title": "Polish NSH UI runtime behavior, structure and native context menus",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/175c2a24d5ee4ceb00b7ecaaf9e23870efca9129"
+      "url": "https://github.com/boyan01/nsh-app/commit/175c2a24d5ee4ceb00b7ecaaf9e23870efca9129"
     },
     {
       "sha": "6c9a2a74ef5dd64226a8584bbc4740f280d4edd7",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-07T05:52:49.000Z",
       "day": "2026-11-07",
       "title": "Rebuild desktop UI with Native Shell and Rust services",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/6c9a2a74ef5dd64226a8584bbc4740f280d4edd7"
+      "url": "https://github.com/boyan01/nsh-app/commit/6c9a2a74ef5dd64226a8584bbc4740f280d4edd7"
     },
     {
       "sha": "74714118e19aa4a9cd43cec11a1bb7bd7ea6ec36",
@@ -903,19 +1023,19 @@
     },
     {
       "sha": "15836d9bef8714b6b9846d8a5d0421623f60c0fe",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-06T08:58:37.000Z",
       "day": "2026-11-06",
       "title": "Remove legacy UI targets and generated language bridges",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/15836d9bef8714b6b9846d8a5d0421623f60c0fe"
+      "url": "https://github.com/boyan01/nsh-app/commit/15836d9bef8714b6b9846d8a5d0421623f60c0fe"
     },
     {
       "sha": "2c41e24fae5e2473002cfd80ff316c1f514f00ed",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-06T08:56:45.000Z",
       "day": "2026-11-06",
       "title": "Use a dedicated default data directory for headless client",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/2c41e24fae5e2473002cfd80ff316c1f514f00ed"
+      "url": "https://github.com/boyan01/nsh-app/commit/2c41e24fae5e2473002cfd80ff316c1f514f00ed"
     },
     {
       "sha": "010a900f98754af3e3c29455d61fd36e43557d56",
@@ -1135,11 +1255,11 @@
     },
     {
       "sha": "88dbe5f42e208bf55a0e6ca10ab0e36572f547f1",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-11-03T08:32:32.000Z",
       "day": "2026-11-03",
       "title": "Expose transcript children and image attachments over MCP",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/88dbe5f42e208bf55a0e6ca10ab0e36572f547f1"
+      "url": "https://github.com/boyan01/nsh-app/commit/88dbe5f42e208bf55a0e6ca10ab0e36572f547f1"
     },
     {
       "sha": "2a35acb42acecb66466dce3c5669c8d4f9472645",
@@ -5239,27 +5359,27 @@
     },
     {
       "sha": "e9af43b72e02cc1b53f982adcea9714f774bebbd",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-10-18T14:41:35.000Z",
       "day": "2026-10-18",
       "title": "Trim dev profile debuginfo to reduce target size",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/e9af43b72e02cc1b53f982adcea9714f774bebbd"
+      "url": "https://github.com/boyan01/nsh-app/commit/e9af43b72e02cc1b53f982adcea9714f774bebbd"
     },
     {
       "sha": "63f9999079172adfa8594c5df0b9d327a6a27418",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-10-18T14:38:39.000Z",
       "day": "2026-10-18",
       "title": "Document mixin-headless setup, events protocol, and security",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/63f9999079172adfa8594c5df0b9d327a6a27418"
+      "url": "https://github.com/boyan01/nsh-app/commit/63f9999079172adfa8594c5df0b9d327a6a27418"
     },
     {
       "sha": "88538b1ca0d8e5ed75ba5244537d3b8834fdcabc",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-10-18T14:36:19.000Z",
       "day": "2026-10-18",
       "title": "Add headless Mixin host with agent events and send tools",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/88538b1ca0d8e5ed75ba5244537d3b8834fdcabc"
+      "url": "https://github.com/boyan01/nsh-app/commit/88538b1ca0d8e5ed75ba5244537d3b8834fdcabc"
     },
     {
       "sha": "363d8de33fd6b01c40dc3488e6bcec9b7bed3cb1",
@@ -6759,67 +6879,67 @@
     },
     {
       "sha": "fd2c0df403d76b6ff435ef1a8dd3b7a4dfe828a9",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-09-22T09:26:55.000Z",
       "day": "2026-09-22",
       "title": "Add experimental Flutter web and Rust WASM runtime support",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/fd2c0df403d76b6ff435ef1a8dd3b7a4dfe828a9"
+      "url": "https://github.com/boyan01/nsh-app/commit/fd2c0df403d76b6ff435ef1a8dd3b7a4dfe828a9"
     },
     {
       "sha": "cdad4db42a443f8ba2b0d6638198623287dba744",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-09-14T04:45:09.000Z",
       "day": "2026-09-14",
       "title": "Decouple message processing from user profile refresh",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/cdad4db42a443f8ba2b0d6638198623287dba744"
+      "url": "https://github.com/boyan01/nsh-app/commit/cdad4db42a443f8ba2b0d6638198623287dba744"
     },
     {
       "sha": "a211468d5d3e6e8eb501e9e4f1d57ed0b881ed5f",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-09-14T04:16:57.000Z",
       "day": "2026-09-14",
       "title": "Optimize MCP message search and isolate slow queries",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/a211468d5d3e6e8eb501e9e4f1d57ed0b881ed5f"
+      "url": "https://github.com/boyan01/nsh-app/commit/a211468d5d3e6e8eb501e9e4f1d57ed0b881ed5f"
     },
     {
       "sha": "64bf3ed316e40f1cccfe8cac817b41426c249088",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-09-12T06:19:03.000Z",
       "day": "2026-09-12",
       "title": "Align Flutter toolchain configuration and ignore Finder metadata",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/64bf3ed316e40f1cccfe8cac817b41426c249088"
+      "url": "https://github.com/boyan01/nsh-app/commit/64bf3ed316e40f1cccfe8cac817b41426c249088"
     },
     {
       "sha": "fbb8275ef880613d5236468123059fe64b6b8c36",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-09-12T06:17:59.000Z",
       "day": "2026-09-12",
       "title": "Sync schema v29 and settings UI fixes from Flutter",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/fbb8275ef880613d5236468123059fe64b6b8c36"
+      "url": "https://github.com/boyan01/nsh-app/commit/fbb8275ef880613d5236468123059fe64b6b8c36"
     },
     {
       "sha": "bf86ee91aea003bc13b487986a89c1e3df2fe92f",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-09-12T05:56:19.000Z",
       "day": "2026-09-12",
       "title": "Separate macOS debug and release bundle identifiers",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/bf86ee91aea003bc13b487986a89c1e3df2fe92f"
+      "url": "https://github.com/boyan01/nsh-app/commit/bf86ee91aea003bc13b487986a89c1e3df2fe92f"
     },
     {
       "sha": "84d2e47ed4aa9073223d08cb83c22710404c490a",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-09-12T05:38:21.000Z",
       "day": "2026-09-12",
       "title": "Simplify bridge generation and share message models",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/84d2e47ed4aa9073223d08cb83c22710404c490a"
+      "url": "https://github.com/boyan01/nsh-app/commit/84d2e47ed4aa9073223d08cb83c22710404c490a"
     },
     {
       "sha": "5f44c3405c9094bca7b0b6bf5551aee73f49d27c",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-09-12T05:13:00.000Z",
       "day": "2026-09-12",
       "title": "Generate Swift bridge adapters from the public Rust API",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/5f44c3405c9094bca7b0b6bf5551aee73f49d27c"
+      "url": "https://github.com/boyan01/nsh-app/commit/5f44c3405c9094bca7b0b6bf5551aee73f49d27c"
     },
     {
       "sha": "400b2e32158ec9783f18582405b3100a44d687d5",
@@ -6831,11 +6951,11 @@
     },
     {
       "sha": "f94046b2b40d6b6a2122588c2b0b5ce58188a6f6",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-09-07T02:33:59.000Z",
       "day": "2026-09-07",
       "title": "Add read-only HTTP MCP sidecar with global message search",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/f94046b2b40d6b6a2122588c2b0b5ce58188a6f6"
+      "url": "https://github.com/boyan01/nsh-app/commit/f94046b2b40d6b6a2122588c2b0b5ce58188a6f6"
     },
     {
       "sha": "38dfe33c85da6a5b155e2fe39d9c29f9a432bf06",
@@ -6999,11 +7119,11 @@
     },
     {
       "sha": "6876572d9008d8287c2bfdfdfbe090c188b95baa",
-      "repo": "boyan01/mixin-desktop",
+      "repo": "boyan01/nsh-app",
       "date": "2026-08-19T07:34:44.000Z",
       "day": "2026-08-19",
       "title": "typescript ui",
-      "url": "https://github.com/boyan01/mixin-desktop/commit/6876572d9008d8287c2bfdfdfbe090c188b95baa"
+      "url": "https://github.com/boyan01/nsh-app/commit/6876572d9008d8287c2bfdfdfbe090c188b95baa"
     }
   ]
 }
