@@ -1,10 +1,66 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-15T03:57:25.208Z",
-  "start": "2026-08-18",
-  "end": "2026-11-15",
+  "generatedAt": "2026-11-16T03:57:33.556Z",
+  "start": "2026-08-19",
+  "end": "2026-11-16",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "99e659ca1e40eff361a22dc8c50a86c303f45703",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-16T03:52:46.000Z",
+      "day": "2026-11-16",
+      "title": "chore(nsh): upgrade NSH to 0e90f73 and disable dev incremental",
+      "url": "https://github.com/boyan01/nsh-app/commit/99e659ca1e40eff361a22dc8c50a86c303f45703"
+    },
+    {
+      "sha": "172b2889f42c14a12310dfa1fdebd70b113789d2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-15T09:08:17.000Z",
+      "day": "2026-11-15",
+      "title": "flutter: use material_ui in the example",
+      "url": "https://github.com/boyan01/lychee_player/commit/172b2889f42c14a12310dfa1fdebd70b113789d2"
+    },
+    {
+      "sha": "785ee9cd27eaa5217614f6d8de8eb4ee9099d720",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-15T09:04:08.000Z",
+      "day": "2026-11-15",
+      "title": "release: prepare 1.0.4",
+      "url": "https://github.com/boyan01/lychee_player/commit/785ee9cd27eaa5217614f6d8de8eb4ee9099d720"
+    },
+    {
+      "sha": "efefee81028a2d4b3617bc99a5a069f18c0073d9",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-15T08:33:42.000Z",
+      "day": "2026-11-15",
+      "title": "flutter, android: restore texture default when surfaceView is false",
+      "url": "https://github.com/boyan01/lychee_player/commit/efefee81028a2d4b3617bc99a5a069f18c0073d9"
+    },
+    {
+      "sha": "001d5d9eeeefeeb07a817126e91169b5d9a9c285",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-15T08:09:44.000Z",
+      "day": "2026-11-15",
+      "title": "android, flutter: require SurfaceView and report output errors",
+      "url": "https://github.com/boyan01/lychee_player/commit/001d5d9eeeefeeb07a817126e91169b5d9a9c285"
+    },
+    {
+      "sha": "7041994da1a6e842cc09dce8085086248492d7bc",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-15T08:06:21.000Z",
+      "day": "2026-11-15",
+      "title": "core: retry first-frame hardware decoder failures",
+      "url": "https://github.com/boyan01/lychee_player/commit/7041994da1a6e842cc09dce8085086248492d7bc"
+    },
+    {
+      "sha": "783336ccb946f460f9df232fbe115a97eaf0616e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-15T08:01:07.000Z",
+      "day": "2026-11-15",
+      "title": "core/mp4: complete short box header reads",
+      "url": "https://github.com/boyan01/lychee_player/commit/783336ccb946f460f9df232fbe115a97eaf0616e"
+    },
     {
       "sha": "fa0d44900181a4167428477139f3dbd1ee81d4c4",
       "repo": "MixinNetwork/flutter-plugins",
