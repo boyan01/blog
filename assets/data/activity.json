@@ -1,10 +1,122 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-19T05:11:43.751Z",
-  "start": "2026-08-22",
-  "end": "2026-11-19",
+  "generatedAt": "2026-11-21T04:54:49.076Z",
+  "start": "2026-08-24",
+  "end": "2026-11-21",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "0cea384a44d3ee39d8af8e44c82e484bc85cd6ea",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-21T03:03:53.000Z",
+      "day": "2026-11-21",
+      "title": "Unify terminal sizing tokens in ui::tokens and silence release warning",
+      "url": "https://github.com/boyan01/nsh-app/commit/0cea384a44d3ee39d8af8e44c82e484bc85cd6ea"
+    },
+    {
+      "sha": "92c658c4583c0ac15480406569af3dec2d29c958",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-21T02:47:51.000Z",
+      "day": "2026-11-21",
+      "title": "Consolidate TUI shortcuts, escape state machines, focus guards, and shell isolation",
+      "url": "https://github.com/boyan01/nsh-app/commit/92c658c4583c0ac15480406569af3dec2d29c958"
+    },
+    {
+      "sha": "df8bf42cdc1f4faa137531da0637def10583466d",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-21T01:51:00.000Z",
+      "day": "2026-11-21",
+      "title": "Polish TUI avatars, message sender/time/status display, and multiline composer",
+      "url": "https://github.com/boyan01/nsh-app/commit/df8bf42cdc1f4faa137531da0637def10583466d"
+    },
+    {
+      "sha": "0b0b26c1c1b3831d4c3d0390b6908b15fa33c057",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-21T01:04:59.000Z",
+      "day": "2026-11-21",
+      "title": "Support TUI mouse input, remote images, auto pagination, and crisp list hierarchy",
+      "url": "https://github.com/boyan01/nsh-app/commit/0b0b26c1c1b3831d4c3d0390b6908b15fa33c057"
+    },
+    {
+      "sha": "a3213621a921428bb156f3f629b3445fcd101ed4",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-20T23:49:32.000Z",
+      "day": "2026-11-21",
+      "title": "Improve terminal TUI keyboard navigation and visual layout",
+      "url": "https://github.com/boyan01/nsh-app/commit/a3213621a921428bb156f3f629b3445fcd101ed4"
+    },
+    {
+      "sha": "58c376f22dad7506c37d3c55b83c164045841e63",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-20T14:04:16.000Z",
+      "day": "2026-11-20",
+      "title": "Share the desktop chat UI with the terminal backend",
+      "url": "https://github.com/boyan01/nsh-app/commit/58c376f22dad7506c37d3c55b83c164045841e63"
+    },
+    {
+      "sha": "edbc910d266dcda0880718807f5ce6e5cdde1eb9",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-20T13:20:23.000Z",
+      "day": "2026-11-20",
+      "title": "Add keyboard-driven terminal chat and macOS access guidance",
+      "url": "https://github.com/boyan01/nsh-app/commit/edbc910d266dcda0880718807f5ce6e5cdde1eb9"
+    },
+    {
+      "sha": "9588baffc9756a2a85c88827077219e51d940400",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-20T12:40:02.000Z",
+      "day": "2026-11-20",
+      "title": "Bump Mixin Desktop version to 7.1.1",
+      "url": "https://github.com/boyan01/nsh-app/commit/9588baffc9756a2a85c88827077219e51d940400"
+    },
+    {
+      "sha": "8334b362ba181c2ee8750d7eaef214462198fc76",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-20T12:39:13.000Z",
+      "day": "2026-11-20",
+      "title": "Run Mixin in the terminal without console log interference",
+      "url": "https://github.com/boyan01/nsh-app/commit/8334b362ba181c2ee8750d7eaef214462198fc76"
+    },
+    {
+      "sha": "322e20a09830869f034e2b277fdc264cbac28b5a",
+      "repo": "boyan01/nsh-app",
+      "date": "2026-11-20T12:18:37.000Z",
+      "day": "2026-11-20",
+      "title": "Upgrade NSH to 6089fa3 and declare the preview window",
+      "url": "https://github.com/boyan01/nsh-app/commit/322e20a09830869f034e2b277fdc264cbac28b5a"
+    },
+    {
+      "sha": "26213fa37a2c687890f26f144b2ce660a6794a0a",
+      "repo": "boyan01/marking-mcp",
+      "date": "2026-11-20T11:47:57.000Z",
+      "day": "2026-11-20",
+      "title": "feat: initialize marking-mcp workspace, Chrome MV3 extension, and grading templates",
+      "url": "https://github.com/boyan01/marking-mcp/commit/26213fa37a2c687890f26f144b2ce660a6794a0a"
+    },
+    {
+      "sha": "f46f06608121e9bc4f15eb2b2ca3df9cfef5392e",
+      "repo": "flathub/one.mixin.messenger",
+      "date": "2026-11-20T10:29:45.000Z",
+      "day": "2026-11-20",
+      "title": "Update Mixin Messenger to 7.1.0 (#67)",
+      "url": "https://github.com/flathub/one.mixin.messenger/commit/f46f06608121e9bc4f15eb2b2ca3df9cfef5392e"
+    },
+    {
+      "sha": "346da1317fed491f9559f793de9d8a75f83a9269",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-19T13:40:47.000Z",
+      "day": "2026-11-19",
+      "title": "Read the Windows device ID from SMBIOS instead of WMIC (#2132)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/346da1317fed491f9559f793de9d8a75f83a9269"
+    },
+    {
+      "sha": "735d6f2cd4fbd0904c044d7ae994a545c2d028ff",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-19T13:40:37.000Z",
+      "day": "2026-11-19",
+      "title": "Use the rhttp client for login requests (#2131)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/735d6f2cd4fbd0904c044d7ae994a545c2d028ff"
+    },
     {
       "sha": "343cc9c4b55e0eacd3c790165b2f88374c51c4c6",
       "repo": "MixinNetwork/flutter-plugins",
