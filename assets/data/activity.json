@@ -1,10 +1,26 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-21T04:54:49.076Z",
-  "start": "2026-08-24",
-  "end": "2026-11-21",
+  "generatedAt": "2026-11-22T04:13:43.634Z",
+  "start": "2026-08-25",
+  "end": "2026-11-22",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "cb03f2a697b6bdc8afdf9f0d199a9007900c0313",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-21T12:10:00.000Z",
+      "day": "2026-11-21",
+      "title": "release: prepare 1.0.5",
+      "url": "https://github.com/boyan01/lychee_player/commit/cb03f2a697b6bdc8afdf9f0d199a9007900c0313"
+    },
+    {
+      "sha": "69993a240a925bfdfc569bafceb7f83ffe92dea4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-21T05:42:04.000Z",
+      "day": "2026-11-21",
+      "title": "core/audio: resync mid-frame joined live MP3 streams",
+      "url": "https://github.com/boyan01/lychee_player/commit/69993a240a925bfdfc569bafceb7f83ffe92dea4"
+    },
     {
       "sha": "0cea384a44d3ee39d8af8e44c82e484bc85cd6ea",
       "repo": "boyan01/nsh-app",
@@ -132,6 +148,166 @@
       "day": "2026-11-18",
       "title": "ci: commit macOS SwiftPM Package.resolved for Xcode Cloud (#2126)",
       "url": "https://github.com/MixinNetwork/flutter-app/commit/f001de5e91f1690b0b56429a39533c402ca69997"
+    },
+    {
+      "sha": "a21ab82a540e97eb1711e8a43805c95a8ce0926e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:53:42.000Z",
+      "day": "2026-11-18",
+      "title": "core/hls: defer probing muxed variants until selected",
+      "url": "https://github.com/boyan01/lychee_player/commit/a21ab82a540e97eb1711e8a43805c95a8ce0926e"
+    },
+    {
+      "sha": "54025293a8fb8d6f0a4a64c8b0be425b1268d3d2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:43:50.000Z",
+      "day": "2026-11-18",
+      "title": "core/hls: defer alternate external audio probes",
+      "url": "https://github.com/boyan01/lychee_player/commit/54025293a8fb8d6f0a4a64c8b0be425b1268d3d2"
+    },
+    {
+      "sha": "6077f96e9fb48dfa46cacf5f5ea430aace55c488",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:36:07.000Z",
+      "day": "2026-11-18",
+      "title": "linux: restore the final frame after dmabuf rejection",
+      "url": "https://github.com/boyan01/lychee_player/commit/6077f96e9fb48dfa46cacf5f5ea430aace55c488"
+    },
+    {
+      "sha": "6d46ae7c84ecdd65495799d40257d170c2809912",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:32:50.000Z",
+      "day": "2026-11-18",
+      "title": "core/audio: keep the current item paused during the tail",
+      "url": "https://github.com/boyan01/lychee_player/commit/6d46ae7c84ecdd65495799d40257d170c2809912"
+    },
+    {
+      "sha": "a38014f127f58c31cb7ae9b72f01e7c6762ee3c7",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:32:50.000Z",
+      "day": "2026-11-18",
+      "title": "android: retain the paused surface frame across input eviction",
+      "url": "https://github.com/boyan01/lychee_player/commit/a38014f127f58c31cb7ae9b72f01e7c6762ee3c7"
+    },
+    {
+      "sha": "900044565e3d3d3726cea9bb93424039628d76ac",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:29:54.000Z",
+      "day": "2026-11-18",
+      "title": "core/hls: switch audio with manual variant selection",
+      "url": "https://github.com/boyan01/lychee_player/commit/900044565e3d3d3726cea9bb93424039628d76ac"
+    },
+    {
+      "sha": "0a64b9cb78544fd2b48b8cdebb3a2bfaef8e9856",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:21:38.000Z",
+      "day": "2026-11-18",
+      "title": "android: abort MediaCodec input waits in thumbnail requests",
+      "url": "https://github.com/boyan01/lychee_player/commit/0a64b9cb78544fd2b48b8cdebb3a2bfaef8e9856"
+    },
+    {
+      "sha": "bb9282b4cd27e7c1cddeb0ac9225494f4e914796",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:20:26.000Z",
+      "day": "2026-11-18",
+      "title": "linux: fall back to CPU frames when EGL rejects dmabufs",
+      "url": "https://github.com/boyan01/lychee_player/commit/bb9282b4cd27e7c1cddeb0ac9225494f4e914796"
+    },
+    {
+      "sha": "0a5420cec1e2ce6a42fc4b6ad14ea9b690a098b4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:20:25.000Z",
+      "day": "2026-11-18",
+      "title": "android/aaudio: retry transient output failures during playback",
+      "url": "https://github.com/boyan01/lychee_player/commit/0a5420cec1e2ce6a42fc4b6ad14ea9b690a098b4"
+    },
+    {
+      "sha": "b23e01d2caf0faae6390bbd743470e041627d392",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:20:25.000Z",
+      "day": "2026-11-18",
+      "title": "android: redraw the paused frame on a replacement surface",
+      "url": "https://github.com/boyan01/lychee_player/commit/b23e01d2caf0faae6390bbd743470e041627d392"
+    },
+    {
+      "sha": "d941085419d5b62c37e898af20ad345e8851ea1a",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:18:07.000Z",
+      "day": "2026-11-18",
+      "title": "core/audio: switch rates at the queued audio boundary",
+      "url": "https://github.com/boyan01/lychee_player/commit/d941085419d5b62c37e898af20ad345e8851ea1a"
+    },
+    {
+      "sha": "16fb94d9ddf890111ba20de7a57559ac8d0859f4",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:16:03.000Z",
+      "day": "2026-11-18",
+      "title": "linux: serialize FFmpeg cache population",
+      "url": "https://github.com/boyan01/lychee_player/commit/16fb94d9ddf890111ba20de7a57559ac8d0859f4"
+    },
+    {
+      "sha": "2a5c24e2ae08f53a539fc0c85d850d94a6918c60",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:16:02.000Z",
+      "day": "2026-11-18",
+      "title": "flutter: preserve the current item when open is rejected",
+      "url": "https://github.com/boyan01/lychee_player/commit/2a5c24e2ae08f53a539fc0c85d850d94a6918c60"
+    },
+    {
+      "sha": "48bcdd577b37c9636bd5cab975cdcb71db27bdf8",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:16:02.000Z",
+      "day": "2026-11-18",
+      "title": "core/audio: wait for the device to play the last samples",
+      "url": "https://github.com/boyan01/lychee_player/commit/48bcdd577b37c9636bd5cab975cdcb71db27bdf8"
+    },
+    {
+      "sha": "801f864942992281bb31590b22d7a804191e1db5",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:16:02.000Z",
+      "day": "2026-11-18",
+      "title": "flutter: cancel thumbnail workers that enter ffi after disposal",
+      "url": "https://github.com/boyan01/lychee_player/commit/801f864942992281bb31590b22d7a804191e1db5"
+    },
+    {
+      "sha": "f9a309ed5bf9d0b4c40a582ac95cc9b4651a3073",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:16:02.000Z",
+      "day": "2026-11-18",
+      "title": "core: honor callback changes between events",
+      "url": "https://github.com/boyan01/lychee_player/commit/f9a309ed5bf9d0b4c40a582ac95cc9b4651a3073"
+    },
+    {
+      "sha": "0690ed343e7398e4f308b63d5498ab48693b9d5e",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:15:51.000Z",
+      "day": "2026-11-18",
+      "title": "core/hls: cancel in-flight IMSC image reads",
+      "url": "https://github.com/boyan01/lychee_player/commit/0690ed343e7398e4f308b63d5498ab48693b9d5e"
+    },
+    {
+      "sha": "af44708794f4a80fc45b09822bad9c2e63e6f391",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:15:07.000Z",
+      "day": "2026-11-18",
+      "title": "core/mp4: honor the default audio track",
+      "url": "https://github.com/boyan01/lychee_player/commit/af44708794f4a80fc45b09822bad9c2e63e6f391"
+    },
+    {
+      "sha": "9cd0e1851fd500d9a5e4d691c76be5e9a376dd97",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:12:03.000Z",
+      "day": "2026-11-18",
+      "title": "core/dash: repeat through the end of an offset period",
+      "url": "https://github.com/boyan01/lychee_player/commit/9cd0e1851fd500d9a5e4d691c76be5e9a376dd97"
+    },
+    {
+      "sha": "3623c3a41dfb48ab681d172f893cd4f1ee9163b2",
+      "repo": "boyan01/lychee_player",
+      "date": "2026-11-18T04:09:08.000Z",
+      "day": "2026-11-18",
+      "title": "core/audio: resume sequential inputs after a track switch",
+      "url": "https://github.com/boyan01/lychee_player/commit/3623c3a41dfb48ab681d172f893cd4f1ee9163b2"
     },
     {
       "sha": "958df0c59b734b7f043f45f3cee36ca10d3e051f",
