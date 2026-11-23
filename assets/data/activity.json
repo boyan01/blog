@@ -1,8 +1,8 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-22T04:13:43.634Z",
-  "start": "2026-08-25",
-  "end": "2026-11-22",
+  "generatedAt": "2026-11-23T04:53:43.139Z",
+  "start": "2026-08-26",
+  "end": "2026-11-23",
   "source": "GitHub public commit search",
   "commits": [
     {
@@ -7756,38 +7756,6 @@
       "day": "2026-08-26",
       "title": "chore(release): prepare desktop_drop 0.8.2",
       "url": "https://github.com/juho05/desktop_drop/commit/82f9df388f20b18660aff9f1dea3b71aea07cf3b"
-    },
-    {
-      "sha": "1948abf56d9b26a105ec1ab2db1b588dc3c41dbd",
-      "repo": "MixinNetwork/flutter-plugins",
-      "date": "2026-08-25T13:26:22.000Z",
-      "day": "2026-08-25",
-      "title": "chore(release): prepare desktop_drop 0.8.1",
-      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/1948abf56d9b26a105ec1ab2db1b588dc3c41dbd"
-    },
-    {
-      "sha": "b255d497548029f0d6e39a1c17b0d6707091a9b2",
-      "repo": "juho05/desktop_drop",
-      "date": "2026-08-25T13:26:22.000Z",
-      "day": "2026-08-25",
-      "title": "chore(release): prepare desktop_drop 0.8.1",
-      "url": "https://github.com/juho05/desktop_drop/commit/b255d497548029f0d6e39a1c17b0d6707091a9b2"
-    },
-    {
-      "sha": "12aee3eb1fb0d1aae9693c6286e2b541e5c6b1f4",
-      "repo": "MixinNetwork/flutter-plugins",
-      "date": "2026-08-25T02:51:30.000Z",
-      "day": "2026-08-25",
-      "title": "desktop_drop: format Linux channel tests",
-      "url": "https://github.com/MixinNetwork/flutter-plugins/commit/12aee3eb1fb0d1aae9693c6286e2b541e5c6b1f4"
-    },
-    {
-      "sha": "a991c5c93e57c580f133a92d58b51f3889405f84",
-      "repo": "juho05/desktop_drop",
-      "date": "2026-08-25T02:51:30.000Z",
-      "day": "2026-08-25",
-      "title": "desktop_drop: format Linux channel tests",
-      "url": "https://github.com/juho05/desktop_drop/commit/a991c5c93e57c580f133a92d58b51f3889405f84"
     }
   ]
 }
