@@ -1,10 +1,42 @@
 {
   "username": "boyan01",
-  "generatedAt": "2026-11-27T05:56:48.151Z",
-  "start": "2026-08-30",
-  "end": "2026-11-27",
+  "generatedAt": "2026-11-28T05:38:50.205Z",
+  "start": "2026-08-31",
+  "end": "2026-11-28",
   "source": "GitHub public commit search",
   "commits": [
+    {
+      "sha": "beeaf84046f38bd5f5c18fe88d6dda96e353b342",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-27T08:17:30.000Z",
+      "day": "2026-11-27",
+      "title": "chore: set ITSAppUsesNonExemptEncryption to false in iOS and macOS Info.plist (#2155)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/beeaf84046f38bd5f5c18fe88d6dda96e353b342"
+    },
+    {
+      "sha": "1885cdf2c0dbb9dbfecd66027504d51badae7ac8",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-27T07:58:50.000Z",
+      "day": "2026-11-27",
+      "title": "ci: add --no-codesign for iOS Xcode Cloud and pass captcha/giphy keys (#2154)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/1885cdf2c0dbb9dbfecd66027504d51badae7ac8"
+    },
+    {
+      "sha": "beb7b815414494bfaca4c9d506b85bcbeb0c5459",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-27T06:56:28.000Z",
+      "day": "2026-11-27",
+      "title": "Bump version to 7.1.2 (#2153)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/beb7b815414494bfaca4c9d506b85bcbeb0c5459"
+    },
+    {
+      "sha": "47c90e7a8ec2138109195317d0e63dc81c73f37d",
+      "repo": "MixinNetwork/flutter-app",
+      "date": "2026-11-27T06:21:14.000Z",
+      "day": "2026-11-27",
+      "title": "Read Windows app version from PackageInfo.fromPlatform instead of dart-define (#2149)",
+      "url": "https://github.com/MixinNetwork/flutter-app/commit/47c90e7a8ec2138109195317d0e63dc81c73f37d"
+    },
     {
       "sha": "5eaf04b660fd472f8205c64d73661de1268c8b3b",
       "repo": "boyan01/herdr-project-tree",
